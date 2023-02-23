@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Downloads/software/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_522_DEM_00_XX_HT_7DOAN_CAI_GH/CD_LAM_HEP_BTN.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Downloads/software/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_522_DEM_00_XX_HT_7DOAN_CAI_GH/CHIA_10ENA.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Downloads/software/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_522_DEM_00_XX_HT_7DOAN_CAI_GH/DAHOP_8KENH.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Downloads/software/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_522_DEM_00_XX_HT_7DOAN_CAI_GH/DEBOUNCE_BTN.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Downloads/software/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_522_DEM_00_XX_HT_7DOAN_CAI_GH/DEM_00_XX_HT_7DOAN_CAI_GH.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Downloads/software/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_522_DEM_00_XX_HT_7DOAN_CAI_GH/DEM_1BIT.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Downloads/software/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_522_DEM_00_XX_HT_7DOAN_CAI_GH/DEM_2SO_GH.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Downloads/software/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_522_DEM_00_XX_HT_7DOAN_CAI_GH/DEM_3BIT_CHON_8KENH.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Downloads/software/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_522_DEM_00_XX_HT_7DOAN_CAI_GH/DEM_GH_UD_2BTN.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Downloads/software/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_522_DEM_00_XX_HT_7DOAN_CAI_GH/GIAIMA_7DOAN_ENA.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Downloads/software/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_522_DEM_00_XX_HT_7DOAN_CAI_GH/GIAIMA_HIENTHI_8LED_7DOAN.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Downloads/software/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_522_DEM_00_XX_HT_7DOAN_CAI_GH/LAM_HEP_XUNG.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Downloads/software/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_522_DEM_00_XX_HT_7DOAN_CAI_GH/QUET_ANODE_8LED_7DOAN.vhd&quot; into library work</arg>
+</msg>
+
+</messages>
+

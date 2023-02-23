@@ -1,0 +1,251 @@
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ngd BAI_522_THEM_1.pcf 
+par -w -intstyle ise -ol high -mt off BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ncd BAI_522_THEM_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BAI_522_THEM_1.twx BAI_522_THEM_1.ncd -o BAI_522_THEM_1.twr BAI_522_THEM_1.pcf 
+bitgen -intstyle ise -f BAI_522_THEM_1.ut BAI_522_THEM_1.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ngd BAI_522_THEM_1.pcf 
+par -w -intstyle ise -ol high -mt off BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ncd BAI_522_THEM_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BAI_522_THEM_1.twx BAI_522_THEM_1.ncd -o BAI_522_THEM_1.twr BAI_522_THEM_1.pcf 
+bitgen -intstyle ise -f BAI_522_THEM_1.ut BAI_522_THEM_1.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ngd BAI_522_THEM_1.pcf 
+par -w -intstyle ise -ol high -mt off BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ncd BAI_522_THEM_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BAI_522_THEM_1.twx BAI_522_THEM_1.ncd -o BAI_522_THEM_1.twr BAI_522_THEM_1.pcf 
+bitgen -intstyle ise -f BAI_522_THEM_1.ut BAI_522_THEM_1.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ngd BAI_522_THEM_1.pcf 
+par -w -intstyle ise -ol high -mt off BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ncd BAI_522_THEM_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BAI_522_THEM_1.twx BAI_522_THEM_1.ncd -o BAI_522_THEM_1.twr BAI_522_THEM_1.pcf 
+bitgen -intstyle ise -f BAI_522_THEM_1.ut BAI_522_THEM_1.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ngd BAI_522_THEM_1.pcf 
+par -w -intstyle ise -ol high -mt off BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ncd BAI_522_THEM_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BAI_522_THEM_1.twx BAI_522_THEM_1.ncd -o BAI_522_THEM_1.twr BAI_522_THEM_1.pcf 
+bitgen -intstyle ise -f BAI_522_THEM_1.ut BAI_522_THEM_1.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ngd BAI_522_THEM_1.pcf 
+par -w -intstyle ise -ol high -mt off BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ncd BAI_522_THEM_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BAI_522_THEM_1.twx BAI_522_THEM_1.ncd -o BAI_522_THEM_1.twr BAI_522_THEM_1.pcf 
+bitgen -intstyle ise -f BAI_522_THEM_1.ut BAI_522_THEM_1.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ngd BAI_522_THEM_1.pcf 
+par -w -intstyle ise -ol high -mt off BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ncd BAI_522_THEM_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BAI_522_THEM_1.twx BAI_522_THEM_1.ncd -o BAI_522_THEM_1.twr BAI_522_THEM_1.pcf 
+bitgen -intstyle ise -f BAI_522_THEM_1.ut BAI_522_THEM_1.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ngd BAI_522_THEM_1.pcf 
+par -w -intstyle ise -ol high -mt off BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ncd BAI_522_THEM_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BAI_522_THEM_1.twx BAI_522_THEM_1.ncd -o BAI_522_THEM_1.twr BAI_522_THEM_1.pcf 
+bitgen -intstyle ise -f BAI_522_THEM_1.ut BAI_522_THEM_1.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ngd BAI_522_THEM_1.pcf 
+par -w -intstyle ise -ol high -mt off BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ncd BAI_522_THEM_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BAI_522_THEM_1.twx BAI_522_THEM_1.ncd -o BAI_522_THEM_1.twr BAI_522_THEM_1.pcf 
+bitgen -intstyle ise -f BAI_522_THEM_1.ut BAI_522_THEM_1.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ngd BAI_522_THEM_1.pcf 
+par -w -intstyle ise -ol high -mt off BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ncd BAI_522_THEM_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BAI_522_THEM_1.twx BAI_522_THEM_1.ncd -o BAI_522_THEM_1.twr BAI_522_THEM_1.pcf 
+bitgen -intstyle ise -f BAI_522_THEM_1.ut BAI_522_THEM_1.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ngd BAI_522_THEM_1.pcf 
+par -w -intstyle ise -ol high -mt off BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ncd BAI_522_THEM_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BAI_522_THEM_1.twx BAI_522_THEM_1.ncd -o BAI_522_THEM_1.twr BAI_522_THEM_1.pcf 
+bitgen -intstyle ise -f BAI_522_THEM_1.ut BAI_522_THEM_1.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ngd BAI_522_THEM_1.pcf 
+par -w -intstyle ise -ol high -mt off BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ncd BAI_522_THEM_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BAI_522_THEM_1.twx BAI_522_THEM_1.ncd -o BAI_522_THEM_1.twr BAI_522_THEM_1.pcf 
+bitgen -intstyle ise -f BAI_522_THEM_1.ut BAI_522_THEM_1.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ngd BAI_522_THEM_1.pcf 
+par -w -intstyle ise -ol high -mt off BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ncd BAI_522_THEM_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BAI_522_THEM_1.twx BAI_522_THEM_1.ncd -o BAI_522_THEM_1.twr BAI_522_THEM_1.pcf 
+bitgen -intstyle ise -f BAI_522_THEM_1.ut BAI_522_THEM_1.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ngd BAI_522_THEM_1.pcf 
+par -w -intstyle ise -ol high -mt off BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ncd BAI_522_THEM_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BAI_522_THEM_1.twx BAI_522_THEM_1.ncd -o BAI_522_THEM_1.twr BAI_522_THEM_1.pcf 
+bitgen -intstyle ise -f BAI_522_THEM_1.ut BAI_522_THEM_1.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ngd BAI_522_THEM_1.pcf 
+par -w -intstyle ise -ol high -mt off BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ncd BAI_522_THEM_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BAI_522_THEM_1.twx BAI_522_THEM_1.ncd -o BAI_522_THEM_1.twr BAI_522_THEM_1.pcf 
+bitgen -intstyle ise -f BAI_522_THEM_1.ut BAI_522_THEM_1.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ngd BAI_522_THEM_1.pcf 
+par -w -intstyle ise -ol high -mt off BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ncd BAI_522_THEM_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BAI_522_THEM_1.twx BAI_522_THEM_1.ncd -o BAI_522_THEM_1.twr BAI_522_THEM_1.pcf 
+bitgen -intstyle ise -f BAI_522_THEM_1.ut BAI_522_THEM_1.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ngd BAI_522_THEM_1.pcf 
+par -w -intstyle ise -ol high -mt off BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ncd BAI_522_THEM_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BAI_522_THEM_1.twx BAI_522_THEM_1.ncd -o BAI_522_THEM_1.twr BAI_522_THEM_1.pcf 
+bitgen -intstyle ise -f BAI_522_THEM_1.ut BAI_522_THEM_1.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ngd BAI_522_THEM_1.pcf 
+par -w -intstyle ise -ol high -mt off BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ncd BAI_522_THEM_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BAI_522_THEM_1.twx BAI_522_THEM_1.ncd -o BAI_522_THEM_1.twr BAI_522_THEM_1.pcf 
+bitgen -intstyle ise -f BAI_522_THEM_1.ut BAI_522_THEM_1.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ngd BAI_522_THEM_1.pcf 
+par -w -intstyle ise -ol high -mt off BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ncd BAI_522_THEM_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BAI_522_THEM_1.twx BAI_522_THEM_1.ncd -o BAI_522_THEM_1.twr BAI_522_THEM_1.pcf 
+bitgen -intstyle ise -f BAI_522_THEM_1.ut BAI_522_THEM_1.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ngd BAI_522_THEM_1.pcf 
+par -w -intstyle ise -ol high -mt off BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ncd BAI_522_THEM_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BAI_522_THEM_1.twx BAI_522_THEM_1.ncd -o BAI_522_THEM_1.twr BAI_522_THEM_1.pcf 
+bitgen -intstyle ise -f BAI_522_THEM_1.ut BAI_522_THEM_1.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ngd BAI_522_THEM_1.pcf 
+par -w -intstyle ise -ol high -mt off BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ncd BAI_522_THEM_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BAI_522_THEM_1.twx BAI_522_THEM_1.ncd -o BAI_522_THEM_1.twr BAI_522_THEM_1.pcf 
+bitgen -intstyle ise -f BAI_522_THEM_1.ut BAI_522_THEM_1.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ngd BAI_522_THEM_1.pcf 
+par -w -intstyle ise -ol high -mt off BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ncd BAI_522_THEM_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BAI_522_THEM_1.twx BAI_522_THEM_1.ncd -o BAI_522_THEM_1.twr BAI_522_THEM_1.pcf 
+bitgen -intstyle ise -f BAI_522_THEM_1.ut BAI_522_THEM_1.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ngd BAI_522_THEM_1.pcf 
+par -w -intstyle ise -ol high -mt off BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ncd BAI_522_THEM_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BAI_522_THEM_1.twx BAI_522_THEM_1.ncd -o BAI_522_THEM_1.twr BAI_522_THEM_1.pcf 
+bitgen -intstyle ise -f BAI_522_THEM_1.ut BAI_522_THEM_1.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ngd BAI_522_THEM_1.pcf 
+par -w -intstyle ise -ol high -mt off BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ncd BAI_522_THEM_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BAI_522_THEM_1.twx BAI_522_THEM_1.ncd -o BAI_522_THEM_1.twr BAI_522_THEM_1.pcf 
+bitgen -intstyle ise -f BAI_522_THEM_1.ut BAI_522_THEM_1.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ngd BAI_522_THEM_1.pcf 
+par -w -intstyle ise -ol high -mt off BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ncd BAI_522_THEM_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BAI_522_THEM_1.twx BAI_522_THEM_1.ncd -o BAI_522_THEM_1.twr BAI_522_THEM_1.pcf 
+bitgen -intstyle ise -f BAI_522_THEM_1.ut BAI_522_THEM_1.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ngd BAI_522_THEM_1.pcf 
+par -w -intstyle ise -ol high -mt off BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ncd BAI_522_THEM_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BAI_522_THEM_1.twx BAI_522_THEM_1.ncd -o BAI_522_THEM_1.twr BAI_522_THEM_1.pcf 
+bitgen -intstyle ise -f BAI_522_THEM_1.ut BAI_522_THEM_1.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ngd BAI_522_THEM_1.pcf 
+par -w -intstyle ise -ol high -mt off BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ncd BAI_522_THEM_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BAI_522_THEM_1.twx BAI_522_THEM_1.ncd -o BAI_522_THEM_1.twr BAI_522_THEM_1.pcf 
+bitgen -intstyle ise -f BAI_522_THEM_1.ut BAI_522_THEM_1.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ngd BAI_522_THEM_1.pcf 
+par -w -intstyle ise -ol high -mt off BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ncd BAI_522_THEM_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BAI_522_THEM_1.twx BAI_522_THEM_1.ncd -o BAI_522_THEM_1.twr BAI_522_THEM_1.pcf 
+bitgen -intstyle ise -f BAI_522_THEM_1.ut BAI_522_THEM_1.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ngd BAI_522_THEM_1.pcf 
+par -w -intstyle ise -ol high -mt off BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ncd BAI_522_THEM_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BAI_522_THEM_1.twx BAI_522_THEM_1.ncd -o BAI_522_THEM_1.twr BAI_522_THEM_1.pcf 
+bitgen -intstyle ise -f BAI_522_THEM_1.ut BAI_522_THEM_1.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ngd BAI_522_THEM_1.pcf 
+par -w -intstyle ise -ol high -mt off BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ncd BAI_522_THEM_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BAI_522_THEM_1.twx BAI_522_THEM_1.ncd -o BAI_522_THEM_1.twr BAI_522_THEM_1.pcf 
+bitgen -intstyle ise -f BAI_522_THEM_1.ut BAI_522_THEM_1.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ngd BAI_522_THEM_1.pcf 
+par -w -intstyle ise -ol high -mt off BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ncd BAI_522_THEM_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BAI_522_THEM_1.twx BAI_522_THEM_1.ncd -o BAI_522_THEM_1.twr BAI_522_THEM_1.pcf 
+bitgen -intstyle ise -f BAI_522_THEM_1.ut BAI_522_THEM_1.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ngd BAI_522_THEM_1.pcf 
+par -w -intstyle ise -ol high -mt off BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ncd BAI_522_THEM_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BAI_522_THEM_1.twx BAI_522_THEM_1.ncd -o BAI_522_THEM_1.twr BAI_522_THEM_1.pcf 
+bitgen -intstyle ise -f BAI_522_THEM_1.ut BAI_522_THEM_1.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BAI_522_THEM_1/BAI_522_THEM_1.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BAI_522_THEM_1/BAI_522_THEM_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ngd BAI_522_THEM_1.pcf 
+par -w -intstyle ise -ol high -mt off BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ncd BAI_522_THEM_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BAI_522_THEM_1.twx BAI_522_THEM_1.ncd -o BAI_522_THEM_1.twr BAI_522_THEM_1.pcf 
+bitgen -intstyle ise -f BAI_522_THEM_1.ut BAI_522_THEM_1.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ngd BAI_522_THEM_1.pcf 
+par -w -intstyle ise -ol high -mt off BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ncd BAI_522_THEM_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BAI_522_THEM_1.twx BAI_522_THEM_1.ncd -o BAI_522_THEM_1.twr BAI_522_THEM_1.pcf 
+bitgen -intstyle ise -f BAI_522_THEM_1.ut BAI_522_THEM_1.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAI_522_THEM_1.ngc BAI_522_THEM_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ngd BAI_522_THEM_1.pcf 
+par -w -intstyle ise -ol high -mt off BAI_522_THEM_1_map.ncd BAI_522_THEM_1.ncd BAI_522_THEM_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BAI_522_THEM_1.twx BAI_522_THEM_1.ncd -o BAI_522_THEM_1.twr BAI_522_THEM_1.pcf 
+bitgen -intstyle ise -f BAI_522_THEM_1.ut BAI_522_THEM_1.ncd 

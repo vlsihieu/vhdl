@@ -1,0 +1,46 @@
+xst -intstyle ise -ifn "F:/VHDL/VHDL/gate_and/gate_and.xst" -ofn "F:/VHDL/VHDL/gate_and/gate_and.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 gate_and.ngc gate_and.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o gate_and_map.ncd gate_and.ngd gate_and.pcf 
+par -w -intstyle ise -ol high -mt off gate_and_map.ncd gate_and.ncd gate_and.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gate_and.twx gate_and.ncd -o gate_and.twr gate_and.pcf 
+xst -intstyle ise -ifn "F:/VHDL/VHDL/gate_and/gate_and.xst" -ofn "F:/VHDL/VHDL/gate_and/gate_and.syr" 
+xst -intstyle ise -ifn "F:/VHDL/VHDL/gate_and/gate_and.xst" -ofn "F:/VHDL/VHDL/gate_and/gate_and.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 gate_and.ngc gate_and.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o gate_and_map.ncd gate_and.ngd gate_and.pcf 
+par -w -intstyle ise -ol high -mt off gate_and_map.ncd gate_and.ncd gate_and.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc F:/VHDL/VHDL/gate/gate.ucf -p xc7a100t-csg324-3 gate_and.ngc gate_and.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o gate_and_map.ncd gate_and.ngd gate_and.pcf 
+par -w -intstyle ise -ol high -mt off gate_and_map.ncd gate_and.ncd gate_and.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gate_and.twx gate_and.ncd -o gate_and.twr gate_and.pcf 
+bitgen -intstyle ise -f gate_and.ut gate_and.ncd 
+xst -intstyle ise -ifn "F:/VHDL/VHDL/gate_and/gate_and.xst" -ofn "F:/VHDL/VHDL/gate_and/gate_and.syr" 
+xst -intstyle ise -ifn "F:/VHDL/VHDL/gate_and/gate_and.xst" -ofn "F:/VHDL/VHDL/gate_and/gate_and.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc F:/VHDL/VHDL/gate/gate.ucf -p xc7a100t-csg324-3 gate_and.ngc gate_and.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o gate_and_map.ncd gate_and.ngd gate_and.pcf 
+par -w -intstyle ise -ol high -mt off gate_and_map.ncd gate_and.ncd gate_and.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gate_and.twx gate_and.ncd -o gate_and.twr gate_and.pcf 
+bitgen -intstyle ise -f gate_and.ut gate_and.ncd 
+xst -intstyle ise -ifn "F:/VHDL/VHDL/gate_and/gate_and.xst" -ofn "F:/VHDL/VHDL/gate_and/gate_and.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc F:/VHDL/VHDL/gate/gate.ucf -p xa7a100t-csg324-2I gate_and.ngc gate_and.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o gate_and_map.ncd gate_and.ngd gate_and.pcf 
+par -w -intstyle ise -ol high -mt off gate_and_map.ncd gate_and.ncd gate_and.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml gate_and.twx gate_and.ncd -o gate_and.twr gate_and.pcf 
+bitgen -intstyle ise -f gate_and.ut gate_and.ncd 
+xst -intstyle ise -ifn "F:/VHDL/VHDL/gate_and/gate_and.xst" -ofn "F:/VHDL/VHDL/gate_and/gate_and.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc F:/VHDL/VHDL/gate/gate.ucf -p xc7a100t-csg324-3 gate_and.ngc gate_and.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o gate_and_map.ncd gate_and.ngd gate_and.pcf 
+par -w -intstyle ise -ol high -mt off gate_and_map.ncd gate_and.ncd gate_and.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gate_and.twx gate_and.ncd -o gate_and.twr gate_and.pcf 
+bitgen -intstyle ise -f gate_and.ut gate_and.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc F:/VHDL/VHDL/gate/gate.ucf -p xc7a100t-csg324-3 gate_and.ngc gate_and.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o gate_and_map.ncd gate_and.ngd gate_and.pcf 
+par -w -intstyle ise -ol high -mt off gate_and_map.ncd gate_and.ncd gate_and.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gate_and.twx gate_and.ncd -o gate_and.twr gate_and.pcf 
+xst -intstyle ise -ifn "F:/VHDL/VHDL/gate_and/gate_and.xst" -ofn "F:/VHDL/VHDL/gate_and/gate_and.syr" 
+xst -intstyle ise -ifn "F:/VHDL/VHDL/gate_and/gate_and.xst" -ofn "F:/VHDL/VHDL/gate_and/gate_and.syr" 
+xst -intstyle ise -ifn "F:/VHDL/VHDL/gate_and/gate_and.xst" -ofn "F:/VHDL/VHDL/gate_and/gate_and.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc F:/VHDL/VHDL/gate/gate.ucf -p xc7a100t-csg324-3 gate_and.ngc gate_and.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o gate_and_map.ncd gate_and.ngd gate_and.pcf 
+par -w -intstyle ise -ol high -mt off gate_and_map.ncd gate_and.ncd gate_and.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gate_and.twx gate_and.ncd -o gate_and.twr gate_and.pcf 
+bitgen -intstyle ise -f gate_and.ut gate_and.ncd 

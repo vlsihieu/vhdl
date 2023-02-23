@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="2094" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO63/MACHDEM_GH.vhd</arg>&quot; line <arg fmt="%d" index="2">15</arg>: Default value is ignored for signal &lt;<arg fmt="%s" index="3">DONVI_REG</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2094" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO63/MACHDEM_GH.vhd</arg>&quot; line <arg fmt="%d" index="2">17</arg>: Default value is ignored for signal &lt;<arg fmt="%s" index="3">CHUC_REG</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2094" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO63/MACHDEM_GH.vhd</arg>&quot; line <arg fmt="%d" index="2">15</arg>: Default value is ignored for signal &lt;<arg fmt="%s" index="3">DONVI_REG</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2094" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO63/MACHDEM_GH.vhd</arg>&quot; line <arg fmt="%d" index="2">17</arg>: Default value is ignored for signal &lt;<arg fmt="%s" index="3">CHUC_REG</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="1433" delta="new" >Contents of array &lt;<arg fmt="%s" index="1">LCD_DIS1</arg>&gt; may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+</msg>
+
+<msg type="info" file="Xst" num="1433" delta="new" >Contents of array &lt;<arg fmt="%s" index="1">LCD_DIS2</arg>&gt; may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+</msg>
+
+<msg type="info" file="Xst" num="1433" delta="new" >Contents of array &lt;<arg fmt="%s" index="1">LCD_DIS3</arg>&gt; may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+</msg>
+
+<msg type="info" file="Xst" num="1433" delta="new" >Contents of array &lt;<arg fmt="%s" index="1">LCD_DIS4</arg>&gt; may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="new" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+</messages>
+

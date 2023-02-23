@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_542_GIO_PHUT_GIAY_3KEY/CD_LAM_HEP_BTN.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_542_GIO_PHUT_GIAY_3KEY/CHIA_10ENA.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_542_GIO_PHUT_GIAY_3KEY/DAHOP_8KENH.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_542_GIO_PHUT_GIAY_3KEY/DEBOUNCE_BTN.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_542_GIO_PHUT_GIAY_3KEY/DEM_3BIT_CHON_8KENH.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_542_GIO_PHUT_GIAY_3KEY/DEM_GIOPHUTGIAY.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_542_GIO_PHUT_GIAY_3KEY/GIAIMA_7DOAN_ENA.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_542_GIO_PHUT_GIAY_3KEY/GIAIMA_HIENTHI_8LED_7DOAN.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_542_GIO_PHUT_GIAY_3KEY/GIO_PHUT_GIAY_3KEY.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_542_GIO_PHUT_GIAY_3KEY/HEXTOBCD_6BIT.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_542_GIO_PHUT_GIAY_3KEY/LAM_HEP_XUNG.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_542_GIO_PHUT_GIAY_3KEY/QUET_ANODE_8LED_7DOAN.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_542_GIO_PHUT_GIAY_3KEY/XULY_MOD_DAUCHAM.vhd&quot; into library work</arg>
+</msg>
+
+</messages>
+

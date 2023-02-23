@@ -1,0 +1,81 @@
+
+# PlanAhead Generated physical constraints 
+
+
+#
+#NET "led[7]" LOC = P81;
+#NET "led[6]" LOC = P82;
+#NET "led[5]" LOC = P83;
+#NET "led[4]" LOC = P84;
+#NET "led[3]" LOC = P85;
+#NET "led[2]" LOC = P87;
+#NET "led[1]" LOC = P88;
+#NET "led[0]" LOC = P92;
+
+
+NET "UART_TX" LOC = P94;
+NET "UART_RX" LOC = P93;
+
+NET "sseg[7]" LOC = P120;
+NET "sseg[6]" LOC = P115;
+NET "sseg[5]" LOC = P117;
+NET "sseg[4]" LOC = P121;
+NET "sseg[3]" LOC = P124;
+NET "sseg[2]" LOC = P118;
+NET "sseg[1]" LOC = P116;
+NET "sseg[0]" LOC = P119;
+#
+NET "ANODE[7]" LOC = P12;
+NET "ANODE[6]" LOC = P11;
+NET "ANODE[5]" LOC = P10;
+NET "ANODE[4]" LOC = P9;
+NET "ANODE[3]" LOC = P101;
+NET "ANODE[2]" LOC = P102;
+NET "ANODE[1]" LOC = P99;
+NET "ANODE[0]" LOC = P100;
+
+
+#NET "sw[3]" LOC = P74;
+#NET "sw[2]" LOC = P78;
+#NET "sw[1]" LOC = P79;
+#NET "sw[0]" LOC = P80;
+NET "SW0" LOC = P80;
+
+
+#NET "btn[7]" LOC = P67;
+#NET "btn[6]" LOC = P66;
+#NET "btn[5]" LOC = P62;
+#NET "btn[4]" LOC = P61;
+##NET "btn[3]" LOC = P59;
+#NET "btn[2]" LOC = P58;
+#NET "btn[1]" LOC = P57;
+#NET "btn[0]" LOC = P56;
+NET "BTN0" LOC = P56;
+#NET "reset" LOC = P56;
+
+#NET "btn[2]" LOC = P62;
+#NET "btn[1]" LOC = P61;
+#NET "btn[0]" LOC = P59;
+
+#NET "btn0" LOC = P56;
+#NET "sw0" LOC = P80;
+NET "ckht" LOC = P55;
+#NET "clk" LOC = P55;
+#NET "led0" LOC = P92;
+#NET "ds18b20" LOC = P98;
+#NET "bell" lOC = P14;
+
+NET "lcd_rs" LOC = P131;
+NET "lcd_e" LOC = P133;
+#NET "lcd_rw" loc = p134;
+#
+#
+NET "lcd_db[0]" LOC = P138;
+NET "lcd_db[1]" LOC = P137;
+NET "lcd_db[2]" LOC = P140;
+NET "lcd_db[3]" LOC = P139;
+NET "lcd_db[4]" LOC = P142;
+NET "lcd_db[5]" LOC = P141;
+NET "lcd_db[6]" LOC = P1;
+NET "lcd_db[7]" LOC = P143;
+#NET "lcd_p" 	 LOC = P189;

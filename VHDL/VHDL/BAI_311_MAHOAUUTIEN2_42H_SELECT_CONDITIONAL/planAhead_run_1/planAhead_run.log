@@ -1,0 +1,44 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_311_MAHOAUUTIEN2_42H_SELECT_CONDITIONAL/pa.fromHdl.tcl
+# create_project -name BAI_311_MAHOAUUTIEN2_42H_SELECT_CONDITIONAL -dir "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_311_MAHOAUUTIEN2_42H_SELECT_CONDITIONAL/planAhead_run_1" -part xc3s500epq208-5
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "MAHOAUUTIEN2_42H_SELECT_CONDITIONAL.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_311_MAHOAUUTIEN2_42H_SELECT_CONDITIONAL/MAHOAUUTIEN2_42H_SELECT_CONDITIONAL.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {MAHOA_SELECT_42H_ACT.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {MAHOA_CONDITIONAL_42H_ACT.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {MAHOAUUTIEN2_42H_SELECT_CONDITIONAL.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set_property top MAHOAUUTIEN2_42H_SELECT_CONDITIONAL $srcset
+# add_files [list {MAHOAUUTIEN2_42H_SELECT_CONDITIONAL.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s500epq208-5
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_311_MAHOAUUTIEN2_42H_SELECT_CONDITIONAL/MAHOA_SELECT_42H_ACT.vhd" into library work
+Parsing VHDL file "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_311_MAHOAUUTIEN2_42H_SELECT_CONDITIONAL/MAHOA_CONDITIONAL_42H_ACT.vhd" into library work
+Parsing VHDL file "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_311_MAHOAUUTIEN2_42H_SELECT_CONDITIONAL/MAHOAUUTIEN2_42H_SELECT_CONDITIONAL.vhd" into library work
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+INFO: [Common 17-344] 'open_rtl_design' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Thu Sep 05 13:36:43 2019...
+INFO: [Common 17-83] Releasing license: PlanAhead

@@ -1,0 +1,10 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Dec 12 00:21:17 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "LD0" LOCATE = SITE "H17" LEVEL 1;
+COMP "BTNR" LOCATE = SITE "M17" LEVEL 1;
+COMP "BTNU" LOCATE = SITE "P17" LEVEL 1;
+SCHEMATIC END;
+

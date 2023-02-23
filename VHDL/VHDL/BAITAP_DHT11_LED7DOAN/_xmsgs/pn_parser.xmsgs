@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;F:/VHDL/VHDL/BAITAP_DHT11_LED7DOAN/CHIA_10ENA.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;F:/VHDL/VHDL/BAITAP_DHT11_LED7DOAN/DAHOP_8KENH.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;F:/VHDL/VHDL/BAITAP_DHT11_LED7DOAN/DEM_3BIT_CHON_8KENH.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;F:/VHDL/VHDL/BAITAP_DHT11_LED7DOAN/DEM_GIOPHUTGIAY.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;F:/VHDL/VHDL/BAITAP_DHT11_LED7DOAN/DHT11_HU_TEMP.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;F:/VHDL/VHDL/BAITAP_DHT11_LED7DOAN/DHT11_LED7DOAN.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;F:/VHDL/VHDL/BAITAP_DHT11_LED7DOAN/GIAIMA_7DOAN_ENA.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;F:/VHDL/VHDL/BAITAP_DHT11_LED7DOAN/GIAIMA_HIENTHI_8LED_7DOAN.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;F:/VHDL/VHDL/BAITAP_DHT11_LED7DOAN/HEXTOBCD_6BIT.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;F:/VHDL/VHDL/BAITAP_DHT11_LED7DOAN/HEXTOBCD_8BIT.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;F:/VHDL/VHDL/BAITAP_DHT11_LED7DOAN/LCD_20X4_GAN_DULIEU_6SO.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;F:/VHDL/VHDL/BAITAP_DHT11_LED7DOAN/LCD_20X4_KHOITAO_HIENTHI_SO_TO.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;F:/VHDL/VHDL/BAITAP_DHT11_LED7DOAN/LCD_GIAI_MA_SO_TO.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;F:/VHDL/VHDL/BAITAP_DHT11_LED7DOAN/QUET_ANODE_8LED_7DOAN.vhd&quot; into library work</arg>
+</msg>
+
+</messages>
+

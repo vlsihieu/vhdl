@@ -1,0 +1,59 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+ENTITY BTVN_SO9 IS 
+	PORT ( CKHT : IN STD_LOGIC;
+          BTN : IN STD_LOGIC_VECTOR (1 DOWNTO 0); 
+			 LED : OUT STD_LOGIC_VECTOR ( 7 DOWNTO 0));
+END BTVN_SO9;
+
+ARCHITECTURE BEHAVIORAL OF BTVN_SO9 IS 
+SIGNAL ENA_CK,BTN_CDLH : STD_LOGIC;
+SIGNAL RST : STD_LOGIC;
+SIGNAL BTN_MODE :STD_LOGIC;
+SIGNAL Q_SD_PST, Q_SD_TSP, Q_1DSDC_PST_TSP : STD_LOGIC_VECTOR  ( 7 DOWNTO 0 );
+SIGNAL OE : STD_LOGIC_VECTOR( 2 DOWNTO 0 );
+--SIGNAL ENA_D : STD_LOGIC;
+
+
+BEGIN 
+	   LED      <= Q_SD_PST OR Q_SD_TSP OR Q_1DSDC_PST_TSP;
+      RST      <= NOT BTN(0);
+	   BTN_MODE <= NOT BTN(1);
+		
+	   IC0 : ENTITY WORK.CD_LAM_HEP_BTN
+      PORT MAP (CKHT => CKHT ,
+                BTN =>  BTN_MODE,
+                BTN_CDLH => BTN_CDLH );
+
+						
+	   IC1: ENTITY WORK.DIEUKHIEN_MODE
+		PORT MAP (  CKHT => CKHT,
+						RST => RST,
+						SW => BTN_CDLH, 
+						OE => OE);
+---------------------------------------------------------
+		IC2 : ENTITY WORK.CHIA_10ENA
+		PORT MAP ( CKHT => CKHT,
+					  OE => OE,
+					  ENA_CK => ENA_CK);					
+	   IC3 : ENTITY WORK.LED_SANGDON_PST 
+		PORT MAP ( CKHT => CKHT,
+						RST => RST,
+						ENA_DB => ENA_CK, -- xung
+						OE => OE(0),
+						Q => Q_SD_PST);
+						
+	   IC4: ENTITY WORK.LED_SANGDON_TSP
+		PORT MAP ( CKHT => CKHT,
+					  RST => RST,
+					  ENA_DB => ENA_CK,
+					  OE => OE(1),
+					  Q => Q_SD_TSP);
+						
+	   IC5 : ENTITY WORK.DK_8LED_2CT_AU_1DSDC_PST_TSP
+		PORT MAP ( CKHT => CKHT,
+					  RST => RST,
+					  ENA_DB => ENA_CK,
+					  CP => OE(2),
+					  Q => Q_1DSDC_PST_TSP);
+END BEHAVIORAL ;

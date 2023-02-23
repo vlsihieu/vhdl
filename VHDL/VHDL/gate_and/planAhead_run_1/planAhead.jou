@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Dec 12 00:15:22 2022
+# Process ID: 2500
+# Log file: F:/VHDL/VHDL/gate_and/planAhead_run_1/planAhead.log
+# Journal file: F:/VHDL/VHDL/gate_and/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source F:/VHDL/VHDL/gate_and/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin M17 [get_ports BTNR]
+endgroup
+startgroup
+set_property package_pin P17 [get_ports BTNU]
+endgroup
+startgroup
+set_property package_pin H17 [get_ports LD0]
+endgroup
+save_constraints

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="CHIA_10ENA">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2020-6-13T1:39:53</timestamp>
+    <pin polarity="Input" x="0" y="-608" name="CKHT" />
+    <pin polarity="Output" x="384" y="-608" name="ENA1HZ" />
+    <pin polarity="Output" x="384" y="-544" name="ENA2HZ" />
+    <pin polarity="Output" x="384" y="-480" name="ENA5HZ" />
+    <pin polarity="Output" x="384" y="-416" name="ENA10HZ" />
+    <pin polarity="Output" x="384" y="-352" name="ENA20HZ" />
+    <pin polarity="Output" x="384" y="-288" name="ENA25HZ" />
+    <pin polarity="Output" x="384" y="-224" name="ENA50HZ" />
+    <pin polarity="Output" x="384" y="-160" name="ENA100HZ" />
+    <pin polarity="Output" x="384" y="-96" name="ENA1KHZ" />
+    <pin polarity="Output" x="384" y="-32" name="ENA1MHZ" />
+    <graph>
+        <rect width="256" x="64" y="-640" height="640" />
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="192" y="-648" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-608" type="pin CKHT" />
+        <line x2="0" y1="-608" y2="-608" x1="64" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-608" type="pin ENA1HZ" />
+        <line x2="384" y1="-608" y2="-608" x1="320" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-544" type="pin ENA2HZ" />
+        <line x2="384" y1="-544" y2="-544" x1="320" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-480" type="pin ENA5HZ" />
+        <line x2="384" y1="-480" y2="-480" x1="320" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-416" type="pin ENA10HZ" />
+        <line x2="384" y1="-416" y2="-416" x1="320" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-352" type="pin ENA20HZ" />
+        <line x2="384" y1="-352" y2="-352" x1="320" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-288" type="pin ENA25HZ" />
+        <line x2="384" y1="-288" y2="-288" x1="320" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-224" type="pin ENA50HZ" />
+        <line x2="384" y1="-224" y2="-224" x1="320" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-160" type="pin ENA100HZ" />
+        <line x2="384" y1="-160" y2="-160" x1="320" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-96" type="pin ENA1KHZ" />
+        <line x2="384" y1="-96" y2="-96" x1="320" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-32" type="pin ENA1MHZ" />
+        <line x2="384" y1="-32" y2="-32" x1="320" />
+    </graph>
+</symbol>

@@ -1,0 +1,8 @@
+vhdl work "QUET_ANODE_8LED_7DOAN.vhd"
+vhdl work "GIAIMA_7DOAN_ENA.vhd"
+vhdl work "DEM_3BIT_CHON_8KENH.vhd"
+vhdl work "DAHOP_8KENH.vhd"
+vhdl work "LED_SANGDON_PST.vhd"
+vhdl work "GIAIMA_HIENTHI_8LED_7DOAN.vhd"
+vhdl work "CHIA_10ENA.vhd"
+vhdl work "BAI_TAP_SANG_DON_MSSV_LED_7DOAN.vhd"

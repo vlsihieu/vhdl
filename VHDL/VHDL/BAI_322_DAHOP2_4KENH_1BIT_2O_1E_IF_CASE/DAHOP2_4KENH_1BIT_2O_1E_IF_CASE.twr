@@ -1,0 +1,75 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml DAHOP2_4KENH_1BIT_2O_1E_IF_CASE.twx
+DAHOP2_4KENH_1BIT_2O_1E_IF_CASE.ncd -o DAHOP2_4KENH_1BIT_2O_1E_IF_CASE.twr
+DAHOP2_4KENH_1BIT_2O_1E_IF_CASE.pcf -ucf KIT_XC3S500E_PQ208.ucf
+
+Design file:              DAHOP2_4KENH_1BIT_2O_1E_IF_CASE.ncd
+Physical constraint file: DAHOP2_4KENH_1BIT_2O_1E_IF_CASE.pcf
+Device,package,speed:     xc3s500e,pq208,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+SW<0>          |LED<0>         |    8.945|
+SW<0>          |LED<1>         |    9.174|
+SW<1>          |LED<0>         |    8.540|
+SW<1>          |LED<1>         |    8.769|
+SW<2>          |LED<0>         |    8.703|
+SW<2>          |LED<1>         |    8.932|
+SW<3>          |LED<0>         |    8.929|
+SW<3>          |LED<1>         |    9.158|
+SW<4>          |LED<0>         |    8.991|
+SW<4>          |LED<1>         |    9.220|
+SW<5>          |LED<0>         |    8.967|
+SW<5>          |LED<1>         |    9.196|
+SW<6>          |LED<0>         |    9.536|
+SW<6>          |LED<1>         |    9.765|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Sep 05 15:58:11 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4509 MB
+
+
+

@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "E:/FPGA/VHDL/ControlLEDUart/ControlLEDUart.xst" -ofn "E:/FPGA/VHDL/ControlLEDUart/ControlLEDUart.syr" 
+xst -intstyle ise -ifn "E:/FPGA/VHDL/ControlLEDUart/ControlLEDUart.xst" -ofn "E:/FPGA/VHDL/ControlLEDUart/ControlLEDUart.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc basy2.ucf -p xc3s100e-cp132-5 ControlLEDUart.ngc ControlLEDUart.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ControlLEDUart_map.ncd ControlLEDUart.ngd ControlLEDUart.pcf 
+par -w -intstyle ise -ol high -t 1 ControlLEDUart_map.ncd ControlLEDUart.ncd ControlLEDUart.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ControlLEDUart.twx ControlLEDUart.ncd -o ControlLEDUart.twr ControlLEDUart.pcf -ucf basy2.ucf 
+bitgen -intstyle ise -f ControlLEDUart.ut ControlLEDUart.ncd 

@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_LCD_BTN/DICH_LCD_BTN.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_LCD_BTN/DICH_LCD_BTN.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_LCD_BTN/DICH_LCD_BTN.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_LCD_BTN/DICH_LCD_BTN.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_LCD_BTN/DICH_LCD_BTN.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_LCD_BTN/DICH_LCD_BTN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 DICH_LCD_BTN.ngc DICH_LCD_BTN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DICH_LCD_BTN_map.ncd DICH_LCD_BTN.ngd DICH_LCD_BTN.pcf 
+par -w -intstyle ise -ol high -mt off DICH_LCD_BTN_map.ncd DICH_LCD_BTN.ncd DICH_LCD_BTN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DICH_LCD_BTN.twx DICH_LCD_BTN.ncd -o DICH_LCD_BTN.twr DICH_LCD_BTN.pcf 
+bitgen -intstyle ise -f DICH_LCD_BTN.ut DICH_LCD_BTN.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-3 DICH_LCD_BTN.ngc DICH_LCD_BTN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DICH_LCD_BTN_map.ncd DICH_LCD_BTN.ngd DICH_LCD_BTN.pcf 
+par -w -intstyle ise -ol high -mt off DICH_LCD_BTN_map.ncd DICH_LCD_BTN.ncd DICH_LCD_BTN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DICH_LCD_BTN.twx DICH_LCD_BTN.ncd -o DICH_LCD_BTN.twr DICH_LCD_BTN.pcf 
+bitgen -intstyle ise -f DICH_LCD_BTN.ut DICH_LCD_BTN.ncd 

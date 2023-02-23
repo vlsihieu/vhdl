@@ -1,0 +1,5 @@
+set -tmpdir "E:/TTTKVMS_CHIEU_THU4_NHOM 1.1/BAI_613_LCD_CLOCK_3KEY_NHAPNHAY/xst/projnav.tmp"
+set -xsthdpdir "E:/TTTKVMS_CHIEU_THU4_NHOM 1.1/BAI_613_LCD_CLOCK_3KEY_NHAPNHAY/xst"
+elaborate
+-ifn LCD_20X4_GAN_DULIEU.prj
+-ifmt mixed

@@ -1,0 +1,675 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.25 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.25 secs
+ 
+--> Reading design: FPGA_LCD_DEM_PC_UART.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "FPGA_LCD_DEM_PC_UART.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "FPGA_LCD_DEM_PC_UART"
+Output Format                      : NGC
+Target Device                      : xc6slx9-2-tqg144
+
+---- Source Options
+Top Module Name                    : FPGA_LCD_DEM_PC_UART
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "F:\VHDL\BAI_801_SO1_FPGA_LCD_DEM_PC_UART\UART_CONTROLLER_TX.vhd" into library work
+Parsing entity <UART_CONTROLLER_TX>.
+Parsing architecture <Behavioral> of entity <uart_controller_tx>.
+Parsing VHDL file "F:\VHDL\BAI_801_SO1_FPGA_LCD_DEM_PC_UART\UART_CONTROLLER_RX.vhd" into library work
+Parsing entity <UART_CONTROLLER_RX>.
+Parsing architecture <Behavioral> of entity <uart_controller_rx>.
+Parsing VHDL file "F:\VHDL\BAI_801_SO1_FPGA_LCD_DEM_PC_UART\MOD_M_COUNTER.vhd" into library work
+Parsing entity <MOD_M_COUNTER>.
+Parsing architecture <Behavioral> of entity <mod_m_counter>.
+Parsing VHDL file "F:\VHDL\BAI_801_SO1_FPGA_LCD_DEM_PC_UART\FIFO_TX.vhd" into library work
+Parsing entity <FIFO_TX>.
+Parsing architecture <Behavioral> of entity <fifo_tx>.
+Parsing VHDL file "F:\VHDL\BAI_801_SO1_FPGA_LCD_DEM_PC_UART\FIFO_RX.vhd" into library work
+Parsing entity <FIFO_RX>.
+Parsing architecture <Behavioral> of entity <fifo_rx>.
+Parsing VHDL file "F:\VHDL\BAI_801_SO1_FPGA_LCD_DEM_PC_UART\UART_CONTROLLER.vhd" into library work
+Parsing entity <UART_CONTROLLER>.
+Parsing architecture <Behavioral> of entity <uart_controller>.
+Parsing VHDL file "F:\VHDL\BAI_801_SO1_FPGA_LCD_DEM_PC_UART\DEM_8BIT.vhd" into library work
+Parsing entity <DEM_8BIT>.
+Parsing architecture <Behavioral> of entity <dem_8bit>.
+Parsing VHDL file "F:\VHDL\BAI_801_SO1_FPGA_LCD_DEM_PC_UART\CHIA_10ENA.vhd" into library work
+Parsing entity <CHIA_10ENA>.
+Parsing architecture <Behavioral> of entity <chia_10ena>.
+Parsing VHDL file "F:\VHDL\BAI_801_SO1_FPGA_LCD_DEM_PC_UART\FPGA_LCD_DEM_PC_UART.vhd" into library work
+Parsing entity <FPGA_LCD_DEM_PC_UART>.
+Parsing architecture <Behavioral> of entity <fpga_lcd_dem_pc_uart>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <FPGA_LCD_DEM_PC_UART> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <CHIA_10ENA> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <UART_CONTROLLER> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <MOD_M_COUNTER> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <UART_CONTROLLER_RX> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <FIFO_RX> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <UART_CONTROLLER_TX> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <FIFO_TX> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <DEM_8BIT> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <FPGA_LCD_DEM_PC_UART>.
+    Related source file is "F:\VHDL\BAI_801_SO1_FPGA_LCD_DEM_PC_UART\FPGA_LCD_DEM_PC_UART.vhd".
+INFO:Xst:3210 - "F:\VHDL\BAI_801_SO1_FPGA_LCD_DEM_PC_UART\FPGA_LCD_DEM_PC_UART.vhd" line 65: Output port <FIFO_UART_RX_DATA_RD> of the instance <IC2> is unconnected or connected to loadless signal.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <FPGA_LCD_DEM_PC_UART> synthesized.
+
+Synthesizing Unit <CHIA_10ENA>.
+    Related source file is "F:\VHDL\BAI_801_SO1_FPGA_LCD_DEM_PC_UART\CHIA_10ENA.vhd".
+    Found 24-bit register for signal <D5HZ_R>.
+    Found 25-bit adder for signal <n0009> created at line 100.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  24 D-type flip-flop(s).
+Unit <CHIA_10ENA> synthesized.
+
+Synthesizing Unit <UART_CONTROLLER>.
+    Related source file is "F:\VHDL\BAI_801_SO1_FPGA_LCD_DEM_PC_UART\UART_CONTROLLER.vhd".
+        DBIT = 8
+        SB_TICK = 16
+        DVSR = 163
+        DVSR_BIT = 9
+        FIFO_W = 2
+    Summary:
+	no macro.
+Unit <UART_CONTROLLER> synthesized.
+
+Synthesizing Unit <MOD_M_COUNTER>.
+    Related source file is "F:\VHDL\BAI_801_SO1_FPGA_LCD_DEM_PC_UART\MOD_M_COUNTER.vhd".
+        N = 9
+        M = 163
+    Found 9-bit register for signal <R_R>.
+    Found 9-bit adder for signal <R_R[8]_GND_8_o_add_2_OUT> created at line 28.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   9 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <MOD_M_COUNTER> synthesized.
+
+Synthesizing Unit <UART_CONTROLLER_RX>.
+    Related source file is "F:\VHDL\BAI_801_SO1_FPGA_LCD_DEM_PC_UART\UART_CONTROLLER_RX.vhd".
+        dbit = 8
+        sb_tick = 16
+    Found 4-bit register for signal <s_r>.
+    Found 3-bit register for signal <n_r>.
+    Found 8-bit register for signal <b_r>.
+    Found 2-bit register for signal <state_r>.
+    Found finite state machine <FSM_0> for signal <state_r>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 12                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 2                                              |
+    | Clock              | CKHT (falling_edge)                            |
+    | Reset              | RST (positive)                                 |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | idle                                           |
+    | Power Up State     | idle                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 3-bit adder for signal <n_r[2]_GND_9_o_add_16_OUT> created at line 63.
+    Found 4-bit adder for signal <s_r[3]_GND_9_o_add_29_OUT> created at line 71.
+    Found 4-bit 4-to-1 multiplexer for signal <s_n> created at line 48.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  15 D-type flip-flop(s).
+	inferred  11 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <UART_CONTROLLER_RX> synthesized.
+
+Synthesizing Unit <FIFO_RX>.
+    Related source file is "F:\VHDL\BAI_801_SO1_FPGA_LCD_DEM_PC_UART\FIFO_RX.vhd".
+        B = 8
+        W = 2
+    Found 1-bit register for signal <empty_r>.
+    Found 1-bit register for signal <full_r>.
+    Found 8-bit register for signal <array_r<2>>.
+    Found 8-bit register for signal <array_r<1>>.
+    Found 8-bit register for signal <array_r<0>>.
+    Found 8-bit register for signal <array_r<3>>.
+    Found 2-bit register for signal <w_ptr_r>.
+    Found 2-bit register for signal <r_ptr_r>.
+    Found 2-bit adder for signal <w_ptr_succ> created at line 67.
+    Found 2-bit adder for signal <r_ptr_succ> created at line 68.
+    Found 8-bit 4-to-1 multiplexer for signal <DATA_RD> created at line 51.
+    Found 2-bit comparator not equal for signal <r_ptr_succ[1]_w_ptr_r[1]_equal_20_o> created at line 81
+    Found 2-bit comparator not equal for signal <w_ptr_succ[1]_r_ptr_r[1]_equal_22_o> created at line 87
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  38 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <FIFO_RX> synthesized.
+
+Synthesizing Unit <UART_CONTROLLER_TX>.
+    Related source file is "F:\VHDL\BAI_801_SO1_FPGA_LCD_DEM_PC_UART\UART_CONTROLLER_TX.vhd".
+        dbit = 8
+        sb_tick = 16
+    Found 1-bit register for signal <tx_r>.
+    Found 4-bit register for signal <s_r>.
+    Found 3-bit register for signal <n_r>.
+    Found 8-bit register for signal <b_r>.
+    Found 2-bit register for signal <state_r>.
+    Found finite state machine <FSM_1> for signal <state_r>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 12                                             |
+    | Inputs             | 4                                              |
+    | Outputs            | 2                                              |
+    | Clock              | CKHT (falling_edge)                            |
+    | Reset              | RST (positive)                                 |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | idle                                           |
+    | Power Up State     | idle                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 3-bit adder for signal <n_r[2]_GND_12_o_add_17_OUT> created at line 73.
+    Found 4-bit adder for signal <s_r[3]_GND_12_o_add_30_OUT> created at line 82.
+    Found 4-bit 4-to-1 multiplexer for signal <s_n> created at line 54.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  16 D-type flip-flop(s).
+	inferred  10 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <UART_CONTROLLER_TX> synthesized.
+
+Synthesizing Unit <FIFO_TX>.
+    Related source file is "F:\VHDL\BAI_801_SO1_FPGA_LCD_DEM_PC_UART\FIFO_TX.vhd".
+        B = 8
+        W = 2
+    Found 1-bit register for signal <empty_r>.
+    Found 1-bit register for signal <full_r>.
+    Found 8-bit register for signal <array_r<2>>.
+    Found 8-bit register for signal <array_r<1>>.
+    Found 8-bit register for signal <array_r<0>>.
+    Found 8-bit register for signal <array_r<3>>.
+    Found 2-bit register for signal <w_ptr_r>.
+    Found 2-bit register for signal <r_ptr_r>.
+    Found 2-bit adder for signal <w_ptr_succ> created at line 95.
+    Found 2-bit adder for signal <r_ptr_succ> created at line 96.
+    Found 8-bit 4-to-1 multiplexer for signal <DATA_RD> created at line 79.
+    Found 2-bit comparator not equal for signal <r_ptr_succ[1]_w_ptr_r[1]_equal_20_o> created at line 109
+    Found 2-bit comparator not equal for signal <w_ptr_succ[1]_r_ptr_r[1]_equal_22_o> created at line 115
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  38 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <FIFO_TX> synthesized.
+
+Synthesizing Unit <DEM_8BIT>.
+    Related source file is "F:\VHDL\BAI_801_SO1_FPGA_LCD_DEM_PC_UART\DEM_8BIT.vhd".
+    Found 8-bit register for signal <Q_REG>.
+    Found 8-bit adder for signal <Q_REG[7]_GND_16_o_add_1_OUT> created at line 22.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   8 D-type flip-flop(s).
+Unit <DEM_8BIT> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 11
+ 2-bit adder                                           : 4
+ 25-bit adder                                          : 1
+ 3-bit adder                                           : 2
+ 4-bit adder                                           : 2
+ 8-bit adder                                           : 1
+ 9-bit adder                                           : 1
+# Registers                                            : 26
+ 1-bit register                                        : 5
+ 2-bit register                                        : 4
+ 24-bit register                                       : 1
+ 3-bit register                                        : 2
+ 4-bit register                                        : 2
+ 8-bit register                                        : 11
+ 9-bit register                                        : 1
+# Comparators                                          : 4
+ 2-bit comparator not equal                            : 4
+# Multiplexers                                         : 25
+ 1-bit 2-to-1 multiplexer                              : 5
+ 3-bit 2-to-1 multiplexer                              : 2
+ 4-bit 2-to-1 multiplexer                              : 12
+ 4-bit 4-to-1 multiplexer                              : 2
+ 8-bit 2-to-1 multiplexer                              : 1
+ 8-bit 4-to-1 multiplexer                              : 2
+ 9-bit 2-to-1 multiplexer                              : 1
+# FSMs                                                 : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <U2> is unconnected in block <IC2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <U3> is unconnected in block <IC2>.
+   It will be removed from the design.
+
+Synthesizing (advanced) Unit <CHIA_10ENA>.
+The following registers are absorbed into counter <D5HZ_R>: 1 register on signal <D5HZ_R>.
+Unit <CHIA_10ENA> synthesized (advanced).
+
+Synthesizing (advanced) Unit <DEM_8BIT>.
+The following registers are absorbed into counter <Q_REG>: 1 register on signal <Q_REG>.
+Unit <DEM_8BIT> synthesized (advanced).
+
+Synthesizing (advanced) Unit <FIFO_RX>.
+The following registers are absorbed into counter <w_ptr_r>: 1 register on signal <w_ptr_r>.
+The following registers are absorbed into counter <r_ptr_r>: 1 register on signal <r_ptr_r>.
+Unit <FIFO_RX> synthesized (advanced).
+
+Synthesizing (advanced) Unit <FIFO_TX>.
+The following registers are absorbed into counter <w_ptr_r>: 1 register on signal <w_ptr_r>.
+The following registers are absorbed into counter <r_ptr_r>: 1 register on signal <r_ptr_r>.
+Unit <FIFO_TX> synthesized (advanced).
+
+Synthesizing (advanced) Unit <MOD_M_COUNTER>.
+The following registers are absorbed into counter <R_R>: 1 register on signal <R_R>.
+Unit <MOD_M_COUNTER> synthesized (advanced).
+
+Synthesizing (advanced) Unit <UART_CONTROLLER_RX>.
+The following registers are absorbed into counter <n_r>: 1 register on signal <n_r>.
+Unit <UART_CONTROLLER_RX> synthesized (advanced).
+
+Synthesizing (advanced) Unit <UART_CONTROLLER_TX>.
+The following registers are absorbed into counter <n_r>: 1 register on signal <n_r>.
+Unit <UART_CONTROLLER_TX> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 6
+ 2-bit adder                                           : 4
+ 4-bit adder                                           : 2
+# Counters                                             : 9
+ 2-bit up counter                                      : 4
+ 24-bit up counter                                     : 1
+ 3-bit up counter                                      : 2
+ 8-bit up counter                                      : 1
+ 9-bit up counter                                      : 1
+# Registers                                            : 93
+ Flip-Flops                                            : 93
+# Comparators                                          : 4
+ 2-bit comparator not equal                            : 4
+# Multiplexers                                         : 21
+ 1-bit 2-to-1 multiplexer                              : 4
+ 4-bit 2-to-1 multiplexer                              : 12
+ 4-bit 4-to-1 multiplexer                              : 2
+ 8-bit 2-to-1 multiplexer                              : 1
+ 8-bit 4-to-1 multiplexer                              : 2
+# FSMs                                                 : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2973 - All outputs of instance <IC2/U3> of block <FIFO_RX> are unconnected in block <FPGA_LCD_DEM_PC_UART>. Underlying logic will be removed.
+WARNING:Xst:2973 - All outputs of instance <IC2/U2> of block <UART_CONTROLLER_RX> are unconnected in block <FPGA_LCD_DEM_PC_UART>. Underlying logic will be removed.
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <FSM_0> on signal <state_r[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ idle  | 00
+ start | 01
+ data  | 11
+ stop  | 10
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <IC2/U4/FSM_1> on signal <state_r[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ idle  | 00
+ start | 01
+ data  | 11
+ stop  | 10
+-------------------
+
+Optimizing unit <FPGA_LCD_DEM_PC_UART> ...
+
+Optimizing unit <FIFO_TX> ...
+
+Optimizing unit <UART_CONTROLLER_RX> ...
+
+Optimizing unit <FIFO_RX> ...
+
+Optimizing unit <UART_CONTROLLER_TX> ...
+WARNING:Xst:1710 - FF/Latch <IC2/U1/R_R_8> (without init value) has a constant value of 0 in block <FPGA_LCD_DEM_PC_UART>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block FPGA_LCD_DEM_PC_UART, actual ratio is 2.
+FlipFlop IC2/U5/w_ptr_r_1 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 97
+ Flip-Flops                                            : 97
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : FPGA_LCD_DEM_PC_UART.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 272
+#      GND                         : 1
+#      INV                         : 4
+#      LUT1                        : 35
+#      LUT2                        : 3
+#      LUT3                        : 20
+#      LUT4                        : 11
+#      LUT5                        : 40
+#      LUT6                        : 78
+#      MUXCY                       : 37
+#      MUXF7                       : 2
+#      VCC                         : 1
+#      XORCY                       : 40
+# FlipFlops/Latches                : 97
+#      FD                          : 24
+#      FDC                         : 8
+#      FDC_1                       : 15
+#      FDCE                        : 16
+#      FDCE_1                      : 32
+#      FDP_1                       : 2
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 3
+#      IBUF                        : 2
+#      OBUF                        : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9tqg144-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              97  out of  11440     0%  
+ Number of Slice LUTs:                  191  out of   5720     3%  
+    Number used as Logic:               191  out of   5720     3%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    192
+   Number with an unused Flip Flop:      95  out of    192    49%  
+   Number with an unused LUT:             1  out of    192     0%  
+   Number of fully used LUT-FF pairs:    96  out of    192    50%  
+   Number of unique control sets:         7
+
+IO Utilization: 
+ Number of IOs:                           5
+ Number of bonded IOBs:                   4  out of    102     3%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CKHT                               | BUFGP                  | 97    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 5.051ns (Maximum Frequency: 197.963MHz)
+   Minimum input arrival time before clock: 4.721ns
+   Maximum output required time after clock: 4.118ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CKHT'
+  Clock period: 5.051ns (frequency: 197.963MHz)
+  Total number of paths / destination ports: 2897 / 145
+-------------------------------------------------------------------------
+Delay:               5.051ns (Levels of Logic = 3)
+  Source:            IC1/D5HZ_R_5 (FF)
+  Destination:       IC2/U5/w_ptr_r_0 (FF)
+  Source Clock:      CKHT falling
+  Destination Clock: CKHT falling
+
+  Data Path: IC1/D5HZ_R_5 to IC2/U5/w_ptr_r_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               4   0.525   1.259  IC1/D5HZ_R_5 (IC1/D5HZ_R_5)
+     LUT6:I0->O           27   0.254   1.664  ENA_DB_SW0_AND_17_o12 (ENA_DB_SW0_AND_17_o12)
+     LUT5:I2->O            1   0.235   0.790  IC2/U5/w_ptr_r_0_dpot1_F (N70)
+     LUT3:I1->O            1   0.250   0.000  IC2/U5/w_ptr_r_0_dpot11 (IC2/U5/w_ptr_r_0_dpot1)
+     FDCE:D                    0.074          IC2/U5/w_ptr_r_0
+    ----------------------------------------
+    Total                      5.051ns (1.338ns logic, 3.713ns route)
+                                       (26.5% logic, 73.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CKHT'
+  Total number of paths / destination ports: 120 / 120
+-------------------------------------------------------------------------
+Offset:              4.721ns (Levels of Logic = 2)
+  Source:            BTN0 (PAD)
+  Destination:       IC2/U1/R_R_0 (FF)
+  Destination Clock: CKHT falling
+
+  Data Path: BTN0 to IC2/U1/R_R_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.328   0.681  BTN0_IBUF (BTN0_IBUF)
+     INV:I->O             73   0.255   1.998  RST1_INV_0 (RST)
+     FDC:CLR                   0.459          IC2/U1/R_R_0
+    ----------------------------------------
+    Total                      4.721ns (2.042ns logic, 2.679ns route)
+                                       (43.2% logic, 56.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CKHT'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.118ns (Levels of Logic = 1)
+  Source:            IC2/U4/tx_r (FF)
+  Destination:       UART_TX (PAD)
+  Source Clock:      CKHT falling
+
+  Data Path: IC2/U4/tx_r to UART_TX
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP_1:C->Q            1   0.525   0.681  IC2/U4/tx_r (IC2/U4/tx_r)
+     OBUF:I->O                 2.912          UART_TX_OBUF (UART_TX)
+    ----------------------------------------
+    Total                      4.118ns (3.437ns logic, 0.681ns route)
+                                       (83.5% logic, 16.5% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CKHT
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CKHT           |         |         |    5.051|         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 12.34 secs
+ 
+--> 
+
+Total memory usage is 4502112 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    5 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

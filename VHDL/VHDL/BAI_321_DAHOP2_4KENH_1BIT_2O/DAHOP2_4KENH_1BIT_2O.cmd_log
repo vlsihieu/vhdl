@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_321_DAHOP2_4KENH_1BIT_2O/DAHOP2_4KENH_1BIT_2O.xst" -ofn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_321_DAHOP2_4KENH_1BIT_2O/DAHOP2_4KENH_1BIT_2O.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-5 DAHOP2_4KENH_1BIT_2O.ngc DAHOP2_4KENH_1BIT_2O.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DAHOP2_4KENH_1BIT_2O_map.ncd DAHOP2_4KENH_1BIT_2O.ngd DAHOP2_4KENH_1BIT_2O.pcf 
+par -w -intstyle ise -ol high -t 1 DAHOP2_4KENH_1BIT_2O_map.ncd DAHOP2_4KENH_1BIT_2O.ncd DAHOP2_4KENH_1BIT_2O.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DAHOP2_4KENH_1BIT_2O.twx DAHOP2_4KENH_1BIT_2O.ncd -o DAHOP2_4KENH_1BIT_2O.twr DAHOP2_4KENH_1BIT_2O.pcf 
+bitgen -intstyle ise -f DAHOP2_4KENH_1BIT_2O.ut DAHOP2_4KENH_1BIT_2O.ncd 
+xst -intstyle ise -ifn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_321_DAHOP2_4KENH_1BIT_2O/DAHOP2_4KENH_1BIT_2O.xst" -ofn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_321_DAHOP2_4KENH_1BIT_2O/DAHOP2_4KENH_1BIT_2O.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAHOP2_4KENH_1BIT_2O.ucf -p xc3s500e-pq208-5 DAHOP2_4KENH_1BIT_2O.ngc DAHOP2_4KENH_1BIT_2O.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DAHOP2_4KENH_1BIT_2O_map.ncd DAHOP2_4KENH_1BIT_2O.ngd DAHOP2_4KENH_1BIT_2O.pcf 
+par -w -intstyle ise -ol high -t 1 DAHOP2_4KENH_1BIT_2O_map.ncd DAHOP2_4KENH_1BIT_2O.ncd DAHOP2_4KENH_1BIT_2O.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DAHOP2_4KENH_1BIT_2O.twx DAHOP2_4KENH_1BIT_2O.ncd -o DAHOP2_4KENH_1BIT_2O.twr DAHOP2_4KENH_1BIT_2O.pcf -ucf DAHOP2_4KENH_1BIT_2O.ucf 
+bitgen -intstyle ise -f DAHOP2_4KENH_1BIT_2O.ut DAHOP2_4KENH_1BIT_2O.ncd 

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="BAI_439_DEM_2BIT_UP_DW_2BTN_4LED.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="dem_2bit_up_dw_2btn_2led.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="dem_2bit_up_dw_2btn_2led.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="dem_2bit_up_dw_2btn_2led.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1591412183" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1591412183">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1591412183" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-15866900418607676" xil_pn:start_ts="1591412183">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1591412183" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-6410293156527320157" xil_pn:start_ts="1591412183">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1591412183" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1591412183">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1591412183" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-1555662908232556798" xil_pn:start_ts="1591412183">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1591412183" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297145852409" xil_pn:start_ts="1591412183">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1591412183" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-5605894182627619283" xil_pn:start_ts="1591412183">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1591576099" xil_pn:in_ck="-419923947924196742" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-5910833639365672640" xil_pn:start_ts="1591576089">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.lso"/>
+      <outfile xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.ngc"/>
+      <outfile xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.ngr"/>
+      <outfile xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.prj"/>
+      <outfile xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.stx"/>
+      <outfile xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.syr"/>
+      <outfile xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.xst"/>
+      <outfile xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED_vhdl.prj"/>
+      <outfile xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1591576099" xil_pn:in_ck="7634454586176540499" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-2469390003932131081" xil_pn:start_ts="1591576099">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1591576105" xil_pn:in_ck="1719685630151819416" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="1132426109168238000" xil_pn:start_ts="1591576099">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.bld"/>
+      <outfile xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.ngd"/>
+      <outfile xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1591576109" xil_pn:in_ck="1719685630151819417" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="1340085993303162660" xil_pn:start_ts="1591576105">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.pcf"/>
+      <outfile xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED_map.map"/>
+      <outfile xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED_map.mrp"/>
+      <outfile xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED_map.ncd"/>
+      <outfile xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED_map.ngm"/>
+      <outfile xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED_map.xrpt"/>
+      <outfile xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED_summary.xml"/>
+      <outfile xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1591576129" xil_pn:in_ck="-5382359744269749198" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1591576109">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.ncd"/>
+      <outfile xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.pad"/>
+      <outfile xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.par"/>
+      <outfile xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.ptwx"/>
+      <outfile xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.unroutes"/>
+      <outfile xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.xpi"/>
+      <outfile xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED_pad.csv"/>
+      <outfile xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED_pad.txt"/>
+      <outfile xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1591576136" xil_pn:in_ck="-8842622394120432062" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1591576129">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="dem_2bit_up_dw_2btn_2led.bgn"/>
+      <outfile xil_pn:name="dem_2bit_up_dw_2btn_2led.bit"/>
+      <outfile xil_pn:name="dem_2bit_up_dw_2btn_2led.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1591576129" xil_pn:in_ck="1719685630151819285" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1591576125">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.twr"/>
+      <outfile xil_pn:name="DEM_2BIT_UP_DW_2BTN_2LED.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

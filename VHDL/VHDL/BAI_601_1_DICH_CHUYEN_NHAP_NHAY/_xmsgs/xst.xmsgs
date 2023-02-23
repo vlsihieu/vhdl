@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Users\Admin\Documents\TT-HDL-N7-S2\BAI_601_1_DICH_CHUYEN_NHAP_NHAY\LCD_HIENTHI_32KITU.vhd" Line 18: Net &lt;<arg fmt="%s" index="1">H4[159]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Admin\Documents\TT-HDL-N7-S2\BAI_601_1_DICH_CHUYEN_NHAP_NHAY\LCD_HIENTHI_32KITU.vhd</arg>&quot; line <arg fmt="%s" index="2">61</arg>: Output port &lt;<arg fmt="%s" index="3">LCD_H4</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">IC5</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">H4</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_PTR[2]_X_15_o_wide_mux_88_OUT</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">IC3/H2_REG_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">LCD_HIENTHI_80KYTU</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">39 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;IC3/H2_REG_15&gt; &lt;IC3/H2_REG_23&gt; &lt;IC3/H2_REG_31&gt; &lt;IC3/H2_REG_39&gt; &lt;IC3/H2_REG_47&gt; &lt;IC3/H2_REG_55&gt; &lt;IC3/H2_REG_63&gt; &lt;IC3/H2_REG_71&gt; &lt;IC3/H2_REG_79&gt; &lt;IC3/H2_REG_87&gt; &lt;IC3/H2_REG_95&gt; &lt;IC3/H2_REG_103&gt; &lt;IC3/H2_REG_111&gt; &lt;IC3/H2_REG_119&gt; &lt;IC3/H2_REG_127&gt; &lt;IC3/H2_REG_135&gt; &lt;IC3/H2_REG_143&gt; &lt;IC3/H2_REG_151&gt; &lt;IC3/H2_REG_159&gt; &lt;IC4/H3_REG_7&gt; &lt;IC4/H3_REG_15&gt; &lt;IC4/H3_REG_23&gt; &lt;IC4/H3_REG_31&gt; &lt;IC4/H3_REG_39&gt; &lt;IC4/H3_REG_47&gt; &lt;IC4/H3_REG_55&gt; &lt;IC4/H3_REG_63&gt; &lt;IC4/H3_REG_71&gt; &lt;IC4/H3_REG_79&gt; &lt;IC4/H3_REG_87&gt; &lt;IC4/H3_REG_95&gt; &lt;IC4/H3_REG_103&gt; &lt;IC4/H3_REG_111&gt; &lt;IC4/H3_REG_119&gt; &lt;IC4/H3_REG_127&gt; &lt;IC4/H3_REG_135&gt; &lt;IC4/H3_REG_143&gt; &lt;IC4/H3_REG_151&gt; &lt;IC4/H3_REG_159&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">IC4/H3_REG_152</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">LCD_HIENTHI_80KYTU</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;IC4/H3_REG_72&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">IC4/H3_REG_16</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">LCD_HIENTHI_80KYTU</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;IC4/H3_REG_96&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">IC4/H3_REG_24</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">LCD_HIENTHI_80KYTU</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;IC4/H3_REG_104&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">IC4/H3_REG_32</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">LCD_HIENTHI_80KYTU</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;IC4/H3_REG_112&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">IC4/H3_REG_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">LCD_HIENTHI_80KYTU</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;IC4/H3_REG_80&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">IC4/H3_REG_40</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">LCD_HIENTHI_80KYTU</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;IC4/H3_REG_120&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">IC4/H3_REG_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">LCD_HIENTHI_80KYTU</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;IC4/H3_REG_88&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">IC4/H3_REG_48</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">LCD_HIENTHI_80KYTU</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;IC4/H3_REG_128&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">IC4/H3_REG_56</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">LCD_HIENTHI_80KYTU</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;IC4/H3_REG_136&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">IC4/H3_REG_64</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">LCD_HIENTHI_80KYTU</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;IC4/H3_REG_144&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">IC3/H2_REG_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LCD_HIENTHI_80KYTU</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+</messages>
+

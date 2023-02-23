@@ -1,0 +1,166 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.18 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Reading design: alu.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "alu.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "alu"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-pq208
+
+---- Source Options
+Top Module Name                    : alu
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "sub1bit.v" in library work
+Compiling verilog file "add1bit.v" in library work
+Module <sub1bit> compiled
+Compiling verilog file "tru16bit.v" in library work
+Module <add1bit> compiled
+Compiling verilog file "add16bit.v" in library work
+Module <tru16bit> compiled
+Compiling verilog file "XOR16bit.v" in library work
+Module <add16bit> compiled
+Compiling verilog file "nhan16bit.v" in library work
+Module <XOR16bit> compiled
+Compiling verilog file "divison.v" in library work
+Module <nhan16> compiled
+Compiling verilog file "and16bit.v" in library work
+Module <division> compiled
+Compiling verilog file "test_bk.v" in library work
+Module <and16bit> compiled
+Module <alu> compiled
+No errors in compilation
+Analysis of file <"alu.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+ERROR:HDLCompilers:91 - "divison.v" line 13 Module 'tru16bit' does not have a port named 'cin'
+ERROR:HDLCompilers:91 - "divison.v" line 14 Module 'tru16bit' does not have a port named 'c'
+ERROR:HDLCompilers:91 - "divison.v" line 15 Module 'tru16bit' does not have a port named 'cout'
+ERROR:HDLCompilers:91 - "divison.v" line 22 Module 'tru16bit' does not have a port named 'cin'
+ERROR:HDLCompilers:91 - "divison.v" line 23 Module 'tru16bit' does not have a port named 'c'
+ERROR:HDLCompilers:91 - "divison.v" line 24 Module 'tru16bit' does not have a port named 'cout'
+ERROR:HDLCompilers:91 - "divison.v" line 31 Module 'tru16bit' does not have a port named 'cin'
+ERROR:HDLCompilers:91 - "divison.v" line 32 Module 'tru16bit' does not have a port named 'c'
+ERROR:HDLCompilers:91 - "divison.v" line 33 Module 'tru16bit' does not have a port named 'cout'
+ERROR:HDLCompilers:91 - "divison.v" line 40 Module 'tru16bit' does not have a port named 'cin'
+ERROR:HDLCompilers:91 - "divison.v" line 41 Module 'tru16bit' does not have a port named 'c'
+ERROR:HDLCompilers:91 - "divison.v" line 42 Module 'tru16bit' does not have a port named 'cout'
+ERROR:HDLCompilers:91 - "divison.v" line 49 Module 'tru16bit' does not have a port named 'cin'
+ERROR:HDLCompilers:91 - "divison.v" line 50 Module 'tru16bit' does not have a port named 'c'
+ERROR:HDLCompilers:91 - "divison.v" line 51 Module 'tru16bit' does not have a port named 'cout'
+ERROR:HDLCompilers:91 - "divison.v" line 58 Module 'tru16bit' does not have a port named 'cin'
+ERROR:HDLCompilers:91 - "divison.v" line 59 Module 'tru16bit' does not have a port named 'c'
+ERROR:HDLCompilers:91 - "divison.v" line 60 Module 'tru16bit' does not have a port named 'cout'
+ERROR:HDLCompilers:91 - "divison.v" line 67 Module 'tru16bit' does not have a port named 'cin'
+ERROR:HDLCompilers:91 - "divison.v" line 68 Module 'tru16bit' does not have a port named 'c'
+ERROR:HDLCompilers:91 - "divison.v" line 69 Module 'tru16bit' does not have a port named 'cout'
+ERROR:HDLCompilers:91 - "divison.v" line 76 Module 'tru16bit' does not have a port named 'cin'
+ERROR:HDLCompilers:91 - "divison.v" line 77 Module 'tru16bit' does not have a port named 'c'
+ERROR:HDLCompilers:91 - "divison.v" line 78 Module 'tru16bit' does not have a port named 'cout'
+ERROR:HDLCompilers:91 - "divison.v" line 85 Module 'tru16bit' does not have a port named 'cin'
+ERROR:HDLCompilers:91 - "divison.v" line 86 Module 'tru16bit' does not have a port named 'c'
+ERROR:HDLCompilers:91 - "divison.v" line 87 Module 'tru16bit' does not have a port named 'cout'
+--> 
+
+Total memory usage is 4505068 kilobytes
+
+Number of errors   :   27 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

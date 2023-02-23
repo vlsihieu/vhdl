@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_553_DO_ND_DS18B20_HT_7DOAN_BUZZER_GIAY/CHIA_10ENA.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_553_DO_ND_DS18B20_HT_7DOAN_BUZZER_GIAY/DAHOP_2KENH.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_553_DO_ND_DS18B20_HT_7DOAN_BUZZER_GIAY/DEM_1BIT_SELECT.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_553_DO_ND_DS18B20_HT_7DOAN_BUZZER_GIAY/DEM_GIOPHUTGIAY.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_553_DO_ND_DS18B20_HT_7DOAN_BUZZER_GIAY/DO_ND_DS18B20_HT_7DOAN.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_553_DO_ND_DS18B20_HT_7DOAN_BUZZER_GIAY/DS18B20_TEMPERATURE.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_553_DO_ND_DS18B20_HT_7DOAN_BUZZER_GIAY/GIAIMA_7DOAN_ENA.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_553_DO_ND_DS18B20_HT_7DOAN_BUZZER_GIAY/GIAIMA_HIENTHI_8LED_7DOAN.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_553_DO_ND_DS18B20_HT_7DOAN_BUZZER_GIAY/HEXTOBCD_6BIT.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_553_DO_ND_DS18B20_HT_7DOAN_BUZZER_GIAY/HEXTOBCD_8BIT.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_553_DO_ND_DS18B20_HT_7DOAN_BUZZER_GIAY/QUET_ANODE_8LED_7DOAN.vhd&quot; into library work</arg>
+</msg>
+
+</messages>
+

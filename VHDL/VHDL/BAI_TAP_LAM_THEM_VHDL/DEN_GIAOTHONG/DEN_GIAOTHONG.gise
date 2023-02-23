@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="DEN_GIAOTHONG.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="DEN_GIAOTHONG.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="DEN_GIAOTHONG.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="DEN_GIAOTHONG.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="DEN_GIAOTHONG.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="DEN_GIAOTHONG.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="DEN_GIAOTHONG.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="DEN_GIAOTHONG.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="DEN_GIAOTHONG.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="DEN_GIAOTHONG.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="DEN_GIAOTHONG.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DEN_GIAOTHONG.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="DEN_GIAOTHONG.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="DEN_GIAOTHONG.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="DEN_GIAOTHONG.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="DEN_GIAOTHONG.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="DEN_GIAOTHONG.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="DEN_GIAOTHONG.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="DEN_GIAOTHONG.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="DEN_GIAOTHONG.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="DEN_GIAOTHONG.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="DEN_GIAOTHONG_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="DEN_GIAOTHONG_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="DEN_GIAOTHONG_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="DEN_GIAOTHONG_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="DEN_GIAOTHONG_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="DEN_GIAOTHONG_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="DEN_GIAOTHONG_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="DEN_GIAOTHONG_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="DEN_GIAOTHONG_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="DEN_GIAOTHONG_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="DEN_GIAOTHONG_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="DEN_GIAOTHONG_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="DEN_GIAOTHONG_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="DEN_GIAOTHONG_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="DEN_GIAOTHONG_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="den_giaothong.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="den_giaothong.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="den_giaothong.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1595867324" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1595867324">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1595867324" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-8835058045966205577" xil_pn:start_ts="1595867324">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1595867324" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="7888270139752709702" xil_pn:start_ts="1595867324">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1595867324" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1595867324">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1595867324" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-5578732426158261191" xil_pn:start_ts="1595867324">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1595867324" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="250970745955965653" xil_pn:start_ts="1595867324">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1595867324" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-5751959755062552112" xil_pn:start_ts="1595867324">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1595897849" xil_pn:in_ck="-7175742718017126202" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="8747370101542494367" xil_pn:start_ts="1595897833">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="DEN_GIAOTHONG.lso"/>
+      <outfile xil_pn:name="DEN_GIAOTHONG.ngc"/>
+      <outfile xil_pn:name="DEN_GIAOTHONG.ngr"/>
+      <outfile xil_pn:name="DEN_GIAOTHONG.prj"/>
+      <outfile xil_pn:name="DEN_GIAOTHONG.stx"/>
+      <outfile xil_pn:name="DEN_GIAOTHONG.syr"/>
+      <outfile xil_pn:name="DEN_GIAOTHONG.xst"/>
+      <outfile xil_pn:name="DEN_GIAOTHONG_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1595867334" xil_pn:in_ck="-1356313894961496616" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-221836697515970994" xil_pn:start_ts="1595867334">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1595897860" xil_pn:in_ck="5315661341028075380" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-5282542788066502607" xil_pn:start_ts="1595897849">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="DEN_GIAOTHONG.bld"/>
+      <outfile xil_pn:name="DEN_GIAOTHONG.ngd"/>
+      <outfile xil_pn:name="DEN_GIAOTHONG_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1595897881" xil_pn:in_ck="5315661341028075381" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="1448924893915930207" xil_pn:start_ts="1595897860">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="DEN_GIAOTHONG.pcf"/>
+      <outfile xil_pn:name="DEN_GIAOTHONG_map.map"/>
+      <outfile xil_pn:name="DEN_GIAOTHONG_map.mrp"/>
+      <outfile xil_pn:name="DEN_GIAOTHONG_map.ncd"/>
+      <outfile xil_pn:name="DEN_GIAOTHONG_map.ngm"/>
+      <outfile xil_pn:name="DEN_GIAOTHONG_map.xrpt"/>
+      <outfile xil_pn:name="DEN_GIAOTHONG_summary.xml"/>
+      <outfile xil_pn:name="DEN_GIAOTHONG_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1595897896" xil_pn:in_ck="986954088227195150" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="93661965788626211" xil_pn:start_ts="1595897881">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="DEN_GIAOTHONG.ncd"/>
+      <outfile xil_pn:name="DEN_GIAOTHONG.pad"/>
+      <outfile xil_pn:name="DEN_GIAOTHONG.par"/>
+      <outfile xil_pn:name="DEN_GIAOTHONG.ptwx"/>
+      <outfile xil_pn:name="DEN_GIAOTHONG.unroutes"/>
+      <outfile xil_pn:name="DEN_GIAOTHONG.xpi"/>
+      <outfile xil_pn:name="DEN_GIAOTHONG_pad.csv"/>
+      <outfile xil_pn:name="DEN_GIAOTHONG_pad.txt"/>
+      <outfile xil_pn:name="DEN_GIAOTHONG_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1595897910" xil_pn:in_ck="-7175742718017135079" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="5341574683187206424" xil_pn:start_ts="1595897896">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="DEN_GIAOTHONG.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="den_giaothong.bgn"/>
+      <outfile xil_pn:name="den_giaothong.bit"/>
+      <outfile xil_pn:name="den_giaothong.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1595897896" xil_pn:in_ck="5315661341028075249" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416184" xil_pn:start_ts="1595897890">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="DEN_GIAOTHONG.twr"/>
+      <outfile xil_pn:name="DEN_GIAOTHONG.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

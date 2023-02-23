@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_332_GIAIDAHOP_4KENH_2BIT/GIAIDAHOP_4KENH2B.xst" -ofn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_332_GIAIDAHOP_4KENH_2BIT/GIAIDAHOP_4KENH2B.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-5 GIAIDAHOP_4KENH2B.ngc GIAIDAHOP_4KENH2B.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o GIAIDAHOP_4KENH2B_map.ncd GIAIDAHOP_4KENH2B.ngd GIAIDAHOP_4KENH2B.pcf 
+par -w -intstyle ise -ol high -t 1 GIAIDAHOP_4KENH2B_map.ncd GIAIDAHOP_4KENH2B.ncd GIAIDAHOP_4KENH2B.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml GIAIDAHOP_4KENH2B.twx GIAIDAHOP_4KENH2B.ncd -o GIAIDAHOP_4KENH2B.twr GIAIDAHOP_4KENH2B.pcf 
+bitgen -intstyle ise -f GIAIDAHOP_4KENH2B.ut GIAIDAHOP_4KENH2B.ncd 
+xst -intstyle ise -ifn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_332_GIAIDAHOP_4KENH_2BIT/GIAIDAHOP_4KENH2B.xst" -ofn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_332_GIAIDAHOP_4KENH_2BIT/GIAIDAHOP_4KENH2B.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 GIAIDAHOP_4KENH2B.ngc GIAIDAHOP_4KENH2B.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o GIAIDAHOP_4KENH2B_map.ncd GIAIDAHOP_4KENH2B.ngd GIAIDAHOP_4KENH2B.pcf 
+par -w -intstyle ise -ol high -t 1 GIAIDAHOP_4KENH2B_map.ncd GIAIDAHOP_4KENH2B.ncd GIAIDAHOP_4KENH2B.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml GIAIDAHOP_4KENH2B.twx GIAIDAHOP_4KENH2B.ncd -o GIAIDAHOP_4KENH2B.twr GIAIDAHOP_4KENH2B.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f GIAIDAHOP_4KENH2B.ut GIAIDAHOP_4KENH2B.ncd 

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="MapLib" num="562" delta="old" >No environment variables are currently set.
+</msg>
+
+<msg type="info" file="LIT" num="244" delta="old" >All of the single ended outputs in this design are using slew rate limited output drivers. The delay on speed critical single ended outputs can be dramatically reduced by designating them as fast outputs.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">IC3/CHUC_REG_3_and000121_SW4</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">IC3/CHUC_REG_4_and000113220_SW5</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">IC3/CHUC_REG_3_and000121_SW11</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">IC3/CHUC_REG_4_and000113220_SW11</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">IC3/CHUC_REG_4_and000113366_SW7</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">IC3/CHUC_REG_4_and000113220_SW21</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">IC3/CHUC_REG_3_and000121_SW13</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">IC3/CHUC_REG_4_and000113220_SW13</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">IC3/CHUC_REG_3_and000121_SW7</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">IC3/CHUC_REG_4_and000113220_SW23</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">IC3/CHUC_REG_4_and000113366_SW1</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">IC3/CHUC_REG_4_and000113220_SW15</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">IC3/CHUC_REG_4_and000113366_SW3</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">IC3/CHUC_REG_4_and000113220_SW17</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">IC3/CHUC_REG_4_and000113366_SW5</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">IC3/CHUC_REG_4_and000113220_SW19</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+</messages>
+

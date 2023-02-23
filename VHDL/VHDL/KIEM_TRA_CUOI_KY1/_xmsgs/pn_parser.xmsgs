@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY1/CD_LAM_HEP_BTN.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY1/CHIA_10ENA.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY1/DAHOP_8KENH.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY1/DEBOUCE_BTN.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY1/DEM_1BIT.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY1/DEM_3BIT_CHON_8KENH.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY1/DEM_GH_AB.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY1/DEM_GH_CD.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY1/DS18B20_TEMPERATURE.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY1/GIAIMA_7DOAN_ENA.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY1/GIAIMA_HIENTHI_8LED_7DOAN.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY1/HEXTOBCD_8BIT.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY1/KEIIAF.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY1/LAM_HEP_XUNG.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY1/LCD_20X4_GAN_DULIEU_1SO_TO.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY1/LCD_GIAI_MA_SO_TO.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY1/LCD_KHOITAO_HIENTHI_SO_TO.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY1/LED_STD_PST.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY1/LED_STD_TSP.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY1/QUET_ANODE_8LED_7DOAN.vhd&quot; into library work</arg>
+</msg>
+
+</messages>
+

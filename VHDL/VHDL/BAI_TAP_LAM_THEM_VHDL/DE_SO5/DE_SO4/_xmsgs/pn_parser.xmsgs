@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/DE_SO4/CD_LAM_HEP_BTN.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/DE_SO4/CHIA_10ENA.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/DE_SO4/CHON_CHUONGTRINH.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/DE_SO4/DAHOP_8KENH.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/DE_SO4/DEBOUNCE_BTN.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/DE_SO4/DEM_1BIT.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/DE_SO4/DEM_1BIT_BTN.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/DE_SO4/DEM_3BIT_CHON_8KENH.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/DE_SO4/DEM_DW_A_B_BTN.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/DE_SO4/DEM_LEN_A_B_AU.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/DE_SO4/DEM_UP_A_B_BTN.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/DE_SO4/DEM_XUONG_A_B_AU.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/DE_SO4/DE_SO4.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/DE_SO4/DK_CP_3LED_TSP_PST.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/DE_SO4/DK_CP_5LED_DSDC.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/DE_SO4/GIAIMA_7DOAN_ENA.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/DE_SO4/GIAIMA_HIENTHI_8LED_7DOAN.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/DE_SO4/LAM_HEP_XUNG.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/DE_SO4/LED_DSDC_PST.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/DE_SO4/LED_DSDC_TSP.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/DE_SO4/LED_STD_PST.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/DE_SO4/LED_STD_TSP.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/DE_SO4/QUET_ANODE_8LED_7DOAN.vhd&quot; into library work</arg>
+</msg>
+
+</messages>
+

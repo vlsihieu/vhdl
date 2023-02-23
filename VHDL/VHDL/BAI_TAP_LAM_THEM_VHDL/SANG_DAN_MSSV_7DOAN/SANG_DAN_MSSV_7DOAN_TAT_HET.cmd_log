@@ -1,0 +1,24 @@
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/SANG_DAN_MSSV_7DOAN/SANG_DAN_MSSV_7DOAN_TAT_HET.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/SANG_DAN_MSSV_7DOAN/SANG_DAN_MSSV_7DOAN_TAT_HET.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/SANG_DAN_MSSV_7DOAN/SANG_DAN_MSSV_7DOAN_TAT_HET.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/SANG_DAN_MSSV_7DOAN/SANG_DAN_MSSV_7DOAN_TAT_HET.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/SANG_DAN_MSSV_7DOAN/SANG_DAN_MSSV_7DOAN_TAT_HET.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/SANG_DAN_MSSV_7DOAN/SANG_DAN_MSSV_7DOAN_TAT_HET.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/SANG_DAN_MSSV_7DOAN/SANG_DAN_MSSV_7DOAN_TAT_HET.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/SANG_DAN_MSSV_7DOAN/SANG_DAN_MSSV_7DOAN_TAT_HET.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/SANG_DAN_MSSV_7DOAN/SANG_DAN_MSSV_7DOAN_TAT_HET.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/SANG_DAN_MSSV_7DOAN/SANG_DAN_MSSV_7DOAN_TAT_HET.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/SANG_DAN_MSSV_7DOAN/SANG_DAN_MSSV_7DOAN_TAT_HET.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/SANG_DAN_MSSV_7DOAN/SANG_DAN_MSSV_7DOAN_TAT_HET.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/SANG_DAN_MSSV_7DOAN/SANG_DAN_MSSV_7DOAN_TAT_HET.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/SANG_DAN_MSSV_7DOAN/SANG_DAN_MSSV_7DOAN_TAT_HET.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-3 SANG_DAN_MSSV_7DOAN_TAT_HET.ngc SANG_DAN_MSSV_7DOAN_TAT_HET.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SANG_DAN_MSSV_7DOAN_TAT_HET_map.ncd SANG_DAN_MSSV_7DOAN_TAT_HET.ngd SANG_DAN_MSSV_7DOAN_TAT_HET.pcf 
+par -w -intstyle ise -ol high -mt off SANG_DAN_MSSV_7DOAN_TAT_HET_map.ncd SANG_DAN_MSSV_7DOAN_TAT_HET.ncd SANG_DAN_MSSV_7DOAN_TAT_HET.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SANG_DAN_MSSV_7DOAN_TAT_HET.twx SANG_DAN_MSSV_7DOAN_TAT_HET.ncd -o SANG_DAN_MSSV_7DOAN_TAT_HET.twr SANG_DAN_MSSV_7DOAN_TAT_HET.pcf 
+bitgen -intstyle ise -f SANG_DAN_MSSV_7DOAN_TAT_HET.ut SANG_DAN_MSSV_7DOAN_TAT_HET.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/SANG_DAN_MSSV_7DOAN/SANG_DAN_MSSV_7DOAN_TAT_HET.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/SANG_DAN_MSSV_7DOAN/SANG_DAN_MSSV_7DOAN_TAT_HET.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-3 SANG_DAN_MSSV_7DOAN_TAT_HET.ngc SANG_DAN_MSSV_7DOAN_TAT_HET.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SANG_DAN_MSSV_7DOAN_TAT_HET_map.ncd SANG_DAN_MSSV_7DOAN_TAT_HET.ngd SANG_DAN_MSSV_7DOAN_TAT_HET.pcf 
+par -w -intstyle ise -ol high -mt off SANG_DAN_MSSV_7DOAN_TAT_HET_map.ncd SANG_DAN_MSSV_7DOAN_TAT_HET.ncd SANG_DAN_MSSV_7DOAN_TAT_HET.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SANG_DAN_MSSV_7DOAN_TAT_HET.twx SANG_DAN_MSSV_7DOAN_TAT_HET.ncd -o SANG_DAN_MSSV_7DOAN_TAT_HET.twr SANG_DAN_MSSV_7DOAN_TAT_HET.pcf 
+bitgen -intstyle ise -f SANG_DAN_MSSV_7DOAN_TAT_HET.ut SANG_DAN_MSSV_7DOAN_TAT_HET.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/SANG_DAN_MSSV_7DOAN/SANG_DAN_MSSV_7DOAN_TAT_HET.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/SANG_DAN_MSSV_7DOAN/SANG_DAN_MSSV_7DOAN_TAT_HET.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-3 SANG_DAN_MSSV_7DOAN_TAT_HET.ngc SANG_DAN_MSSV_7DOAN_TAT_HET.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SANG_DAN_MSSV_7DOAN_TAT_HET_map.ncd SANG_DAN_MSSV_7DOAN_TAT_HET.ngd SANG_DAN_MSSV_7DOAN_TAT_HET.pcf 
+par -w -intstyle ise -ol high -mt off SANG_DAN_MSSV_7DOAN_TAT_HET_map.ncd SANG_DAN_MSSV_7DOAN_TAT_HET.ncd SANG_DAN_MSSV_7DOAN_TAT_HET.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SANG_DAN_MSSV_7DOAN_TAT_HET.twx SANG_DAN_MSSV_7DOAN_TAT_HET.ncd -o SANG_DAN_MSSV_7DOAN_TAT_HET.twr SANG_DAN_MSSV_7DOAN_TAT_HET.pcf 
+bitgen -intstyle ise -f SANG_DAN_MSSV_7DOAN_TAT_HET.ut SANG_DAN_MSSV_7DOAN_TAT_HET.ncd 

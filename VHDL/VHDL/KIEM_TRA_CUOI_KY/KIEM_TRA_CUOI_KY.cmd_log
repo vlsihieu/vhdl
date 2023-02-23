@@ -1,0 +1,16 @@
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY/KIEM_TRA_CUOI_KY.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY/KIEM_TRA_CUOI_KY.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY/KIEM_TRA_CUOI_KY.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY/KIEM_TRA_CUOI_KY.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY/KIEM_TRA_CUOI_KY.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY/KIEM_TRA_CUOI_KY.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY/KIEM_TRA_CUOI_KY.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY/KIEM_TRA_CUOI_KY.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY/KIEM_TRA_CUOI_KY.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY/KIEM_TRA_CUOI_KY.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY/KIEM_TRA_CUOI_KY.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY/KIEM_TRA_CUOI_KY.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY/KIEM_TRA_CUOI_KY.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY/KIEM_TRA_CUOI_KY.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY/KIEM_TRA_CUOI_KY.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY/KIEM_TRA_CUOI_KY.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY/KIEM_TRA_CUOI_KY.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY/KIEM_TRA_CUOI_KY.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY/KIEM_TRA_CUOI_KY.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY/KIEM_TRA_CUOI_KY.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY/KIEM_TRA_CUOI_KY.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIEM_TRA_CUOI_KY/KIEM_TRA_CUOI_KY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 KIEM_TRA_CUOI_KY.ngc KIEM_TRA_CUOI_KY.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o KIEM_TRA_CUOI_KY_map.ncd KIEM_TRA_CUOI_KY.ngd KIEM_TRA_CUOI_KY.pcf 
+par -w -intstyle ise -ol high -t 1 KIEM_TRA_CUOI_KY_map.ncd KIEM_TRA_CUOI_KY.ncd KIEM_TRA_CUOI_KY.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml KIEM_TRA_CUOI_KY.twx KIEM_TRA_CUOI_KY.ncd -o KIEM_TRA_CUOI_KY.twr KIEM_TRA_CUOI_KY.pcf 
+bitgen -intstyle ise -f KIEM_TRA_CUOI_KY.ut KIEM_TRA_CUOI_KY.ncd 

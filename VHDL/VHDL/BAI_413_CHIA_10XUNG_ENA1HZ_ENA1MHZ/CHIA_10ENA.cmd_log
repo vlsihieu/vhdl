@@ -1,0 +1,2 @@
+vhdtdtfi -lib work CHIA_10ENA.vhd -prj BAI_413_CHIA_10XUNG_ENA1HZ_ENA1MHZ -o CHIA_10ENA.spl -module CHIA_10ENA -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family aspartan3e CHIA_10ENA.spl C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_413_CHIA_10XUNG_ENA1HZ_ENA1MHZ/CHIA_10ENA.sym 

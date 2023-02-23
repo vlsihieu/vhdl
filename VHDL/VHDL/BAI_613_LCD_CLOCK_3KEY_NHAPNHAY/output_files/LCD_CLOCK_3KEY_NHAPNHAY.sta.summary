@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'CKHT'
+Slack : -4.414
+TNS   : -497.388
+
+Type  : Slow 1200mV 85C Model Setup 'CHIA_10ENA:CHIA_10ENA|D1HZ_REG[0]'
+Slack : 0.210
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CKHT'
+Slack : -0.936
+TNS   : -5.672
+
+Type  : Slow 1200mV 85C Model Hold 'CHIA_10ENA:CHIA_10ENA|D1HZ_REG[0]'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CKHT'
+Slack : -3.000
+TNS   : -236.870
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CHIA_10ENA:CHIA_10ENA|D1HZ_REG[0]'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Setup 'CKHT'
+Slack : -4.045
+TNS   : -440.363
+
+Type  : Slow 1200mV 0C Model Setup 'CHIA_10ENA:CHIA_10ENA|D1HZ_REG[0]'
+Slack : 0.297
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CKHT'
+Slack : -0.925
+TNS   : -6.063
+
+Type  : Slow 1200mV 0C Model Hold 'CHIA_10ENA:CHIA_10ENA|D1HZ_REG[0]'
+Slack : 0.398
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CKHT'
+Slack : -3.000
+TNS   : -236.870
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CHIA_10ENA:CHIA_10ENA|D1HZ_REG[0]'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Fast 1200mV 0C Model Setup 'CKHT'
+Slack : -1.681
+TNS   : -149.849
+
+Type  : Fast 1200mV 0C Model Setup 'CHIA_10ENA:CHIA_10ENA|D1HZ_REG[0]'
+Slack : 0.626
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CKHT'
+Slack : -0.796
+TNS   : -5.986
+
+Type  : Fast 1200mV 0C Model Hold 'CHIA_10ENA:CHIA_10ENA|D1HZ_REG[0]'
+Slack : 0.208
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CKHT'
+Slack : -3.000
+TNS   : -203.720
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CHIA_10ENA:CHIA_10ENA|D1HZ_REG[0]'
+Slack : -1.000
+TNS   : -1.000
+
+------------------------------------------------------------

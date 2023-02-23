@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_443_MORONG_THEM/BAITAP_MORONG_THEM_ENA_SS_SW1_5HZ.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_443_MORONG_THEM/BAITAP_MORONG_THEM_ENA_SS_SW1_5HZ.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BAITAP_MORONG_THEM_ENA_SS_SW1_5HZ.ngc BAITAP_MORONG_THEM_ENA_SS_SW1_5HZ.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BAITAP_MORONG_THEM_ENA_SS_SW1_5HZ_map.ncd BAITAP_MORONG_THEM_ENA_SS_SW1_5HZ.ngd BAITAP_MORONG_THEM_ENA_SS_SW1_5HZ.pcf 
+par -w -intstyle ise -ol high -mt off BAITAP_MORONG_THEM_ENA_SS_SW1_5HZ_map.ncd BAITAP_MORONG_THEM_ENA_SS_SW1_5HZ.ncd BAITAP_MORONG_THEM_ENA_SS_SW1_5HZ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BAITAP_MORONG_THEM_ENA_SS_SW1_5HZ.twx BAITAP_MORONG_THEM_ENA_SS_SW1_5HZ.ncd -o BAITAP_MORONG_THEM_ENA_SS_SW1_5HZ.twr BAITAP_MORONG_THEM_ENA_SS_SW1_5HZ.pcf 
+bitgen -intstyle ise -f BAITAP_MORONG_THEM_ENA_SS_SW1_5HZ.ut BAITAP_MORONG_THEM_ENA_SS_SW1_5HZ.ncd 

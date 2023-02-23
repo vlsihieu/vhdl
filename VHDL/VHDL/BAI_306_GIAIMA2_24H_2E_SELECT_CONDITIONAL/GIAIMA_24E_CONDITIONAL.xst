@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_306_GIAIMA2_24H_2E_SELECT_CONDITIONAL/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_306_GIAIMA2_24H_2E_SELECT_CONDITIONAL/xst"
+elaborate
+-ifn GIAIMA_24E_CONDITIONAL.prj
+-ifmt mixed

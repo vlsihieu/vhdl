@@ -1,0 +1,6 @@
+AR controlleduart haha E:/FPGA/VHDL/ControlLEDUart/ControlLEDUart.vhd sub00/vhpl01 1674957322
+EN rx NULL E:/FPGA/VHDL/ControlLEDUart/RX.vhd sub00/vhpl04 1674957319
+EN controlleduart NULL E:/FPGA/VHDL/ControlLEDUart/ControlLEDUart.vhd sub00/vhpl00 1674957321
+AR tx main E:/FPGA/VHDL/ControlLEDUart/TX.vhd sub00/vhpl03 1674957318
+EN tx NULL E:/FPGA/VHDL/ControlLEDUart/TX.vhd sub00/vhpl02 1674957317
+AR rx main E:/FPGA/VHDL/ControlLEDUart/RX.vhd sub00/vhpl05 1674957320

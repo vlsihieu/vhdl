@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\dem_ht_so_to_so_nho_sw\dem_ht_so_to_nho_sw.ncd
+OUTFILE=C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\dem_ht_so_to_so_nho_sw\dem_ht_so_to_nho_sw.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\dem_ht_so_to_so_nho_sw
+LICENSE=WebPack
+USER_INFO=__0_0_0

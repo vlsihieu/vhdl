@@ -1,0 +1,8 @@
+V3 3
+FL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/exem/exem.vhd 2020/07/17.09:02:23 P.20131013
+EN work/exem 1594951405 \
+      FL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/exem/exem.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/exem/rtl 1594951406 \
+      FL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/exem/exem.vhd EN work/exem 1594951405

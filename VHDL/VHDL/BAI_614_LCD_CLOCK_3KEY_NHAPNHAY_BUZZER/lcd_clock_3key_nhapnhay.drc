@@ -1,0 +1,21 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Mon Aug 10 09:00:01 2020
+
+drc -z LCD_CLOCK_3KEY_NHAPNHAY.ncd LCD_CLOCK_3KEY_NHAPNHAY.pcf
+
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   LCD_GAN_DULIEU_HIENTHI/LCD_H1_64_not0001 is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   LCD_GAN_DULIEU_HIENTHI/LCD_H1_100_not0001 is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   LCD_GAN_DULIEU_HIENTHI/LCD_H1_112_not0001 is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+DRC detected 0 errors and 3 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

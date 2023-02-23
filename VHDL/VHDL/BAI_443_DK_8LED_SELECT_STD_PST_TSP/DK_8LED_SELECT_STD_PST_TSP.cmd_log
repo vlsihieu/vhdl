@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_443_DK_8LED_SELECT_STD_PST_TSP/DK_8LED_SELECT_STD_PST_TSP.xst" -ofn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_443_DK_8LED_SELECT_STD_PST_TSP/DK_8LED_SELECT_STD_PST_TSP.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 DK_8LED_SELECT_STD_PST_TSP.ngc DK_8LED_SELECT_STD_PST_TSP.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DK_8LED_SELECT_STD_PST_TSP_map.ncd DK_8LED_SELECT_STD_PST_TSP.ngd DK_8LED_SELECT_STD_PST_TSP.pcf 
+par -w -intstyle ise -ol high -t 1 DK_8LED_SELECT_STD_PST_TSP_map.ncd DK_8LED_SELECT_STD_PST_TSP.ncd DK_8LED_SELECT_STD_PST_TSP.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DK_8LED_SELECT_STD_PST_TSP.twx DK_8LED_SELECT_STD_PST_TSP.ncd -o DK_8LED_SELECT_STD_PST_TSP.twr DK_8LED_SELECT_STD_PST_TSP.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f DK_8LED_SELECT_STD_PST_TSP.ut DK_8LED_SELECT_STD_PST_TSP.ncd 
+xst -intstyle ise -ifn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_443_DK_8LED_SELECT_STD_PST_TSP/DK_8LED_SELECT_STD_PST_TSP.xst" -ofn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_443_DK_8LED_SELECT_STD_PST_TSP/DK_8LED_SELECT_STD_PST_TSP.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 DK_8LED_SELECT_STD_PST_TSP.ngc DK_8LED_SELECT_STD_PST_TSP.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DK_8LED_SELECT_STD_PST_TSP_map.ncd DK_8LED_SELECT_STD_PST_TSP.ngd DK_8LED_SELECT_STD_PST_TSP.pcf 
+par -w -intstyle ise -ol high -t 1 DK_8LED_SELECT_STD_PST_TSP_map.ncd DK_8LED_SELECT_STD_PST_TSP.ncd DK_8LED_SELECT_STD_PST_TSP.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DK_8LED_SELECT_STD_PST_TSP.twx DK_8LED_SELECT_STD_PST_TSP.ncd -o DK_8LED_SELECT_STD_PST_TSP.twr DK_8LED_SELECT_STD_PST_TSP.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f DK_8LED_SELECT_STD_PST_TSP.ut DK_8LED_SELECT_STD_PST_TSP.ncd 

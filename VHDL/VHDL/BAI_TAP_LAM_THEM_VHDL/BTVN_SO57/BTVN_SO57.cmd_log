@@ -1,0 +1,58 @@
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO57/BTVN_SO57.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO57/BTVN_SO57.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 BTVN_SO57.ngc BTVN_SO57.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o BTVN_SO57_map.ncd BTVN_SO57.ngd BTVN_SO57.pcf 
+par -w -intstyle ise -ol high -t 1 BTVN_SO57_map.ncd BTVN_SO57.ncd BTVN_SO57.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BTVN_SO57.twx BTVN_SO57.ncd -o BTVN_SO57.twr BTVN_SO57.pcf 
+bitgen -intstyle ise -f BTVN_SO57.ut BTVN_SO57.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO57/BTVN_SO57.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO57/BTVN_SO57.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BTVN_SO57.ngc BTVN_SO57.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BTVN_SO57_map.ncd BTVN_SO57.ngd BTVN_SO57.pcf 
+par -w -intstyle ise -ol high -mt off BTVN_SO57_map.ncd BTVN_SO57.ncd BTVN_SO57.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BTVN_SO57.twx BTVN_SO57.ncd -o BTVN_SO57.twr BTVN_SO57.pcf 
+bitgen -intstyle ise -f BTVN_SO57.ut BTVN_SO57.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO57/BTVN_SO57.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO57/BTVN_SO57.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BTVN_SO57.ngc BTVN_SO57.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BTVN_SO57_map.ncd BTVN_SO57.ngd BTVN_SO57.pcf 
+par -w -intstyle ise -ol high -mt off BTVN_SO57_map.ncd BTVN_SO57.ncd BTVN_SO57.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BTVN_SO57.twx BTVN_SO57.ncd -o BTVN_SO57.twr BTVN_SO57.pcf 
+bitgen -intstyle ise -f BTVN_SO57.ut BTVN_SO57.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO57/BTVN_SO57.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO57/BTVN_SO57.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BTVN_SO57.ngc BTVN_SO57.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BTVN_SO57_map.ncd BTVN_SO57.ngd BTVN_SO57.pcf 
+par -w -intstyle ise -ol high -mt off BTVN_SO57_map.ncd BTVN_SO57.ncd BTVN_SO57.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BTVN_SO57.twx BTVN_SO57.ncd -o BTVN_SO57.twr BTVN_SO57.pcf 
+bitgen -intstyle ise -f BTVN_SO57.ut BTVN_SO57.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO57/BTVN_SO57.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO57/BTVN_SO57.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO57/BTVN_SO57.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO57/BTVN_SO57.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BTVN_SO57.ngc BTVN_SO57.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BTVN_SO57_map.ncd BTVN_SO57.ngd BTVN_SO57.pcf 
+par -w -intstyle ise -ol high -mt off BTVN_SO57_map.ncd BTVN_SO57.ncd BTVN_SO57.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BTVN_SO57.twx BTVN_SO57.ncd -o BTVN_SO57.twr BTVN_SO57.pcf 
+bitgen -intstyle ise -f BTVN_SO57.ut BTVN_SO57.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO57/BTVN_SO57.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO57/BTVN_SO57.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BTVN_SO57.ngc BTVN_SO57.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BTVN_SO57_map.ncd BTVN_SO57.ngd BTVN_SO57.pcf 
+par -w -intstyle ise -ol high -mt off BTVN_SO57_map.ncd BTVN_SO57.ncd BTVN_SO57.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BTVN_SO57.twx BTVN_SO57.ncd -o BTVN_SO57.twr BTVN_SO57.pcf 
+bitgen -intstyle ise -f BTVN_SO57.ut BTVN_SO57.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO57/BTVN_SO57.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO57/BTVN_SO57.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO57/BTVN_SO57.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO57/BTVN_SO57.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BTVN_SO57.ngc BTVN_SO57.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BTVN_SO57_map.ncd BTVN_SO57.ngd BTVN_SO57.pcf 
+par -w -intstyle ise -ol high -mt off BTVN_SO57_map.ncd BTVN_SO57.ncd BTVN_SO57.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BTVN_SO57.twx BTVN_SO57.ncd -o BTVN_SO57.twr BTVN_SO57.pcf 
+bitgen -intstyle ise -f BTVN_SO57.ut BTVN_SO57.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO57/BTVN_SO57.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO57/BTVN_SO57.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO57/BTVN_SO57.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO57/BTVN_SO57.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO57/BTVN_SO57.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO57/BTVN_SO57.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BTVN_SO57.ngc BTVN_SO57.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BTVN_SO57_map.ncd BTVN_SO57.ngd BTVN_SO57.pcf 
+par -w -intstyle ise -ol high -mt off BTVN_SO57_map.ncd BTVN_SO57.ncd BTVN_SO57.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BTVN_SO57.twx BTVN_SO57.ncd -o BTVN_SO57.twr BTVN_SO57.pcf 
+bitgen -intstyle ise -f BTVN_SO57.ut BTVN_SO57.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BTVN_SO57.ngc BTVN_SO57.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BTVN_SO57.ngc BTVN_SO57.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BTVN_SO57_map.ncd BTVN_SO57.ngd BTVN_SO57.pcf 
+par -w -intstyle ise -ol high -mt off BTVN_SO57_map.ncd BTVN_SO57.ncd BTVN_SO57.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BTVN_SO57.twx BTVN_SO57.ncd -o BTVN_SO57.twr BTVN_SO57.pcf 
+bitgen -intstyle ise -f BTVN_SO57.ut BTVN_SO57.ncd 

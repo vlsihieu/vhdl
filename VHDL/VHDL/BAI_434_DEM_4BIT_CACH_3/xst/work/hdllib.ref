@@ -1,0 +1,12 @@
+AR dem_4bit_btn_cach_3 behavioral C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_434_DEM_4BIT_CACH_3/DEM_4BIT_CACH_3.vhd sub00/vhpl11 1591575073
+AR debounce_btn behavioral C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_434_DEM_4BIT_CACH_3/DEBOUNCE_BTN.vhd sub00/vhpl04 1591575063
+AR lam_hep_xung behavioral C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_434_DEM_4BIT_CACH_3/LAM_HEP_XUNG.vhd sub00/vhpl06 1591575065
+EN debounce_btn NULL C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_434_DEM_4BIT_CACH_3/DEBOUNCE_BTN.vhd sub00/vhpl03 1591575062
+EN dem_4bit NULL C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_434_DEM_4BIT_CACH_3/DEM_4BIT.vhd sub00/vhpl08 1591575068
+AR dem_4bit_btn behavioral C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_434_DEM_4BIT_CACH_3/DEM_4BIT_BTN.vhd sub00/vhpl10 1591575071
+EN dem_4bit_btn_cach_3 NULL C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_434_DEM_4BIT_CACH_3/DEM_4BIT_CACH_3.vhd sub00/vhpl00 1591575072
+AR dem_4bit behavioral C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_434_DEM_4BIT_CACH_3/DEM_4BIT.vhd sub00/vhpl09 1591575069
+EN dem_4bit_btn NULL C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_434_DEM_4BIT_CACH_3/DEM_4BIT_BTN.vhd sub00/vhpl01 1591575070
+AR cd_lam_hep_btn behavioral C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_434_DEM_4BIT_CACH_3/CD_LAM_HEP_BTN.vhd sub00/vhpl07 1591575067
+EN lam_hep_xung NULL C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_434_DEM_4BIT_CACH_3/LAM_HEP_XUNG.vhd sub00/vhpl05 1591575064
+EN cd_lam_hep_btn NULL C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_434_DEM_4BIT_CACH_3/CD_LAM_HEP_BTN.vhd sub00/vhpl02 1591575066

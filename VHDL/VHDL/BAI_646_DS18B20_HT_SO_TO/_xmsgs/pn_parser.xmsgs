@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_646_DS18B20_HT_SO_TO/DS18B20_HT_SO_TO.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_646_DS18B20_HT_SO_TO/DS18B20_TEMPERATURE.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_646_DS18B20_HT_SO_TO/HEXTOBCD_8BIT.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_646_DS18B20_HT_SO_TO/LCD_20X4_GAN_DULIEU_1SO_TO.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_646_DS18B20_HT_SO_TO/LCD_GIAI_MA_SO_TO.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_646_DS18B20_HT_SO_TO/LCD_KHOITAO_HIENTHI_SO_TO.vhd&quot; into library work</arg>
+</msg>
+
+</messages>
+

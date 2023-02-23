@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "O:/TT VHDL/CHUONG_3/BAI_544_DONGHO_BAMGIO/DONGHO_BAMGIO.xst" -ofn "O:/TT VHDL/CHUONG_3/BAI_544_DONGHO_BAMGIO/DONGHO_BAMGIO.syr" 
+xst -intstyle ise -ifn "O:/TT VHDL/CHUONG_3/BAI_544_DONGHO_BAMGIO/DONGHO_BAMGIO.xst" -ofn "O:/TT VHDL/CHUONG_3/BAI_544_DONGHO_BAMGIO/DONGHO_BAMGIO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "DONGHO_BAMGIO.ngc" DONGHO_BAMGIO.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "DONGHO_BAMGIO.ngc" DONGHO_BAMGIO.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DONGHO_BAMGIO_map.ncd DONGHO_BAMGIO.ngd DONGHO_BAMGIO.pcf 
+par -w -intstyle ise -ol high -t 1 DONGHO_BAMGIO_map.ncd DONGHO_BAMGIO.ncd DONGHO_BAMGIO.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DONGHO_BAMGIO.twx DONGHO_BAMGIO.ncd -o DONGHO_BAMGIO.twr DONGHO_BAMGIO.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f DONGHO_BAMGIO.ut DONGHO_BAMGIO.ncd 

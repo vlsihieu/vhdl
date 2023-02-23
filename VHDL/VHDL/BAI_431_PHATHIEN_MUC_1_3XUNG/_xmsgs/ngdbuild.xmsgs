@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;led&quot; 	LOC = P28;&gt; [C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC3S500E_PQ208.ucf(8)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">led</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;led&quot; 	LOC = P28;&gt; [C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC3S500E_PQ208.ucf(8)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;btn[0]&quot; LOC = P51;&gt; [C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC3S500E_PQ208.ucf(46)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">btn[0]</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;btn[0]&quot; LOC = P51;&gt; [C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC3S500E_PQ208.ucf(46)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;btn[1]&quot; LOC = P43;&gt; [C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC3S500E_PQ208.ucf(47)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">btn[1]</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;btn[1]&quot; LOC = P43;&gt; [C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC3S500E_PQ208.ucf(47)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+</messages>
+

@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_323_DAHOP_4KENH_2BIT/DAHOP_4KENH.xst" -ofn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_323_DAHOP_4KENH_2BIT/DAHOP_4KENH.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-5 DAHOP_4KENH.ngc DAHOP_4KENH.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DAHOP_4KENH_map.ncd DAHOP_4KENH.ngd DAHOP_4KENH.pcf 
+par -w -intstyle ise -ol high -t 1 DAHOP_4KENH_map.ncd DAHOP_4KENH.ncd DAHOP_4KENH.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DAHOP_4KENH.twx DAHOP_4KENH.ncd -o DAHOP_4KENH.twr DAHOP_4KENH.pcf 
+bitgen -intstyle ise -f DAHOP_4KENH.ut DAHOP_4KENH.ncd 
+xst -intstyle ise -ifn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_323_DAHOP_4KENH_2BIT/DAHOP_4KENH.xst" -ofn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_323_DAHOP_4KENH_2BIT/DAHOP_4KENH.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 DAHOP_4KENH.ngc DAHOP_4KENH.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 DAHOP_4KENH.ngc DAHOP_4KENH.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DAHOP_4KENH_map.ncd DAHOP_4KENH.ngd DAHOP_4KENH.pcf 
+par -w -intstyle ise -ol high -t 1 DAHOP_4KENH_map.ncd DAHOP_4KENH.ncd DAHOP_4KENH.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DAHOP_4KENH.twx DAHOP_4KENH.ncd -o DAHOP_4KENH.twr DAHOP_4KENH.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f DAHOP_4KENH.ut DAHOP_4KENH.ncd 

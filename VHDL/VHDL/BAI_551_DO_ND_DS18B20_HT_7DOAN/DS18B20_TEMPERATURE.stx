@@ -1,0 +1,75 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.34 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.36 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" in Library work.
+Entity <DS18B20_TEMPERATURE> compiled.
+ERROR:HDLParsers:405 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 45. BR is not a hexadecimal string.
+ERROR:HDLParsers:800 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 45. Type of ML_READ_SCRAT is incompatible with type of 10113011.
+ERROR:HDLParsers:164 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 53. parse error, unexpected IDENTIFIER, expecting COMMA or CLOSEPAR
+ERROR:HDLParsers:3312 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 59. Undefined symbol 'STATE_TYPE'.
+ERROR:HDLParsers:1209 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 59. STATE_TYPE: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 59. Undefined symbol 'RESET'.
+ERROR:HDLParsers:1209 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 59. RESET: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1402 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 78. Object DS18B20 of mode IN can not be updated.
+ERROR:HDLParsers:3312 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 81. Undefined symbol 'STATE'.
+ERROR:HDLParsers:1209 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 81. STATE: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3313 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 88. Undefined symbol 'S_RD_BIT'.  Should it be: S_Rs_BIT?
+ERROR:HDLParsers:3312 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 119. Undefined symbol 'SKIP_ROM'.
+ERROR:HDLParsers:1209 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 119. SKIP_ROM: Undefined symbol (last report in this block)
+ERROR:HDLParsers:164 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 121. parse error, unexpected IDENTIFIER, expecting IF
+ERROR:HDLParsers:3312 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 126. Undefined symbol 'WRITE_BYTE'.
+ERROR:HDLParsers:1209 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 126. WRITE_BYTE: Undefined symbol (last report in this block)
+ERROR:HDLParsers:164 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 128. parse error, unexpected WHEN, expecting END
+ERROR:HDLParsers:3312 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 131. Undefined symbol 'WRITE_BIT_1'.
+ERROR:HDLParsers:1209 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 131. WRITE_BIT_1: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 137. Undefined symbol 'CONVERT_T'.
+ERROR:HDLParsers:1209 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 137. CONVERT_T: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 143. Undefined symbol 'READ_SCRAT'.
+ERROR:HDLParsers:1209 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 143. READ_SCRAT: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 146. Undefined symbol 'GET_TEMP'.
+ERROR:HDLParsers:1209 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 146. GET_TEMP: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3370 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 136. Value 8 is not included in the range, 0 to 3, of S_RST.
+ERROR:HDLParsers:3312 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 154. Undefined symbol 'WRITE_BIT_0'.
+ERROR:HDLParsers:1209 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 154. WRITE_BIT_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 198. Undefined symbol 'REA_BIT'.
+ERROR:HDLParsers:1209 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 198. REA_BIT: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 199. S_RD_BIT: Undefined symbol (last report in this block)
+ERROR:HDLParsers:164 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 232. parse error, unexpected IS, expecting PIPE or ROW
+ERROR:HDLParsers:3312 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 236. Undefined symbol 'STAET'.
+ERROR:HDLParsers:3312 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 236. Undefined symbol 'READ_BIT'.
+ERROR:HDLParsers:1209 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 236. READ_BIT: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 240. Undefined symbol 'WAIT4MS'.
+ERROR:HDLParsers:1209 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 240. WAIT4MS: Undefined symbol (last report in this block)
+ERROR:HDLParsers:164 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 243. parse error, unexpected WHEN, expecting END
+ERROR:HDLParsers:3312 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 246. Undefined symbol 'WAITE4MS'.
+ERROR:HDLParsers:1209 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 246. WAITE4MS: Undefined symbol (last report in this block)
+ERROR:HDLParsers:164 - "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_551_DO_ND_DS18B20_HT_7DOAN/DS18B20_TEMPERATURE.vhd" Line 249. parse error, unexpected WHEN, expecting END
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.98 secs
+ 
+--> 
+
+Total memory usage is 4491660 kilobytes
+
+Number of errors   :   41 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

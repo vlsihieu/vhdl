@@ -1,0 +1,12 @@
+AR dem_3bit_up_dw behavioral C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_440_DEM_3BIT_UP_DW_2BTN_3LED/DEM_3BIT_UP_DW.vhd sub00/vhpl09 1591576470
+AR debounce_btn behavioral C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_440_DEM_3BIT_UP_DW_2BTN_3LED/DEBOUNCE_BTN.vhd sub00/vhpl03 1591576464
+AR lam_hep_xung behavioral C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_440_DEM_3BIT_UP_DW_2BTN_3LED/LAM_HEP_XUNG.vhd sub00/vhpl05 1591576466
+EN debounce_btn NULL C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_440_DEM_3BIT_UP_DW_2BTN_3LED/DEBOUNCE_BTN.vhd sub00/vhpl02 1591576463
+EN dem_3bit_2btn_up_dw NULL C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_440_DEM_3BIT_UP_DW_2BTN_3LED/DEM_3BIT_2BTN_UP_DW.vhd sub00/vhpl01 1591576471
+AR dem_3bit_2btn_up_dw behavioral C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_440_DEM_3BIT_UP_DW_2BTN_3LED/DEM_3BIT_2BTN_UP_DW.vhd sub00/vhpl10 1591576472
+EN dem_3bit_up_dw_2btn_3led NULL C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_440_DEM_3BIT_UP_DW_2BTN_3LED/DEM_3BIT_UP_DW_2BTN_3LED.vhd sub00/vhpl00 1591576473
+AR dem_3bit_up_dw_2btn_3led behavioral C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_440_DEM_3BIT_UP_DW_2BTN_3LED/DEM_3BIT_UP_DW_2BTN_3LED.vhd sub00/vhpl11 1591576474
+AR cd_lam_hep_btn behavioral C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_440_DEM_3BIT_UP_DW_2BTN_3LED/CD_LAM_HEP_BTN.vhd sub00/vhpl07 1591576468
+EN dem_3bit_up_dw NULL C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_440_DEM_3BIT_UP_DW_2BTN_3LED/DEM_3BIT_UP_DW.vhd sub00/vhpl08 1591576469
+EN lam_hep_xung NULL C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_440_DEM_3BIT_UP_DW_2BTN_3LED/LAM_HEP_XUNG.vhd sub00/vhpl04 1591576465
+EN cd_lam_hep_btn NULL C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_440_DEM_3BIT_UP_DW_2BTN_3LED/CD_LAM_HEP_BTN.vhd sub00/vhpl06 1591576467

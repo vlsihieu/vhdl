@@ -1,0 +1,6 @@
+AR chia_10ena behavioral C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_422_DEM_NHI_PHAN_8BIT/CHIA_10ENA.vhd sub00/vhpl01 1590141811
+AR dem_nhi_phan_8bit behavioral C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_422_DEM_NHI_PHAN_8BIT/DEM_NHI_PHAN_8BIT.vhd sub00/vhpl05 1590141815
+AR dem_8bit behavioral C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_422_DEM_NHI_PHAN_8BIT/DEM_8BIT.vhd sub00/vhpl03 1590141813
+EN chia_10ena NULL C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_422_DEM_NHI_PHAN_8BIT/CHIA_10ENA.vhd sub00/vhpl00 1590141810
+EN dem_8bit NULL C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_422_DEM_NHI_PHAN_8BIT/DEM_8BIT.vhd sub00/vhpl02 1590141812
+EN dem_nhi_phan_8bit NULL C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_422_DEM_NHI_PHAN_8BIT/DEM_NHI_PHAN_8BIT.vhd sub00/vhpl04 1590141814

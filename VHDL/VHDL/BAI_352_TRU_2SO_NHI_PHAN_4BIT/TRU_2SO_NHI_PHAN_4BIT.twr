@@ -1,0 +1,270 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml TRU_2SO_NHI_PHAN_4BIT.twx TRU_2SO_NHI_PHAN_4BIT.ncd -o
+TRU_2SO_NHI_PHAN_4BIT.twr TRU_2SO_NHI_PHAN_4BIT.pcf -ucf KIT_XC3S500E_PQ208.ucf
+
+Design file:              TRU_2SO_NHI_PHAN_4BIT.ncd
+Physical constraint file: TRU_2SO_NHI_PHAN_4BIT.pcf
+Device,package,speed:     xc3s500e,pq208,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock SW<0> to Pad
+------------+------------+-------------------+--------+
+            | clk (edge) |                   | Clock  |
+Destination |   to PAD   |Internal Clock(s)  | Phase  |
+------------+------------+-------------------+--------+
+LED<0>      |    9.490(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+LED<1>      |    9.490(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+LED<2>      |    9.483(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+LED<3>      |    9.483(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+LED<4>      |    9.496(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+------------+------------+-------------------+--------+
+
+Clock SW<1> to Pad
+------------+------------+-------------------+--------+
+            | clk (edge) |                   | Clock  |
+Destination |   to PAD   |Internal Clock(s)  | Phase  |
+------------+------------+-------------------+--------+
+LED<0>      |    9.921(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+LED<1>      |    9.921(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+LED<2>      |    9.914(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+LED<3>      |    9.914(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+LED<4>      |    9.927(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+------------+------------+-------------------+--------+
+
+Clock SW<2> to Pad
+------------+------------+-------------------+--------+
+            | clk (edge) |                   | Clock  |
+Destination |   to PAD   |Internal Clock(s)  | Phase  |
+------------+------------+-------------------+--------+
+LED<0>      |    9.661(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+LED<1>      |    9.661(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+LED<2>      |    9.654(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+LED<3>      |    9.654(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+LED<4>      |    9.667(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+------------+------------+-------------------+--------+
+
+Clock SW<3> to Pad
+------------+------------+-------------------+--------+
+            | clk (edge) |                   | Clock  |
+Destination |   to PAD   |Internal Clock(s)  | Phase  |
+------------+------------+-------------------+--------+
+LED<0>      |    8.367(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+LED<1>      |    8.367(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+LED<2>      |    8.360(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+LED<3>      |    8.360(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+LED<4>      |    8.373(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+------------+------------+-------------------+--------+
+
+Clock SW<4> to Pad
+------------+------------+-------------------+--------+
+            | clk (edge) |                   | Clock  |
+Destination |   to PAD   |Internal Clock(s)  | Phase  |
+------------+------------+-------------------+--------+
+LED<0>      |    9.816(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+LED<1>      |    9.816(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+LED<2>      |    9.809(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+LED<3>      |    9.809(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+LED<4>      |    9.822(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+------------+------------+-------------------+--------+
+
+Clock SW<5> to Pad
+------------+------------+-------------------+--------+
+            | clk (edge) |                   | Clock  |
+Destination |   to PAD   |Internal Clock(s)  | Phase  |
+------------+------------+-------------------+--------+
+LED<0>      |    9.737(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+LED<1>      |    9.737(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+LED<2>      |    9.730(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+LED<3>      |    9.730(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+LED<4>      |    9.743(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+------------+------------+-------------------+--------+
+
+Clock SW<6> to Pad
+------------+------------+-------------------+--------+
+            | clk (edge) |                   | Clock  |
+Destination |   to PAD   |Internal Clock(s)  | Phase  |
+------------+------------+-------------------+--------+
+LED<0>      |    8.713(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+LED<1>      |    8.713(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+LED<2>      |    8.706(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+LED<3>      |    8.706(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+LED<4>      |    8.719(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+------------+------------+-------------------+--------+
+
+Clock SW<7> to Pad
+------------+------------+-------------------+--------+
+            | clk (edge) |                   | Clock  |
+Destination |   to PAD   |Internal Clock(s)  | Phase  |
+------------+------------+-------------------+--------+
+LED<0>      |    7.965(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+LED<1>      |    7.965(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+LED<2>      |    7.958(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+LED<3>      |    7.958(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+LED<4>      |    7.971(R)|TRU_2SO_4BIT/KQH<4>|   0.000|
+------------+------------+-------------------+--------+
+
+Clock to Setup on destination clock SW<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+SW<0>          |    2.627|    2.627|         |         |
+SW<1>          |    3.058|    3.058|         |         |
+SW<2>          |    2.798|    2.798|         |         |
+SW<3>          |    1.271|    1.271|         |         |
+SW<4>          |    2.953|    2.953|         |         |
+SW<5>          |    2.874|    2.874|         |         |
+SW<6>          |    1.850|    1.850|         |         |
+SW<7>          |    0.869|    0.869|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock SW<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+SW<0>          |    2.282|    2.282|         |         |
+SW<1>          |    2.713|    2.713|         |         |
+SW<2>          |    2.453|    2.453|         |         |
+SW<3>          |    0.926|    0.926|         |         |
+SW<4>          |    2.608|    2.608|         |         |
+SW<5>          |    2.529|    2.529|         |         |
+SW<6>          |    1.505|    1.505|         |         |
+SW<7>          |    0.524|    0.524|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock SW<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+SW<0>          |    2.490|    2.490|         |         |
+SW<1>          |    2.921|    2.921|         |         |
+SW<2>          |    2.661|    2.661|         |         |
+SW<3>          |    1.134|    1.134|         |         |
+SW<4>          |    2.816|    2.816|         |         |
+SW<5>          |    2.737|    2.737|         |         |
+SW<6>          |    1.713|    1.713|         |         |
+SW<7>          |    0.732|    0.732|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock SW<3>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+SW<0>          |    3.524|    3.524|         |         |
+SW<1>          |    3.955|    3.955|         |         |
+SW<2>          |    3.695|    3.695|         |         |
+SW<3>          |    2.168|    2.168|         |         |
+SW<4>          |    3.850|    3.850|         |         |
+SW<5>          |    3.771|    3.771|         |         |
+SW<6>          |    2.747|    2.747|         |         |
+SW<7>          |    1.766|    1.766|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock SW<4>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+SW<0>          |    2.366|    2.366|         |         |
+SW<1>          |    2.797|    2.797|         |         |
+SW<2>          |    2.537|    2.537|         |         |
+SW<3>          |    1.010|    1.010|         |         |
+SW<4>          |    2.692|    2.692|         |         |
+SW<5>          |    2.613|    2.613|         |         |
+SW<6>          |    1.589|    1.589|         |         |
+SW<7>          |    0.608|    0.608|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock SW<5>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+SW<0>          |    2.429|    2.429|         |         |
+SW<1>          |    2.860|    2.860|         |         |
+SW<2>          |    2.600|    2.600|         |         |
+SW<3>          |    1.073|    1.073|         |         |
+SW<4>          |    2.755|    2.755|         |         |
+SW<5>          |    2.676|    2.676|         |         |
+SW<6>          |    1.652|    1.652|         |         |
+SW<7>          |    0.671|    0.671|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock SW<6>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+SW<0>          |    3.248|    3.248|         |         |
+SW<1>          |    3.679|    3.679|         |         |
+SW<2>          |    3.419|    3.419|         |         |
+SW<3>          |    1.892|    1.892|         |         |
+SW<4>          |    3.574|    3.574|         |         |
+SW<5>          |    3.495|    3.495|         |         |
+SW<6>          |    2.471|    2.471|         |         |
+SW<7>          |    1.490|    1.490|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock SW<7>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+SW<0>          |    3.847|    3.847|         |         |
+SW<1>          |    4.278|    4.278|         |         |
+SW<2>          |    4.018|    4.018|         |         |
+SW<3>          |    2.491|    2.491|         |         |
+SW<4>          |    4.173|    4.173|         |         |
+SW<5>          |    4.094|    4.094|         |         |
+SW<6>          |    3.070|    3.070|         |         |
+SW<7>          |    2.089|    2.089|         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Thu Sep 12 16:45:22 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4509 MB
+
+
+

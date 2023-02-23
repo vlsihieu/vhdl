@@ -1,0 +1,37 @@
+#NET "SSEG<0>" LOC = "L14"; # BANODEk = 1, Signal name = CA
+#NET "SSEG<1>" LOC = "H12"; # BANODEk = 1, Signal name = CB
+#NET "SSEG<2>" LOC = "N14"; # BANODEk = 1, Signal name = CC
+#NET "SSEG<3>" LOC = "N11"; # BANODEk = 2, Signal name = CD
+#NET "SSEG<4>" LOC = "P12"; # BANODEk = 2, Signal name = CE
+#NET "SSEG<5>" LOC = "L13"; # BANODEk = 1, Signal name = CF
+#NET "SSEG<6>" LOC = "M12"; # BANODEk = 1, Signal name = CG
+#NET "SSEG<7>" LOC = "N13"; # BANODEk = 1, Signal name = DP
+
+#NET "ANODE<3>" LOC = "K14"; # BANODEk = 1, Signal name = ANODE3
+#NET "ANODE<2>" LOC = "M13"; # BANODEk = 1, Signal name = ANODE2
+#NET "ANODE<1>" LOC = "J12"; # BANODEk = 1, Signal name = ANODE1
+#NET "ANODE<0>" LOC = "F12"; # BANODEk = 1, Signal name = ANODE0
+#-------------------------------LED-----------------------
+#NET "LED<7>" LOC = "G1" ; # Bank = 2, Signal name = LD7
+#NET "LED<6>" LOC = "P4" ;  # Bank = 2, Signal name = LD6
+#NET "LED<5>" LOC = "N4" ; # Bank = 2, Signal name = LD5
+#NET "LED<4>" LOC = "N5" ;  # Bank = 2, Signal name = LD4
+NET "LED<3>" LOC = "P6" ; # Bank = 2, Signal name = LD3
+NET "LED<2>" LOC = "P7" ;  # Bank = 2, Signal name = LD2
+NET "LED<1>" LOC = "M11" ; # Bank = 2, Signal name = LD1
+NET "LED<0>" LOC = "M5" ;  # Bank = 2, Signal name = LD0
+#NET "LED4" LOC = "P6" ; # Bank = 2, Signal name = LD3
+#NET "LED3" LOC = "P7" ;  # Bank = 2, Signal name = LD2
+#NET "LED2" LOC = "M11" ; # Bank = 2, Signal name = LD1
+#NET "LED1" LOC = "M5" ;  # Bank = 2, Signal name = LD0
+#------------------------------------------------------------
+#clock
+#NET "CKHT" LOC = "B8"; # Bank = 0, Signal name = MCLK
+NET "clk" LOC = "B8"; # Bank = 0, Signal name = MCLK
+#dht11
+#NET "onewire" LOC = "C6";
+#NET "rst" LOC = "G12";
+
+#uart
+NET "UART_TXD" LOC ="B6";
+NET "UART_RXD" LOC ="C5";

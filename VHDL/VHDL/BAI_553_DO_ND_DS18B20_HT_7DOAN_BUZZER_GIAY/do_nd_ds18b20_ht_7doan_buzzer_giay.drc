@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Thu Nov 14 15:26:44 2019
+
+drc -z DO_ND_DS18B20_HT_7DOAN_BUZZER_GIAY.ncd DO_ND_DS18B20_HT_7DOAN_BUZZER_GIAY.pcf
+
+DRC detected 0 errors and 0 warnings.

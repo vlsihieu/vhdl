@@ -1,0 +1,111 @@
+xst -intstyle ise -ifn "E:/TTVHDL/DE1_CA2_SANG_THU_3/LCD_20X4_CLOCK.xst" -ofn "E:/TTVHDL/DE1_CA2_SANG_THU_3/LCD_20X4_CLOCK.syr" 
+xst -intstyle ise -ifn "E:/TTVHDL/DE1_CA2_SANG_THU_3/LCD_20X4_CLOCK.xst" -ofn "E:/TTVHDL/DE1_CA2_SANG_THU_3/LCD_20X4_CLOCK.syr" 
+xst -intstyle ise -ifn "E:/TTVHDL/DE1_CA2_SANG_THU_3/LCD_20X4_CLOCK.xst" -ofn "E:/TTVHDL/DE1_CA2_SANG_THU_3/LCD_20X4_CLOCK.syr" 
+xst -intstyle ise -ifn "E:/TTVHDL/DE1_CA2_SANG_THU_3/LCD_20X4_CLOCK.xst" -ofn "E:/TTVHDL/DE1_CA2_SANG_THU_3/LCD_20X4_CLOCK.syr" 
+xst -intstyle ise -ifn "E:/TTVHDL/DE1_CA2_SANG_THU_3/LCD_20X4_CLOCK.xst" -ofn "E:/TTVHDL/DE1_CA2_SANG_THU_3/LCD_20X4_CLOCK.syr" 
+xst -intstyle ise -ifn "E:/TTVHDL/DE1_CA2_SANG_THU_3/LCD_20X4_CLOCK.xst" -ofn "E:/TTVHDL/DE1_CA2_SANG_THU_3/LCD_20X4_CLOCK.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-5 LCD_20X4_CLOCK.ngc LCD_20X4_CLOCK.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_20X4_CLOCK_map.ncd LCD_20X4_CLOCK.ngd LCD_20X4_CLOCK.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_20X4_CLOCK_map.ncd LCD_20X4_CLOCK.ncd LCD_20X4_CLOCK.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_20X4_CLOCK.twx LCD_20X4_CLOCK.ncd -o LCD_20X4_CLOCK.twr LCD_20X4_CLOCK.pcf 
+xst -intstyle ise -ifn "E:/TTVHDL/DE1_CA2_SANG_THU_3/LCD_20X4_CLOCK.xst" -ofn "E:/TTVHDL/DE1_CA2_SANG_THU_3/LCD_20X4_CLOCK.syr" 
+xst -intstyle ise -ifn "E:/TTVHDL/DE1_CA2_SANG_THU_3/LCD_20X4_CLOCK.xst" -ofn "E:/TTVHDL/DE1_CA2_SANG_THU_3/LCD_20X4_CLOCK.syr" 
+xst -intstyle ise -ifn "E:/TTVHDL/DE1_CA2_SANG_THU_3/LCD_20X4_CLOCK.xst" -ofn "E:/TTVHDL/DE1_CA2_SANG_THU_3/LCD_20X4_CLOCK.syr" 
+xst -intstyle ise -ifn "E:/TTVHDL/DE1_CA2_SANG_THU_3/LCD_20X4_CLOCK.xst" -ofn "E:/TTVHDL/DE1_CA2_SANG_THU_3/LCD_20X4_CLOCK.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-5 LCD_20X4_CLOCK.ngc LCD_20X4_CLOCK.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_20X4_CLOCK_map.ncd LCD_20X4_CLOCK.ngd LCD_20X4_CLOCK.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_20X4_CLOCK_map.ncd LCD_20X4_CLOCK.ncd LCD_20X4_CLOCK.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_20X4_CLOCK.twx LCD_20X4_CLOCK.ncd -o LCD_20X4_CLOCK.twr LCD_20X4_CLOCK.pcf 
+xst -intstyle ise -ifn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.xst" -ofn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.syr" 
+xst -intstyle ise -ifn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.xst" -ofn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.syr" 
+xst -intstyle ise -ifn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.xst" -ofn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.syr" 
+xst -intstyle ise -ifn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.xst" -ofn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.syr" 
+xst -intstyle ise -ifn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.xst" -ofn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.syr" 
+xst -intstyle ise -ifn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.xst" -ofn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.syr" 
+xst -intstyle ise -ifn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.xst" -ofn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_20X4_CLOCK.ngc LCD_20X4_CLOCK.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_20X4_CLOCK.ngc LCD_20X4_CLOCK.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_20X4_CLOCK_map.ncd LCD_20X4_CLOCK.ngd LCD_20X4_CLOCK.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_20X4_CLOCK_map.ncd LCD_20X4_CLOCK.ncd LCD_20X4_CLOCK.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_20X4_CLOCK.twx LCD_20X4_CLOCK.ncd -o LCD_20X4_CLOCK.twr LCD_20X4_CLOCK.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_20X4_CLOCK.ut LCD_20X4_CLOCK.ncd 
+xst -intstyle ise -ifn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.xst" -ofn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_20X4_CLOCK.ngc LCD_20X4_CLOCK.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_20X4_CLOCK_map.ncd LCD_20X4_CLOCK.ngd LCD_20X4_CLOCK.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_20X4_CLOCK_map.ncd LCD_20X4_CLOCK.ncd LCD_20X4_CLOCK.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_20X4_CLOCK.twx LCD_20X4_CLOCK.ncd -o LCD_20X4_CLOCK.twr LCD_20X4_CLOCK.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+xst -intstyle ise -ifn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.xst" -ofn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_20X4_CLOCK.ngc LCD_20X4_CLOCK.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_20X4_CLOCK_map.ncd LCD_20X4_CLOCK.ngd LCD_20X4_CLOCK.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_20X4_CLOCK_map.ncd LCD_20X4_CLOCK.ncd LCD_20X4_CLOCK.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_20X4_CLOCK.twx LCD_20X4_CLOCK.ncd -o LCD_20X4_CLOCK.twr LCD_20X4_CLOCK.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_20X4_CLOCK.ut LCD_20X4_CLOCK.ncd 
+xst -intstyle ise -ifn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.xst" -ofn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_20X4_CLOCK.ngc LCD_20X4_CLOCK.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_20X4_CLOCK_map.ncd LCD_20X4_CLOCK.ngd LCD_20X4_CLOCK.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_20X4_CLOCK_map.ncd LCD_20X4_CLOCK.ncd LCD_20X4_CLOCK.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_20X4_CLOCK.twx LCD_20X4_CLOCK.ncd -o LCD_20X4_CLOCK.twr LCD_20X4_CLOCK.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+xst -intstyle ise -ifn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.xst" -ofn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_20X4_CLOCK.ngc LCD_20X4_CLOCK.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_20X4_CLOCK_map.ncd LCD_20X4_CLOCK.ngd LCD_20X4_CLOCK.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_20X4_CLOCK_map.ncd LCD_20X4_CLOCK.ncd LCD_20X4_CLOCK.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_20X4_CLOCK.twx LCD_20X4_CLOCK.ncd -o LCD_20X4_CLOCK.twr LCD_20X4_CLOCK.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_20X4_CLOCK.ut LCD_20X4_CLOCK.ncd 
+xst -intstyle ise -ifn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.xst" -ofn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_20X4_CLOCK.ngc LCD_20X4_CLOCK.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_20X4_CLOCK_map.ncd LCD_20X4_CLOCK.ngd LCD_20X4_CLOCK.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_20X4_CLOCK_map.ncd LCD_20X4_CLOCK.ncd LCD_20X4_CLOCK.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_20X4_CLOCK.twx LCD_20X4_CLOCK.ncd -o LCD_20X4_CLOCK.twr LCD_20X4_CLOCK.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_20X4_CLOCK.ut LCD_20X4_CLOCK.ncd 
+xst -intstyle ise -ifn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.xst" -ofn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_20X4_CLOCK.ngc LCD_20X4_CLOCK.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_20X4_CLOCK_map.ncd LCD_20X4_CLOCK.ngd LCD_20X4_CLOCK.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_20X4_CLOCK_map.ncd LCD_20X4_CLOCK.ncd LCD_20X4_CLOCK.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_20X4_CLOCK.twx LCD_20X4_CLOCK.ncd -o LCD_20X4_CLOCK.twr LCD_20X4_CLOCK.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_20X4_CLOCK.ut LCD_20X4_CLOCK.ncd 
+xst -intstyle ise -ifn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.xst" -ofn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_20X4_CLOCK.ngc LCD_20X4_CLOCK.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_20X4_CLOCK_map.ncd LCD_20X4_CLOCK.ngd LCD_20X4_CLOCK.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_20X4_CLOCK_map.ncd LCD_20X4_CLOCK.ncd LCD_20X4_CLOCK.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_20X4_CLOCK.twx LCD_20X4_CLOCK.ncd -o LCD_20X4_CLOCK.twr LCD_20X4_CLOCK.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_20X4_CLOCK.ut LCD_20X4_CLOCK.ncd 
+xst -intstyle ise -ifn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.xst" -ofn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.syr" 
+xst -intstyle ise -ifn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.xst" -ofn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.syr" 
+xst -intstyle ise -ifn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.xst" -ofn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.syr" 
+xst -intstyle ise -ifn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.xst" -ofn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_20X4_CLOCK.ngc LCD_20X4_CLOCK.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_20X4_CLOCK_map.ncd LCD_20X4_CLOCK.ngd LCD_20X4_CLOCK.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_20X4_CLOCK_map.ncd LCD_20X4_CLOCK.ncd LCD_20X4_CLOCK.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_20X4_CLOCK.twx LCD_20X4_CLOCK.ncd -o LCD_20X4_CLOCK.twr LCD_20X4_CLOCK.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_20X4_CLOCK.ut LCD_20X4_CLOCK.ncd 
+xst -intstyle ise -ifn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.xst" -ofn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.syr" 
+xst -intstyle ise -ifn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.xst" -ofn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_20X4_CLOCK.ngc LCD_20X4_CLOCK.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_20X4_CLOCK_map.ncd LCD_20X4_CLOCK.ngd LCD_20X4_CLOCK.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_20X4_CLOCK_map.ncd LCD_20X4_CLOCK.ncd LCD_20X4_CLOCK.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_20X4_CLOCK.twx LCD_20X4_CLOCK.ncd -o LCD_20X4_CLOCK.twr LCD_20X4_CLOCK.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_20X4_CLOCK.ut LCD_20X4_CLOCK.ncd 
+xst -intstyle ise -ifn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.xst" -ofn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_20X4_CLOCK.ngc LCD_20X4_CLOCK.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_20X4_CLOCK_map.ncd LCD_20X4_CLOCK.ngd LCD_20X4_CLOCK.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_20X4_CLOCK_map.ncd LCD_20X4_CLOCK.ncd LCD_20X4_CLOCK.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_20X4_CLOCK.twx LCD_20X4_CLOCK.ncd -o LCD_20X4_CLOCK.twr LCD_20X4_CLOCK.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_20X4_CLOCK.ut LCD_20X4_CLOCK.ncd 
+xst -intstyle ise -ifn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.xst" -ofn "E:/TTVHDL/DE3/LCD_20X4_CLOCK.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_20X4_CLOCK.ngc LCD_20X4_CLOCK.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_20X4_CLOCK_map.ncd LCD_20X4_CLOCK.ngd LCD_20X4_CLOCK.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_20X4_CLOCK_map.ncd LCD_20X4_CLOCK.ncd LCD_20X4_CLOCK.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_20X4_CLOCK.twx LCD_20X4_CLOCK.ncd -o LCD_20X4_CLOCK.twr LCD_20X4_CLOCK.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_20X4_CLOCK.ut LCD_20X4_CLOCK.ncd 
+xst -intstyle ise -ifn "D:/TAI LIEU HOC TAP/TT VHDL/BAI ON TAP CUOI KY/DE3/LCD_20X4_CLOCK.xst" -ofn "D:/TAI LIEU HOC TAP/TT VHDL/BAI ON TAP CUOI KY/DE3/LCD_20X4_CLOCK.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_20X4_CLOCK.ngc" LCD_20X4_CLOCK.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_20X4_CLOCK_map.ncd LCD_20X4_CLOCK.ngd LCD_20X4_CLOCK.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_20X4_CLOCK_map.ncd LCD_20X4_CLOCK.ncd LCD_20X4_CLOCK.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_20X4_CLOCK.twx LCD_20X4_CLOCK.ncd -o LCD_20X4_CLOCK.twr LCD_20X4_CLOCK.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_20X4_CLOCK.ut LCD_20X4_CLOCK.ncd 
+xst -intstyle ise -ifn "D:/TAI LIEU HOC TAP/TT VHDL/BAI ON TAP CUOI KY/DE3/LCD_20X4_CLOCK.xst" -ofn "D:/TAI LIEU HOC TAP/TT VHDL/BAI ON TAP CUOI KY/DE3/LCD_20X4_CLOCK.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_20X4_CLOCK.ngc" LCD_20X4_CLOCK.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_20X4_CLOCK_map.ncd LCD_20X4_CLOCK.ngd LCD_20X4_CLOCK.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_20X4_CLOCK_map.ncd LCD_20X4_CLOCK.ncd LCD_20X4_CLOCK.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_20X4_CLOCK.twx LCD_20X4_CLOCK.ncd -o LCD_20X4_CLOCK.twr LCD_20X4_CLOCK.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_20X4_CLOCK.ut LCD_20X4_CLOCK.ncd 

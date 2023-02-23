@@ -1,0 +1,124 @@
+xst -intstyle ise -ifn "D:/bai tap/hdl/TTTKVMS_CHIEU_THU3_NHOM7/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.xst" -ofn "D:/bai tap/hdl/TTTKVMS_CHIEU_THU3_NHOM7/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "D:/bai tap/hdl/TTTKVMS_CHIEU_THU3_NHOM7/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.xst" -ofn "D:/bai tap/hdl/TTTKVMS_CHIEU_THU3_NHOM7/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "DO_ND_DS18B20_HT_7DOAN.ngc" DO_ND_DS18B20_HT_7DOAN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ngd DO_ND_DS18B20_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -t 1 DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ncd DO_ND_DS18B20_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DO_ND_DS18B20_HT_7DOAN.twx DO_ND_DS18B20_HT_7DOAN.ncd -o DO_ND_DS18B20_HT_7DOAN.twr DO_ND_DS18B20_HT_7DOAN.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f DO_ND_DS18B20_HT_7DOAN.ut DO_ND_DS18B20_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "D:/bai tap/hdl/TTTKVMS_CHIEU_THU3_NHOM7/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.xst" -ofn "D:/bai tap/hdl/TTTKVMS_CHIEU_THU3_NHOM7/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "DO_ND_DS18B20_HT_7DOAN.ngc" DO_ND_DS18B20_HT_7DOAN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ngd DO_ND_DS18B20_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -t 1 DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ncd DO_ND_DS18B20_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DO_ND_DS18B20_HT_7DOAN.twx DO_ND_DS18B20_HT_7DOAN.ncd -o DO_ND_DS18B20_HT_7DOAN.twr DO_ND_DS18B20_HT_7DOAN.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f DO_ND_DS18B20_HT_7DOAN.ut DO_ND_DS18B20_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "D:/bai tap/hdl/TTTKVMS_CHIEU_THU3_NHOM7/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.xst" -ofn "D:/bai tap/hdl/TTTKVMS_CHIEU_THU3_NHOM7/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "D:/bai tap/hdl/TTTKVMS_CHIEU_THU3_NHOM7/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.xst" -ofn "D:/bai tap/hdl/TTTKVMS_CHIEU_THU3_NHOM7/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "D:/bai tap/hdl/TTTKVMS_CHIEU_THU3_NHOM7/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.xst" -ofn "D:/bai tap/hdl/TTTKVMS_CHIEU_THU3_NHOM7/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "D:/bai tap/hdl/TTTKVMS_CHIEU_THU3_NHOM7/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.xst" -ofn "D:/bai tap/hdl/TTTKVMS_CHIEU_THU3_NHOM7/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "D:/bai tap/hdl/TTTKVMS_CHIEU_THU3_NHOM7/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.xst" -ofn "D:/bai tap/hdl/TTTKVMS_CHIEU_THU3_NHOM7/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "D:/bai tap/hdl/TTTKVMS_CHIEU_THU3_NHOM7/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.xst" -ofn "D:/bai tap/hdl/TTTKVMS_CHIEU_THU3_NHOM7/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "D:/bai tap/hdl/TTTKVMS_CHIEU_THU3_NHOM7/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.xst" -ofn "D:/bai tap/hdl/TTTKVMS_CHIEU_THU3_NHOM7/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "D:/bai tap/hdl/TTTKVMS_CHIEU_THU3_NHOM7/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.xst" -ofn "D:/bai tap/hdl/TTTKVMS_CHIEU_THU3_NHOM7/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "D:/bai tap/hdl/TTTKVMS_CHIEU_THU3_NHOM7/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.xst" -ofn "D:/bai tap/hdl/TTTKVMS_CHIEU_THU3_NHOM7/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "D:/bai tap/hdl/TTTKVMS_CHIEU_THU3_NHOM7/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.xst" -ofn "D:/bai tap/hdl/TTTKVMS_CHIEU_THU3_NHOM7/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "D:/bai tap/hdl/TTTKVMS_CHIEU_THU3_NHOM7/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.xst" -ofn "D:/bai tap/hdl/TTTKVMS_CHIEU_THU3_NHOM7/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "D:/bai tap/hdl/TTTKVMS_CHIEU_THU3_NHOM7/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.xst" -ofn "D:/bai tap/hdl/TTTKVMS_CHIEU_THU3_NHOM7/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "DO_ND_DS18B20_HT_7DOAN.ngc" DO_ND_DS18B20_HT_7DOAN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ngd DO_ND_DS18B20_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -t 1 DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ncd DO_ND_DS18B20_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DO_ND_DS18B20_HT_7DOAN.twx DO_ND_DS18B20_HT_7DOAN.ncd -o DO_ND_DS18B20_HT_7DOAN.twr DO_ND_DS18B20_HT_7DOAN.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f DO_ND_DS18B20_HT_7DOAN.ut DO_ND_DS18B20_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "D:/TT_VHDL/VHDL - co nga/CHUONG 5/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.xst" -ofn "D:/TT_VHDL/VHDL - co nga/CHUONG 5/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "DO_ND_DS18B20_HT_7DOAN.ngc" DO_ND_DS18B20_HT_7DOAN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ngd DO_ND_DS18B20_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -t 1 DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ncd DO_ND_DS18B20_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DO_ND_DS18B20_HT_7DOAN.twx DO_ND_DS18B20_HT_7DOAN.ncd -o DO_ND_DS18B20_HT_7DOAN.twr DO_ND_DS18B20_HT_7DOAN.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f DO_ND_DS18B20_HT_7DOAN.ut DO_ND_DS18B20_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "D:/TT_VHDL/VHDL - co nga/CHUONG 5/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.xst" -ofn "D:/TT_VHDL/VHDL - co nga/CHUONG 5/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "DO_ND_DS18B20_HT_7DOAN.ngc" DO_ND_DS18B20_HT_7DOAN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ngd DO_ND_DS18B20_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -t 1 DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ncd DO_ND_DS18B20_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DO_ND_DS18B20_HT_7DOAN.twx DO_ND_DS18B20_HT_7DOAN.ncd -o DO_ND_DS18B20_HT_7DOAN.twr DO_ND_DS18B20_HT_7DOAN.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f DO_ND_DS18B20_HT_7DOAN.ut DO_ND_DS18B20_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "D:/TT_VHDL/VHDL - co nga/CHUONG 5/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.xst" -ofn "D:/TT_VHDL/VHDL - co nga/CHUONG 5/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "DO_ND_DS18B20_HT_7DOAN.ngc" DO_ND_DS18B20_HT_7DOAN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ngd DO_ND_DS18B20_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -t 1 DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ncd DO_ND_DS18B20_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DO_ND_DS18B20_HT_7DOAN.twx DO_ND_DS18B20_HT_7DOAN.ncd -o DO_ND_DS18B20_HT_7DOAN.twr DO_ND_DS18B20_HT_7DOAN.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f DO_ND_DS18B20_HT_7DOAN.ut DO_ND_DS18B20_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "D:/TT_VHDL/VHDL - co nga/CHUONG 5/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.xst" -ofn "D:/TT_VHDL/VHDL - co nga/CHUONG 5/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "DO_ND_DS18B20_HT_7DOAN.ngc" DO_ND_DS18B20_HT_7DOAN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ngd DO_ND_DS18B20_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -t 1 DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ncd DO_ND_DS18B20_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DO_ND_DS18B20_HT_7DOAN.twx DO_ND_DS18B20_HT_7DOAN.ncd -o DO_ND_DS18B20_HT_7DOAN.twr DO_ND_DS18B20_HT_7DOAN.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f DO_ND_DS18B20_HT_7DOAN.ut DO_ND_DS18B20_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "D:/TT_VHDL/VHDL - co nga/CHUONG 5/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.xst" -ofn "D:/TT_VHDL/VHDL - co nga/CHUONG 5/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "DO_ND_DS18B20_HT_7DOAN.ngc" DO_ND_DS18B20_HT_7DOAN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ngd DO_ND_DS18B20_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -t 1 DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ncd DO_ND_DS18B20_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DO_ND_DS18B20_HT_7DOAN.twx DO_ND_DS18B20_HT_7DOAN.ncd -o DO_ND_DS18B20_HT_7DOAN.twr DO_ND_DS18B20_HT_7DOAN.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f DO_ND_DS18B20_HT_7DOAN.ut DO_ND_DS18B20_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "D:/TT_VHDL/VHDL - co nga/CHUONG 5/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.xst" -ofn "D:/TT_VHDL/VHDL - co nga/CHUONG 5/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "DO_ND_DS18B20_HT_7DOAN.ngc" DO_ND_DS18B20_HT_7DOAN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ngd DO_ND_DS18B20_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -t 1 DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ncd DO_ND_DS18B20_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DO_ND_DS18B20_HT_7DOAN.twx DO_ND_DS18B20_HT_7DOAN.ncd -o DO_ND_DS18B20_HT_7DOAN.twr DO_ND_DS18B20_HT_7DOAN.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f DO_ND_DS18B20_HT_7DOAN.ut DO_ND_DS18B20_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.xst" -ofn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "DO_ND_DS18B20_HT_7DOAN.ngc" DO_ND_DS18B20_HT_7DOAN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ngd DO_ND_DS18B20_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -t 1 DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ncd DO_ND_DS18B20_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DO_ND_DS18B20_HT_7DOAN.twx DO_ND_DS18B20_HT_7DOAN.ncd -o DO_ND_DS18B20_HT_7DOAN.twr DO_ND_DS18B20_HT_7DOAN.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f DO_ND_DS18B20_HT_7DOAN.ut DO_ND_DS18B20_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.xst" -ofn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "DO_ND_DS18B20_HT_7DOAN.ngc" DO_ND_DS18B20_HT_7DOAN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ngd DO_ND_DS18B20_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -t 1 DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ncd DO_ND_DS18B20_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DO_ND_DS18B20_HT_7DOAN.twx DO_ND_DS18B20_HT_7DOAN.ncd -o DO_ND_DS18B20_HT_7DOAN.twr DO_ND_DS18B20_HT_7DOAN.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f DO_ND_DS18B20_HT_7DOAN.ut DO_ND_DS18B20_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.xst" -ofn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_561_DO_ND_DS18B20_HT_7DOAN/DO_ND_DS18B20_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "DO_ND_DS18B20_HT_7DOAN.ngc" DO_ND_DS18B20_HT_7DOAN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ngd DO_ND_DS18B20_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -t 1 DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ncd DO_ND_DS18B20_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DO_ND_DS18B20_HT_7DOAN.twx DO_ND_DS18B20_HT_7DOAN.ncd -o DO_ND_DS18B20_HT_7DOAN.twr DO_ND_DS18B20_HT_7DOAN.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f DO_ND_DS18B20_HT_7DOAN.ut DO_ND_DS18B20_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_562_DO_ND_DS18B20_HT_7DOAN_BUZZER/DO_ND_DS18B20_HT_7DOAN.xst" -ofn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_562_DO_ND_DS18B20_HT_7DOAN_BUZZER/DO_ND_DS18B20_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "DO_ND_DS18B20_HT_7DOAN.ngc" DO_ND_DS18B20_HT_7DOAN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ngd DO_ND_DS18B20_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -t 1 DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ncd DO_ND_DS18B20_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -t 1 DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ncd DO_ND_DS18B20_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DO_ND_DS18B20_HT_7DOAN.twx DO_ND_DS18B20_HT_7DOAN.ncd -o DO_ND_DS18B20_HT_7DOAN.twr DO_ND_DS18B20_HT_7DOAN.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f DO_ND_DS18B20_HT_7DOAN.ut DO_ND_DS18B20_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_562_DO_ND_DS18B20_HT_7DOAN_BUZZER/DO_ND_DS18B20_HT_7DOAN.xst" -ofn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_562_DO_ND_DS18B20_HT_7DOAN_BUZZER/DO_ND_DS18B20_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_562_DO_ND_DS18B20_HT_7DOAN_BUZZER/DO_ND_DS18B20_HT_7DOAN.xst" -ofn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_562_DO_ND_DS18B20_HT_7DOAN_BUZZER/DO_ND_DS18B20_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_562_DO_ND_DS18B20_HT_7DOAN_BUZZER/DO_ND_DS18B20_HT_7DOAN.xst" -ofn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_562_DO_ND_DS18B20_HT_7DOAN_BUZZER/DO_ND_DS18B20_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "DO_ND_DS18B20_HT_7DOAN.ngc" DO_ND_DS18B20_HT_7DOAN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ngd DO_ND_DS18B20_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -t 1 DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ncd DO_ND_DS18B20_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DO_ND_DS18B20_HT_7DOAN.twx DO_ND_DS18B20_HT_7DOAN.ncd -o DO_ND_DS18B20_HT_7DOAN.twr DO_ND_DS18B20_HT_7DOAN.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f DO_ND_DS18B20_HT_7DOAN.ut DO_ND_DS18B20_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_562_DO_ND_DS18B20_HT_7DOAN_BUZZER/DO_ND_DS18B20_HT_7DOAN.xst" -ofn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_562_DO_ND_DS18B20_HT_7DOAN_BUZZER/DO_ND_DS18B20_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "DO_ND_DS18B20_HT_7DOAN.ngc" DO_ND_DS18B20_HT_7DOAN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ngd DO_ND_DS18B20_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -t 1 DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ncd DO_ND_DS18B20_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DO_ND_DS18B20_HT_7DOAN.twx DO_ND_DS18B20_HT_7DOAN.ncd -o DO_ND_DS18B20_HT_7DOAN.twr DO_ND_DS18B20_HT_7DOAN.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f DO_ND_DS18B20_HT_7DOAN.ut DO_ND_DS18B20_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_562_DO_ND_DS18B20_HT_7DOAN_BUZZER/DO_ND_DS18B20_HT_7DOAN.xst" -ofn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_562_DO_ND_DS18B20_HT_7DOAN_BUZZER/DO_ND_DS18B20_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "DO_ND_DS18B20_HT_7DOAN.ngc" DO_ND_DS18B20_HT_7DOAN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ngd DO_ND_DS18B20_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -t 1 DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ncd DO_ND_DS18B20_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DO_ND_DS18B20_HT_7DOAN.twx DO_ND_DS18B20_HT_7DOAN.ncd -o DO_ND_DS18B20_HT_7DOAN.twr DO_ND_DS18B20_HT_7DOAN.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f DO_ND_DS18B20_HT_7DOAN.ut DO_ND_DS18B20_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_563_DO_ND_DS18B20_HT_7DOAN_BUZZER_GIAY/DO_ND_DS18B20_HT_7DOAN.xst" -ofn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_563_DO_ND_DS18B20_HT_7DOAN_BUZZER_GIAY/DO_ND_DS18B20_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_563_DO_ND_DS18B20_HT_7DOAN_BUZZER_GIAY/DO_ND_DS18B20_HT_7DOAN.xst" -ofn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_563_DO_ND_DS18B20_HT_7DOAN_BUZZER_GIAY/DO_ND_DS18B20_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "DO_ND_DS18B20_HT_7DOAN.ngc" DO_ND_DS18B20_HT_7DOAN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ngd DO_ND_DS18B20_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -t 1 DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ncd DO_ND_DS18B20_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DO_ND_DS18B20_HT_7DOAN.twx DO_ND_DS18B20_HT_7DOAN.ncd -o DO_ND_DS18B20_HT_7DOAN.twr DO_ND_DS18B20_HT_7DOAN.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f DO_ND_DS18B20_HT_7DOAN.ut DO_ND_DS18B20_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_563_DO_ND_DS18B20_HT_7DOAN_BUZZER_GIAY/DO_ND_DS18B20_HT_7DOAN.xst" -ofn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_563_DO_ND_DS18B20_HT_7DOAN_BUZZER_GIAY/DO_ND_DS18B20_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "DO_ND_DS18B20_HT_7DOAN.ngc" DO_ND_DS18B20_HT_7DOAN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ngd DO_ND_DS18B20_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -t 1 DO_ND_DS18B20_HT_7DOAN_map.ncd DO_ND_DS18B20_HT_7DOAN.ncd DO_ND_DS18B20_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DO_ND_DS18B20_HT_7DOAN.twx DO_ND_DS18B20_HT_7DOAN.ncd -o DO_ND_DS18B20_HT_7DOAN.twr DO_ND_DS18B20_HT_7DOAN.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f DO_ND_DS18B20_HT_7DOAN.ut DO_ND_DS18B20_HT_7DOAN.ncd 

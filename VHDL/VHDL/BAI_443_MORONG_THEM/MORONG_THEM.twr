@@ -1,0 +1,94 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+-n 3 -fastpaths -xml MORONG_THEM.twx MORONG_THEM.ncd -o MORONG_THEM.twr
+MORONG_THEM.pcf
+
+Design file:              MORONG_THEM.ncd
+Physical constraint file: MORONG_THEM.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock CKHT
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+BTN<0>      |    3.447(F)|      SLOW  |   -0.738(F)|      FAST  |CKHT_BUFGP        |   0.000|
+BTN<1>      |    3.157(F)|      SLOW  |   -0.127(F)|      SLOW  |CKHT_BUFGP        |   0.000|
+SW<0>       |    3.402(F)|      SLOW  |   -0.464(F)|      FAST  |CKHT_BUFGP        |   0.000|
+SW<1>       |    6.415(F)|      SLOW  |   -1.314(F)|      FAST  |CKHT_BUFGP        |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock CKHT to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+LED<0>      |        10.662(F)|      SLOW  |         4.109(F)|      FAST  |CKHT_BUFGP        |   0.000|
+LED<1>      |        10.904(F)|      SLOW  |         4.563(F)|      FAST  |CKHT_BUFGP        |   0.000|
+LED<2>      |        10.501(F)|      SLOW  |         4.077(F)|      FAST  |CKHT_BUFGP        |   0.000|
+LED<3>      |         9.883(F)|      SLOW  |         3.951(F)|      FAST  |CKHT_BUFGP        |   0.000|
+LED<4>      |         9.930(F)|      SLOW  |         4.023(F)|      FAST  |CKHT_BUFGP        |   0.000|
+LED<5>      |         9.656(F)|      SLOW  |         3.857(F)|      FAST  |CKHT_BUFGP        |   0.000|
+LED<6>      |         9.904(F)|      SLOW  |         3.883(F)|      FAST  |CKHT_BUFGP        |   0.000|
+LED<7>      |         9.782(F)|      SLOW  |         3.866(F)|      FAST  |CKHT_BUFGP        |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock CKHT
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CKHT           |         |         |         |    5.376|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+SW<0>          |LED<0>         |    9.292|
+SW<0>          |LED<1>         |   10.071|
+SW<0>          |LED<2>         |    8.870|
+SW<0>          |LED<3>         |    9.595|
+SW<0>          |LED<4>         |    8.883|
+SW<0>          |LED<5>         |    9.203|
+SW<0>          |LED<6>         |    9.088|
+SW<0>          |LED<7>         |    8.693|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Jun 10 22:24:16 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4571 MB
+
+
+

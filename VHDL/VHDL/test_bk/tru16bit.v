@@ -1,0 +1,22 @@
+module tru16bit(a,b,s,BO);
+input [15:0]a,b;
+output[15:0] s;
+output BO;
+wire [15:0] bo;
+sub1bit sub0(a[0],b[0],1'b0 ,s[0],bo[0]);
+sub1bit sub1(a[1],b[1],bo[0],s[1],bo[1]);
+sub1bit sub2(a[2],b[2],bo[1],s[2],bo[2]);
+sub1bit sub3(a[3],b[3],bo[2],s[3],bo[3]);
+sub1bit sub4(a[4],b[4],bo[3],s[4],bo[4]);
+sub1bit sub5(a[5],b[5],bo[4],s[5],bo[5]);
+sub1bit sub6(a[6],b[6],bo[5],s[6],bo[6]);
+sub1bit sub7(a[7],b[7],bo[6],s[7],bo[7]);
+sub1bit sub8(a[8],b[8],bo[7],s[8],bo[8]);
+sub1bit sub9(a[9],b[9],bo[8],s[9],bo[9]);
+sub1bit sub10(a[10],b[10],bo[9],s[10],bo[10]);
+sub1bit sub11(a[11],b[11],bo[10],s[11],bo[11]);
+sub1bit sub12(a[12],b[12],bo[11],s[12],bo[12]);
+sub1bit sub13(a[13],b[13],bo[12],s[13],bo[13]);
+sub1bit sub14(a[14],b[14],bo[13],s[14],bo[14]);
+sub1bit sub15(a[15],b[15],bo[14],s[15],BO);
+endmodule

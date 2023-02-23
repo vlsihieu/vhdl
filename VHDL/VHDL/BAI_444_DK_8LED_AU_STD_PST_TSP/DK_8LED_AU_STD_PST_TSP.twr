@@ -1,0 +1,91 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+-n 3 -fastpaths -xml DK_8LED_AU_STD_PST_TSP.twx DK_8LED_AU_STD_PST_TSP.ncd -o
+DK_8LED_AU_STD_PST_TSP.twr DK_8LED_AU_STD_PST_TSP.pcf
+
+Design file:              DK_8LED_AU_STD_PST_TSP.ncd
+Physical constraint file: DK_8LED_AU_STD_PST_TSP.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock CKHT
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+BTN         |    4.716(F)|      SLOW  |   -0.836(F)|      FAST  |CKHT_BUFGP        |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock CKHT to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+LED<0>      |        10.896(F)|      SLOW  |         4.422(F)|      FAST  |CKHT_BUFGP        |   0.000|
+LED<1>      |        10.200(F)|      SLOW  |         4.040(F)|      FAST  |CKHT_BUFGP        |   0.000|
+LED<2>      |        10.590(F)|      SLOW  |         4.082(F)|      FAST  |CKHT_BUFGP        |   0.000|
+LED<3>      |        10.470(F)|      SLOW  |         4.242(F)|      FAST  |CKHT_BUFGP        |   0.000|
+LED<4>      |        10.254(F)|      SLOW  |         3.907(F)|      FAST  |CKHT_BUFGP        |   0.000|
+LED<5>      |        10.271(F)|      SLOW  |         3.989(F)|      FAST  |CKHT_BUFGP        |   0.000|
+LED<6>      |        10.109(F)|      SLOW  |         4.003(F)|      FAST  |CKHT_BUFGP        |   0.000|
+LED<7>      |         9.857(F)|      SLOW  |         3.920(F)|      FAST  |CKHT_BUFGP        |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock CKHT
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CKHT           |         |         |         |    3.823|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+BTN            |LED<0>         |   11.529|
+BTN            |LED<1>         |   11.021|
+BTN            |LED<2>         |   11.046|
+BTN            |LED<3>         |   10.934|
+BTN            |LED<4>         |   10.673|
+BTN            |LED<5>         |   10.787|
+BTN            |LED<6>         |   10.637|
+BTN            |LED<7>         |   10.124|
+---------------+---------------+---------+
+
+
+Analysis completed Fri Jun 12 12:30:47 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4571 MB
+
+
+

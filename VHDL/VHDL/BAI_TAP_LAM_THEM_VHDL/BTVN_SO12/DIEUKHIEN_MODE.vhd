@@ -1,0 +1,36 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity DIEUKHIEN_MODE is
+    Port ( CKHT,RST,ENA_DB : in  STD_LOGIC;
+			  MODE : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
+           OE : out  STD_LOGIC_VECTOR(2 DOWNTO 0));
+end DIEUKHIEN_MODE;
+
+architecture Behavioral of DIEUKHIEN_MODE is
+SIGNAL OE_123,OE_213,OE_321 : STD_LOGIC_VECTOR(2 DOWNTO 0);
+begin
+IC0: ENTITY WORK.DIEUKHIEN_CHOPHEP_123
+   PORT MAP( CKHT => CKHT,
+	          RST => RST,
+				 MODE  => MODE(0),
+				 ENA_DB => ENA_DB,--CHU Y
+				 OE => OE_123
+				 );
+				
+IC1: ENTITY WORK.DIEUKHIEN_CHOPHEP_213
+   PORT MAP( CKHT => CKHT,
+	          RST => RST,
+				 MODE  => MODE(1),
+				 ENA_DB => ENA_DB,--CHU Y
+				 OE => OE_213);
+				 
+IC2: ENTITY WORK.DIEUKHIEN_CHOPHEP_321
+   PORT MAP( CKHT => CKHT,
+	          RST => RST,
+				 MODE  => MODE(2),
+				 ENA_DB => ENA_DB,--CHU Y
+				 OE => OE_321);
+	
+ OE <= OE_123 OR OE_213 OR OE_321;
+end Behavioral;

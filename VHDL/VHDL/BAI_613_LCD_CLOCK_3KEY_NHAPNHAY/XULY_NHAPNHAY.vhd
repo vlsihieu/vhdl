@@ -1,0 +1,19 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+entity XULY_NHAPNHAY is
+    Port ( 	ENA_DB,RST: IN STD_LOGIC;	
+				NN : out  STD_LOGIC);
+end XULY_NHAPNHAY;
+
+architecture Behavioral of XULY_NHAPNHAY is
+SIGNAL A: STD_LOGIC;
+BEGIN
+PROCESS(ENA_DB)
+BEGIN
+IF(ENA_DB='1') THEN A<= NOT A;
+END IF;
+END PROCESS;
+NN<= A;
+end Behavioral;

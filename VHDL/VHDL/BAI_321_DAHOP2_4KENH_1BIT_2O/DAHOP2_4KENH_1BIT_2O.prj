@@ -1,0 +1,3 @@
+vhdl work "DAHOP_4KENH_1BIT_SELECT.vhd"
+vhdl work "DAHOP_4KENH_1BIT_CONDITIONAL.vhd"
+vhdl work "DAHOP2_4KENH_1BIT_2O.vhd"

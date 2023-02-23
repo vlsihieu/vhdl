@@ -1,0 +1,83 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Map Application Log File for Design 'KIEM_TRA_CUOI_KY1'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off
+-c 100 -o KIEM_TRA_CUOI_KY1_map.ncd KIEM_TRA_CUOI_KY1.ngd KIEM_TRA_CUOI_KY1.pcf 
+Target Device  : xc3s500e
+Target Package : pq208
+Target Speed   : -5
+Mapper Version : spartan3e -- $Revision: 1.55 $
+Mapped Date    : Mon Sep 07 09:04:53 2020
+
+Mapping design into LUTs...
+Running directed packing...
+WARNING:Pack:266 - The function generator GM2/Mrom_MA_SO<5>13 failed to merge
+   with F5 multiplexer GM2/Mrom_MA_SO<3>1_f6/MUXF5.I1.  There is a conflict for
+   the GYMUX.  The design will exhibit suboptimal timing.
+WARNING:Pack:266 - The function generator GM0/Mrom_MA_SO<3>11 failed to merge
+   with F5 multiplexer GM0/Mrom_MA_SO<3>1_f6/MUXF5.I1.  There is a conflict for
+   the GYMUX.  The design will exhibit suboptimal timing.
+WARNING:Pack:266 - The function generator GM3/Mrom_MA_SO<3>11 failed to merge
+   with F5 multiplexer GM3/Mrom_MA_SO<3>1_f6/MUXF5.I1.  Tried to combine two
+   collections of symbols from different layers.  The alignment requirements of
+   the two layers conflict.  The design will exhibit suboptimal timing.
+WARNING:Pack:266 - The function generator GM1/Mrom_MA_SO<5>13 failed to merge
+   with F5 multiplexer GM1/Mrom_MA_SO<3>1_f6/MUXF5.I1.  Tried to combine two
+   collections of symbols from different layers.  The alignment requirements of
+   the two layers conflict.  The design will exhibit suboptimal timing.
+Running delay-based LUT packing...
+Running related packing...
+Updating timing models...
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    4
+Logic Utilization:
+  Number of Slice Flip Flops:           309 out of   9,312    3%
+  Number of 4 input LUTs:             1,191 out of   9,312   12%
+Logic Distribution:
+  Number of occupied Slices:            714 out of   4,656   15%
+    Number of Slices containing only related logic:     714 out of     714 100%
+    Number of Slices containing unrelated logic:          0 out of     714   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:       1,321 out of   9,312   14%
+    Number used as logic:             1,191
+    Number used as a route-thru:        130
+
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+  Number of bonded IOBs:                 40 out of     158   25%
+  Number of BUFGMUXs:                     1 out of      24    4%
+
+Average Fanout of Non-Clock Nets:                3.87
+
+Peak Memory Usage:  4428 MB
+Total REAL time to MAP completion:  2 secs 
+Total CPU time to MAP completion:   2 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "KIEM_TRA_CUOI_KY1_map.mrp" for details.

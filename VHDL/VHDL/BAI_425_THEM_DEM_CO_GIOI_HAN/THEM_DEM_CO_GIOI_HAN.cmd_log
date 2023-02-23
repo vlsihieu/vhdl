@@ -1,0 +1,25 @@
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_425_THEM_DEM_CO_GIOI_HAN/THEM_DEM_CO_GIOI_HAN.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_425_THEM_DEM_CO_GIOI_HAN/THEM_DEM_CO_GIOI_HAN.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_425_THEM_DEM_CO_GIOI_HAN/THEM_DEM_CO_GIOI_HAN.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_425_THEM_DEM_CO_GIOI_HAN/THEM_DEM_CO_GIOI_HAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I THEM_DEM_CO_GIOI_HAN.ngc THEM_DEM_CO_GIOI_HAN.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o THEM_DEM_CO_GIOI_HAN_map.ncd THEM_DEM_CO_GIOI_HAN.ngd THEM_DEM_CO_GIOI_HAN.pcf 
+par -w -intstyle ise -ol high -mt off THEM_DEM_CO_GIOI_HAN_map.ncd THEM_DEM_CO_GIOI_HAN.ncd THEM_DEM_CO_GIOI_HAN.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml THEM_DEM_CO_GIOI_HAN.twx THEM_DEM_CO_GIOI_HAN.ncd -o THEM_DEM_CO_GIOI_HAN.twr THEM_DEM_CO_GIOI_HAN.pcf 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_425_THEM_DEM_CO_GIOI_HAN/THEM_DEM_CO_GIOI_HAN.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_425_THEM_DEM_CO_GIOI_HAN/THEM_DEM_CO_GIOI_HAN.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_425_THEM_DEM_CO_GIOI_HAN/THEM_DEM_CO_GIOI_HAN.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_425_THEM_DEM_CO_GIOI_HAN/THEM_DEM_CO_GIOI_HAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 THEM_DEM_CO_GIOI_HAN.ngc THEM_DEM_CO_GIOI_HAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o THEM_DEM_CO_GIOI_HAN_map.ncd THEM_DEM_CO_GIOI_HAN.ngd THEM_DEM_CO_GIOI_HAN.pcf 
+par -w -intstyle ise -ol high -mt off THEM_DEM_CO_GIOI_HAN_map.ncd THEM_DEM_CO_GIOI_HAN.ncd THEM_DEM_CO_GIOI_HAN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml THEM_DEM_CO_GIOI_HAN.twx THEM_DEM_CO_GIOI_HAN.ncd -o THEM_DEM_CO_GIOI_HAN.twr THEM_DEM_CO_GIOI_HAN.pcf 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_425_THEM_DEM_CO_GIOI_HAN/THEM_DEM_CO_GIOI_HAN.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_425_THEM_DEM_CO_GIOI_HAN/THEM_DEM_CO_GIOI_HAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-3 THEM_DEM_CO_GIOI_HAN.ngc THEM_DEM_CO_GIOI_HAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o THEM_DEM_CO_GIOI_HAN_map.ncd THEM_DEM_CO_GIOI_HAN.ngd THEM_DEM_CO_GIOI_HAN.pcf 
+par -w -intstyle ise -ol high -mt off THEM_DEM_CO_GIOI_HAN_map.ncd THEM_DEM_CO_GIOI_HAN.ncd THEM_DEM_CO_GIOI_HAN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml THEM_DEM_CO_GIOI_HAN.twx THEM_DEM_CO_GIOI_HAN.ncd -o THEM_DEM_CO_GIOI_HAN.twr THEM_DEM_CO_GIOI_HAN.pcf 
+bitgen -intstyle ise -f THEM_DEM_CO_GIOI_HAN.ut THEM_DEM_CO_GIOI_HAN.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_425_THEM_DEM_CO_GIOI_HAN/THEM_DEM_CO_GIOI_HAN.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_425_THEM_DEM_CO_GIOI_HAN/THEM_DEM_CO_GIOI_HAN.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_425_THEM_DEM_CO_GIOI_HAN/THEM_DEM_CO_GIOI_HAN.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_425_THEM_DEM_CO_GIOI_HAN/THEM_DEM_CO_GIOI_HAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-3 THEM_DEM_CO_GIOI_HAN.ngc THEM_DEM_CO_GIOI_HAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o THEM_DEM_CO_GIOI_HAN_map.ncd THEM_DEM_CO_GIOI_HAN.ngd THEM_DEM_CO_GIOI_HAN.pcf 
+par -w -intstyle ise -ol high -mt off THEM_DEM_CO_GIOI_HAN_map.ncd THEM_DEM_CO_GIOI_HAN.ncd THEM_DEM_CO_GIOI_HAN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml THEM_DEM_CO_GIOI_HAN.twx THEM_DEM_CO_GIOI_HAN.ncd -o THEM_DEM_CO_GIOI_HAN.twr THEM_DEM_CO_GIOI_HAN.pcf 
+bitgen -intstyle ise -f THEM_DEM_CO_GIOI_HAN.ut THEM_DEM_CO_GIOI_HAN.ncd 

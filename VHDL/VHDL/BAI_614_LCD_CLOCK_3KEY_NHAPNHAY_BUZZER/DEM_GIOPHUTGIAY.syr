@@ -1,0 +1,397 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Reading design: DEM_GIOPHUTGIAY.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "DEM_GIOPHUTGIAY.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "DEM_GIOPHUTGIAY"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-pq208
+
+---- Source Options
+Top Module Name                    : DEM_GIOPHUTGIAY
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_614_LCD_CLOCK_3KEY_NHAPNHAY_BUZZER/DEM_GIOPHUTGIAY.vhd" in Library work.
+Entity <dem_giophutgiay> compiled.
+Entity <dem_giophutgiay> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <DEM_GIOPHUTGIAY> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <DEM_GIOPHUTGIAY> in library <work> (Architecture <behavioral>).
+Entity <DEM_GIOPHUTGIAY> analyzed. Unit <DEM_GIOPHUTGIAY> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <DEM_GIOPHUTGIAY>.
+    Related source file is "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_614_LCD_CLOCK_3KEY_NHAPNHAY_BUZZER/DEM_GIOPHUTGIAY.vhd".
+    Found 27-bit adder for signal <dl_n$addsub0000> created at line 72.
+    Found 27-bit register for signal <dl_r>.
+    Found 6-bit adder for signal <GIAY_N$addsub0000> created at line 105.
+    Found 6-bit register for signal <GIAY_R>.
+    Found 6-bit subtractor for signal <GIAY_R$addsub0000> created at line 109.
+    Found 5-bit adder for signal <GIO_N$addsub0000> created at line 142.
+    Found 5-bit register for signal <GIO_R>.
+    Found 5-bit subtractor for signal <GIO_R$addsub0000> created at line 146.
+    Found 6-bit adder for signal <PHUT_N$addsub0000> created at line 124.
+    Found 6-bit register for signal <PHUT_R>.
+    Found 6-bit subtractor for signal <PHUT_R$addsub0000> created at line 128.
+    Found 1-bit register for signal <tt_r<0>>.
+    Summary:
+	inferred  45 D-type flip-flop(s).
+	inferred   7 Adder/Subtractor(s).
+Unit <DEM_GIOPHUTGIAY> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 7
+ 27-bit adder                                          : 1
+ 5-bit adder                                           : 1
+ 5-bit subtractor                                      : 1
+ 6-bit adder                                           : 2
+ 6-bit subtractor                                      : 2
+# Registers                                            : 5
+ 1-bit register                                        : 1
+ 27-bit register                                       : 1
+ 5-bit register                                        : 1
+ 6-bit register                                        : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 7
+ 27-bit adder                                          : 1
+ 5-bit adder                                           : 1
+ 5-bit subtractor                                      : 1
+ 6-bit adder                                           : 2
+ 6-bit subtractor                                      : 2
+# Registers                                            : 45
+ Flip-Flops                                            : 45
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <DEM_GIOPHUTGIAY> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block DEM_GIOPHUTGIAY, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 45
+ Flip-Flops                                            : 45
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : DEM_GIOPHUTGIAY.ngr
+Top Level Output File Name         : DEM_GIOPHUTGIAY
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 26
+
+Cell Usage :
+# BELS                             : 194
+#      GND                         : 1
+#      INV                         : 5
+#      LUT1                        : 26
+#      LUT2                        : 2
+#      LUT3                        : 16
+#      LUT3_D                      : 2
+#      LUT3_L                      : 7
+#      LUT4                        : 62
+#      LUT4_D                      : 5
+#      LUT4_L                      : 4
+#      MUXCY                       : 33
+#      MUXF5                       : 3
+#      VCC                         : 1
+#      XORCY                       : 27
+# FlipFlops/Latches                : 45
+#      FDC_1                       : 1
+#      FDCE_1                      : 17
+#      FDE_1                       : 27
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 25
+#      IBUF                        : 7
+#      OBUF                        : 18
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500epq208-5 
+
+ Number of Slices:                       67  out of   4656     1%  
+ Number of Slice Flip Flops:             45  out of   9312     0%  
+ Number of 4 input LUTs:                129  out of   9312     1%  
+ Number of IOs:                          26
+ Number of bonded IOBs:                  26  out of    158    16%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CKHT                               | BUFGP                  | 45    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+RST                                | IBUF                   | 18    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 5.720ns (Maximum Frequency: 174.834MHz)
+   Minimum input arrival time before clock: 6.075ns
+   Maximum output required time after clock: 4.755ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CKHT'
+  Clock period: 5.720ns (frequency: 174.834MHz)
+  Total number of paths / destination ports: 1701 / 56
+-------------------------------------------------------------------------
+Delay:               5.720ns (Levels of Logic = 4)
+  Source:            GIAY_R_3 (FF)
+  Destination:       dl_r_0 (FF)
+  Source Clock:      CKHT falling
+  Destination Clock: CKHT falling
+
+  Data Path: GIAY_R_3 to dl_r_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE_1:C->Q           8   0.514   0.795  GIAY_R_3 (GIAY_R_3)
+     LUT3_L:I0->LO         1   0.612   0.103  tt_n_0_cmp_eq0000_SW0 (N26)
+     LUT4:I3->O           10   0.612   0.753  tt_n_0_cmp_eq0000 (tt_n_0_cmp_eq0000)
+     LUT4_D:I3->O         13   0.612   0.839  tt_n_0_or00001 (tt_n_0_or0000)
+     LUT4:I3->O            1   0.612   0.000  dl_n<14>1 (dl_n<14>)
+     FDE_1:D                   0.268          dl_r_14
+    ----------------------------------------
+    Total                      5.720ns (3.230ns logic, 2.490ns route)
+                                       (56.5% logic, 43.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CKHT'
+  Total number of paths / destination ports: 349 / 86
+-------------------------------------------------------------------------
+Offset:              6.075ns (Levels of Logic = 5)
+  Source:            GT_MOD<1> (PAD)
+  Destination:       GIAY_R_2 (FF)
+  Destination Clock: CKHT falling
+
+  Data Path: GT_MOD<1> to GIAY_R_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   1.106   0.690  GT_MOD_1_IBUF (GT_MOD_1_IBUF)
+     LUT3:I0->O            2   0.612   0.449  GIAY_R_not000211 (N16)
+     LUT3:I1->O            7   0.612   0.754  GIAY_R_mux0000<4>11 (N11)
+     LUT4:I0->O            1   0.612   0.360  GIAY_R_mux0000<3>11_SW0 (N47)
+     LUT4:I3->O            1   0.612   0.000  GIAY_R_mux0000<3>54 (GIAY_R_mux0000<3>)
+     FDCE_1:D                  0.268          GIAY_R_2
+    ----------------------------------------
+    Total                      6.075ns (3.822ns logic, 2.253ns route)
+                                       (62.9% logic, 37.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CKHT'
+  Total number of paths / destination ports: 18 / 18
+-------------------------------------------------------------------------
+Offset:              4.755ns (Levels of Logic = 1)
+  Source:            tt_r_0 (FF)
+  Destination:       bell (PAD)
+  Source Clock:      CKHT falling
+
+  Data Path: tt_r_0 to bell
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q           29   0.514   1.072  tt_r_0 (tt_r_0)
+     OBUF:I->O                 3.169          bell_OBUF (bell)
+    ----------------------------------------
+    Total                      4.755ns (3.683ns logic, 1.072ns route)
+                                       (77.5% logic, 22.5% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 7.66 secs
+ 
+--> 
+
+Total memory usage is 4521508 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

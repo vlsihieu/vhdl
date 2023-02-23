@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "F:/VHDL/serial/UART_rx.xst" -ofn "F:/VHDL/serial/UART_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-2 UART_rx.ngc UART_rx.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o UART_rx_map.ncd UART_rx.ngd UART_rx.pcf 
+par -w -intstyle ise -ol high -mt off UART_rx_map.ncd UART_rx.ncd UART_rx.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml UART_rx.twx UART_rx.ncd -o UART_rx.twr UART_rx.pcf 

@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_365_BINARY_TO_GRAY_4BIT/BINARY_TO_GRAY_4BIT.xst" -ofn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_365_BINARY_TO_GRAY_4BIT/BINARY_TO_GRAY_4BIT.syr" 
+xst -intstyle ise -ifn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_365_BINARY_TO_GRAY_4BIT/BINARY_TO_GRAY_4BIT.xst" -ofn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_365_BINARY_TO_GRAY_4BIT/BINARY_TO_GRAY_4BIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-5 BINARY_TO_GRAY_4BIT.ngc BINARY_TO_GRAY_4BIT.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o BINARY_TO_GRAY_4BIT_map.ncd BINARY_TO_GRAY_4BIT.ngd BINARY_TO_GRAY_4BIT.pcf 
+par -w -intstyle ise -ol high -t 1 BINARY_TO_GRAY_4BIT_map.ncd BINARY_TO_GRAY_4BIT.ncd BINARY_TO_GRAY_4BIT.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BINARY_TO_GRAY_4BIT.twx BINARY_TO_GRAY_4BIT.ncd -o BINARY_TO_GRAY_4BIT.twr BINARY_TO_GRAY_4BIT.pcf 
+bitgen -intstyle ise -f BINARY_TO_GRAY_4BIT.ut BINARY_TO_GRAY_4BIT.ncd 
+xst -intstyle ise -ifn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_365_BINARY_TO_GRAY_4BIT/BINARY_TO_GRAY_4BIT.xst" -ofn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_365_BINARY_TO_GRAY_4BIT/BINARY_TO_GRAY_4BIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 BINARY_TO_GRAY_4BIT.ngc BINARY_TO_GRAY_4BIT.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o BINARY_TO_GRAY_4BIT_map.ncd BINARY_TO_GRAY_4BIT.ngd BINARY_TO_GRAY_4BIT.pcf 
+par -w -intstyle ise -ol high -t 1 BINARY_TO_GRAY_4BIT_map.ncd BINARY_TO_GRAY_4BIT.ncd BINARY_TO_GRAY_4BIT.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BINARY_TO_GRAY_4BIT.twx BINARY_TO_GRAY_4BIT.ncd -o BINARY_TO_GRAY_4BIT.twr BINARY_TO_GRAY_4BIT.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f BINARY_TO_GRAY_4BIT.ut BINARY_TO_GRAY_4BIT.ncd 

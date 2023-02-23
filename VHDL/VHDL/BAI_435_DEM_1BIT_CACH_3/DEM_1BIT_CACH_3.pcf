@@ -1,0 +1,11 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Jun 10 21:29:07 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "LED" LOCATE = SITE "P85" LEVEL 1;
+COMP "BTN<0>" LOCATE = SITE "P57" LEVEL 1;
+COMP "BTN<1>" LOCATE = SITE "P56" LEVEL 1;
+COMP "CKHT" LOCATE = SITE "P55" LEVEL 1;
+SCHEMATIC END;
+

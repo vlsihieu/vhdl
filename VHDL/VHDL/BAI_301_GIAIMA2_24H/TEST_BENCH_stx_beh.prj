@@ -1,0 +1,2 @@
+vhdl isim_temp "GIAIMA_SELECT_INS.vhd"
+vhdl isim_temp "TEST_BENCH.vhd"

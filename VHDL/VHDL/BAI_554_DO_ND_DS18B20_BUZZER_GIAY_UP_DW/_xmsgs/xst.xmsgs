@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLParsers" num="3313" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_554_DO_ND_DS18B20_BUZZER_GIAY_UP_DW/CAI_GH_XX_8BIT.vhd</arg>&quot; Line <arg fmt="%d" index="2">52</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">ENA_IP</arg>&apos;.  Should it be: <arg fmt="%s" index="4">ENA_uP</arg>?
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_554_DO_ND_DS18B20_BUZZER_GIAY_UP_DW/CAI_GH_XX_8BIT.vhd</arg>&quot; Line <arg fmt="%d" index="2">52</arg>. <arg fmt="%s" index="3">ENA_IP</arg>: Undefined symbol (last report in this block)
+</msg>
+
+</messages>
+

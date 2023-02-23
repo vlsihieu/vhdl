@@ -1,0 +1,22 @@
+module add16bit(a,b,s,CO);
+input [15:0]a,b;
+output[15:0] s;
+output CO;
+wire [15:0] co;
+add1bit add0(a[0],b[0],1'b0 ,s[0],co[0]);
+add1bit add1(a[1],b[1],co[0],s[1],co[1]);
+add1bit add2(a[2],b[2],co[1],s[2],co[2]);
+add1bit add3(a[3],b[3],co[2],s[3],co[3]);
+add1bit add4(a[4],b[4],co[3],s[4],co[4]);
+add1bit add5(a[5],b[5],co[4],s[5],co[5]);
+add1bit add6(a[6],b[6],co[5],s[6],co[6]);
+add1bit add7(a[7],b[7],co[6],s[7],co[7]);
+add1bit add8(a[8],b[8],co[7],s[8],co[8]);
+add1bit add9(a[9],b[9],co[8],s[9],co[9]);
+add1bit add10(a[10],b[10],co[9],s[10],co[10]);
+add1bit add11(a[11],b[11],co[10],s[11],co[11]);
+add1bit add12(a[12],b[12],co[11],s[12],co[12]);
+add1bit add13(a[13],b[13],co[12],s[13],co[13]);
+add1bit add14(a[14],b[14],co[13],s[14],co[14]);
+add1bit add15(a[15],b[15],co[14],s[15],CO);
+endmodule

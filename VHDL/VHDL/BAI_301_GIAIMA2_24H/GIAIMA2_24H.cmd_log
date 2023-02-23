@@ -1,0 +1,23 @@
+xst -intstyle ise -ifn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_301_GIAIMA2_24H/GIAIMA2_24H.xst" -ofn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_301_GIAIMA2_24H/GIAIMA2_24H.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-5 GIAIMA2_24H.ngc GIAIMA2_24H.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o GIAIMA2_24H_map.ncd GIAIMA2_24H.ngd GIAIMA2_24H.pcf 
+par -w -intstyle ise -ol high -t 1 GIAIMA2_24H_map.ncd GIAIMA2_24H.ncd GIAIMA2_24H.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml GIAIMA2_24H.twx GIAIMA2_24H.ncd -o GIAIMA2_24H.twr GIAIMA2_24H.pcf 
+bitgen -intstyle ise -f GIAIMA2_24H.ut GIAIMA2_24H.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GIAIMA2_24H.ucf -p xc3s500e-pq208-5 GIAIMA2_24H.ngc GIAIMA2_24H.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o GIAIMA2_24H_map.ncd GIAIMA2_24H.ngd GIAIMA2_24H.pcf 
+par -w -intstyle ise -ol high -t 1 GIAIMA2_24H_map.ncd GIAIMA2_24H.ncd GIAIMA2_24H.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml GIAIMA2_24H.twx GIAIMA2_24H.ncd -o GIAIMA2_24H.twr GIAIMA2_24H.pcf -ucf GIAIMA2_24H.ucf 
+bitgen -intstyle ise -f GIAIMA2_24H.ut GIAIMA2_24H.ncd 
+xst -intstyle ise -ifn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_301_GIAIMA2_24H/GIAIMA2_24H.xst" -ofn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_301_GIAIMA2_24H/GIAIMA2_24H.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GIAIMA2_24H.ucf -p xc3s500e-pq208-5 GIAIMA2_24H.ngc GIAIMA2_24H.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o GIAIMA2_24H_map.ncd GIAIMA2_24H.ngd GIAIMA2_24H.pcf 
+par -w -intstyle ise -ol high -t 1 GIAIMA2_24H_map.ncd GIAIMA2_24H.ncd GIAIMA2_24H.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml GIAIMA2_24H.twx GIAIMA2_24H.ncd -o GIAIMA2_24H.twr GIAIMA2_24H.pcf -ucf GIAIMA2_24H.ucf 
+bitgen -intstyle ise -f GIAIMA2_24H.ut GIAIMA2_24H.ncd 
+xst -intstyle ise -ifn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_301_GIAIMA2_24H/GIAIMA2_24H.xst" -ofn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_301_GIAIMA2_24H/GIAIMA2_24H.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GIAIMA2_24H.ucf -p xc3s500e-pq208-5 GIAIMA2_24H.ngc GIAIMA2_24H.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o GIAIMA2_24H_map.ncd GIAIMA2_24H.ngd GIAIMA2_24H.pcf 
+par -w -intstyle ise -ol high -t 1 GIAIMA2_24H_map.ncd GIAIMA2_24H.ncd GIAIMA2_24H.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml GIAIMA2_24H.twx GIAIMA2_24H.ncd -o GIAIMA2_24H.twr GIAIMA2_24H.pcf -ucf GIAIMA2_24H.ucf 
+bitgen -intstyle ise -f GIAIMA2_24H.ut GIAIMA2_24H.ncd 

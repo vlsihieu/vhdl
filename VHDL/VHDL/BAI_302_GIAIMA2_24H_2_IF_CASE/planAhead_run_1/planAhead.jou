@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Fri Aug 30 23:16:02 2019
+# Process ID: 2448
+# Log file: C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_302_GIAIMA2_24H_2_IF_CASE/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_302_GIAIMA2_24H_2_IF_CASE/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_302_GIAIMA2_24H_2_IF_CASE/pa.fromHdl.tcl

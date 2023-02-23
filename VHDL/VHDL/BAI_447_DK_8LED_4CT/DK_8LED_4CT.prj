@@ -1,0 +1,7 @@
+vhdl work "LED_STD_TTR.vhd"
+vhdl work "LED_STD_TSP.vhd"
+vhdl work "LED_STD_TNV.vhd"
+vhdl work "LED_STD_PST.vhd"
+vhdl work "DIEUKHIEN_CHOPHEP.vhd"
+vhdl work "CHIA_10ENA.vhd"
+vhdl work "DK_8LED_4CT.vhd"

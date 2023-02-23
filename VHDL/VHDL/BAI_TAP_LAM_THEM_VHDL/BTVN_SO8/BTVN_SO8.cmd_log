@@ -1,0 +1,53 @@
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BTVN_SO8/BTVN_SO8.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BTVN_SO8/BTVN_SO8.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BTVN_SO8/BTVN_SO8.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BTVN_SO8/BTVN_SO8.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BTVN_SO8/BTVN_SO8.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BTVN_SO8/BTVN_SO8.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BTVN_SO8/BTVN_SO8.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BTVN_SO8/BTVN_SO8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-2 BTVN_SO8.ngc BTVN_SO8.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BTVN_SO8_map.ncd BTVN_SO8.ngd BTVN_SO8.pcf 
+par -w -intstyle ise -ol high -mt off BTVN_SO8_map.ncd BTVN_SO8.ncd BTVN_SO8.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BTVN_SO8.twx BTVN_SO8.ncd -o BTVN_SO8.twr BTVN_SO8.pcf 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BTVN_SO8/BTVN_SO8.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BTVN_SO8/BTVN_SO8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BTVN_SO8.ngc BTVN_SO8.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BTVN_SO8_map.ncd BTVN_SO8.ngd BTVN_SO8.pcf 
+par -w -intstyle ise -ol high -mt off BTVN_SO8_map.ncd BTVN_SO8.ncd BTVN_SO8.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BTVN_SO8.twx BTVN_SO8.ncd -o BTVN_SO8.twr BTVN_SO8.pcf 
+bitgen -intstyle ise -f BTVN_SO8.ut BTVN_SO8.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BTVN_SO8/BTVN_SO8.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BTVN_SO8/BTVN_SO8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BTVN_SO8.ngc BTVN_SO8.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BTVN_SO8_map.ncd BTVN_SO8.ngd BTVN_SO8.pcf 
+par -w -intstyle ise -ol high -mt off BTVN_SO8_map.ncd BTVN_SO8.ncd BTVN_SO8.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BTVN_SO8.twx BTVN_SO8.ncd -o BTVN_SO8.twr BTVN_SO8.pcf 
+bitgen -intstyle ise -f BTVN_SO8.ut BTVN_SO8.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BTVN_SO8/BTVN_SO8.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BTVN_SO8/BTVN_SO8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BTVN_SO8.ngc BTVN_SO8.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BTVN_SO8_map.ncd BTVN_SO8.ngd BTVN_SO8.pcf 
+par -w -intstyle ise -ol high -mt off BTVN_SO8_map.ncd BTVN_SO8.ncd BTVN_SO8.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BTVN_SO8.twx BTVN_SO8.ncd -o BTVN_SO8.twr BTVN_SO8.pcf 
+bitgen -intstyle ise -f BTVN_SO8.ut BTVN_SO8.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BTVN_SO8/BTVN_SO8.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BTVN_SO8/BTVN_SO8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BTVN_SO8.ngc BTVN_SO8.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BTVN_SO8_map.ncd BTVN_SO8.ngd BTVN_SO8.pcf 
+par -w -intstyle ise -ol high -mt off BTVN_SO8_map.ncd BTVN_SO8.ncd BTVN_SO8.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BTVN_SO8.twx BTVN_SO8.ncd -o BTVN_SO8.twr BTVN_SO8.pcf 
+bitgen -intstyle ise -f BTVN_SO8.ut BTVN_SO8.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BTVN_SO8/BTVN_SO8.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BTVN_SO8/BTVN_SO8.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BTVN_SO8/BTVN_SO8.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BTVN_SO8/BTVN_SO8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BTVN_SO8.ngc BTVN_SO8.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BTVN_SO8_map.ncd BTVN_SO8.ngd BTVN_SO8.pcf 
+par -w -intstyle ise -ol high -mt off BTVN_SO8_map.ncd BTVN_SO8.ncd BTVN_SO8.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BTVN_SO8.twx BTVN_SO8.ncd -o BTVN_SO8.twr BTVN_SO8.pcf 
+bitgen -intstyle ise -f BTVN_SO8.ut BTVN_SO8.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BTVN_SO8/BTVN_SO8.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BTVN_SO8/BTVN_SO8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BTVN_SO8.ngc BTVN_SO8.ngd  
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BTVN_SO8/BTVN_SO8.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BTVN_SO8/BTVN_SO8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BTVN_SO8.ngc BTVN_SO8.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BTVN_SO8_map.ncd BTVN_SO8.ngd BTVN_SO8.pcf 
+par -w -intstyle ise -ol high -mt off BTVN_SO8_map.ncd BTVN_SO8.ncd BTVN_SO8.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BTVN_SO8.twx BTVN_SO8.ncd -o BTVN_SO8.twr BTVN_SO8.pcf 
+bitgen -intstyle ise -f BTVN_SO8.ut BTVN_SO8.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO8/BTVN_SO8.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO8/BTVN_SO8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 BTVN_SO8.ngc BTVN_SO8.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BTVN_SO8_map.ncd BTVN_SO8.ngd BTVN_SO8.pcf 
+par -w -intstyle ise -ol high -mt off BTVN_SO8_map.ncd BTVN_SO8.ncd BTVN_SO8.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BTVN_SO8.twx BTVN_SO8.ncd -o BTVN_SO8.twr BTVN_SO8.pcf 
+bitgen -intstyle ise -f BTVN_SO8.ut BTVN_SO8.ncd 

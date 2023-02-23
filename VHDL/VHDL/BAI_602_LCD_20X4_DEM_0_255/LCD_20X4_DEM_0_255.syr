@@ -1,0 +1,570 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Reading design: LCD_20X4_DEM_0_255.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "LCD_20X4_DEM_0_255.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "LCD_20X4_DEM_0_255"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-pq208
+
+---- Source Options
+Top Module Name                    : LCD_20X4_DEM_0_255
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/LCD_20X4_DEM_0_255 is now defined in a different file.  It was defined in "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_602_LCD_20X4_DEM_0_255/LCD_20X4_DEM_0_255.vhd", and is now defined in "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_602_LCD_20X4_DEM_0_255/LCD_20X4_DEM_0_255.vhd".
+WARNING:HDLParsers:3607 - Unit work/LCD_20X4_DEM_0_255/Behavioral is now defined in a different file.  It was defined in "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_602_LCD_20X4_DEM_0_255/LCD_20X4_DEM_0_255.vhd", and is now defined in "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_602_LCD_20X4_DEM_0_255/LCD_20X4_DEM_0_255.vhd".
+WARNING:HDLParsers:3607 - Unit work/CHIA_10ENA is now defined in a different file.  It was defined in "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_602_LCD_20X4_DEM_0_255/CHIA_10ENA.vhd", and is now defined in "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_602_LCD_20X4_DEM_0_255/CHIA_10ENA.vhd".
+WARNING:HDLParsers:3607 - Unit work/CHIA_10ENA/Behavioral is now defined in a different file.  It was defined in "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_602_LCD_20X4_DEM_0_255/CHIA_10ENA.vhd", and is now defined in "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_602_LCD_20X4_DEM_0_255/CHIA_10ENA.vhd".
+WARNING:HDLParsers:3607 - Unit work/DEM_8BIT_SS is now defined in a different file.  It was defined in "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_602_LCD_20X4_DEM_0_255/DEM_8BIT_SS.vhd", and is now defined in "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_602_LCD_20X4_DEM_0_255/DEM_8BIT_SS.vhd".
+WARNING:HDLParsers:3607 - Unit work/DEM_8BIT_SS/Behavioral is now defined in a different file.  It was defined in "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_602_LCD_20X4_DEM_0_255/DEM_8BIT_SS.vhd", and is now defined in "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_602_LCD_20X4_DEM_0_255/DEM_8BIT_SS.vhd".
+WARNING:HDLParsers:3607 - Unit work/HEXTOBCD_8BIT is now defined in a different file.  It was defined in "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_602_LCD_20X4_DEM_0_255/HEXTOBCD_8BIT.vhd", and is now defined in "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_602_LCD_20X4_DEM_0_255/HEXTOBCD_8BIT.vhd".
+WARNING:HDLParsers:3607 - Unit work/HEXTOBCD_8BIT/Behavioral is now defined in a different file.  It was defined in "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_602_LCD_20X4_DEM_0_255/HEXTOBCD_8BIT.vhd", and is now defined in "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_602_LCD_20X4_DEM_0_255/HEXTOBCD_8BIT.vhd".
+WARNING:HDLParsers:3607 - Unit work/LCD_20X4_GAN_DULIEU_3SO is now defined in a different file.  It was defined in "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_602_LCD_20X4_DEM_0_255/LCD_20X4_GAN_DULIEU_3SO.vhd", and is now defined in "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_602_LCD_20X4_DEM_0_255/LCD_20X4_GAN_DULIEU_3SO.vhd".
+WARNING:HDLParsers:3607 - Unit work/LCD_20X4_GAN_DULIEU_3SO/Behavioral is now defined in a different file.  It was defined in "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_602_LCD_20X4_DEM_0_255/LCD_20X4_GAN_DULIEU_3SO.vhd", and is now defined in "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_602_LCD_20X4_DEM_0_255/LCD_20X4_GAN_DULIEU_3SO.vhd".
+WARNING:HDLParsers:3607 - Unit work/LCD_20X4_KHOITAO_HIENTHI is now defined in a different file.  It was defined in "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_602_LCD_20X4_DEM_0_255/LCD_20X4_KHOITAO_HIENTHI.vhd", and is now defined in "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_602_LCD_20X4_DEM_0_255/LCD_20X4_KHOITAO_HIENTHI.vhd".
+WARNING:HDLParsers:3607 - Unit work/LCD_20X4_KHOITAO_HIENTHI/Behavioral is now defined in a different file.  It was defined in "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_602_LCD_20X4_DEM_0_255/LCD_20X4_KHOITAO_HIENTHI.vhd", and is now defined in "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_602_LCD_20X4_DEM_0_255/LCD_20X4_KHOITAO_HIENTHI.vhd".
+Compiling vhdl file "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_602_LCD_20X4_DEM_0_255/CHIA_10ENA.vhd" in Library work.
+Architecture behavioral of Entity chia_10ena is up to date.
+Compiling vhdl file "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_602_LCD_20X4_DEM_0_255/DEM_8BIT_SS.vhd" in Library work.
+Architecture behavioral of Entity dem_8bit_ss is up to date.
+Compiling vhdl file "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_602_LCD_20X4_DEM_0_255/HEXTOBCD_8BIT.vhd" in Library work.
+Architecture behavioral of Entity hextobcd_8bit is up to date.
+Compiling vhdl file "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_602_LCD_20X4_DEM_0_255/LCD_20X4_GAN_DULIEU_3SO.vhd" in Library work.
+Architecture behavioral of Entity lcd_20x4_gan_dulieu_3so is up to date.
+Compiling vhdl file "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_602_LCD_20X4_DEM_0_255/LCD_20X4_KHOITAO_HIENTHI.vhd" in Library work.
+Architecture behavioral of Entity lcd_20x4_khoitao_hienthi is up to date.
+Compiling vhdl file "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_602_LCD_20X4_DEM_0_255/LCD_20X4_DEM_0_255.vhd" in Library work.
+Architecture behavioral of Entity lcd_20x4_dem_0_255 is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <LCD_20X4_DEM_0_255> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CHIA_10ENA> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DEM_8BIT_SS> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <HEXTOBCD_8BIT> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <LCD_20X4_GAN_DULIEU_3SO> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <LCD_20X4_KHOITAO_HIENTHI> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <LCD_20X4_DEM_0_255> in library <work> (Architecture <behavioral>).
+Entity <LCD_20X4_DEM_0_255> analyzed. Unit <LCD_20X4_DEM_0_255> generated.
+
+Analyzing Entity <CHIA_10ENA> in library <work> (Architecture <Behavioral>).
+Entity <CHIA_10ENA> analyzed. Unit <CHIA_10ENA> generated.
+
+Analyzing Entity <DEM_8BIT_SS> in library <work> (Architecture <Behavioral>).
+Entity <DEM_8BIT_SS> analyzed. Unit <DEM_8BIT_SS> generated.
+
+Analyzing Entity <HEXTOBCD_8BIT> in library <work> (Architecture <Behavioral>).
+Entity <HEXTOBCD_8BIT> analyzed. Unit <HEXTOBCD_8BIT> generated.
+
+Analyzing Entity <LCD_20X4_GAN_DULIEU_3SO> in library <work> (Architecture <Behavioral>).
+Entity <LCD_20X4_GAN_DULIEU_3SO> analyzed. Unit <LCD_20X4_GAN_DULIEU_3SO> generated.
+
+Analyzing Entity <LCD_20X4_KHOITAO_HIENTHI> in library <work> (Architecture <Behavioral>).
+Entity <LCD_20X4_KHOITAO_HIENTHI> analyzed. Unit <LCD_20X4_KHOITAO_HIENTHI> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <CHIA_10ENA>.
+    Related source file is "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_602_LCD_20X4_DEM_0_255/CHIA_10ENA.vhd".
+    Found 24-bit adder for signal <D5HZ_N$addsub0000> created at line 99.
+    Found 24-bit register for signal <D5HZ_R>.
+    Summary:
+	inferred  24 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <CHIA_10ENA> synthesized.
+
+
+Synthesizing Unit <DEM_8BIT_SS>.
+    Related source file is "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_602_LCD_20X4_DEM_0_255/DEM_8BIT_SS.vhd".
+    Found 8-bit adder for signal <Q_N$addsub0000> created at line 54.
+    Found 8-bit register for signal <Q_R>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <DEM_8BIT_SS> synthesized.
+
+
+Synthesizing Unit <HEXTOBCD_8BIT>.
+    Related source file is "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_602_LCD_20X4_DEM_0_255/HEXTOBCD_8BIT.vhd".
+    Found 4-bit comparator greatequal for signal <BCD_HEX_11$cmp_ge0000> created at line 57.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_11$cmp_ge0001> created at line 57.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_11$cmp_ge0002> created at line 57.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_11$cmp_ge0003> created at line 57.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_11$cmp_ge0004> created at line 57.
+    Found 4-bit adder for signal <BCD_HEX_11_8$add0000> created at line 58.
+    Found 4-bit adder for signal <BCD_HEX_11_8$add0001> created at line 58.
+    Found 4-bit adder for signal <BCD_HEX_11_8$add0002> created at line 58.
+    Found 4-bit adder for signal <BCD_HEX_11_8$add0003> created at line 58.
+    Found 4-bit adder for signal <BCD_HEX_11_8$add0004> created at line 58.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_15$cmp_ge0000> created at line 61.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_15$cmp_ge0001> created at line 61.
+    Found 4-bit adder for signal <BCD_HEX_15_12$add0000> created at line 62.
+    Found 4-bit adder for signal <BCD_HEX_15_12$add0001> created at line 62.
+    Summary:
+	inferred   7 Adder/Subtractor(s).
+	inferred   7 Comparator(s).
+Unit <HEXTOBCD_8BIT> synthesized.
+
+
+Synthesizing Unit <LCD_20X4_GAN_DULIEU_3SO>.
+    Related source file is "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_602_LCD_20X4_DEM_0_255/LCD_20X4_GAN_DULIEU_3SO.vhd".
+Unit <LCD_20X4_GAN_DULIEU_3SO> synthesized.
+
+
+Synthesizing Unit <LCD_20X4_KHOITAO_HIENTHI>.
+    Related source file is "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_602_LCD_20X4_DEM_0_255/LCD_20X4_KHOITAO_HIENTHI.vhd".
+    Found finite state machine <FSM_0> for signal <LCD_STATE>.
+    -----------------------------------------------------------------------
+    | States             | 10                                             |
+    | Transitions        | 25                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 10                                             |
+    | Clock              | LCD_CK                    (falling_edge)       |
+    | Reset              | LCD_RST                   (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | lcd_initial                                    |
+    | Power Up State     | lcd_initial                                    |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 6x8-bit ROM for signal <LCD_DB$mux0000> created at line 117.
+    Found 1-bit register for signal <LCD_E>.
+    Found 1-bit register for signal <LCD_RS>.
+    Found 8-bit register for signal <LCD_DB>.
+    Found 8-bit 20-to-1 multiplexer for signal <$varindex0000> created at line 138.
+    Found 8-bit 20-to-1 multiplexer for signal <$varindex0001> created at line 160.
+    Found 8-bit 20-to-1 multiplexer for signal <$varindex0002> created at line 182.
+    Found 8-bit 20-to-1 multiplexer for signal <$varindex0003> created at line 204.
+    Found 5-bit register for signal <PTR>.
+    Found 5-bit adder for signal <PTR$share0000> created at line 108.
+    Found 20-bit register for signal <SLX>.
+    Found 20-bit adder for signal <SLX$share0000> created at line 108.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 ROM(s).
+	inferred  35 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred  32 Multiplexer(s).
+Unit <LCD_20X4_KHOITAO_HIENTHI> synthesized.
+
+
+Synthesizing Unit <LCD_20X4_DEM_0_255>.
+    Related source file is "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_602_LCD_20X4_DEM_0_255/LCD_20X4_DEM_0_255.vhd".
+Unit <LCD_20X4_DEM_0_255> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 6x8-bit ROM                                           : 1
+# Adders/Subtractors                                   : 11
+ 20-bit adder                                          : 1
+ 24-bit adder                                          : 1
+ 4-bit adder                                           : 7
+ 5-bit adder                                           : 1
+ 8-bit adder                                           : 1
+# Registers                                            : 7
+ 1-bit register                                        : 2
+ 20-bit register                                       : 1
+ 24-bit register                                       : 1
+ 5-bit register                                        : 1
+ 8-bit register                                        : 2
+# Comparators                                          : 7
+ 4-bit comparator greatequal                           : 7
+# Multiplexers                                         : 4
+ 8-bit 20-to-1 multiplexer                             : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <IC5/LCD_STATE/FSM> on signal <LCD_STATE[1:4]> with gray encoding.
+-------------------------
+ State       | Encoding
+-------------------------
+ lcd_initial | 0000
+ lcd_addr_l1 | 0001
+ lcd_data_l1 | 0011
+ lcd_addr_l2 | 0010
+ lcd_data_l2 | 0110
+ lcd_addr_l3 | 0111
+ lcd_data_l3 | 0101
+ lcd_addr_l4 | 0100
+ lcd_data_l4 | 1100
+ lcd_stop    | 1101
+-------------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# ROMs                                                 : 1
+ 6x8-bit ROM                                           : 1
+# Adders/Subtractors                                   : 11
+ 20-bit adder                                          : 1
+ 24-bit adder                                          : 1
+ 4-bit adder                                           : 7
+ 5-bit adder                                           : 1
+ 8-bit adder                                           : 1
+# Registers                                            : 67
+ Flip-Flops                                            : 67
+# Comparators                                          : 7
+ 4-bit comparator greatequal                           : 7
+# Multiplexers                                         : 4
+ 8-bit 20-to-1 multiplexer                             : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <LCD_20X4_DEM_0_255> ...
+
+Optimizing unit <CHIA_10ENA> ...
+
+Optimizing unit <DEM_8BIT_SS> ...
+
+Optimizing unit <HEXTOBCD_8BIT> ...
+
+Optimizing unit <LCD_20X4_KHOITAO_HIENTHI> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block LCD_20X4_DEM_0_255, actual ratio is 3.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 71
+ Flip-Flops                                            : 71
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : LCD_20X4_DEM_0_255.ngr
+Top Level Output File Name         : LCD_20X4_DEM_0_255
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 14
+
+Cell Usage :
+# BELS                             : 420
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 42
+#      LUT2                        : 18
+#      LUT2_D                      : 1
+#      LUT2_L                      : 2
+#      LUT3                        : 32
+#      LUT3_D                      : 7
+#      LUT3_L                      : 6
+#      LUT4                        : 166
+#      LUT4_D                      : 17
+#      LUT4_L                      : 15
+#      MUXCY                       : 42
+#      MUXF5                       : 21
+#      MUXF6                       : 2
+#      VCC                         : 1
+#      XORCY                       : 44
+# FlipFlops/Latches                : 71
+#      FDC_1                       : 37
+#      FDE_1                       : 10
+#      FDR_1                       : 23
+#      FDS_1                       : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 13
+#      IBUF                        : 2
+#      OBUF                        : 11
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500epq208-5 
+
+ Number of Slices:                      161  out of   4656     3%  
+ Number of Slice Flip Flops:             71  out of   9312     0%  
+ Number of 4 input LUTs:                309  out of   9312     3%  
+ Number of IOs:                          14
+ Number of bonded IOBs:                  14  out of    158     8%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CKHT                               | BUFGP                  | 71    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+BTN                                | IBUF                   | 37    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 12.658ns (Maximum Frequency: 79.004MHz)
+   Minimum input arrival time before clock: 12.294ns
+   Maximum output required time after clock: 4.134ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CKHT'
+  Clock period: 12.658ns (frequency: 79.004MHz)
+  Total number of paths / destination ports: 24582 / 95
+-------------------------------------------------------------------------
+Delay:               12.658ns (Levels of Logic = 12)
+  Source:            IC1/D5HZ_R_9 (FF)
+  Destination:       IC5/LCD_DB_1 (FF)
+  Source Clock:      CKHT falling
+  Destination Clock: CKHT falling
+
+  Data Path: IC1/D5HZ_R_9 to IC5/LCD_DB_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR_1:C->Q            2   0.514   0.532  IC1/D5HZ_R_9 (IC1/D5HZ_R_9)
+     LUT4:I0->O            1   0.612   0.426  IC1/D5HZ_N_cmp_eq0000123 (IC1/D5HZ_N_cmp_eq0000123)
+     LUT3:I1->O            7   0.612   0.605  IC1/D5HZ_N_cmp_eq0000149 (IC1/N01)
+     LUT4:I3->O           14   0.612   0.880  IC2/Q_N<4>11 (IC2/N3)
+     LUT3:I2->O            1   0.612   0.360  IC3/BCD_HEX_10_mux00022_SW1 (N82)
+     LUT4:I3->O            1   0.612   0.000  IC3/BCD_HEX_10_mux00022 (IC3/BCD_HEX_10_mux00021)
+     MUXF5:I0->O           1   0.278   0.000  IC3/BCD_HEX_10_mux0002_f5 (IC3/BCD_HEX_10_mux0002_f5)
+     MUXF6:I1->O          12   0.451   0.847  IC3/BCD_HEX_10_mux0002_f6 (IC3/Madd_BCD_HEX_11_8_add0003_lut<3>)
+     LUT3_D:I2->LO         1   0.612   0.103  IC3/BCD_HEX_11_mux0003_SW0 (N214)
+     LUT4:I3->O            4   0.612   0.499  IC3/BCD_HEX_11_mux0003 (IC3/Madd_BCD_HEX_15_12_add0001_cy<0>)
+     MUXF5:S->O            1   0.641   0.357  IC3/BCD_HEX_12_mux0001_f5 (IC3/BCD_HEX_12_mux0001_f5)
+     MUXF5:S->O            1   0.641   0.360  IC5/Mmux__varindex0000_4 (IC5/Mmux__varindex0000_4)
+     LUT4:I3->O            1   0.612   0.000  IC5/LCD_DB_mux0001<6>182 (IC5/LCD_DB_mux0001<6>)
+     FDE_1:D                   0.268          IC5/LCD_DB_1
+    ----------------------------------------
+    Total                     12.658ns (7.689ns logic, 4.969ns route)
+                                       (60.7% logic, 39.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CKHT'
+  Total number of paths / destination ports: 627 / 22
+-------------------------------------------------------------------------
+Offset:              12.294ns (Levels of Logic = 12)
+  Source:            SW (PAD)
+  Destination:       IC5/LCD_DB_1 (FF)
+  Destination Clock: CKHT falling
+
+  Data Path: SW to IC5/LCD_DB_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   1.106   0.651  SW_IBUF (SW_IBUF)
+     LUT3:I0->O            5   0.612   0.568  IC1/ENA5HZ_cmp_eq000063_SW0 (N42)
+     LUT4:I2->O           14   0.612   0.880  IC2/Q_N<4>11 (IC2/N3)
+     LUT3:I2->O            1   0.612   0.360  IC3/BCD_HEX_10_mux00022_SW1 (N82)
+     LUT4:I3->O            1   0.612   0.000  IC3/BCD_HEX_10_mux00022 (IC3/BCD_HEX_10_mux00021)
+     MUXF5:I0->O           1   0.278   0.000  IC3/BCD_HEX_10_mux0002_f5 (IC3/BCD_HEX_10_mux0002_f5)
+     MUXF6:I1->O          12   0.451   0.847  IC3/BCD_HEX_10_mux0002_f6 (IC3/Madd_BCD_HEX_11_8_add0003_lut<3>)
+     LUT3_D:I2->LO         1   0.612   0.103  IC3/BCD_HEX_11_mux0003_SW0 (N214)
+     LUT4:I3->O            4   0.612   0.499  IC3/BCD_HEX_11_mux0003 (IC3/Madd_BCD_HEX_15_12_add0001_cy<0>)
+     MUXF5:S->O            1   0.641   0.357  IC3/BCD_HEX_12_mux0001_f5 (IC3/BCD_HEX_12_mux0001_f5)
+     MUXF5:S->O            1   0.641   0.360  IC5/Mmux__varindex0000_4 (IC5/Mmux__varindex0000_4)
+     LUT4:I3->O            1   0.612   0.000  IC5/LCD_DB_mux0001<6>182 (IC5/LCD_DB_mux0001<6>)
+     FDE_1:D                   0.268          IC5/LCD_DB_1
+    ----------------------------------------
+    Total                     12.294ns (7.669ns logic, 4.625ns route)
+                                       (62.4% logic, 37.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CKHT'
+  Total number of paths / destination ports: 10 / 10
+-------------------------------------------------------------------------
+Offset:              4.134ns (Levels of Logic = 1)
+  Source:            IC5/LCD_E (FF)
+  Destination:       LCD_E (PAD)
+  Source Clock:      CKHT falling
+
+  Data Path: IC5/LCD_E to LCD_E
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE_1:C->Q            3   0.514   0.451  IC5/LCD_E (IC5/LCD_E)
+     OBUF:I->O                 3.169          LCD_E_OBUF (LCD_E)
+    ----------------------------------------
+    Total                      4.134ns (3.683ns logic, 0.451ns route)
+                                       (89.1% logic, 10.9% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 12.13 secs
+ 
+--> 
+
+Total memory usage is 4521436 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   12 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

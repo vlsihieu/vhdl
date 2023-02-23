@@ -1,0 +1,806 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: MACH_DEM_GH_HT_7DOAN_LCD.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "MACH_DEM_GH_HT_7DOAN_LCD.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "MACH_DEM_GH_HT_7DOAN_LCD"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-pq208
+
+---- Source Options
+Top Module Name                    : MACH_DEM_GH_HT_7DOAN_LCD
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTNVN_SO61/DEM_3BIT_CHON_8KENH.vhd" in Library work.
+Architecture behavioral of Entity dem_3bit_chon_8kenh is up to date.
+Compiling vhdl file "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTNVN_SO61/QUET_ANODE_8LED_7DOAN.vhd" in Library work.
+Architecture behavioral of Entity quet_anode_8led_7doan is up to date.
+Compiling vhdl file "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTNVN_SO61/DAHOP_8KENH.vhd" in Library work.
+Architecture behavioral of Entity dahop_8kenh is up to date.
+Compiling vhdl file "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTNVN_SO61/GIAIMA_7DOAN_ENA.vhd" in Library work.
+Architecture behavioral of Entity giaima_7doan_ena is up to date.
+Compiling vhdl file "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTNVN_SO61/CHIA_10ENA.vhd" in Library work.
+Architecture behavioral of Entity chia_10ena is up to date.
+Compiling vhdl file "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTNVN_SO61/DEBOUNCE_BTN.vhd" in Library work.
+Architecture behavioral of Entity debounce_btn is up to date.
+Compiling vhdl file "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTNVN_SO61/CAI_GH_DEM.vhd" in Library work.
+Architecture behavioral of Entity cai_gh_dem is up to date.
+Compiling vhdl file "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTNVN_SO61/DEM_2SO_LCD.vhd" in Library work.
+Architecture behavioral of Entity dem_2so_lcd is up to date.
+Compiling vhdl file "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTNVN_SO61/LCD_GIAI_MA_SO_TO.vhd" in Library work.
+Architecture behavioral of Entity lcd_giai_ma_so_to is up to date.
+Compiling vhdl file "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTNVN_SO61/LCD_20X4_GAN_DULIEU_1SO_TO.vhd" in Library work.
+Architecture behavioral of Entity lcd_20x4_gan_dulieu_1so_to is up to date.
+Compiling vhdl file "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTNVN_SO61/LCD_KHOITAO_HIENTHI_SO_TO.vhd" in Library work.
+Architecture behavioral of Entity lcd_khoitao_hienthi_so_to is up to date.
+Compiling vhdl file "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTNVN_SO61/DEM_2SO_7DOAN.vhd" in Library work.
+Architecture behavioral of Entity dem_2so_7doan is up to date.
+Compiling vhdl file "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTNVN_SO61/GIAIMA_HIENTHI_8LED_7DOAN.vhd" in Library work.
+Architecture behavioral of Entity giaima_hienthi_8led_7doan is up to date.
+Compiling vhdl file "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTNVN_SO61/BTVN_SO61.vhd" in Library work.
+Architecture pmh of Entity mach_dem_gh_ht_7doan_lcd is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <MACH_DEM_GH_HT_7DOAN_LCD> in library <work> (architecture <pmh>).
+
+Analyzing hierarchy for entity <CHIA_10ENA> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DEBOUNCE_BTN> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <CAI_GH_DEM> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DEM_2SO_LCD> in library <work> (architecture <Behavioral>).
+WARNING:Xst:2094 - "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTNVN_SO61/DEM_2SO_LCD.vhd" line 46: Default value is ignored for signal <DONVI_R>.
+WARNING:Xst:2094 - "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTNVN_SO61/DEM_2SO_LCD.vhd" line 46: Default value is ignored for signal <DONVI_N>.
+WARNING:Xst:2094 - "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTNVN_SO61/DEM_2SO_LCD.vhd" line 47: Default value is ignored for signal <CHUC_R>.
+WARNING:Xst:2094 - "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTNVN_SO61/DEM_2SO_LCD.vhd" line 47: Default value is ignored for signal <CHUC_N>.
+
+Analyzing hierarchy for entity <LCD_GIAI_MA_SO_TO> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <LCD_20X4_GAN_DULIEU_1SO_TO> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <LCD_KHOITAO_HIENTHI_SO_TO> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DEM_2SO_7DOAN> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <GIAIMA_HIENTHI_8LED_7DOAN> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DEM_3BIT_CHON_8KENH> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <QUET_ANODE_8LED_7DOAN> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DAHOP_8KENH> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <GIAIMA_7DOAN_ENA> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <MACH_DEM_GH_HT_7DOAN_LCD> in library <work> (Architecture <pmh>).
+Entity <MACH_DEM_GH_HT_7DOAN_LCD> analyzed. Unit <MACH_DEM_GH_HT_7DOAN_LCD> generated.
+
+Analyzing Entity <CHIA_10ENA> in library <work> (Architecture <Behavioral>).
+Entity <CHIA_10ENA> analyzed. Unit <CHIA_10ENA> generated.
+
+Analyzing Entity <DEBOUNCE_BTN> in library <work> (Architecture <Behavioral>).
+Entity <DEBOUNCE_BTN> analyzed. Unit <DEBOUNCE_BTN> generated.
+
+Analyzing Entity <CAI_GH_DEM> in library <work> (Architecture <Behavioral>).
+Entity <CAI_GH_DEM> analyzed. Unit <CAI_GH_DEM> generated.
+
+Analyzing Entity <DEM_2SO_LCD> in library <work> (Architecture <Behavioral>).
+WARNING:Xst:2094 - "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTNVN_SO61/DEM_2SO_LCD.vhd" line 46: Default value is ignored for signal <DONVI_R>.
+WARNING:Xst:2094 - "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTNVN_SO61/DEM_2SO_LCD.vhd" line 46: Default value is ignored for signal <DONVI_N>.
+WARNING:Xst:2094 - "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTNVN_SO61/DEM_2SO_LCD.vhd" line 47: Default value is ignored for signal <CHUC_R>.
+WARNING:Xst:2094 - "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTNVN_SO61/DEM_2SO_LCD.vhd" line 47: Default value is ignored for signal <CHUC_N>.
+Entity <DEM_2SO_LCD> analyzed. Unit <DEM_2SO_LCD> generated.
+
+Analyzing Entity <LCD_GIAI_MA_SO_TO> in library <work> (Architecture <Behavioral>).
+Entity <LCD_GIAI_MA_SO_TO> analyzed. Unit <LCD_GIAI_MA_SO_TO> generated.
+
+Analyzing Entity <LCD_20X4_GAN_DULIEU_1SO_TO> in library <work> (Architecture <Behavioral>).
+Entity <LCD_20X4_GAN_DULIEU_1SO_TO> analyzed. Unit <LCD_20X4_GAN_DULIEU_1SO_TO> generated.
+
+Analyzing Entity <LCD_KHOITAO_HIENTHI_SO_TO> in library <work> (Architecture <Behavioral>).
+INFO:Xst:1433 - Contents of array <LCD_DIS1> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <LCD_DIS2> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <LCD_DIS3> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <LCD_DIS4> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+Entity <LCD_KHOITAO_HIENTHI_SO_TO> analyzed. Unit <LCD_KHOITAO_HIENTHI_SO_TO> generated.
+
+Analyzing Entity <DEM_2SO_7DOAN> in library <work> (Architecture <Behavioral>).
+Entity <DEM_2SO_7DOAN> analyzed. Unit <DEM_2SO_7DOAN> generated.
+
+Analyzing Entity <GIAIMA_HIENTHI_8LED_7DOAN> in library <work> (Architecture <Behavioral>).
+Entity <GIAIMA_HIENTHI_8LED_7DOAN> analyzed. Unit <GIAIMA_HIENTHI_8LED_7DOAN> generated.
+
+Analyzing Entity <DEM_3BIT_CHON_8KENH> in library <work> (Architecture <Behavioral>).
+Entity <DEM_3BIT_CHON_8KENH> analyzed. Unit <DEM_3BIT_CHON_8KENH> generated.
+
+Analyzing Entity <QUET_ANODE_8LED_7DOAN> in library <work> (Architecture <Behavioral>).
+Entity <QUET_ANODE_8LED_7DOAN> analyzed. Unit <QUET_ANODE_8LED_7DOAN> generated.
+
+Analyzing Entity <DAHOP_8KENH> in library <work> (Architecture <Behavioral>).
+Entity <DAHOP_8KENH> analyzed. Unit <DAHOP_8KENH> generated.
+
+Analyzing Entity <GIAIMA_7DOAN_ENA> in library <work> (Architecture <Behavioral>).
+Entity <GIAIMA_7DOAN_ENA> analyzed. Unit <GIAIMA_7DOAN_ENA> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <CHIA_10ENA>.
+    Related source file is "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTNVN_SO61/CHIA_10ENA.vhd".
+    Found 23-bit adder for signal <D10HZ_N$addsub0000> created at line 99.
+    Found 23-bit register for signal <D10HZ_R>.
+    Found 16-bit adder for signal <D1KHZ_N$addsub0000> created at line 94.
+    Found 16-bit register for signal <D1KHZ_R>.
+    Found 24-bit adder for signal <D5HZ_N$addsub0000> created at line 100.
+    Found 24-bit register for signal <D5HZ_R>.
+    Summary:
+	inferred  63 D-type flip-flop(s).
+	inferred   3 Adder/Subtractor(s).
+Unit <CHIA_10ENA> synthesized.
+
+
+Synthesizing Unit <DEBOUNCE_BTN>.
+    Related source file is "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTNVN_SO61/DEBOUNCE_BTN.vhd".
+    Found finite state machine <FSM_0> for signal <DB_REG>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 10                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 5                                              |
+    | Clock              | CKHT                      (falling_edge)       |
+    | Power Up State     | zero                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 20-bit register for signal <DELAY_REG>.
+    Found 20-bit subtractor for signal <DELAY_REG$addsub0000>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  20 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <DEBOUNCE_BTN> synthesized.
+
+
+Synthesizing Unit <CAI_GH_DEM>.
+    Related source file is "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTNVN_SO61/CAI_GH_DEM.vhd".
+    Found 4-bit register for signal <CHUC_R>.
+    Found 4-bit adder for signal <CHUC_R$addsub0000> created at line 71.
+    Found 4-bit register for signal <DONVI_R>.
+    Found 4-bit adder for signal <DONVI_R$addsub0000> created at line 68.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+Unit <CAI_GH_DEM> synthesized.
+
+
+Synthesizing Unit <DEM_2SO_LCD>.
+    Related source file is "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTNVN_SO61/DEM_2SO_LCD.vhd".
+    Found 4-bit up counter for signal <CHUC_R>.
+    Found 4-bit up counter for signal <DONVI_R>.
+    Summary:
+	inferred   2 Counter(s).
+Unit <DEM_2SO_LCD> synthesized.
+
+
+Synthesizing Unit <LCD_GIAI_MA_SO_TO>.
+    Related source file is "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTNVN_SO61/LCD_GIAI_MA_SO_TO.vhd".
+    Found 60x8-bit ROM for signal <MA_SO<0>>.
+    Found 59x8-bit ROM for signal <MA_SO<1>>.
+    Found 58x8-bit ROM for signal <MA_SO<2>>.
+    Found 57x8-bit ROM for signal <MA_SO<3>>.
+    Found 56x8-bit ROM for signal <MA_SO<4>>.
+    Found 55x8-bit ROM for signal <MA_SO<5>>.
+    Found 4x3-bit multiplier for signal <MA_SO_0$mult0000> created at line 67.
+    Summary:
+	inferred   6 ROM(s).
+	inferred   1 Multiplier(s).
+Unit <LCD_GIAI_MA_SO_TO> synthesized.
+
+
+Synthesizing Unit <LCD_20X4_GAN_DULIEU_1SO_TO>.
+    Related source file is "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTNVN_SO61/LCD_20X4_GAN_DULIEU_1SO_TO.vhd".
+    Found 48-bit comparator equal for signal <lcd_ma_ch$cmp_eq0000> created at line 47.
+    Summary:
+	inferred   1 Comparator(s).
+Unit <LCD_20X4_GAN_DULIEU_1SO_TO> synthesized.
+
+
+Synthesizing Unit <LCD_KHOITAO_HIENTHI_SO_TO>.
+    Related source file is "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTNVN_SO61/LCD_KHOITAO_HIENTHI_SO_TO.vhd".
+    Found 64x8-bit ROM for signal <LCD_DB$rom0000> created at line 169.
+    Found finite state machine <FSM_1> for signal <LCD_STATE>.
+    -----------------------------------------------------------------------
+    | States             | 12                                             |
+    | Transitions        | 30                                             |
+    | Inputs             | 6                                              |
+    | Outputs            | 12                                             |
+    | Clock              | LCD_CK                    (falling_edge)       |
+    | Reset              | LCD_RST                   (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | lcd_initial                                    |
+    | Power Up State     | lcd_initial                                    |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 6x8-bit ROM for signal <LCD_DB$mux0000> created at line 145.
+    Found 1-bit register for signal <LCD_E>.
+    Found 1-bit register for signal <LCD_RS>.
+    Found 8-bit register for signal <LCD_DB>.
+    Found 8-bit 20-to-1 multiplexer for signal <$varindex0000> created at line 195.
+    Found 8-bit 20-to-1 multiplexer for signal <$varindex0001> created at line 217.
+    Found 8-bit 20-to-1 multiplexer for signal <$varindex0002> created at line 239.
+    Found 8-bit 20-to-1 multiplexer for signal <$varindex0003> created at line 262.
+    Found 6-bit register for signal <PTR>.
+    Found 6-bit adder for signal <PTR$share0000> created at line 136.
+    Found 20-bit register for signal <SLX>.
+    Found 20-bit adder for signal <SLX$share0000> created at line 136.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   2 ROM(s).
+	inferred  36 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred  32 Multiplexer(s).
+Unit <LCD_KHOITAO_HIENTHI_SO_TO> synthesized.
+
+
+Synthesizing Unit <DEM_2SO_7DOAN>.
+    Related source file is "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTNVN_SO61/DEM_2SO_7DOAN.vhd".
+    Found 4-bit register for signal <CHUC_R>.
+    Found 4-bit adder for signal <CHUC_R$addsub0000> created at line 69.
+    Found 4-bit comparator equal for signal <CHUC_R$cmp_eq0000> created at line 64.
+    Found 4-bit comparator equal for signal <CHUC_R$cmp_eq0001> created at line 64.
+    Found 4-bit comparator not equal for signal <CHUC_R$cmp_ne0001> created at line 64.
+    Found 4-bit comparator not equal for signal <CHUC_R$cmp_ne0002> created at line 64.
+    Found 4-bit register for signal <DONVI_R>.
+    Found 4-bit adder for signal <DONVI_R$addsub0000> created at line 66.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred   4 Comparator(s).
+Unit <DEM_2SO_7DOAN> synthesized.
+
+
+Synthesizing Unit <DEM_3BIT_CHON_8KENH>.
+    Related source file is "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTNVN_SO61/DEM_3BIT_CHON_8KENH.vhd".
+    Found 3-bit up counter for signal <Q_R>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <DEM_3BIT_CHON_8KENH> synthesized.
+
+
+Synthesizing Unit <QUET_ANODE_8LED_7DOAN>.
+    Related source file is "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTNVN_SO61/QUET_ANODE_8LED_7DOAN.vhd".
+    Found 1-of-8 decoder for signal <ANODE>.
+    Summary:
+	inferred   1 Decoder(s).
+Unit <QUET_ANODE_8LED_7DOAN> synthesized.
+
+
+Synthesizing Unit <DAHOP_8KENH>.
+    Related source file is "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTNVN_SO61/DAHOP_8KENH.vhd".
+    Found 8x1-bit ROM for signal <ENA_1LED>.
+    Found 4-bit 8-to-1 multiplexer for signal <SO_GMA>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   4 Multiplexer(s).
+Unit <DAHOP_8KENH> synthesized.
+
+
+Synthesizing Unit <GIAIMA_7DOAN_ENA>.
+    Related source file is "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTNVN_SO61/GIAIMA_7DOAN_ENA.vhd".
+Unit <GIAIMA_7DOAN_ENA> synthesized.
+
+
+Synthesizing Unit <GIAIMA_HIENTHI_8LED_7DOAN>.
+    Related source file is "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTNVN_SO61/GIAIMA_HIENTHI_8LED_7DOAN.vhd".
+Unit <GIAIMA_HIENTHI_8LED_7DOAN> synthesized.
+
+
+Synthesizing Unit <MACH_DEM_GH_HT_7DOAN_LCD>.
+    Related source file is "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTNVN_SO61/BTVN_SO61.vhd".
+Unit <MACH_DEM_GH_HT_7DOAN_LCD> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 15
+ 55x8-bit ROM                                          : 2
+ 56x8-bit ROM                                          : 2
+ 57x8-bit ROM                                          : 2
+ 58x8-bit ROM                                          : 2
+ 59x8-bit ROM                                          : 2
+ 60x8-bit ROM                                          : 2
+ 64x8-bit ROM                                          : 1
+ 6x8-bit ROM                                           : 1
+ 8x1-bit ROM                                           : 1
+# Multipliers                                          : 2
+ 4x3-bit multiplier                                    : 2
+# Adders/Subtractors                                   : 10
+ 16-bit adder                                          : 1
+ 20-bit adder                                          : 1
+ 20-bit subtractor                                     : 1
+ 23-bit adder                                          : 1
+ 24-bit adder                                          : 1
+ 4-bit adder                                           : 4
+ 6-bit adder                                           : 1
+# Counters                                             : 3
+ 3-bit up counter                                      : 1
+ 4-bit up counter                                      : 2
+# Registers                                            : 13
+ 1-bit register                                        : 2
+ 16-bit register                                       : 1
+ 20-bit register                                       : 2
+ 23-bit register                                       : 1
+ 24-bit register                                       : 1
+ 4-bit register                                        : 4
+ 6-bit register                                        : 1
+ 8-bit register                                        : 1
+# Comparators                                          : 5
+ 4-bit comparator equal                                : 2
+ 4-bit comparator not equal                            : 2
+ 48-bit comparator equal                               : 1
+# Multiplexers                                         : 5
+ 4-bit 8-to-1 multiplexer                              : 1
+ 8-bit 20-to-1 multiplexer                             : 4
+# Decoders                                             : 1
+ 1-of-8 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <IC36/LCD_STATE/FSM> on signal <LCD_STATE[1:4]> with user encoding.
+-------------------------
+ State       | Encoding
+-------------------------
+ lcd_initial | 0000
+ lcd_cg_addr | 0001
+ lcd_cg_data | 0010
+ lcd_addr_l1 | 0011
+ lcd_data_l1 | 0100
+ lcd_addr_l2 | 0101
+ lcd_data_l2 | 0110
+ lcd_addr_l3 | 0111
+ lcd_data_l3 | 1000
+ lcd_addr_l4 | 1001
+ lcd_data_l4 | 1010
+ lcd_stop    | 1011
+-------------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <IC1/DB_REG/FSM> on signal <DB_REG[1:2]> with sequential encoding.
+-------------------
+ State | Encoding
+-------------------
+ zero  | 00
+ wait0 | 11
+ one   | 10
+ wait1 | 01
+-------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 2
+# ROMs                                                 : 15
+ 55x8-bit ROM                                          : 2
+ 56x8-bit ROM                                          : 2
+ 57x8-bit ROM                                          : 2
+ 58x8-bit ROM                                          : 2
+ 59x8-bit ROM                                          : 2
+ 60x8-bit ROM                                          : 2
+ 64x8-bit ROM                                          : 1
+ 6x8-bit ROM                                           : 1
+ 8x1-bit ROM                                           : 1
+# Multipliers                                          : 2
+ 4x3-bit multiplier                                    : 2
+# Adders/Subtractors                                   : 10
+ 16-bit adder                                          : 1
+ 20-bit adder                                          : 1
+ 20-bit subtractor                                     : 1
+ 23-bit adder                                          : 1
+ 24-bit adder                                          : 1
+ 4-bit adder                                           : 4
+ 6-bit adder                                           : 1
+# Counters                                             : 3
+ 3-bit up counter                                      : 1
+ 4-bit up counter                                      : 2
+# Registers                                            : 135
+ Flip-Flops                                            : 135
+# Comparators                                          : 5
+ 4-bit comparator equal                                : 2
+ 4-bit comparator not equal                            : 2
+ 48-bit comparator equal                               : 1
+# Multiplexers                                         : 5
+ 4-bit 8-to-1 multiplexer                              : 1
+ 8-bit 20-to-1 multiplexer                             : 4
+# Decoders                                             : 1
+ 1-of-8 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <MACH_DEM_GH_HT_7DOAN_LCD> ...
+
+Optimizing unit <CHIA_10ENA> ...
+
+Optimizing unit <DEBOUNCE_BTN> ...
+
+Optimizing unit <LCD_20X4_GAN_DULIEU_1SO_TO> ...
+
+Optimizing unit <LCD_KHOITAO_HIENTHI_SO_TO> ...
+
+Optimizing unit <DEM_2SO_7DOAN> ...
+
+Optimizing unit <CAI_GH_DEM> ...
+
+Optimizing unit <DEM_2SO_LCD> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block MACH_DEM_GH_HT_7DOAN_LCD, actual ratio is 10.
+FlipFlop IC3/CHUC_R_0 has been replicated 1 time(s)
+FlipFlop IC3/CHUC_R_1 has been replicated 1 time(s)
+FlipFlop IC3/CHUC_R_2 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 155
+ Flip-Flops                                            : 155
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : MACH_DEM_GH_HT_7DOAN_LCD.ngr
+Top Level Output File Name         : MACH_DEM_GH_HT_7DOAN_LCD
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 30
+
+Cell Usage :
+# BELS                             : 1319
+#      GND                         : 1
+#      INV                         : 83
+#      LUT1                        : 118
+#      LUT2                        : 46
+#      LUT2_L                      : 1
+#      LUT3                        : 227
+#      LUT3_D                      : 3
+#      LUT3_L                      : 7
+#      LUT4                        : 241
+#      LUT4_D                      : 10
+#      LUT4_L                      : 20
+#      MUXCY                       : 116
+#      MUXF5                       : 217
+#      MUXF6                       : 106
+#      MUXF7                       : 19
+#      VCC                         : 1
+#      XORCY                       : 103
+# FlipFlops/Latches                : 155
+#      FD_1                        : 1
+#      FDC_1                       : 30
+#      FDCE_1                      : 15
+#      FDCPE                       : 11
+#      FDE                         : 3
+#      FDE_1                       : 10
+#      FDPE_1                      : 1
+#      FDR_1                       : 60
+#      FDS_1                       : 3
+#      FDSE_1                      : 21
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 29
+#      IBUF                        : 2
+#      OBUF                        : 27
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500epq208-5 
+
+ Number of Slices:                      458  out of   4656     9%  
+ Number of Slice Flip Flops:            155  out of   9312     1%  
+ Number of 4 input LUTs:                756  out of   9312     8%  
+ Number of IOs:                          30
+ Number of bonded IOBs:                  30  out of    158    18%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CKHT                               | BUFGP                  | 155   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-------------------------------------------------+------------------------+-------+
+Control Signal                                   | Buffer(FF name)        | Load  |
+-------------------------------------------------+------------------------+-------+
+BTN<0>                                           | IBUF                   | 46    |
+IC3/CHUC_R_0__and0001(IC3/CHUC_R_0__and00011:O)  | NONE(IC3/CHUC_R_0)     | 2     |
+IC3/CHUC_R_0__and0002(IC3/CHUC_R_0__and00021:O)  | NONE(IC3/CHUC_R_0)     | 2     |
+IC3/CHUC_R_1__and0001(IC3/CHUC_R_1__and00011:O)  | NONE(IC3/CHUC_R_1)     | 2     |
+IC3/CHUC_R_1__and0002(IC3/CHUC_R_1__and00021:O)  | NONE(IC3/CHUC_R_1)     | 2     |
+IC3/CHUC_R_2__and0001(IC3/CHUC_R_2__and00011:O)  | NONE(IC3/CHUC_R_2)     | 2     |
+IC3/CHUC_R_2__and0002(IC3/CHUC_R_2__and00021:O)  | NONE(IC3/CHUC_R_2)     | 2     |
+IC3/CHUC_R_3__and0001(IC3/CHUC_R_3__and00011:O)  | NONE(IC3/CHUC_R_3)     | 1     |
+IC3/CHUC_R_3__and0002(IC3/CHUC_R_3__and00021:O)  | NONE(IC3/CHUC_R_3)     | 1     |
+IC3/DONVI_R_0__and0001(IC3/DONVI_R_0__and00011:O)| NONE(IC3/DONVI_R_0)    | 1     |
+IC3/DONVI_R_0__and0002(IC3/DONVI_R_0__and00021:O)| NONE(IC3/DONVI_R_0)    | 1     |
+IC3/DONVI_R_1__and0001(IC3/DONVI_R_1__and00011:O)| NONE(IC3/DONVI_R_1)    | 1     |
+IC3/DONVI_R_1__and0002(IC3/DONVI_R_1__and00021:O)| NONE(IC3/DONVI_R_1)    | 1     |
+IC3/DONVI_R_2__and0001(IC3/DONVI_R_2__and00011:O)| NONE(IC3/DONVI_R_2)    | 1     |
+IC3/DONVI_R_2__and0002(IC3/DONVI_R_2__and00021:O)| NONE(IC3/DONVI_R_2)    | 1     |
+IC3/DONVI_R_3__and0001(IC3/DONVI_R_3__and00011:O)| NONE(IC3/DONVI_R_3)    | 1     |
+IC3/DONVI_R_3__and0002(IC3/DONVI_R_3__and00021:O)| NONE(IC3/DONVI_R_3)    | 1     |
+-------------------------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 11.992ns (Maximum Frequency: 83.388MHz)
+   Minimum input arrival time before clock: 5.748ns
+   Maximum output required time after clock: 8.518ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CKHT'
+  Clock period: 11.992ns (frequency: 83.388MHz)
+  Total number of paths / destination ports: 22598 / 289
+-------------------------------------------------------------------------
+Delay:               11.992ns (Levels of Logic = 23)
+  Source:            IC3/CHUC_R_3 (FF)
+  Destination:       IC36/LCD_DB_5 (FF)
+  Source Clock:      CKHT falling
+  Destination Clock: CKHT falling
+
+  Data Path: IC3/CHUC_R_3 to IC36/LCD_DB_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE:C->Q           16   0.514   0.882  IC3/CHUC_R_3 (IC3/CHUC_R_3)
+     LUT4:I3->O           29   0.612   1.072  IC46/MA_SO_0_mult0000<4>1_1 (IC46/MA_SO_0_mult0000<4>1)
+     MUXF5:S->O            1   0.641   0.000  IC46/Mrom_MA_SO<5>5_f5 (IC46/Mrom_MA_SO<5>5_f5)
+     MUXF6:I0->O           2   0.451   0.449  IC46/Mrom_MA_SO<5>5_f6 (IC46/Mrom_MA_SO<5>5_f6)
+     LUT2:I1->O            1   0.612   0.000  IC29/Mcompar_lcd_ma_ch_cmp_eq0000_lut<0>1 (IC29/Mcompar_lcd_ma_ch_cmp_eq0000_lut<0>)
+     MUXCY:S->O            1   0.404   0.000  IC29/Mcompar_lcd_ma_ch_cmp_eq0000_cy<0> (IC29/Mcompar_lcd_ma_ch_cmp_eq0000_cy<0>)
+     MUXCY:CI->O           1   0.051   0.000  IC29/Mcompar_lcd_ma_ch_cmp_eq0000_cy<1> (IC29/Mcompar_lcd_ma_ch_cmp_eq0000_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  IC29/Mcompar_lcd_ma_ch_cmp_eq0000_cy<2> (IC29/Mcompar_lcd_ma_ch_cmp_eq0000_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  IC29/Mcompar_lcd_ma_ch_cmp_eq0000_cy<3> (IC29/Mcompar_lcd_ma_ch_cmp_eq0000_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  IC29/Mcompar_lcd_ma_ch_cmp_eq0000_cy<4> (IC29/Mcompar_lcd_ma_ch_cmp_eq0000_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  IC29/Mcompar_lcd_ma_ch_cmp_eq0000_cy<5> (IC29/Mcompar_lcd_ma_ch_cmp_eq0000_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  IC29/Mcompar_lcd_ma_ch_cmp_eq0000_cy<6> (IC29/Mcompar_lcd_ma_ch_cmp_eq0000_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  IC29/Mcompar_lcd_ma_ch_cmp_eq0000_cy<7> (IC29/Mcompar_lcd_ma_ch_cmp_eq0000_cy<7>)
+     MUXCY:CI->O           1   0.051   0.000  IC29/Mcompar_lcd_ma_ch_cmp_eq0000_cy<8> (IC29/Mcompar_lcd_ma_ch_cmp_eq0000_cy<8>)
+     MUXCY:CI->O           1   0.051   0.000  IC29/Mcompar_lcd_ma_ch_cmp_eq0000_cy<9> (IC29/Mcompar_lcd_ma_ch_cmp_eq0000_cy<9>)
+     MUXCY:CI->O           1   0.051   0.000  IC29/Mcompar_lcd_ma_ch_cmp_eq0000_cy<10> (IC29/Mcompar_lcd_ma_ch_cmp_eq0000_cy<10>)
+     MUXCY:CI->O           1   0.051   0.000  IC29/Mcompar_lcd_ma_ch_cmp_eq0000_cy<11> (IC29/Mcompar_lcd_ma_ch_cmp_eq0000_cy<11>)
+     MUXCY:CI->O          24   0.399   1.094  IC29/Mcompar_lcd_ma_ch_cmp_eq0000_cy<12> (IC29/Mcompar_lcd_ma_ch_cmp_eq0000_cy<12>)
+     LUT3:I2->O            1   0.612   0.000  IC36/Mmux__varindex0001_8 (IC36/Mmux__varindex0001_8)
+     MUXF5:I1->O           1   0.278   0.000  IC36/Mmux__varindex0001_7_f5 (IC36/Mmux__varindex0001_7_f5)
+     MUXF6:I1->O           1   0.451   0.387  IC36/Mmux__varindex0001_6_f6 (IC36/Mmux__varindex0001_6_f6)
+     LUT3:I2->O            1   0.612   0.360  IC36/LCD_DB_mux0001<7>67_SW0 (N110)
+     LUT4_L:I3->LO         1   0.612   0.103  IC36/LCD_DB_mux0001<7>102_SW0 (N89)
+     LUT4:I3->O            1   0.612   0.000  IC36/LCD_DB_mux0001<7>130 (IC36/LCD_DB_mux0001<7>)
+     FDE_1:D                   0.268          IC36/LCD_DB_0
+    ----------------------------------------
+    Total                     11.992ns (7.645ns logic, 4.347ns route)
+                                       (63.8% logic, 36.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CKHT'
+  Total number of paths / destination ports: 43 / 43
+-------------------------------------------------------------------------
+Offset:              5.748ns (Levels of Logic = 4)
+  Source:            BTN<0> (PAD)
+  Destination:       IC3/DONVI_R_1 (FF)
+  Destination Clock: CKHT falling
+
+  Data Path: BTN<0> to IC3/DONVI_R_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            64   1.106   1.233  BTN_0_IBUF (BTN_0_IBUF)
+     LUT3:I0->O            8   0.612   0.795  IC3/CHUC_R_Q_mux0000<0>11 (IC3/N01)
+     LUT4:I0->O            1   0.612   0.509  IC3/DONVI_R_1__and0000_SW1 (N148)
+     LUT4:I0->O            1   0.612   0.000  IC3/DONVI_R_1__and0000 (IC3/DONVI_R_1__and0000)
+     FDCPE:D                   0.268          IC3/DONVI_R_1
+    ----------------------------------------
+    Total                      5.748ns (3.210ns logic, 2.538ns route)
+                                       (55.8% logic, 44.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CKHT'
+  Total number of paths / destination ports: 300 / 25
+-------------------------------------------------------------------------
+Offset:              8.518ns (Levels of Logic = 5)
+  Source:            IC38/K1/Q_R_1 (FF)
+  Destination:       SSEG<6> (PAD)
+  Source Clock:      CKHT falling
+
+  Data Path: IC38/K1/Q_R_1 to SSEG<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             25   0.514   1.101  IC38/K1/Q_R_1 (IC38/K1/Q_R_1)
+     LUT4:I2->O            1   0.612   0.000  IC38/K3/Mmux_SO_GMA_3 (IC38/K3/Mmux_SO_GMA_3)
+     MUXF5:I1->O           7   0.278   0.754  IC38/K3/Mmux_SO_GMA_2_f5 (IC38/SO_GMA<0>)
+     LUT4:I0->O            1   0.612   0.509  IC38/K4/SSEG<4>_SW2 (N130)
+     LUT3:I0->O            1   0.612   0.357  IC38/K4/SSEG<4> (SSEG_4_OBUF)
+     OBUF:I->O                 3.169          SSEG_4_OBUF (SSEG<4>)
+    ----------------------------------------
+    Total                      8.518ns (5.797ns logic, 2.721ns route)
+                                       (68.1% logic, 31.9% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 14.00 secs
+Total CPU time to Xst completion: 14.40 secs
+ 
+--> 
+
+Total memory usage is 4537704 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    8 (   0 filtered)
+Number of infos    :    5 (   0 filtered)
+

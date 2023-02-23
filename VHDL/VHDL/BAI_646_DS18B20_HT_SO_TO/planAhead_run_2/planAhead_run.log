@@ -1,0 +1,76 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_646_DS18B20_HT_SO_TO/pa.fromNetlist.tcl
+# create_project -name BAI_646_DS18B20_HT_SO_TO -dir "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_646_DS18B20_HT_SO_TO/planAhead_run_4" -part xc3s500epq208-5
+create_project: Time (s): elapsed = 00:00:18 . Memory (MB): peak = 461.488 ; gain = 72.359
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_646_DS18B20_HT_SO_TO/DS_18B20_HT_SO_TO.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_646_DS18B20_HT_SO_TO} }
+# set_property target_constrs_file "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC3S500E_PQ208.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC3S500E_PQ208.ucf' to fileset 'constrs_1'
+# add_files [list {C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC3S500E_PQ208.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s500epq208-5
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design DS_18B20_HT_SO_TO.ngc ...
+WARNING:NetListWriters:298 - No output is written to DS_18B20_HT_SO_TO.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus IC1/Mcompar_STATE_cmp_gt0000_lut<8 : 0>
+   on block DS_18B20_HT_SO_TO is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus IC29/Mcompar_lcd_ma_tr_cmp_eq0000_lut<12
+   : 0> on block DS_18B20_HT_SO_TO is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus IC3/Madd_PTR_share0000_cy<3 : 1> on
+   block DS_18B20_HT_SO_TO is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus LCD_H1<93 : 88> on block
+   DS_18B20_HT_SO_TO is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file DS_18B20_HT_SO_TO.edif ...
+ngc2edif: Total memory usage is 4314592 kilobytes
+
+Parsing EDIF File [./planAhead_run_4/BAI_646_DS18B20_HT_SO_TO.data/cache/DS_18B20_HT_SO_TO_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_4/BAI_646_DS18B20_HT_SO_TO.data/cache/DS_18B20_HT_SO_TO_ngc_zx.edif]
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+WARNING: [Netlist 29-43] Netlist 'DS_18B20_HT_SO_TO' is not ideal for floorplanning, since the cellview 'DS_18B20_HT_SO_TO' defined in file 'DS_18B20_HT_SO_TO.ngc' contains large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockBuffers.xml
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/pq208/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/pq208/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-5.lib.
+INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-5.lib.
+Parsing UCF File [C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC3S500E_PQ208.ucf]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'btn[0]' [C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC3S500E_PQ208.ucf:46]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'btn[1]' [C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC3S500E_PQ208.ucf:47]
+Finished Parsing UCF File [C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC3S500E_PQ208.ucf]
+INFO: [Designutils 20-20] Invalid constraints found, use command 'write_ucf -constraints invalid <file>' to save all the invalid constraints to a file
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 77207863
+link_design: Time (s): elapsed = 00:00:25 . Memory (MB): peak = 566.406 ; gain = 104.918
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Mon Aug 24 10:38:23 2020...
+INFO: [Common 17-83] Releasing license: PlanAhead

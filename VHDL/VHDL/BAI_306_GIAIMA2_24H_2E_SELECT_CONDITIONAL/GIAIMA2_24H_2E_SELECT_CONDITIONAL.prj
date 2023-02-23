@@ -1,0 +1,3 @@
+vhdl work "GIAIMA_24E_SELECT.vhd"
+vhdl work "GIAIMA_24E_CONDITIONAL.vhd"
+vhdl work "GIAIMA2_24H_2E_SELECT_CONDITIONAL.vhd"

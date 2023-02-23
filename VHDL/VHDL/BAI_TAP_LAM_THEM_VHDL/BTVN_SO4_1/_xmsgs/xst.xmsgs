@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="432" delta="new" >"C:\Users\Admin\Documents\TT-HDL-N7-S2\BTVN_SO4_1\BTVN_SO4_1.vhd" Line 57: Formal &lt;<arg fmt="%s" index="1">ena_ss</arg>&gt; has no actual or default value.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="432" delta="new" >"C:\Users\Admin\Documents\TT-HDL-N7-S2\BTVN_SO4_1\BTVN_SO4_1.vhd" Line 64: Formal &lt;<arg fmt="%s" index="1">ena_ss</arg>&gt; has no actual or default value.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="104" delta="new" >"C:\Users\Admin\Documents\TT-HDL-N7-S2\BTVN_SO4_1\BTVN_SO4_1.vhd" Line 71: Cannot find &lt;<arg fmt="%s" index="1">dieukhien_mode</arg>&gt; in library &lt;<arg fmt="%s" index="2">work</arg>&gt;. Please ensure that the library was compiled, and that a library and a use clause are present in the VHDL file.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="854" delta="new" >"C:\Users\Admin\Documents\TT-HDL-N7-S2\BTVN_SO4_1\BTVN_SO4_1.vhd" Line 40: Unit &lt;<arg fmt="%s" index="1">behavioral</arg>&gt; ignored due to previous errors.
+</msg>
+
+</messages>
+

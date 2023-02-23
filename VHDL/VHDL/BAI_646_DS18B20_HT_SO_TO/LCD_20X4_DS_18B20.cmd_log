@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_646_DS18B20_HT_SO_TO/LCD_20X4_DS_18B20.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_646_DS18B20_HT_SO_TO/LCD_20X4_DS_18B20.syr" 

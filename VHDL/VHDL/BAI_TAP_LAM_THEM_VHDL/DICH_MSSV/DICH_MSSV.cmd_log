@@ -1,0 +1,85 @@
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_MSSV/DICH_MSSV.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_MSSV/DICH_MSSV.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_MSSV/DICH_MSSV.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_MSSV/DICH_MSSV.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_MSSV/DICH_MSSV.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_MSSV/DICH_MSSV.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-3 DICH_MSSV.ngc DICH_MSSV.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DICH_MSSV_map.ncd DICH_MSSV.ngd DICH_MSSV.pcf 
+par -w -intstyle ise -ol high -mt off DICH_MSSV_map.ncd DICH_MSSV.ncd DICH_MSSV.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DICH_MSSV.twx DICH_MSSV.ncd -o DICH_MSSV.twr DICH_MSSV.pcf 
+bitgen -intstyle ise -f DICH_MSSV.ut DICH_MSSV.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_MSSV/DICH_MSSV.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_MSSV/DICH_MSSV.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-3 DICH_MSSV.ngc DICH_MSSV.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DICH_MSSV_map.ncd DICH_MSSV.ngd DICH_MSSV.pcf 
+par -w -intstyle ise -ol high -mt off DICH_MSSV_map.ncd DICH_MSSV.ncd DICH_MSSV.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DICH_MSSV.twx DICH_MSSV.ncd -o DICH_MSSV.twr DICH_MSSV.pcf 
+bitgen -intstyle ise -f DICH_MSSV.ut DICH_MSSV.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_MSSV/DICH_MSSV.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_MSSV/DICH_MSSV.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_MSSV/DICH_MSSV.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_MSSV/DICH_MSSV.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-3 DICH_MSSV.ngc DICH_MSSV.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DICH_MSSV_map.ncd DICH_MSSV.ngd DICH_MSSV.pcf 
+par -w -intstyle ise -ol high -mt off DICH_MSSV_map.ncd DICH_MSSV.ncd DICH_MSSV.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DICH_MSSV.twx DICH_MSSV.ncd -o DICH_MSSV.twr DICH_MSSV.pcf 
+bitgen -intstyle ise -f DICH_MSSV.ut DICH_MSSV.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_MSSV/DICH_MSSV.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_MSSV/DICH_MSSV.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-3 DICH_MSSV.ngc DICH_MSSV.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DICH_MSSV_map.ncd DICH_MSSV.ngd DICH_MSSV.pcf 
+par -w -intstyle ise -ol high -mt off DICH_MSSV_map.ncd DICH_MSSV.ncd DICH_MSSV.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DICH_MSSV.twx DICH_MSSV.ncd -o DICH_MSSV.twr DICH_MSSV.pcf 
+bitgen -intstyle ise -f DICH_MSSV.ut DICH_MSSV.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_MSSV/DICH_MSSV.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_MSSV/DICH_MSSV.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-3 DICH_MSSV.ngc DICH_MSSV.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DICH_MSSV_map.ncd DICH_MSSV.ngd DICH_MSSV.pcf 
+par -w -intstyle ise -ol high -mt off DICH_MSSV_map.ncd DICH_MSSV.ncd DICH_MSSV.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DICH_MSSV.twx DICH_MSSV.ncd -o DICH_MSSV.twr DICH_MSSV.pcf 
+bitgen -intstyle ise -f DICH_MSSV.ut DICH_MSSV.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_MSSV/DICH_MSSV.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_MSSV/DICH_MSSV.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_MSSV/DICH_MSSV.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_MSSV/DICH_MSSV.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-3 DICH_MSSV.ngc DICH_MSSV.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DICH_MSSV_map.ncd DICH_MSSV.ngd DICH_MSSV.pcf 
+par -w -intstyle ise -ol high -mt off DICH_MSSV_map.ncd DICH_MSSV.ncd DICH_MSSV.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DICH_MSSV.twx DICH_MSSV.ncd -o DICH_MSSV.twr DICH_MSSV.pcf 
+bitgen -intstyle ise -f DICH_MSSV.ut DICH_MSSV.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_MSSV/DICH_MSSV.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_MSSV/DICH_MSSV.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-3 DICH_MSSV.ngc DICH_MSSV.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DICH_MSSV_map.ncd DICH_MSSV.ngd DICH_MSSV.pcf 
+par -w -intstyle ise -ol high -mt off DICH_MSSV_map.ncd DICH_MSSV.ncd DICH_MSSV.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DICH_MSSV.twx DICH_MSSV.ncd -o DICH_MSSV.twr DICH_MSSV.pcf 
+bitgen -intstyle ise -f DICH_MSSV.ut DICH_MSSV.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_MSSV/DICH_MSSV.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_MSSV/DICH_MSSV.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-3 DICH_MSSV.ngc DICH_MSSV.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DICH_MSSV_map.ncd DICH_MSSV.ngd DICH_MSSV.pcf 
+par -w -intstyle ise -ol high -mt off DICH_MSSV_map.ncd DICH_MSSV.ncd DICH_MSSV.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DICH_MSSV.twx DICH_MSSV.ncd -o DICH_MSSV.twr DICH_MSSV.pcf 
+bitgen -intstyle ise -f DICH_MSSV.ut DICH_MSSV.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_MSSV/DICH_MSSV.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_MSSV/DICH_MSSV.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-3 DICH_MSSV.ngc DICH_MSSV.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DICH_MSSV_map.ncd DICH_MSSV.ngd DICH_MSSV.pcf 
+par -w -intstyle ise -ol high -mt off DICH_MSSV_map.ncd DICH_MSSV.ncd DICH_MSSV.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DICH_MSSV.twx DICH_MSSV.ncd -o DICH_MSSV.twr DICH_MSSV.pcf 
+bitgen -intstyle ise -f DICH_MSSV.ut DICH_MSSV.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_MSSV/DICH_MSSV.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_MSSV/DICH_MSSV.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-3 DICH_MSSV.ngc DICH_MSSV.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DICH_MSSV_map.ncd DICH_MSSV.ngd DICH_MSSV.pcf 
+par -w -intstyle ise -ol high -mt off DICH_MSSV_map.ncd DICH_MSSV.ncd DICH_MSSV.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DICH_MSSV.twx DICH_MSSV.ncd -o DICH_MSSV.twr DICH_MSSV.pcf 
+bitgen -intstyle ise -f DICH_MSSV.ut DICH_MSSV.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_MSSV/DICH_MSSV.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_MSSV/DICH_MSSV.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_MSSV/DICH_MSSV.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_MSSV/DICH_MSSV.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_MSSV/DICH_MSSV.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_MSSV/DICH_MSSV.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-3 DICH_MSSV.ngc DICH_MSSV.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DICH_MSSV_map.ncd DICH_MSSV.ngd DICH_MSSV.pcf 
+par -w -intstyle ise -ol high -mt off DICH_MSSV_map.ncd DICH_MSSV.ncd DICH_MSSV.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DICH_MSSV.twx DICH_MSSV.ncd -o DICH_MSSV.twr DICH_MSSV.pcf 
+bitgen -intstyle ise -f DICH_MSSV.ut DICH_MSSV.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_MSSV/DICH_MSSV.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DICH_MSSV/DICH_MSSV.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-3 DICH_MSSV.ngc DICH_MSSV.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DICH_MSSV_map.ncd DICH_MSSV.ngd DICH_MSSV.pcf 
+par -w -intstyle ise -ol high -mt off DICH_MSSV_map.ncd DICH_MSSV.ncd DICH_MSSV.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DICH_MSSV.twx DICH_MSSV.ncd -o DICH_MSSV.twr DICH_MSSV.pcf 
+bitgen -intstyle ise -f DICH_MSSV.ut DICH_MSSV.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/DICH_MSSV/DICH_MSSV.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/DICH_MSSV/DICH_MSSV.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/DICH_MSSV/DICH_MSSV.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/DICH_MSSV/DICH_MSSV.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-3 DICH_MSSV.ngc DICH_MSSV.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DICH_MSSV_map.ncd DICH_MSSV.ngd DICH_MSSV.pcf 
+par -w -intstyle ise -ol high -mt off DICH_MSSV_map.ncd DICH_MSSV.ncd DICH_MSSV.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DICH_MSSV.twx DICH_MSSV.ncd -o DICH_MSSV.twr DICH_MSSV.pcf 
+bitgen -intstyle ise -f DICH_MSSV.ut DICH_MSSV.ncd 

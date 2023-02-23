@@ -1,0 +1,6 @@
+vhdl work "LCD_KHOITAO_HIENTHI_SO_TO.vhd"
+vhdl work "LCD_GIAI_MA_SO_TO.vhd"
+vhdl work "LCD_20X4_GAN_DULIEU_1SO_TO.vhd"
+vhdl work "HEXTOBCD_8BIT.vhd"
+vhdl work "DS18B20_TEMPERATURE.vhd"
+vhdl work "DS18B20_HT_SO_TO.vhd"

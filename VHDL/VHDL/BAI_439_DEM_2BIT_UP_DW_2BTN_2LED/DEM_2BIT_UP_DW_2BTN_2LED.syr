@@ -1,0 +1,495 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Reading design: DEM_2BIT_UP_DW_2BTN_2LED.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "DEM_2BIT_UP_DW_2BTN_2LED.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "DEM_2BIT_UP_DW_2BTN_2LED"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-pq208
+
+---- Source Options
+Top Module Name                    : DEM_2BIT_UP_DW_2BTN_2LED
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/DEM_2BIT_UP_DW_2BTN_2LED is now defined in a different file.  It was defined in "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_4LED/DEM_2BIT_UP_DW_2BTN_2LED.vhd", and is now defined in "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_2LED/DEM_2BIT_UP_DW_2BTN_2LED.vhd".
+WARNING:HDLParsers:3607 - Unit work/DEM_2BIT_UP_DW_2BTN_2LED/Behavioral is now defined in a different file.  It was defined in "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_4LED/DEM_2BIT_UP_DW_2BTN_2LED.vhd", and is now defined in "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_2LED/DEM_2BIT_UP_DW_2BTN_2LED.vhd".
+WARNING:HDLParsers:3607 - Unit work/DEM_2BIT_2BTN_UP_DW is now defined in a different file.  It was defined in "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_4LED/DEM_2BIT_2BTN_UP_DW.vhd", and is now defined in "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_2LED/DEM_2BIT_2BTN_UP_DW.vhd".
+WARNING:HDLParsers:3607 - Unit work/DEM_2BIT_2BTN_UP_DW/Behavioral is now defined in a different file.  It was defined in "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_4LED/DEM_2BIT_2BTN_UP_DW.vhd", and is now defined in "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_2LED/DEM_2BIT_2BTN_UP_DW.vhd".
+WARNING:HDLParsers:3607 - Unit work/CD_LAM_HEP_BTN is now defined in a different file.  It was defined in "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_4LED/CD_LAM_HEP_BTN.vhd", and is now defined in "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_2LED/CD_LAM_HEP_BTN.vhd".
+WARNING:HDLParsers:3607 - Unit work/CD_LAM_HEP_BTN/Behavioral is now defined in a different file.  It was defined in "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_4LED/CD_LAM_HEP_BTN.vhd", and is now defined in "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_2LED/CD_LAM_HEP_BTN.vhd".
+WARNING:HDLParsers:3607 - Unit work/DEM_2BIT_UP_DW is now defined in a different file.  It was defined in "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_4LED/DEM_2BIT_UP_DW.vhd", and is now defined in "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_2LED/DEM_2BIT_UP_DW.vhd".
+WARNING:HDLParsers:3607 - Unit work/DEM_2BIT_UP_DW/Behavioral is now defined in a different file.  It was defined in "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_4LED/DEM_2BIT_UP_DW.vhd", and is now defined in "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_2LED/DEM_2BIT_UP_DW.vhd".
+WARNING:HDLParsers:3607 - Unit work/DEBOUNCE_BTN is now defined in a different file.  It was defined in "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_4LED/DEBOUNCE_BTN.vhd", and is now defined in "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_2LED/DEBOUNCE_BTN.vhd".
+WARNING:HDLParsers:3607 - Unit work/DEBOUNCE_BTN/Behavioral is now defined in a different file.  It was defined in "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_4LED/DEBOUNCE_BTN.vhd", and is now defined in "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_2LED/DEBOUNCE_BTN.vhd".
+WARNING:HDLParsers:3607 - Unit work/LAM_HEP_XUNG is now defined in a different file.  It was defined in "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_4LED/LAM_HEP_XUNG.vhd", and is now defined in "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_2LED/LAM_HEP_XUNG.vhd".
+WARNING:HDLParsers:3607 - Unit work/LAM_HEP_XUNG/Behavioral is now defined in a different file.  It was defined in "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_4LED/LAM_HEP_XUNG.vhd", and is now defined in "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_2LED/LAM_HEP_XUNG.vhd".
+Compiling vhdl file "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_2LED/DEBOUNCE_BTN.vhd" in Library work.
+Architecture behavioral of Entity debounce_btn is up to date.
+Compiling vhdl file "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_2LED/LAM_HEP_XUNG.vhd" in Library work.
+Architecture behavioral of Entity lam_hep_xung is up to date.
+Compiling vhdl file "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_2LED/CD_LAM_HEP_BTN.vhd" in Library work.
+Architecture behavioral of Entity cd_lam_hep_btn is up to date.
+Compiling vhdl file "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_2LED/DEM_2BIT_UP_DW.vhd" in Library work.
+Architecture behavioral of Entity dem_2bit_up_dw is up to date.
+Compiling vhdl file "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_2LED/DEM_2BIT_2BTN_UP_DW.vhd" in Library work.
+Architecture behavioral of Entity dem_2bit_2btn_up_dw is up to date.
+Compiling vhdl file "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_2LED/DEM_2BIT_UP_DW_2BTN_2LED.vhd" in Library work.
+Architecture behavioral of Entity dem_2bit_up_dw_2btn_2led is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <DEM_2BIT_UP_DW_2BTN_2LED> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <DEM_2BIT_2BTN_UP_DW> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <CD_LAM_HEP_BTN> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DEM_2BIT_UP_DW> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DEBOUNCE_BTN> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <LAM_HEP_XUNG> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <DEM_2BIT_UP_DW_2BTN_2LED> in library <work> (Architecture <behavioral>).
+Entity <DEM_2BIT_UP_DW_2BTN_2LED> analyzed. Unit <DEM_2BIT_UP_DW_2BTN_2LED> generated.
+
+Analyzing Entity <DEM_2BIT_2BTN_UP_DW> in library <work> (Architecture <Behavioral>).
+Entity <DEM_2BIT_2BTN_UP_DW> analyzed. Unit <DEM_2BIT_2BTN_UP_DW> generated.
+
+Analyzing Entity <CD_LAM_HEP_BTN> in library <work> (Architecture <Behavioral>).
+Entity <CD_LAM_HEP_BTN> analyzed. Unit <CD_LAM_HEP_BTN> generated.
+
+Analyzing Entity <DEBOUNCE_BTN> in library <work> (Architecture <Behavioral>).
+Entity <DEBOUNCE_BTN> analyzed. Unit <DEBOUNCE_BTN> generated.
+
+Analyzing Entity <LAM_HEP_XUNG> in library <work> (Architecture <Behavioral>).
+Entity <LAM_HEP_XUNG> analyzed. Unit <LAM_HEP_XUNG> generated.
+
+Analyzing Entity <DEM_2BIT_UP_DW> in library <work> (Architecture <Behavioral>).
+Entity <DEM_2BIT_UP_DW> analyzed. Unit <DEM_2BIT_UP_DW> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <DEM_2BIT_UP_DW>.
+    Related source file is "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_2LED/DEM_2BIT_UP_DW.vhd".
+    Found 2-bit updown counter for signal <Q_REG>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <DEM_2BIT_UP_DW> synthesized.
+
+
+Synthesizing Unit <DEBOUNCE_BTN>.
+    Related source file is "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_2LED/DEBOUNCE_BTN.vhd".
+    Found finite state machine <FSM_0> for signal <DB_REG>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 10                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 5                                              |
+    | Clock              | CKHT                      (falling_edge)       |
+    | Power Up State     | zero                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 20-bit register for signal <DELAY_REG>.
+    Found 20-bit subtractor for signal <DELAY_REG$addsub0000>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  20 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <DEBOUNCE_BTN> synthesized.
+
+
+Synthesizing Unit <LAM_HEP_XUNG>.
+    Related source file is "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_2LED/LAM_HEP_XUNG.vhd".
+    Found 1-bit register for signal <QFF>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <LAM_HEP_XUNG> synthesized.
+
+
+Synthesizing Unit <CD_LAM_HEP_BTN>.
+    Related source file is "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_2LED/CD_LAM_HEP_BTN.vhd".
+Unit <CD_LAM_HEP_BTN> synthesized.
+
+
+Synthesizing Unit <DEM_2BIT_2BTN_UP_DW>.
+    Related source file is "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_2LED/DEM_2BIT_2BTN_UP_DW.vhd".
+Unit <DEM_2BIT_2BTN_UP_DW> synthesized.
+
+
+Synthesizing Unit <DEM_2BIT_UP_DW_2BTN_2LED>.
+    Related source file is "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_2LED/DEM_2BIT_UP_DW_2BTN_2LED.vhd".
+Unit <DEM_2BIT_UP_DW_2BTN_2LED> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 20-bit subtractor                                     : 2
+# Counters                                             : 1
+ 2-bit updown counter                                  : 1
+# Registers                                            : 4
+ 1-bit register                                        : 2
+ 20-bit register                                       : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <IC/IC1/IC3/DB_REG/FSM> on signal <DB_REG[1:2]> with sequential encoding.
+Optimizing FSM <IC/IC2/IC3/DB_REG/FSM> on signal <DB_REG[1:2]> with sequential encoding.
+-------------------
+ State | Encoding
+-------------------
+ zero  | 00
+ wait0 | 11
+ one   | 10
+ wait1 | 01
+-------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# Adders/Subtractors                                   : 2
+ 20-bit subtractor                                     : 2
+# Counters                                             : 1
+ 2-bit updown counter                                  : 1
+# Registers                                            : 42
+ Flip-Flops                                            : 42
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <DEM_2BIT_UP_DW_2BTN_2LED> ...
+
+Optimizing unit <DEBOUNCE_BTN> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block DEM_2BIT_UP_DW_2BTN_2LED, actual ratio is 0.
+FlipFlop IC/IC1/IC3/DB_REG_FSM_FFd2 has been replicated 1 time(s)
+FlipFlop IC/IC2/IC3/DB_REG_FSM_FFd2 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 50
+ Flip-Flops                                            : 50
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : DEM_2BIT_UP_DW_2BTN_2LED.ngr
+Top Level Output File Name         : DEM_2BIT_UP_DW_2BTN_2LED
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 6
+
+Cell Usage :
+# BELS                             : 148
+#      GND                         : 1
+#      INV                         : 40
+#      LUT1                        : 2
+#      LUT3                        : 2
+#      LUT4                        : 14
+#      MUXCY                       : 48
+#      VCC                         : 1
+#      XORCY                       : 40
+# FlipFlops/Latches                : 50
+#      FD_1                        : 4
+#      FDCE                        : 2
+#      FDSE_1                      : 44
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 5
+#      IBUF                        : 3
+#      OBUF                        : 2
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500epq208-4 
+
+ Number of Slices:                       32  out of   4656     0%  
+ Number of Slice Flip Flops:             50  out of   9312     0%  
+ Number of 4 input LUTs:                 58  out of   9312     0%  
+ Number of IOs:                           6
+ Number of bonded IOBs:                   6  out of    158     3%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CKHT                               | BUFGP                  | 50    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+BTN<0>                             | IBUF                   | 2     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 4.555ns (Maximum Frequency: 219.539MHz)
+   Minimum input arrival time before clock: 4.619ns
+   Maximum output required time after clock: 4.394ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CKHT'
+  Clock period: 4.555ns (frequency: 219.539MHz)
+  Total number of paths / destination ports: 687 / 136
+-------------------------------------------------------------------------
+Delay:               4.555ns (Levels of Logic = 21)
+  Source:            IC/IC2/IC3/DELAY_REG_0 (FF)
+  Destination:       IC/IC2/IC3/DELAY_REG_19 (FF)
+  Source Clock:      CKHT falling
+  Destination Clock: CKHT falling
+
+  Data Path: IC/IC2/IC3/DELAY_REG_0 to IC/IC2/IC3/DELAY_REG_19
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDSE_1:C->Q           2   0.591   0.622  IC/IC2/IC3/DELAY_REG_0 (IC/IC2/IC3/DELAY_REG_0)
+     LUT1:I0->O            1   0.704   0.000  IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<0>_rt (IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<0>_rt)
+     MUXCY:S->O            1   0.464   0.000  IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<0> (IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<1> (IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<2> (IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<3> (IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<4> (IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<5> (IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<6> (IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<7> (IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<8> (IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<9> (IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<10> (IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<11> (IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<12> (IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<13> (IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<14> (IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<14>)
+     MUXCY:CI->O           1   0.059   0.000  IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<15> (IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<15>)
+     MUXCY:CI->O           1   0.059   0.000  IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<16> (IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<16>)
+     MUXCY:CI->O           1   0.059   0.000  IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<17> (IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<17>)
+     MUXCY:CI->O           0   0.059   0.000  IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<18> (IC/IC2/IC3/Msub_DELAY_REG_addsub0000_cy<18>)
+     XORCY:CI->O           1   0.804   0.000  IC/IC2/IC3/Msub_DELAY_REG_addsub0000_xor<19> (IC/IC2/IC3/DELAY_REG_addsub0000<19>)
+     FDSE_1:D                  0.308          IC/IC2/IC3/DELAY_REG_19
+    ----------------------------------------
+    Total                      4.555ns (3.933ns logic, 0.622ns route)
+                                       (86.3% logic, 13.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CKHT'
+  Total number of paths / destination ports: 46 / 46
+-------------------------------------------------------------------------
+Offset:              4.619ns (Levels of Logic = 2)
+  Source:            BTN<2> (PAD)
+  Destination:       IC/IC2/IC3/DB_REG_FSM_FFd2 (FF)
+  Destination Clock: CKHT falling
+
+  Data Path: BTN<2> to IC/IC2/IC3/DB_REG_FSM_FFd2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.218   0.622  BTN_2_IBUF (BTN_2_IBUF)
+     LUT3:I0->O           22   0.704   1.164  IC/IC2/IC3/DELAY_REG_mux0000<0>21 (IC/IC2/IC3/N11)
+     FDSE_1:S                  0.911          IC/IC2/IC3/DB_REG_FSM_FFd2
+    ----------------------------------------
+    Total                      4.619ns (2.833ns logic, 1.786ns route)
+                                       (61.3% logic, 38.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CKHT'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              4.394ns (Levels of Logic = 1)
+  Source:            IC/IC3/Q_REG_0 (FF)
+  Destination:       LED<0> (PAD)
+  Source Clock:      CKHT falling
+
+  Data Path: IC/IC3/Q_REG_0 to LED<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             3   0.591   0.531  IC/IC3/Q_REG_0 (IC/IC3/Q_REG_0)
+     OBUF:I->O                 3.272          LED_0_OBUF (LED<0>)
+    ----------------------------------------
+    Total                      4.394ns (3.863ns logic, 0.531ns route)
+                                       (87.9% logic, 12.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.65 secs
+ 
+--> 
+
+Total memory usage is 4521440 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   12 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

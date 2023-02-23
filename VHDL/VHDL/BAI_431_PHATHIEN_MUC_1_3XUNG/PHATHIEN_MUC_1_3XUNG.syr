@@ -1,0 +1,430 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.55 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.56 secs
+ 
+--> Reading design: PHATHIEN_MUC_1_3XUNG.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "PHATHIEN_MUC_1_3XUNG.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "PHATHIEN_MUC_1_3XUNG"
+Output Format                      : NGC
+Target Device                      : xa3s500e-4-pqg208
+
+---- Source Options
+Top Module Name                    : PHATHIEN_MUC_1_3XUNG
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_431_PHATHIEN_MUC_1_3XUNG/CHIA_ENA1HZ_CK1HZ.vhd" in Library work.
+Architecture behavioral of Entity chia_ena1hz_ck1hz is up to date.
+Compiling vhdl file "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_431_PHATHIEN_MUC_1_3XUNG/PHATHIEN_MUC_1_3XUNG.vhd" in Library work.
+Entity <phathien_muc_1_3xung> compiled.
+Entity <phathien_muc_1_3xung> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <PHATHIEN_MUC_1_3XUNG> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CHIA_ENA1HZ_CK1HZ> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <PHATHIEN_MUC_1_3XUNG> in library <work> (Architecture <behavioral>).
+Entity <PHATHIEN_MUC_1_3XUNG> analyzed. Unit <PHATHIEN_MUC_1_3XUNG> generated.
+
+Analyzing Entity <CHIA_ENA1HZ_CK1HZ> in library <work> (Architecture <Behavioral>).
+Entity <CHIA_ENA1HZ_CK1HZ> analyzed. Unit <CHIA_ENA1HZ_CK1HZ> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <CHIA_ENA1HZ_CK1HZ>.
+    Related source file is "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_431_PHATHIEN_MUC_1_3XUNG/CHIA_ENA1HZ_CK1HZ.vhd".
+    Found 26-bit comparator less for signal <CK1HZ$cmp_lt0000> created at line 55.
+    Found 26-bit adder for signal <D1HZ_NEXT$addsub0000> created at line 51.
+    Found 26-bit register for signal <D1HZ_REG>.
+    Summary:
+	inferred  26 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <CHIA_ENA1HZ_CK1HZ> synthesized.
+
+
+Synthesizing Unit <PHATHIEN_MUC_1_3XUNG>.
+    Related source file is "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_431_PHATHIEN_MUC_1_3XUNG/PHATHIEN_MUC_1_3XUNG.vhd".
+    Found finite state machine <FSM_0> for signal <STATE_REG>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 8                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 3                                              |
+    | Clock              | CKHT                      (falling_edge)       |
+    | Clock enable       | ENA_DB                    (positive)           |
+    | Reset              | RST                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | zero                                           |
+    | Power Up State     | zero                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <PHATHIEN_MUC_1_3XUNG> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 26-bit adder                                          : 1
+# Registers                                            : 1
+ 26-bit register                                       : 1
+# Comparators                                          : 1
+ 26-bit comparator less                                : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <STATE_REG/FSM> on signal <STATE_REG[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ zero  | 00
+ one   | 01
+ two   | 10
+ three | 11
+-------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# Adders/Subtractors                                   : 1
+ 26-bit adder                                          : 1
+# Registers                                            : 26
+ Flip-Flops                                            : 26
+# Comparators                                          : 1
+ 26-bit comparator less                                : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <PHATHIEN_MUC_1_3XUNG> ...
+
+Optimizing unit <CHIA_ENA1HZ_CK1HZ> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block PHATHIEN_MUC_1_3XUNG, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 28
+ Flip-Flops                                            : 28
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : PHATHIEN_MUC_1_3XUNG.ngr
+Top Level Output File Name         : PHATHIEN_MUC_1_3XUNG
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 7
+
+Cell Usage :
+# BELS                             : 118
+#      GND                         : 1
+#      INV                         : 6
+#      LUT1                        : 29
+#      LUT2                        : 3
+#      LUT3                        : 2
+#      LUT4                        : 12
+#      LUT4_D                      : 1
+#      LUT4_L                      : 1
+#      MUXCY                       : 36
+#      VCC                         : 1
+#      XORCY                       : 26
+# FlipFlops/Latches                : 28
+#      FDCE_1                      : 2
+#      FDR_1                       : 25
+#      FDS_1                       : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 6
+#      IBUF                        : 2
+#      OBUF                        : 4
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : xa3s500epqg208-4 
+
+ Number of Slices:                       33  out of   4656     0%  
+ Number of Slice Flip Flops:             28  out of   9312     0%  
+ Number of 4 input LUTs:                 54  out of   9312     0%  
+ Number of IOs:                           7
+ Number of bonded IOBs:                   7  out of    158     4%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CKHT                               | BUFGP                  | 28    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+BTN0                               | IBUF                   | 2     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.195ns (Maximum Frequency: 161.412MHz)
+   Minimum input arrival time before clock: 2.852ns
+   Maximum output required time after clock: 8.327ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CKHT'
+  Clock period: 6.195ns (frequency: 161.412MHz)
+  Total number of paths / destination ports: 1083 / 56
+-------------------------------------------------------------------------
+Delay:               6.195ns (Levels of Logic = 3)
+  Source:            CHIA_ENA1HZ_CK1HZ/D1HZ_REG_5 (FF)
+  Destination:       CHIA_ENA1HZ_CK1HZ/D1HZ_REG_25 (FF)
+  Source Clock:      CKHT falling
+  Destination Clock: CKHT falling
+
+  Data Path: CHIA_ENA1HZ_CK1HZ/D1HZ_REG_5 to CHIA_ENA1HZ_CK1HZ/D1HZ_REG_25
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR_1:C->Q            2   0.591   0.622  CHIA_ENA1HZ_CK1HZ/D1HZ_REG_5 (CHIA_ENA1HZ_CK1HZ/D1HZ_REG_5)
+     LUT4:I0->O            1   0.704   0.595  CHIA_ENA1HZ_CK1HZ/D1HZ_NEXT_cmp_eq0000146 (CHIA_ENA1HZ_CK1HZ/D1HZ_NEXT_cmp_eq0000146)
+     LUT4_D:I0->LO         1   0.704   0.104  CHIA_ENA1HZ_CK1HZ/D1HZ_NEXT_cmp_eq0000160 (N2)
+     LUT4:I3->O           26   0.704   1.260  CHIA_ENA1HZ_CK1HZ/D1HZ_NEXT_cmp_eq000049 (CHIA_ENA1HZ_CK1HZ/D1HZ_NEXT_cmp_eq0000)
+     FDR_1:R                   0.911          CHIA_ENA1HZ_CK1HZ/D1HZ_REG_25
+    ----------------------------------------
+    Total                      6.195ns (3.614ns logic, 2.581ns route)
+                                       (58.3% logic, 41.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CKHT'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              2.852ns (Levels of Logic = 2)
+  Source:            SW0 (PAD)
+  Destination:       STATE_REG_FSM_FFd1 (FF)
+  Destination Clock: CKHT falling
+
+  Data Path: SW0 to STATE_REG_FSM_FFd1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.218   0.622  SW0_IBUF (SW0_IBUF)
+     LUT3:I0->O            1   0.704   0.000  STATE_REG_FSM_FFd2-In1 (STATE_REG_FSM_FFd2-In)
+     FDCE_1:D                  0.308          STATE_REG_FSM_FFd2
+    ----------------------------------------
+    Total                      2.852ns (2.230ns logic, 0.622ns route)
+                                       (78.2% logic, 21.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CKHT'
+  Total number of paths / destination ports: 24 / 4
+-------------------------------------------------------------------------
+Offset:              8.327ns (Levels of Logic = 14)
+  Source:            CHIA_ENA1HZ_CK1HZ/D1HZ_REG_6 (FF)
+  Destination:       LED<3> (PAD)
+  Source Clock:      CKHT falling
+
+  Data Path: CHIA_ENA1HZ_CK1HZ/D1HZ_REG_6 to LED<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR_1:C->Q            4   0.591   0.762  CHIA_ENA1HZ_CK1HZ/D1HZ_REG_6 (CHIA_ENA1HZ_CK1HZ/D1HZ_REG_6)
+     LUT1:I0->O            1   0.704   0.000  CHIA_ENA1HZ_CK1HZ/Mcompar_CK1HZ_cmp_lt0000_cy<0>_rt (CHIA_ENA1HZ_CK1HZ/Mcompar_CK1HZ_cmp_lt0000_cy<0>_rt)
+     MUXCY:S->O            1   0.464   0.000  CHIA_ENA1HZ_CK1HZ/Mcompar_CK1HZ_cmp_lt0000_cy<0> (CHIA_ENA1HZ_CK1HZ/Mcompar_CK1HZ_cmp_lt0000_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  CHIA_ENA1HZ_CK1HZ/Mcompar_CK1HZ_cmp_lt0000_cy<1> (CHIA_ENA1HZ_CK1HZ/Mcompar_CK1HZ_cmp_lt0000_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  CHIA_ENA1HZ_CK1HZ/Mcompar_CK1HZ_cmp_lt0000_cy<2> (CHIA_ENA1HZ_CK1HZ/Mcompar_CK1HZ_cmp_lt0000_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  CHIA_ENA1HZ_CK1HZ/Mcompar_CK1HZ_cmp_lt0000_cy<3> (CHIA_ENA1HZ_CK1HZ/Mcompar_CK1HZ_cmp_lt0000_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  CHIA_ENA1HZ_CK1HZ/Mcompar_CK1HZ_cmp_lt0000_cy<4> (CHIA_ENA1HZ_CK1HZ/Mcompar_CK1HZ_cmp_lt0000_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  CHIA_ENA1HZ_CK1HZ/Mcompar_CK1HZ_cmp_lt0000_cy<5> (CHIA_ENA1HZ_CK1HZ/Mcompar_CK1HZ_cmp_lt0000_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  CHIA_ENA1HZ_CK1HZ/Mcompar_CK1HZ_cmp_lt0000_cy<6> (CHIA_ENA1HZ_CK1HZ/Mcompar_CK1HZ_cmp_lt0000_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  CHIA_ENA1HZ_CK1HZ/Mcompar_CK1HZ_cmp_lt0000_cy<7> (CHIA_ENA1HZ_CK1HZ/Mcompar_CK1HZ_cmp_lt0000_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  CHIA_ENA1HZ_CK1HZ/Mcompar_CK1HZ_cmp_lt0000_cy<8> (CHIA_ENA1HZ_CK1HZ/Mcompar_CK1HZ_cmp_lt0000_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  CHIA_ENA1HZ_CK1HZ/Mcompar_CK1HZ_cmp_lt0000_cy<9> (CHIA_ENA1HZ_CK1HZ/Mcompar_CK1HZ_cmp_lt0000_cy<9>)
+     MUXCY:CI->O           1   0.459   0.420  CHIA_ENA1HZ_CK1HZ/Mcompar_CK1HZ_cmp_lt0000_cy<10> (CHIA_ENA1HZ_CK1HZ/Mcompar_CK1HZ_cmp_lt0000_cy<10>)
+     INV:I->O              1   0.704   0.420  CHIA_ENA1HZ_CK1HZ/Mcompar_CK1HZ_cmp_lt0000_cy<10>_inv_INV_0 (LED_3_OBUF)
+     OBUF:I->O                 3.272          LED_3_OBUF (LED<3>)
+    ----------------------------------------
+    Total                      8.327ns (6.725ns logic, 1.602ns route)
+                                       (80.8% logic, 19.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.86 secs
+ 
+--> 
+
+Total memory usage is 4521388 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

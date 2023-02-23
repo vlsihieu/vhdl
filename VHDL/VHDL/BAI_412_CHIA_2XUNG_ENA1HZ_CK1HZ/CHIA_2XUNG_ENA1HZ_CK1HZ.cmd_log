@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_412_CHIA_2XUNG_ENA1HZ_CK1HZ/CHIA_2XUNG_ENA1HZ_CK1HZ.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_412_CHIA_2XUNG_ENA1HZ_CK1HZ/CHIA_2XUNG_ENA1HZ_CK1HZ.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_412_CHIA_2XUNG_ENA1HZ_CK1HZ/CHIA_2XUNG_ENA1HZ_CK1HZ.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_412_CHIA_2XUNG_ENA1HZ_CK1HZ/CHIA_2XUNG_ENA1HZ_CK1HZ.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_412_CHIA_2XUNG_ENA1HZ_CK1HZ/CHIA_2XUNG_ENA1HZ_CK1HZ.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_412_CHIA_2XUNG_ENA1HZ_CK1HZ/CHIA_2XUNG_ENA1HZ_CK1HZ.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_412_CHIA_2XUNG_ENA1HZ_CK1HZ/CHIA_2XUNG_ENA1HZ_CK1HZ.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_412_CHIA_2XUNG_ENA1HZ_CK1HZ/CHIA_2XUNG_ENA1HZ_CK1HZ.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s500e-pqg208-4 CHIA_2XUNG_ENA1HZ_CK1HZ.ngc CHIA_2XUNG_ENA1HZ_CK1HZ.ngd  
+map -intstyle ise -p xa3s500e-pqg208-4 -cm area -ir off -pr off -c 100 -o CHIA_2XUNG_ENA1HZ_CK1HZ_map.ncd CHIA_2XUNG_ENA1HZ_CK1HZ.ngd CHIA_2XUNG_ENA1HZ_CK1HZ.pcf 
+par -w -intstyle ise -ol high -t 1 CHIA_2XUNG_ENA1HZ_CK1HZ_map.ncd CHIA_2XUNG_ENA1HZ_CK1HZ.ncd CHIA_2XUNG_ENA1HZ_CK1HZ.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CHIA_2XUNG_ENA1HZ_CK1HZ.twx CHIA_2XUNG_ENA1HZ_CK1HZ.ncd -o CHIA_2XUNG_ENA1HZ_CK1HZ.twr CHIA_2XUNG_ENA1HZ_CK1HZ.pcf 

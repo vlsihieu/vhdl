@@ -1,0 +1,3 @@
+vhdl work "LED_STD_PST.vhd"
+vhdl work "CHIA_10ENA.vhd"
+vhdl work "DK_8LED_STD_PST.vhd"

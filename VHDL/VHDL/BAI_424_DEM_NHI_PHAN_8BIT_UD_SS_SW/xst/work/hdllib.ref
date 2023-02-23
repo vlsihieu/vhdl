@@ -1,0 +1,6 @@
+AR dem_nhi_phan_8bit_ud_ss_sw behavioral C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_424_DEM_NHI_PHAN_8BIT_UD_SS_SW/DEM_NHI_PHAN_8BIT_UD_SW.vhd sub00/vhpl05 1590149546
+AR chia_10ena behavioral C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_424_DEM_NHI_PHAN_8BIT_UD_SS_SW/CHIA_10ENA.vhd sub00/vhpl02 1590149542
+AR dem_8bit_ud_ss_sw behavioral C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_424_DEM_NHI_PHAN_8BIT_UD_SS_SW/DEM_8BIT_UD_SS_SW.vhd sub00/vhpl04 1590149544
+EN dem_nhi_phan_8bit_ud_ss_sw NULL C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_424_DEM_NHI_PHAN_8BIT_UD_SS_SW/DEM_NHI_PHAN_8BIT_UD_SW.vhd sub00/vhpl00 1590149545
+EN dem_8bit_ud_ss_sw NULL C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_424_DEM_NHI_PHAN_8BIT_UD_SS_SW/DEM_8BIT_UD_SS_SW.vhd sub00/vhpl03 1590149543
+EN chia_10ena NULL C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_424_DEM_NHI_PHAN_8BIT_UD_SS_SW/CHIA_10ENA.vhd sub00/vhpl01 1590149541

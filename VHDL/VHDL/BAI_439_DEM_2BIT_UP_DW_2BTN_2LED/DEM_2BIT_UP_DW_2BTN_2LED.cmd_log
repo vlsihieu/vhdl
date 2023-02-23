@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_4LED/DEM_2BIT_UP_DW_2BTN_2LED.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_4LED/DEM_2BIT_UP_DW_2BTN_2LED.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_4LED/DEM_2BIT_UP_DW_2BTN_2LED.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_4LED/DEM_2BIT_UP_DW_2BTN_2LED.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_4LED/DEM_2BIT_UP_DW_2BTN_2LED.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_4LED/DEM_2BIT_UP_DW_2BTN_2LED.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-4 DEM_2BIT_UP_DW_2BTN_2LED.ngc DEM_2BIT_UP_DW_2BTN_2LED.ngd  
+map -intstyle ise -p xc3s500e-pq208-4 -cm area -ir off -pr off -c 100 -o DEM_2BIT_UP_DW_2BTN_2LED_map.ncd DEM_2BIT_UP_DW_2BTN_2LED.ngd DEM_2BIT_UP_DW_2BTN_2LED.pcf 
+par -w -intstyle ise -ol high -t 1 DEM_2BIT_UP_DW_2BTN_2LED_map.ncd DEM_2BIT_UP_DW_2BTN_2LED.ncd DEM_2BIT_UP_DW_2BTN_2LED.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DEM_2BIT_UP_DW_2BTN_2LED.twx DEM_2BIT_UP_DW_2BTN_2LED.ncd -o DEM_2BIT_UP_DW_2BTN_2LED.twr DEM_2BIT_UP_DW_2BTN_2LED.pcf 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_2LED/DEM_2BIT_UP_DW_2BTN_2LED.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_439_DEM_2BIT_UP_DW_2BTN_2LED/DEM_2BIT_UP_DW_2BTN_2LED.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-4 DEM_2BIT_UP_DW_2BTN_2LED.ngc DEM_2BIT_UP_DW_2BTN_2LED.ngd  
+map -intstyle ise -p xc3s500e-pq208-4 -cm area -ir off -pr off -c 100 -o DEM_2BIT_UP_DW_2BTN_2LED_map.ncd DEM_2BIT_UP_DW_2BTN_2LED.ngd DEM_2BIT_UP_DW_2BTN_2LED.pcf 
+par -w -intstyle ise -ol high -t 1 DEM_2BIT_UP_DW_2BTN_2LED_map.ncd DEM_2BIT_UP_DW_2BTN_2LED.ncd DEM_2BIT_UP_DW_2BTN_2LED.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DEM_2BIT_UP_DW_2BTN_2LED.twx DEM_2BIT_UP_DW_2BTN_2LED.ncd -o DEM_2BIT_UP_DW_2BTN_2LED.twr DEM_2BIT_UP_DW_2BTN_2LED.pcf 
+bitgen -intstyle ise -f DEM_2BIT_UP_DW_2BTN_2LED.ut DEM_2BIT_UP_DW_2BTN_2LED.ncd 

@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Thu Sep 05 13:24:57 2019
+
+drc -z GIAIMA_38_ES.ncd GIAIMA_38_ES.pcf
+
+DRC detected 0 errors and 0 warnings.

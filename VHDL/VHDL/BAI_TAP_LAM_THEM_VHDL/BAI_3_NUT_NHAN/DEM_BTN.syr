@@ -1,0 +1,655 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Reading design: DEM_BTN.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "DEM_BTN.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "DEM_BTN"
+Output Format                      : NGC
+Target Device                      : xc6slx9-3-tqg144
+
+---- Source Options
+Top Module Name                    : DEM_BTN
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\CAU7_HIEN_THI_TEN_MSSV_DO_ND\LAM_HEP_XUNG.vhd" into library work
+Parsing entity <LAM_HEP_XUNG>.
+Parsing architecture <Behavioral> of entity <lam_hep_xung>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\CAU7_HIEN_THI_TEN_MSSV_DO_ND\DEBOUNCE_BTN.vhd" into library work
+Parsing entity <DEBOUNCE_BTN>.
+Parsing architecture <Behavioral> of entity <debounce_btn>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\CAU7_HIEN_THI_TEN_MSSV_DO_ND\xu_ly_oe.vhd" into library work
+Parsing entity <xu_ly_oe>.
+Parsing architecture <A> of entity <xu_ly_oe>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\CAU7_HIEN_THI_TEN_MSSV_DO_ND\LCD_KHOITAO_HIENTHI_SO_TO.vhd" into library work
+Parsing entity <LCD_KHOITAO_HIENTHI_SO_TO>.
+Parsing architecture <Behavioral> of entity <lcd_khoitao_hienthi_so_to>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\CAU7_HIEN_THI_TEN_MSSV_DO_ND\LCD_20X4_GAN_DULIEU_1SO_TO.vhd" into library work
+Parsing entity <LCD_20X4_GAN_DULIEU_1SO_TO>.
+Parsing architecture <Behavioral> of entity <lcd_20x4_gan_dulieu_1so_to>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\CAU7_HIEN_THI_TEN_MSSV_DO_ND\KHOI_DEM_BTN.vhd" into library work
+Parsing entity <KHOI_DEM_BTN>.
+Parsing architecture <A> of entity <khoi_dem_btn>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\CAU7_HIEN_THI_TEN_MSSV_DO_ND\CHIA_10ENA.vhd" into library work
+Parsing entity <CHIA_10ENA>.
+Parsing architecture <BEHAVIORAL> of entity <chia_10ena>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\CAU7_HIEN_THI_TEN_MSSV_DO_ND\CD_LAM_HEP_BTN.vhd" into library work
+Parsing entity <CD_LAM_HEP_BTN>.
+Parsing architecture <Behavioral> of entity <cd_lam_hep_btn>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\CAU7_HIEN_THI_TEN_MSSV_DO_ND\AFAFAFAF.vhd" into library work
+Parsing entity <DEM_BTN>.
+Parsing architecture <PMH> of entity <dem_btn>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <DEM_BTN> (architecture <PMH>) from library <work>.
+
+Elaborating entity <CHIA_10ENA> (architecture <BEHAVIORAL>) from library <work>.
+
+Elaborating entity <CD_LAM_HEP_BTN> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <DEBOUNCE_BTN> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <LAM_HEP_XUNG> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <xu_ly_oe> (architecture <A>) from library <work>.
+
+Elaborating entity <KHOI_DEM_BTN> (architecture <A>) from library <work>.
+
+Elaborating entity <LCD_20X4_GAN_DULIEU_1SO_TO> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <LCD_KHOITAO_HIENTHI_SO_TO> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <DEM_BTN>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\CAU7_HIEN_THI_TEN_MSSV_DO_ND\AFAFAFAF.vhd".
+    Summary:
+	no macro.
+Unit <DEM_BTN> synthesized.
+
+Synthesizing Unit <CHIA_10ENA>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\CAU7_HIEN_THI_TEN_MSSV_DO_ND\CHIA_10ENA.vhd".
+    Found 24-bit register for signal <D5HZ_REG>.
+    Found 25-bit adder for signal <n0074> created at line 55.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  24 D-type flip-flop(s).
+Unit <CHIA_10ENA> synthesized.
+
+Synthesizing Unit <CD_LAM_HEP_BTN>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\CAU7_HIEN_THI_TEN_MSSV_DO_ND\CD_LAM_HEP_BTN.vhd".
+    Summary:
+	no macro.
+Unit <CD_LAM_HEP_BTN> synthesized.
+
+Synthesizing Unit <DEBOUNCE_BTN>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\CAU7_HIEN_THI_TEN_MSSV_DO_ND\DEBOUNCE_BTN.vhd".
+    Found 20-bit register for signal <DL_R>.
+    Found 2-bit register for signal <DB_R>.
+    Found finite state machine <FSM_0> for signal <DB_R>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 10                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 3                                              |
+    | Clock              | CKHT (falling_edge)                            |
+    | Power Up State     | zero                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 20-bit subtractor for signal <GND_8_o_GND_8_o_sub_5_OUT<19:0>> created at line 65.
+    Found 20-bit 4-to-1 multiplexer for signal <DL_N> created at line 58.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  20 D-type flip-flop(s).
+	inferred   3 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <DEBOUNCE_BTN> synthesized.
+
+Synthesizing Unit <LAM_HEP_XUNG>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\CAU7_HIEN_THI_TEN_MSSV_DO_ND\LAM_HEP_XUNG.vhd".
+    Found 1-bit register for signal <QFF>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <LAM_HEP_XUNG> synthesized.
+
+Synthesizing Unit <xu_ly_oe>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\CAU7_HIEN_THI_TEN_MSSV_DO_ND\xu_ly_oe.vhd".
+    Found 1-bit register for signal <dem_r2>.
+    Found 1-bit register for signal <dem_r3>.
+    Found 1-bit register for signal <dem_r1>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+	inferred   5 Multiplexer(s).
+Unit <xu_ly_oe> synthesized.
+
+Synthesizing Unit <KHOI_DEM_BTN>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\CAU7_HIEN_THI_TEN_MSSV_DO_ND\KHOI_DEM_BTN.vhd".
+    Found 4-bit register for signal <chuc_r0>.
+    Found 4-bit register for signal <donvi_r0>.
+    Found 4-bit register for signal <chuc_r1>.
+    Found 4-bit register for signal <donvi_r2>.
+    Found 4-bit register for signal <donvi_r1>.
+    Found 4-bit register for signal <chuc_r2>.
+    Found 4-bit adder for signal <donvi_r0[3]_GND_11_o_add_9_OUT> created at line 69.
+    Found 4-bit adder for signal <chuc_r0[3]_GND_11_o_add_11_OUT> created at line 72.
+    Found 4-bit adder for signal <donvi_r1[3]_GND_11_o_add_20_OUT> created at line 83.
+    Found 4-bit adder for signal <chuc_r1[3]_GND_11_o_add_22_OUT> created at line 86.
+    Found 4-bit adder for signal <donvi_r2[3]_GND_11_o_add_31_OUT> created at line 97.
+    Found 4-bit adder for signal <chuc_r2[3]_GND_11_o_add_33_OUT> created at line 100.
+    Summary:
+	inferred   6 Adder/Subtractor(s).
+	inferred  24 D-type flip-flop(s).
+	inferred  30 Multiplexer(s).
+Unit <KHOI_DEM_BTN> synthesized.
+
+Synthesizing Unit <LCD_20X4_GAN_DULIEU_1SO_TO>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\CAU7_HIEN_THI_TEN_MSSV_DO_ND\LCD_20X4_GAN_DULIEU_1SO_TO.vhd".
+    Summary:
+	no macro.
+Unit <LCD_20X4_GAN_DULIEU_1SO_TO> synthesized.
+
+Synthesizing Unit <LCD_KHOITAO_HIENTHI_SO_TO>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\CAU7_HIEN_THI_TEN_MSSV_DO_ND\LCD_KHOITAO_HIENTHI_SO_TO.vhd".
+    Found 20-bit register for signal <SLX>.
+    Found 6-bit register for signal <PTR>.
+    Found 4-bit register for signal <LCD_STATE>.
+    Found 1-bit register for signal <LCD_RS>.
+    Found 1-bit register for signal <LCD_E>.
+    Found 8-bit register for signal <LCD_DB>.
+    Found finite state machine <FSM_1> for signal <LCD_STATE>.
+    -----------------------------------------------------------------------
+    | States             | 12                                             |
+    | Transitions        | 30                                             |
+    | Inputs             | 6                                              |
+    | Outputs            | 5                                              |
+    | Clock              | LCD_CK (falling_edge)                          |
+    | Reset              | LCD_RST (positive)                             |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | lcd_initial                                    |
+    | Power Up State     | lcd_initial                                    |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 6-bit adder for signal <PTR[5]_GND_14_o_add_208_OUT> created at line 258.
+    Found 20-bit adder for signal <SLX[19]_GND_14_o_add_220_OUT> created at line 266.
+    Found 8x8-bit Read Only RAM for signal <PTR[2]_X_13_o_wide_mux_88_OUT>
+    Found 64x8-bit Read Only RAM for signal <PTR[5]_GND_14_o_wide_mux_113_OUT>
+    Found 8-bit 20-to-1 multiplexer for signal <PTR[4]_X_13_o_wide_mux_138_OUT> created at line 195.
+    Found 8-bit 20-to-1 multiplexer for signal <PTR[4]_X_13_o_wide_mux_163_OUT> created at line 217.
+    Found 8-bit 20-to-1 multiplexer for signal <PTR[4]_X_13_o_wide_mux_188_OUT> created at line 239.
+    Found 8-bit 20-to-1 multiplexer for signal <PTR[4]_X_13_o_wide_mux_213_OUT> created at line 262.
+    Summary:
+	inferred   2 RAM(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred  36 D-type flip-flop(s).
+	inferred  35 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <LCD_KHOITAO_HIENTHI_SO_TO> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 64x8-bit single-port Read Only RAM                    : 1
+ 8x8-bit single-port Read Only RAM                     : 1
+# Adders/Subtractors                                   : 12
+ 20-bit adder                                          : 1
+ 20-bit subtractor                                     : 3
+ 25-bit adder                                          : 1
+ 4-bit adder                                           : 6
+ 6-bit adder                                           : 1
+# Registers                                            : 21
+ 1-bit register                                        : 8
+ 20-bit register                                       : 4
+ 24-bit register                                       : 1
+ 4-bit register                                        : 6
+ 6-bit register                                        : 1
+ 8-bit register                                        : 1
+# Multiplexers                                         : 79
+ 1-bit 2-to-1 multiplexer                              : 11
+ 20-bit 2-to-1 multiplexer                             : 11
+ 20-bit 4-to-1 multiplexer                             : 3
+ 4-bit 2-to-1 multiplexer                              : 30
+ 6-bit 2-to-1 multiplexer                              : 10
+ 8-bit 2-to-1 multiplexer                              : 10
+ 8-bit 20-to-1 multiplexer                             : 4
+# FSMs                                                 : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <CHIA_10ENA>.
+The following registers are absorbed into counter <D5HZ_REG>: 1 register on signal <D5HZ_REG>.
+Unit <CHIA_10ENA> synthesized (advanced).
+
+Synthesizing (advanced) Unit <LCD_KHOITAO_HIENTHI_SO_TO>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_PTR[2]_X_13_o_wide_mux_88_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 8-word x 8-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <PTR<2:0>>      |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_PTR[5]_GND_14_o_wide_mux_113_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 64-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <PTR>           |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <LCD_KHOITAO_HIENTHI_SO_TO> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 64x8-bit single-port distributed Read Only RAM        : 1
+ 8x8-bit single-port distributed Read Only RAM         : 1
+# Adders/Subtractors                                   : 11
+ 20-bit adder                                          : 1
+ 20-bit subtractor                                     : 3
+ 4-bit adder                                           : 6
+ 6-bit adder                                           : 1
+# Counters                                             : 1
+ 24-bit up counter                                     : 1
+# Registers                                            : 126
+ Flip-Flops                                            : 126
+# Multiplexers                                         : 79
+ 1-bit 2-to-1 multiplexer                              : 11
+ 20-bit 2-to-1 multiplexer                             : 11
+ 20-bit 4-to-1 multiplexer                             : 3
+ 4-bit 2-to-1 multiplexer                              : 30
+ 6-bit 2-to-1 multiplexer                              : 10
+ 8-bit 2-to-1 multiplexer                              : 10
+ 8-bit 20-to-1 multiplexer                             : 4
+# FSMs                                                 : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <IC176/IC3/FSM_0> on signal <DB_R[1:2]> with user encoding.
+Optimizing FSM <IC19/IC3/FSM_0> on signal <DB_R[1:2]> with user encoding.
+Optimizing FSM <IC13/IC3/FSM_0> on signal <DB_R[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ zero  | 00
+ wait0 | 01
+ one   | 10
+ wait1 | 11
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <IC9/FSM_1> on signal <LCD_STATE[1:4]> with user encoding.
+-------------------------
+ State       | Encoding
+-------------------------
+ lcd_initial | 0000
+ lcd_cg_addr | 0001
+ lcd_cg_data | 0010
+ lcd_addr_l1 | 0011
+ lcd_data_l1 | 0100
+ lcd_addr_l2 | 0101
+ lcd_data_l2 | 0110
+ lcd_addr_l3 | 0111
+ lcd_data_l3 | 1000
+ lcd_addr_l4 | 1001
+ lcd_data_l4 | 1010
+ lcd_stop    | 1011
+-------------------------
+
+Optimizing unit <DEM_BTN> ...
+
+Optimizing unit <DEBOUNCE_BTN> ...
+
+Optimizing unit <KHOI_DEM_BTN> ...
+
+Optimizing unit <LCD_KHOITAO_HIENTHI_SO_TO> ...
+WARNING:Xst:1293 - FF/Latch <IC77/chuc_r2_3> has a constant value of 0 in block <DEM_BTN>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <IC77/chuc_r2_2> has a constant value of 1 in block <DEM_BTN>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <IC77/chuc_r1_3> has a constant value of 0 in block <DEM_BTN>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <IC77/chuc_r0_3> (without init value) has a constant value of 0 in block <DEM_BTN>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <IC77/chuc_r0_2> (without init value) has a constant value of 0 in block <DEM_BTN>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:3203 - The FF/Latch <IC77/chuc_r1_1> in Unit <DEM_BTN> is the opposite to the following FF/Latch, which will be removed : <IC77/chuc_r1_2> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block DEM_BTN, actual ratio is 7.
+FlipFlop IC9/PTR_1 has been replicated 1 time(s)
+FlipFlop IC9/PTR_2 has been replicated 1 time(s)
+FlipFlop IC9/PTR_3 has been replicated 1 time(s)
+FlipFlop IC9/PTR_4 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 158
+ Flip-Flops                                            : 158
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : DEM_BTN.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 580
+#      GND                         : 1
+#      INV                         : 61
+#      LUT1                        : 45
+#      LUT2                        : 29
+#      LUT3                        : 10
+#      LUT4                        : 27
+#      LUT5                        : 96
+#      LUT6                        : 101
+#      MUXCY                       : 99
+#      MUXF7                       : 6
+#      VCC                         : 1
+#      XORCY                       : 104
+# FlipFlops/Latches                : 158
+#      FD_1                        : 78
+#      FDC_1                       : 24
+#      FDCE_1                      : 28
+#      FDE_1                       : 1
+#      FDPE_1                      : 3
+#      FDR                         : 23
+#      FDS                         : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 14
+#      IBUF                        : 4
+#      OBUF                        : 10
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9tqg144-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             158  out of  11440     1%  
+ Number of Slice LUTs:                  369  out of   5720     6%  
+    Number used as Logic:               369  out of   5720     6%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    373
+   Number with an unused Flip Flop:     215  out of    373    57%  
+   Number with an unused LUT:             4  out of    373     1%  
+   Number of fully used LUT-FF pairs:   154  out of    373    41%  
+   Number of unique control sets:        10
+
+IO Utilization: 
+ Number of IOs:                          15
+ Number of bonded IOBs:                  15  out of    102    14%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CKHT                               | BUFGP                  | 158   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 5.743ns (Maximum Frequency: 174.131MHz)
+   Minimum input arrival time before clock: 4.552ns
+   Maximum output required time after clock: 3.701ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CKHT'
+  Clock period: 5.743ns (frequency: 174.131MHz)
+  Total number of paths / destination ports: 6623 / 214
+-------------------------------------------------------------------------
+Delay:               5.743ns (Levels of Logic = 5)
+  Source:            IC9/SLX_12 (FF)
+  Destination:       IC9/LCD_DB_7 (FF)
+  Source Clock:      CKHT falling
+  Destination Clock: CKHT falling
+
+  Data Path: IC9/SLX_12 to IC9/LCD_DB_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q            5   0.447   1.059  IC9/SLX_12 (IC9/SLX_12)
+     LUT6:I1->O            2   0.203   0.845  IC9/GND_14_o_SLX[19]_equal_82_o<19>1_SW0 (N17)
+     LUT6:I3->O            7   0.205   0.878  IC9/GND_14_o_SLX[19]_equal_82_o<19>2 (IC9/GND_14_o_SLX[19]_equal_82_o)
+     LUT6:I4->O            7   0.203   0.774  IC9/_n0700_inv1 (IC9/_n0700_inv1)
+     LUT6:I5->O            2   0.205   0.617  IC9/_n0700_inv3 (IC9/_n0700_inv)
+     LUT3:I2->O            1   0.205   0.000  IC9/LCD_DB_0_rstpot (IC9/LCD_DB_0_rstpot)
+     FD_1:D                    0.102          IC9/LCD_DB_0
+    ----------------------------------------
+    Total                      5.743ns (1.570ns logic, 4.173ns route)
+                                       (27.3% logic, 72.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CKHT'
+  Total number of paths / destination ports: 136 / 131
+-------------------------------------------------------------------------
+Offset:              4.552ns (Levels of Logic = 5)
+  Source:            BTN<0> (PAD)
+  Destination:       IC9/LCD_E (FF)
+  Destination Clock: CKHT falling
+
+  Data Path: BTN<0> to IC9/LCD_E
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            13   1.222   0.933  BTN_0_IBUF (BTN_0_IBUF)
+     LUT2:I1->O            1   0.205   0.924  IC9/_n0566_inv1_SW2_SW0 (N60)
+     LUT6:I1->O            2   0.203   0.617  IC9/LCD_E_rstpot_SW1 (N48)
+     LUT6:I5->O            1   0.205   0.000  IC9/LCD_E_rstpot_G (N82)
+     MUXF7:I1->O           1   0.140   0.000  IC9/LCD_E_rstpot (IC9/LCD_E_rstpot)
+     FD_1:D                    0.102          IC9/LCD_E
+    ----------------------------------------
+    Total                      4.552ns (2.077ns logic, 2.475ns route)
+                                       (45.6% logic, 54.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CKHT'
+  Total number of paths / destination ports: 10 / 10
+-------------------------------------------------------------------------
+Offset:              3.701ns (Levels of Logic = 1)
+  Source:            IC9/LCD_E (FF)
+  Destination:       LCD_E (PAD)
+  Source Clock:      CKHT falling
+
+  Data Path: IC9/LCD_E to LCD_E
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD_1:C->Q             4   0.447   0.683  IC9/LCD_E (IC9/LCD_E)
+     OBUF:I->O                 2.571          LCD_E_OBUF (LCD_E)
+    ----------------------------------------
+    Total                      3.701ns (3.018ns logic, 0.683ns route)
+                                       (81.6% logic, 18.4% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CKHT
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CKHT           |         |         |    5.743|         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 12.02 secs
+ 
+--> 
+
+Total memory usage is 4510212 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    5 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

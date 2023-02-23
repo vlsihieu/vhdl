@@ -1,0 +1,470 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Reading design: DK_9LED_SANG_8LED_2CT_AU_1DSDC_PST_TSP.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "DK_9LED_SANG_8LED_2CT_AU_1DSDC_PST_TSP.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "DK_9LED_SANG_8LED_2CT_AU_1DSDC_PST_TSP"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-pq208
+
+---- Source Options
+Top Module Name                    : DK_9LED_SANG_8LED_2CT_AU_1DSDC_PST_TSP
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_448_2_DK_9LED_SANG_8LED_2CT_AU_1DSDC_PST_TSP/CHIA_10ENA.vhd" in Library work.
+Architecture behavioral of Entity chia_10ena is up to date.
+Compiling vhdl file "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_448_2_DK_9LED_SANG_8LED_2CT_AU_1DSDC_PST_TSP/LED_DSDC_PST.vhd" in Library work.
+Architecture behavioral of Entity led_dsdc_pst is up to date.
+Compiling vhdl file "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_448_2_DK_9LED_SANG_8LED_2CT_AU_1DSDC_PST_TSP/LED_DSDC_TSP.vhd" in Library work.
+Architecture behavioral of Entity led_dsdc_tsp is up to date.
+Compiling vhdl file "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_448_2_DK_9LED_SANG_8LED_2CT_AU_1DSDC_PST_TSP/DIEUKHIEN_CHOPHEP.vhd" in Library work.
+Entity <dieukhien_chophep> compiled.
+Entity <dieukhien_chophep> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_448_2_DK_9LED_SANG_8LED_2CT_AU_1DSDC_PST_TSP/DK_9LED_SANG_8LED_2CT_AU_1DSDC_PST_TSP.vhd" in Library work.
+Architecture behavioral of Entity dk_9led_sang_8led_2ct_au_1dsdc_pst_tsp is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <DK_9LED_SANG_8LED_2CT_AU_1DSDC_PST_TSP> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CHIA_10ENA> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <LED_DSDC_PST> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <LED_DSDC_TSP> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DIEUKHIEN_CHOPHEP> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <DK_9LED_SANG_8LED_2CT_AU_1DSDC_PST_TSP> in library <work> (Architecture <behavioral>).
+Entity <DK_9LED_SANG_8LED_2CT_AU_1DSDC_PST_TSP> analyzed. Unit <DK_9LED_SANG_8LED_2CT_AU_1DSDC_PST_TSP> generated.
+
+Analyzing Entity <CHIA_10ENA> in library <work> (Architecture <Behavioral>).
+Entity <CHIA_10ENA> analyzed. Unit <CHIA_10ENA> generated.
+
+Analyzing Entity <LED_DSDC_PST> in library <work> (Architecture <Behavioral>).
+Entity <LED_DSDC_PST> analyzed. Unit <LED_DSDC_PST> generated.
+
+Analyzing Entity <LED_DSDC_TSP> in library <work> (Architecture <Behavioral>).
+Entity <LED_DSDC_TSP> analyzed. Unit <LED_DSDC_TSP> generated.
+
+Analyzing Entity <DIEUKHIEN_CHOPHEP> in library <work> (Architecture <Behavioral>).
+Entity <DIEUKHIEN_CHOPHEP> analyzed. Unit <DIEUKHIEN_CHOPHEP> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <CHIA_10ENA>.
+    Related source file is "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_448_2_DK_9LED_SANG_8LED_2CT_AU_1DSDC_PST_TSP/CHIA_10ENA.vhd".
+    Found 24-bit adder for signal <D5HZ_N$addsub0000> created at line 99.
+    Found 24-bit register for signal <D5HZ_R>.
+    Summary:
+	inferred  24 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <CHIA_10ENA> synthesized.
+
+
+Synthesizing Unit <LED_DSDC_PST>.
+    Related source file is "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_448_2_DK_9LED_SANG_8LED_2CT_AU_1DSDC_PST_TSP/LED_DSDC_PST.vhd".
+    Found 9-bit register for signal <Q_R>.
+Unit <LED_DSDC_PST> synthesized.
+
+
+Synthesizing Unit <LED_DSDC_TSP>.
+    Related source file is "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_448_2_DK_9LED_SANG_8LED_2CT_AU_1DSDC_PST_TSP/LED_DSDC_TSP.vhd".
+    Found 10-bit register for signal <Q_R>.
+Unit <LED_DSDC_TSP> synthesized.
+
+
+Synthesizing Unit <DIEUKHIEN_CHOPHEP>.
+    Related source file is "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_448_2_DK_9LED_SANG_8LED_2CT_AU_1DSDC_PST_TSP/DIEUKHIEN_CHOPHEP.vhd".
+    Found 5-bit up counter for signal <DEM_R>.
+    Found 5-bit comparator less for signal <OE$cmp_lt0000> created at line 57.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 Comparator(s).
+Unit <DIEUKHIEN_CHOPHEP> synthesized.
+
+
+Synthesizing Unit <DK_9LED_SANG_8LED_2CT_AU_1DSDC_PST_TSP>.
+    Related source file is "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_448_2_DK_9LED_SANG_8LED_2CT_AU_1DSDC_PST_TSP/DK_9LED_SANG_8LED_2CT_AU_1DSDC_PST_TSP.vhd".
+Unit <DK_9LED_SANG_8LED_2CT_AU_1DSDC_PST_TSP> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 24-bit adder                                          : 1
+# Counters                                             : 1
+ 5-bit up counter                                      : 1
+# Registers                                            : 3
+ 10-bit register                                       : 1
+ 24-bit register                                       : 1
+ 9-bit register                                        : 1
+# Comparators                                          : 1
+ 5-bit comparator less                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 24-bit adder                                          : 1
+# Counters                                             : 1
+ 5-bit up counter                                      : 1
+# Registers                                            : 43
+ Flip-Flops                                            : 43
+# Comparators                                          : 1
+ 5-bit comparator less                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <DK_9LED_SANG_8LED_2CT_AU_1DSDC_PST_TSP> ...
+
+Optimizing unit <CHIA_10ENA> ...
+
+Optimizing unit <DIEUKHIEN_CHOPHEP> ...
+
+Optimizing unit <LED_DSDC_PST> ...
+
+Optimizing unit <LED_DSDC_TSP> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block DK_9LED_SANG_8LED_2CT_AU_1DSDC_PST_TSP, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 48
+ Flip-Flops                                            : 48
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : DK_9LED_SANG_8LED_2CT_AU_1DSDC_PST_TSP.ngr
+Top Level Output File Name         : DK_9LED_SANG_8LED_2CT_AU_1DSDC_PST_TSP
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 10
+
+Cell Usage :
+# BELS                             : 134
+#      GND                         : 1
+#      INV                         : 2
+#      LUT1                        : 23
+#      LUT2                        : 19
+#      LUT3                        : 3
+#      LUT3_D                      : 1
+#      LUT3_L                      : 2
+#      LUT4                        : 29
+#      LUT4_D                      : 5
+#      MUXCY                       : 23
+#      MUXF5                       : 1
+#      VCC                         : 1
+#      XORCY                       : 24
+# FlipFlops/Latches                : 48
+#      FDCE                        : 5
+#      FDCE_1                      : 16
+#      FDPE_1                      : 3
+#      FDR_1                       : 23
+#      FDS_1                       : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 9
+#      IBUF                        : 1
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500epq208-5 
+
+ Number of Slices:                       44  out of   4656     0%  
+ Number of Slice Flip Flops:             48  out of   9312     0%  
+ Number of 4 input LUTs:                 84  out of   9312     0%  
+ Number of IOs:                          10
+ Number of bonded IOBs:                  10  out of    158     6%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CKHT                               | BUFGP                  | 48    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+BTN                                | IBUF                   | 24    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 5.460ns (Maximum Frequency: 183.152MHz)
+   Minimum input arrival time before clock: 5.628ns
+   Maximum output required time after clock: 7.902ns
+   Maximum combinational path delay: 8.071ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CKHT'
+  Clock period: 5.460ns (frequency: 183.152MHz)
+  Total number of paths / destination ports: 1767 / 96
+-------------------------------------------------------------------------
+Delay:               5.460ns (Levels of Logic = 3)
+  Source:            IC4/DEM_R_2 (FF)
+  Destination:       IC3/Q_R_2 (FF)
+  Source Clock:      CKHT falling
+  Destination Clock: CKHT falling
+
+  Data Path: IC4/DEM_R_2 to IC3/Q_R_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             9   0.514   0.849  IC4/DEM_R_2 (IC4/DEM_R_2)
+     LUT3_L:I0->LO         1   0.612   0.103  IC4/OE<1>_SW0 (N2)
+     LUT4:I3->O           19   0.612   0.925  IC4/OE<1> (OE<1>)
+     LUT4:I3->O           10   0.612   0.750  IC3/Q_R_not00011 (IC3/Q_R_not0001)
+     FDCE_1:CE                 0.483          IC3/Q_R_2
+    ----------------------------------------
+    Total                      5.460ns (2.833ns logic, 2.627ns route)
+                                       (51.9% logic, 48.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CKHT'
+  Total number of paths / destination ports: 38 / 38
+-------------------------------------------------------------------------
+Offset:              5.628ns (Levels of Logic = 3)
+  Source:            BTN (PAD)
+  Destination:       IC3/Q_R_2 (FF)
+  Destination Clock: CKHT falling
+
+  Data Path: BTN to IC3/Q_R_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            26   1.106   1.140  BTN_IBUF (BTN_IBUF)
+     LUT4:I1->O           19   0.612   0.925  IC4/OE<1> (OE<1>)
+     LUT4:I3->O           10   0.612   0.750  IC3/Q_R_not00011 (IC3/Q_R_not0001)
+     FDCE_1:CE                 0.483          IC3/Q_R_2
+    ----------------------------------------
+    Total                      5.628ns (2.813ns logic, 2.815ns route)
+                                       (50.0% logic, 50.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CKHT'
+  Total number of paths / destination ports: 96 / 8
+-------------------------------------------------------------------------
+Offset:              7.902ns (Levels of Logic = 4)
+  Source:            IC4/DEM_R_2 (FF)
+  Destination:       LED<0> (PAD)
+  Source Clock:      CKHT falling
+
+  Data Path: IC4/DEM_R_2 to LED<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             9   0.514   0.849  IC4/DEM_R_2 (IC4/DEM_R_2)
+     LUT3_L:I0->LO         1   0.612   0.103  IC4/OE<1>_SW0 (N2)
+     LUT4:I3->O           19   0.612   1.074  IC4/OE<1> (OE<1>)
+     LUT4:I0->O            1   0.612   0.357  LED<0>1 (LED_0_OBUF)
+     OBUF:I->O                 3.169          LED_0_OBUF (LED<0>)
+    ----------------------------------------
+    Total                      7.902ns (5.519ns logic, 2.383ns route)
+                                       (69.8% logic, 30.2% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 16 / 8
+-------------------------------------------------------------------------
+Delay:               8.071ns (Levels of Logic = 4)
+  Source:            BTN (PAD)
+  Destination:       LED<0> (PAD)
+
+  Data Path: BTN to LED<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            26   1.106   1.140  BTN_IBUF (BTN_IBUF)
+     LUT4:I1->O           19   0.612   1.074  IC4/OE<1> (OE<1>)
+     LUT4:I0->O            1   0.612   0.357  LED<0>1 (LED_0_OBUF)
+     OBUF:I->O                 3.169          LED_0_OBUF (LED<0>)
+    ----------------------------------------
+    Total                      8.071ns (5.499ns logic, 2.572ns route)
+                                       (68.1% logic, 31.9% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.62 secs
+ 
+--> 
+
+Total memory usage is 4536852 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,27 @@
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_614_LCD_CLOCK_3KEY_NHAPNHAY_BUZZER/LCD_CLOCK_3KEY_NHAPNHAY.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_614_LCD_CLOCK_3KEY_NHAPNHAY_BUZZER/LCD_CLOCK_3KEY_NHAPNHAY.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_614_LCD_CLOCK_3KEY_NHAPNHAY_BUZZER/LCD_CLOCK_3KEY_NHAPNHAY.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_614_LCD_CLOCK_3KEY_NHAPNHAY_BUZZER/LCD_CLOCK_3KEY_NHAPNHAY.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_614_LCD_CLOCK_3KEY_NHAPNHAY_BUZZER/LCD_CLOCK_3KEY_NHAPNHAY.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_614_LCD_CLOCK_3KEY_NHAPNHAY_BUZZER/LCD_CLOCK_3KEY_NHAPNHAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 LCD_CLOCK_3KEY_NHAPNHAY.ngc LCD_CLOCK_3KEY_NHAPNHAY.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LCD_CLOCK_3KEY_NHAPNHAY_map.ncd LCD_CLOCK_3KEY_NHAPNHAY.ngd LCD_CLOCK_3KEY_NHAPNHAY.pcf 
+par -w -intstyle ise -ol high -mt off LCD_CLOCK_3KEY_NHAPNHAY_map.ncd LCD_CLOCK_3KEY_NHAPNHAY.ncd LCD_CLOCK_3KEY_NHAPNHAY.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml LCD_CLOCK_3KEY_NHAPNHAY.twx LCD_CLOCK_3KEY_NHAPNHAY.ncd -o LCD_CLOCK_3KEY_NHAPNHAY.twr LCD_CLOCK_3KEY_NHAPNHAY.pcf 
+bitgen -intstyle ise -f LCD_CLOCK_3KEY_NHAPNHAY.ut LCD_CLOCK_3KEY_NHAPNHAY.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_614_LCD_CLOCK_3KEY_NHAPNHAY_BUZZER/LCD_CLOCK_3KEY_NHAPNHAY.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_614_LCD_CLOCK_3KEY_NHAPNHAY_BUZZER/LCD_CLOCK_3KEY_NHAPNHAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 LCD_CLOCK_3KEY_NHAPNHAY.ngc LCD_CLOCK_3KEY_NHAPNHAY.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LCD_CLOCK_3KEY_NHAPNHAY_map.ncd LCD_CLOCK_3KEY_NHAPNHAY.ngd LCD_CLOCK_3KEY_NHAPNHAY.pcf 
+par -w -intstyle ise -ol high -mt off LCD_CLOCK_3KEY_NHAPNHAY_map.ncd LCD_CLOCK_3KEY_NHAPNHAY.ncd LCD_CLOCK_3KEY_NHAPNHAY.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml LCD_CLOCK_3KEY_NHAPNHAY.twx LCD_CLOCK_3KEY_NHAPNHAY.ncd -o LCD_CLOCK_3KEY_NHAPNHAY.twr LCD_CLOCK_3KEY_NHAPNHAY.pcf 
+bitgen -intstyle ise -f LCD_CLOCK_3KEY_NHAPNHAY.ut LCD_CLOCK_3KEY_NHAPNHAY.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 LCD_CLOCK_3KEY_NHAPNHAY.ngc LCD_CLOCK_3KEY_NHAPNHAY.ngd  
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_614_LCD_CLOCK_3KEY_NHAPNHAY_BUZZER/LCD_CLOCK_3KEY_NHAPNHAY.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_614_LCD_CLOCK_3KEY_NHAPNHAY_BUZZER/LCD_CLOCK_3KEY_NHAPNHAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_CLOCK_3KEY_NHAPNHAY.ngc LCD_CLOCK_3KEY_NHAPNHAY.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_CLOCK_3KEY_NHAPNHAY_map.ncd LCD_CLOCK_3KEY_NHAPNHAY.ngd LCD_CLOCK_3KEY_NHAPNHAY.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_CLOCK_3KEY_NHAPNHAY_map.ncd LCD_CLOCK_3KEY_NHAPNHAY.ncd LCD_CLOCK_3KEY_NHAPNHAY.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_CLOCK_3KEY_NHAPNHAY.twx LCD_CLOCK_3KEY_NHAPNHAY.ncd -o LCD_CLOCK_3KEY_NHAPNHAY.twr LCD_CLOCK_3KEY_NHAPNHAY.pcf 
+bitgen -intstyle ise -f LCD_CLOCK_3KEY_NHAPNHAY.ut LCD_CLOCK_3KEY_NHAPNHAY.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_614_LCD_CLOCK_3KEY_NHAPNHAY_BUZZER/LCD_CLOCK_3KEY_NHAPNHAY.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_614_LCD_CLOCK_3KEY_NHAPNHAY_BUZZER/LCD_CLOCK_3KEY_NHAPNHAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_CLOCK_3KEY_NHAPNHAY.ngc LCD_CLOCK_3KEY_NHAPNHAY.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_CLOCK_3KEY_NHAPNHAY_map.ncd LCD_CLOCK_3KEY_NHAPNHAY.ngd LCD_CLOCK_3KEY_NHAPNHAY.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_CLOCK_3KEY_NHAPNHAY_map.ncd LCD_CLOCK_3KEY_NHAPNHAY.ncd LCD_CLOCK_3KEY_NHAPNHAY.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_CLOCK_3KEY_NHAPNHAY.twx LCD_CLOCK_3KEY_NHAPNHAY.ncd -o LCD_CLOCK_3KEY_NHAPNHAY.twr LCD_CLOCK_3KEY_NHAPNHAY.pcf 
+bitgen -intstyle ise -f LCD_CLOCK_3KEY_NHAPNHAY.ut LCD_CLOCK_3KEY_NHAPNHAY.ncd 

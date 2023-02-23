@@ -1,0 +1,49 @@
+xst -intstyle ise -ifn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_312_MAHOAUUTIEN_42HE_IF/MAHOAUUTIEN_42HE_IF.xst" -ofn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_312_MAHOAUUTIEN_42HE_IF/MAHOAUUTIEN_42HE_IF.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-5 MAHOAUUTIEN_42HE_IF.ngc MAHOAUUTIEN_42HE_IF.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o MAHOAUUTIEN_42HE_IF_map.ncd MAHOAUUTIEN_42HE_IF.ngd MAHOAUUTIEN_42HE_IF.pcf 
+par -w -intstyle ise -ol high -t 1 MAHOAUUTIEN_42HE_IF_map.ncd MAHOAUUTIEN_42HE_IF.ncd MAHOAUUTIEN_42HE_IF.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MAHOAUUTIEN_42HE_IF.twx MAHOAUUTIEN_42HE_IF.ncd -o MAHOAUUTIEN_42HE_IF.twr MAHOAUUTIEN_42HE_IF.pcf 
+bitgen -intstyle ise -f MAHOAUUTIEN_42HE_IF.ut MAHOAUUTIEN_42HE_IF.ncd 
+xst -intstyle ise -ifn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_312_MAHOAUUTIEN_42HE_IF/MAHOAUUTIEN_42HE_IF.xst" -ofn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_312_MAHOAUUTIEN_42HE_IF/MAHOAUUTIEN_42HE_IF.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MAHOAUUTIEN_42HE_IF.ucf -p xc3s500e-pq208-5 MAHOAUUTIEN_42HE_IF.ngc MAHOAUUTIEN_42HE_IF.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o MAHOAUUTIEN_42HE_IF_map.ncd MAHOAUUTIEN_42HE_IF.ngd MAHOAUUTIEN_42HE_IF.pcf 
+par -w -intstyle ise -ol high -t 1 MAHOAUUTIEN_42HE_IF_map.ncd MAHOAUUTIEN_42HE_IF.ncd MAHOAUUTIEN_42HE_IF.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MAHOAUUTIEN_42HE_IF.twx MAHOAUUTIEN_42HE_IF.ncd -o MAHOAUUTIEN_42HE_IF.twr MAHOAUUTIEN_42HE_IF.pcf -ucf MAHOAUUTIEN_42HE_IF.ucf 
+bitgen -intstyle ise -f MAHOAUUTIEN_42HE_IF.ut MAHOAUUTIEN_42HE_IF.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MAHOAUUTIEN_42HE_IF.ucf -p xc3s500e-pq208-5 MAHOAUUTIEN_42HE_IF.ngc MAHOAUUTIEN_42HE_IF.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o MAHOAUUTIEN_42HE_IF_map.ncd MAHOAUUTIEN_42HE_IF.ngd MAHOAUUTIEN_42HE_IF.pcf 
+par -w -intstyle ise -ol high -t 1 MAHOAUUTIEN_42HE_IF_map.ncd MAHOAUUTIEN_42HE_IF.ncd MAHOAUUTIEN_42HE_IF.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MAHOAUUTIEN_42HE_IF.twx MAHOAUUTIEN_42HE_IF.ncd -o MAHOAUUTIEN_42HE_IF.twr MAHOAUUTIEN_42HE_IF.pcf -ucf MAHOAUUTIEN_42HE_IF.ucf 
+bitgen -intstyle ise -f MAHOAUUTIEN_42HE_IF.ut MAHOAUUTIEN_42HE_IF.ncd 
+xst -intstyle ise -ifn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_312_MAHOAUUTIEN_42HE_IF/MAHOAUUTIEN_42HE_IF.xst" -ofn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_312_MAHOAUUTIEN_42HE_IF/MAHOAUUTIEN_42HE_IF.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MAHOAUUTIEN_42HE_IF.ucf -p xc3s500e-pq208-5 MAHOAUUTIEN_42HE_IF.ngc MAHOAUUTIEN_42HE_IF.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o MAHOAUUTIEN_42HE_IF_map.ncd MAHOAUUTIEN_42HE_IF.ngd MAHOAUUTIEN_42HE_IF.pcf 
+par -w -intstyle ise -ol high -t 1 MAHOAUUTIEN_42HE_IF_map.ncd MAHOAUUTIEN_42HE_IF.ncd MAHOAUUTIEN_42HE_IF.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MAHOAUUTIEN_42HE_IF.twx MAHOAUUTIEN_42HE_IF.ncd -o MAHOAUUTIEN_42HE_IF.twr MAHOAUUTIEN_42HE_IF.pcf -ucf MAHOAUUTIEN_42HE_IF.ucf 
+xst -intstyle ise -ifn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_312_MAHOAUUTIEN_42HE_IF/MAHOAUUTIEN_42HE_IF.xst" -ofn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_312_MAHOAUUTIEN_42HE_IF/MAHOAUUTIEN_42HE_IF.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MAHOAUUTIEN_42HE_IF.ucf -p xc3s500e-pq208-5 MAHOAUUTIEN_42HE_IF.ngc MAHOAUUTIEN_42HE_IF.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o MAHOAUUTIEN_42HE_IF_map.ncd MAHOAUUTIEN_42HE_IF.ngd MAHOAUUTIEN_42HE_IF.pcf 
+par -w -intstyle ise -ol high -t 1 MAHOAUUTIEN_42HE_IF_map.ncd MAHOAUUTIEN_42HE_IF.ncd MAHOAUUTIEN_42HE_IF.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MAHOAUUTIEN_42HE_IF.twx MAHOAUUTIEN_42HE_IF.ncd -o MAHOAUUTIEN_42HE_IF.twr MAHOAUUTIEN_42HE_IF.pcf -ucf MAHOAUUTIEN_42HE_IF.ucf 
+bitgen -intstyle ise -f MAHOAUUTIEN_42HE_IF.ut MAHOAUUTIEN_42HE_IF.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MAHOAUUTIEN_42HE_IF.ucf -p xc3s500e-pq208-5 MAHOAUUTIEN_42HE_IF.ngc MAHOAUUTIEN_42HE_IF.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o MAHOAUUTIEN_42HE_IF_map.ncd MAHOAUUTIEN_42HE_IF.ngd MAHOAUUTIEN_42HE_IF.pcf 
+par -w -intstyle ise -ol high -t 1 MAHOAUUTIEN_42HE_IF_map.ncd MAHOAUUTIEN_42HE_IF.ncd MAHOAUUTIEN_42HE_IF.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MAHOAUUTIEN_42HE_IF.twx MAHOAUUTIEN_42HE_IF.ncd -o MAHOAUUTIEN_42HE_IF.twr MAHOAUUTIEN_42HE_IF.pcf -ucf MAHOAUUTIEN_42HE_IF.ucf 
+bitgen -intstyle ise -f MAHOAUUTIEN_42HE_IF.ut MAHOAUUTIEN_42HE_IF.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MAHOAUUTIEN_42HE_IF.ucf -p xc3s500e-pq208-5 MAHOAUUTIEN_42HE_IF.ngc MAHOAUUTIEN_42HE_IF.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o MAHOAUUTIEN_42HE_IF_map.ncd MAHOAUUTIEN_42HE_IF.ngd MAHOAUUTIEN_42HE_IF.pcf 
+par -w -intstyle ise -ol high -t 1 MAHOAUUTIEN_42HE_IF_map.ncd MAHOAUUTIEN_42HE_IF.ncd MAHOAUUTIEN_42HE_IF.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MAHOAUUTIEN_42HE_IF.twx MAHOAUUTIEN_42HE_IF.ncd -o MAHOAUUTIEN_42HE_IF.twr MAHOAUUTIEN_42HE_IF.pcf -ucf MAHOAUUTIEN_42HE_IF.ucf 
+bitgen -intstyle ise -f MAHOAUUTIEN_42HE_IF.ut MAHOAUUTIEN_42HE_IF.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MAHOAUUTIEN_42HE_IF.ucf -p xc3s500e-pq208-5 MAHOAUUTIEN_42HE_IF.ngc MAHOAUUTIEN_42HE_IF.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o MAHOAUUTIEN_42HE_IF_map.ncd MAHOAUUTIEN_42HE_IF.ngd MAHOAUUTIEN_42HE_IF.pcf 
+par -w -intstyle ise -ol high -t 1 MAHOAUUTIEN_42HE_IF_map.ncd MAHOAUUTIEN_42HE_IF.ncd MAHOAUUTIEN_42HE_IF.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MAHOAUUTIEN_42HE_IF.twx MAHOAUUTIEN_42HE_IF.ncd -o MAHOAUUTIEN_42HE_IF.twr MAHOAUUTIEN_42HE_IF.pcf -ucf MAHOAUUTIEN_42HE_IF.ucf 
+bitgen -intstyle ise -f MAHOAUUTIEN_42HE_IF.ut MAHOAUUTIEN_42HE_IF.ncd 
+xst -intstyle ise -ifn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_312_MAHOAUUTIEN_42HE_IF/MAHOAUUTIEN_42HE_IF.xst" -ofn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_312_MAHOAUUTIEN_42HE_IF/MAHOAUUTIEN_42HE_IF.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MAHOAUUTIEN_42HE_IF.ucf -p xc3s500e-pq208-5 MAHOAUUTIEN_42HE_IF.ngc MAHOAUUTIEN_42HE_IF.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o MAHOAUUTIEN_42HE_IF_map.ncd MAHOAUUTIEN_42HE_IF.ngd MAHOAUUTIEN_42HE_IF.pcf 
+par -w -intstyle ise -ol high -t 1 MAHOAUUTIEN_42HE_IF_map.ncd MAHOAUUTIEN_42HE_IF.ncd MAHOAUUTIEN_42HE_IF.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MAHOAUUTIEN_42HE_IF.twx MAHOAUUTIEN_42HE_IF.ncd -o MAHOAUUTIEN_42HE_IF.twr MAHOAUUTIEN_42HE_IF.pcf -ucf MAHOAUUTIEN_42HE_IF.ucf 
+bitgen -intstyle ise -f MAHOAUUTIEN_42HE_IF.ut MAHOAUUTIEN_42HE_IF.ncd 

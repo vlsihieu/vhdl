@@ -1,0 +1,6 @@
+vhdl work "UART_CONTROLLER_TX.vhd"
+vhdl work "UART_CONTROLLER_RX.vhd"
+vhdl work "MOD_M_COUNTER.vhd"
+vhdl work "FIFO_TX.vhd"
+vhdl work "FIFO_RX.vhd"
+vhdl work "UART_CONTROLLER.vhd"

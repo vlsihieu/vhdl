@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_301_GIAIMA2_24H/TEST_BENCH_isim_beh.exe" -prj "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_301_GIAIMA2_24H/TEST_BENCH_beh.prj" "work.TEST_BENCH" 

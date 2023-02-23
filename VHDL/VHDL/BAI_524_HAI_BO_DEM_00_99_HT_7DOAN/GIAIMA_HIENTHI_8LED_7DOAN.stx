@@ -1,0 +1,42 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_523_HAI_BO_DEM_00_99_HT_7DOAN/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_523_HAI_BO_DEM_00_99_HT_7DOAN/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_523_HAI_BO_DEM_00_99_HT_7DOAN/DEM_3BIT_CHON_8KENH.vhd" in Library work.
+Architecture behavioral of Entity dem_3bit_chon_8kenh is up to date.
+Compiling vhdl file "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_523_HAI_BO_DEM_00_99_HT_7DOAN/QUET_ANODE_8LED_7DOAN.vhd" in Library work.
+Architecture behavioral of Entity quet_anode_8led_7doan is up to date.
+Compiling vhdl file "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_523_HAI_BO_DEM_00_99_HT_7DOAN/DAHOP_8KENH.vhd" in Library work.
+Architecture behavioral of Entity dahop_8kenh is up to date.
+Compiling vhdl file "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_523_HAI_BO_DEM_00_99_HT_7DOAN/GIAIMA_7DOAN_ENA.vhd" in Library work.
+Architecture behavioral of Entity giaima_7doan_ena is up to date.
+Compiling vhdl file "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_523_HAI_BO_DEM_00_99_HT_7DOAN/GIAIMA_HIENTHI_8LED_7DOAN.vhd" in Library work.
+Architecture behavioral of Entity giaima_hienthi_8led_7doan is up to date.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.23 secs
+ 
+--> 
+
+Total memory usage is 272328 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

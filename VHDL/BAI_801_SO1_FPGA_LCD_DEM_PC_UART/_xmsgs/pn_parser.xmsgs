@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;F:/VHDL/BAI_801_SO1_FPGA_LCD_DEM_PC_UART/CHIA_10ENA.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;F:/VHDL/BAI_801_SO1_FPGA_LCD_DEM_PC_UART/DEM_8BIT.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;F:/VHDL/BAI_801_SO1_FPGA_LCD_DEM_PC_UART/FIFO_RX.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;F:/VHDL/BAI_801_SO1_FPGA_LCD_DEM_PC_UART/FIFO_TX.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;F:/VHDL/BAI_801_SO1_FPGA_LCD_DEM_PC_UART/FPGA_LCD_DEM_PC_UART.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;F:/VHDL/BAI_801_SO1_FPGA_LCD_DEM_PC_UART/MOD_M_COUNTER.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;F:/VHDL/BAI_801_SO1_FPGA_LCD_DEM_PC_UART/UART_CONTROLLER.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;F:/VHDL/BAI_801_SO1_FPGA_LCD_DEM_PC_UART/UART_CONTROLLER_RX.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;F:/VHDL/BAI_801_SO1_FPGA_LCD_DEM_PC_UART/UART_CONTROLLER_TX.vhd&quot; into library work</arg>
+</msg>
+
+</messages>
+

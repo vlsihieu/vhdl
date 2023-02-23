@@ -1,0 +1,63 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date:    09:42:31 09/04/2019 
+-- Design Name: 
+-- Module Name:    HEXTOBCD_4BIT - Behavioral 
+-- Project Name: 
+-- Target Devices: 
+-- Tool versions: 
+-- Description: 
+--
+-- Dependencies: 
+--
+-- Revision: 
+-- Revision 0.01 - File Created
+-- Additional Comments: 
+--
+----------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx primitives in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity HEXTOBCD_3BIT is
+    Port ( SOHEX3BIT : in  STD_LOGIC_VECTOR (2 downto 0);
+           DONVI : out  STD_LOGIC_VECTOR (3 downto 0)
+          );
+end HEXTOBCD_3BIT;
+
+architecture Behavioral of HEXTOBCD_3BIT is
+
+begin
+		PROCESS(SOHEX3BIT)
+		VARIABLE BCD_HEX : STD_LOGIC_VECTOR(6 DOWNTO 0);
+		VARIABLE DEM : INTEGER RANGE 0 TO 2;
+		
+		BEGIN
+			BCD_HEX := "0000" & SOHEX3BIT;
+			DEM := 2;
+			
+			WHILE DEM > 0
+			LOOP
+				BCD_HEX := BCD_HEX(5 DOWNTO 0) &'0' ;
+				DEM := DEM -1 ;
+--				IF BCD_HEX(7 DOWNTO 4) >= "0101" THEN 
+--					BCD_HEX (7 DOWNTO 4 ) := BCD_HEX (7 DOWNTO 4) + "0011";
+--				END IF;
+			END LOOP;
+			BCD_HEX := BCD_HEX(5 DOWNTO 0)  & '0';
+			DONVI <= BCD_HEX(6 DOWNTO 3);
+		END PROCESS;
+
+end Behavioral;
+

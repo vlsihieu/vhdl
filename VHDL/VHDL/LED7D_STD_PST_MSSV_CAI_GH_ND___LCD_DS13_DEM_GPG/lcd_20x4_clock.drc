@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Fri Nov 29 08:13:44 2019
+
+drc -z LCD_20X4_CLOCK.ncd LCD_20X4_CLOCK.pcf
+
+DRC detected 0 errors and 0 warnings.

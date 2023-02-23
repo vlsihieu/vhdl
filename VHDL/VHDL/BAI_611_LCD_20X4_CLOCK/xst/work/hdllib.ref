@@ -1,0 +1,12 @@
+EN hextobcd_6bit NULL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_611_LCD_20X4_CLOCK/HEXTOBCD_6BIT.vhd sub00/vhpl04 1597021559
+AR chia_10ena behavioral C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_611_LCD_20X4_CLOCK/CHIA_10ENA.vhd sub00/vhpl01 1597021556
+AR lcd_20x4_clock behavioral C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_611_LCD_20X4_CLOCK/LCD_20X4_CLOCK.vhd sub00/vhpl11 1597021566
+EN dem_giophutgiay NULL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_611_LCD_20X4_CLOCK/DEM_GIOPHUTGIAY.vhd sub00/vhpl02 1597021557
+AR lcd_20x4_gan_dulieu_gpg behavioral C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_611_LCD_20X4_CLOCK/LCD_20X4_GAN_DULIEU_GPG.vhd sub00/vhpl07 1597021562
+AR dem_giophutgiay behavioral C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_611_LCD_20X4_CLOCK/DEM_GIOPHUTGIAY.vhd sub00/vhpl03 1597021558
+EN lcd_20x4_gan_dulieu_gpg NULL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_611_LCD_20X4_CLOCK/LCD_20X4_GAN_DULIEU_GPG.vhd sub00/vhpl06 1597021561
+AR lcd_20x4_khoitao_hienthi behavioral C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_611_LCD_20X4_CLOCK/LCD_20X4_KHOITAO_HIENTHI.vhd sub00/vhpl09 1597021564
+EN lcd_20x4_clock NULL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_611_LCD_20X4_CLOCK/LCD_20X4_CLOCK.vhd sub00/vhpl10 1597021565
+AR hextobcd_6bit behavioral C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_611_LCD_20X4_CLOCK/HEXTOBCD_6BIT.vhd sub00/vhpl05 1597021560
+EN chia_10ena NULL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_611_LCD_20X4_CLOCK/CHIA_10ENA.vhd sub00/vhpl00 1597021555
+EN lcd_20x4_khoitao_hienthi NULL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_611_LCD_20X4_CLOCK/LCD_20X4_KHOITAO_HIENTHI.vhd sub00/vhpl08 1597021563

@@ -1,0 +1,46 @@
+
+
+NET "led[0]" 	LOC = P28;
+NET "led[1]" 	LOC = P29;
+NET "led[2]" 	LOC = P30;
+NET "led[3]" 	LOC = P31;
+NET "led[4]" 	LOC = P33;
+NET "led[5]" 	LOC = P34;
+NET "led[6]" 	LOC = P35;
+NET "led[7]" 	LOC = P36;
+NET "led[8]" 	LOC = P39;
+NET "led[9]" 	LOC = P40;
+NET "led[10]"  LOC = P41;
+NET "led[11]"  LOC = P42;
+NET "led[12]"  LOC = P45;
+
+
+NET "sw[0]" LOC = P175;
+NET "sw[1]" LOC = P169;
+
+
+
+NET "btn[0]" LOC = P51;
+NET "btn[1]" LOC = P43;
+NET "btn[2]" LOC = P32;
+NET "btn[3]" LOC = P26;
+
+NET "CKHT" LOC = P183;
+
+NET "sseg[0]" LOC = P16;
+NET "sseg[1]" LOC = P15;
+NET "sseg[2]" LOC = P19;
+NET "sseg[3]" LOC = P18;
+NET "sseg[4]" LOC = P22;
+NET "sseg[5]" LOC = P24;
+NET "sseg[6]" LOC = P23;
+NET "sseg[7]" LOC = P25;
+
+NET "anode[0]" LOC = P3;
+NET "anode[1]" LOC = P2;
+NET "anode[2]" LOC = P5;
+NET "anode[3]" LOC = P4;
+NET "anode[4]" LOC = P8;
+NET "anode[5]" LOC = P11;
+NET "anode[6]" LOC = P9;
+NET "anode[7]" LOC = P12;

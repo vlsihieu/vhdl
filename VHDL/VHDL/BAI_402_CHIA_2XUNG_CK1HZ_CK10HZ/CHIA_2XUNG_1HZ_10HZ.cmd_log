@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_402_CHIA_2XUNG_CK1HZ_CK10HZ/CHIA_2XUNG_1HZ_10HZ.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_402_CHIA_2XUNG_CK1HZ_CK10HZ/CHIA_2XUNG_1HZ_10HZ.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_402_CHIA_2XUNG_CK1HZ_CK10HZ/CHIA_2XUNG_1HZ_10HZ.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_402_CHIA_2XUNG_CK1HZ_CK10HZ/CHIA_2XUNG_1HZ_10HZ.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s500e-pqg208-4 CHIA_2XUNG_1HZ_10HZ.ngc CHIA_2XUNG_1HZ_10HZ.ngd  
+map -intstyle ise -p xa3s500e-pqg208-4 -cm area -ir off -pr off -c 100 -o CHIA_2XUNG_1HZ_10HZ_map.ncd CHIA_2XUNG_1HZ_10HZ.ngd CHIA_2XUNG_1HZ_10HZ.pcf 
+par -w -intstyle ise -ol high -t 1 CHIA_2XUNG_1HZ_10HZ_map.ncd CHIA_2XUNG_1HZ_10HZ.ncd CHIA_2XUNG_1HZ_10HZ.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CHIA_2XUNG_1HZ_10HZ.twx CHIA_2XUNG_1HZ_10HZ.ncd -o CHIA_2XUNG_1HZ_10HZ.twr CHIA_2XUNG_1HZ_10HZ.pcf 

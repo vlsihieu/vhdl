@@ -1,0 +1,48 @@
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design DS_18B20_HT_SO_TO.ngc ...
+WARNING:NetListWriters:298 - No output is written to DS_18B20_HT_SO_TO.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus IC1/Mcompar_STATE_cmp_gt0000_lut<8 : 0>
+   on block DS_18B20_HT_SO_TO is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus IC29/Mcompar_lcd_ma_tr_cmp_eq0000_lut<12
+   : 0> on block DS_18B20_HT_SO_TO is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus IC3/Madd_PTR_share0000_cy<3 : 1> on
+   block DS_18B20_HT_SO_TO is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus LCD_H1<93 : 88> on block
+   DS_18B20_HT_SO_TO is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file DS_18B20_HT_SO_TO.edif ...
+ngc2edif: Total memory usage is 4314592 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design DS_18B20_HT_SO_TO.ngc ...
+WARNING:NetListWriters:298 - No output is written to DS_18B20_HT_SO_TO.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus IC1/Mcompar_STATE_cmp_gt0000_lut<8 : 0>
+   on block DS_18B20_HT_SO_TO is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus IC29/Mcompar_lcd_ma_tr_cmp_eq0000_lut<12
+   : 0> on block DS_18B20_HT_SO_TO is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus IC3/Madd_PTR_share0000_cy<3 : 1> on
+   block DS_18B20_HT_SO_TO is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus LCD_H1<93 : 88> on block
+   DS_18B20_HT_SO_TO is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file DS_18B20_HT_SO_TO.edif ...
+ngc2edif: Total memory usage is 4314592 kilobytes
+

@@ -1,0 +1,50 @@
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_443_MORONG_THEM/MORONG_THEM.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_443_MORONG_THEM/MORONG_THEM.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_443_MORONG_THEM/MORONG_THEM.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_443_MORONG_THEM/MORONG_THEM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 MORONG_THEM.ngc MORONG_THEM.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MORONG_THEM_map.ncd MORONG_THEM.ngd MORONG_THEM.pcf 
+par -w -intstyle ise -ol high -mt off MORONG_THEM_map.ncd MORONG_THEM.ncd MORONG_THEM.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml MORONG_THEM.twx MORONG_THEM.ncd -o MORONG_THEM.twr MORONG_THEM.pcf 
+bitgen -intstyle ise -f MORONG_THEM.ut MORONG_THEM.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_443_MORONG_THEM/MORONG_THEM.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_443_MORONG_THEM/MORONG_THEM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 MORONG_THEM.ngc MORONG_THEM.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MORONG_THEM_map.ncd MORONG_THEM.ngd MORONG_THEM.pcf 
+par -w -intstyle ise -ol high -mt off MORONG_THEM_map.ncd MORONG_THEM.ncd MORONG_THEM.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml MORONG_THEM.twx MORONG_THEM.ncd -o MORONG_THEM.twr MORONG_THEM.pcf 
+bitgen -intstyle ise -f MORONG_THEM.ut MORONG_THEM.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_443_MORONG_THEM/MORONG_THEM.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_443_MORONG_THEM/MORONG_THEM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 MORONG_THEM.ngc MORONG_THEM.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MORONG_THEM_map.ncd MORONG_THEM.ngd MORONG_THEM.pcf 
+par -w -intstyle ise -ol high -mt off MORONG_THEM_map.ncd MORONG_THEM.ncd MORONG_THEM.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml MORONG_THEM.twx MORONG_THEM.ncd -o MORONG_THEM.twr MORONG_THEM.pcf 
+bitgen -intstyle ise -f MORONG_THEM.ut MORONG_THEM.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_443_MORONG_THEM/MORONG_THEM.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_443_MORONG_THEM/MORONG_THEM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 MORONG_THEM.ngc MORONG_THEM.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MORONG_THEM_map.ncd MORONG_THEM.ngd MORONG_THEM.pcf 
+par -w -intstyle ise -ol high -mt off MORONG_THEM_map.ncd MORONG_THEM.ncd MORONG_THEM.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml MORONG_THEM.twx MORONG_THEM.ncd -o MORONG_THEM.twr MORONG_THEM.pcf 
+bitgen -intstyle ise -f MORONG_THEM.ut MORONG_THEM.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_443_MORONG_THEM/MORONG_THEM.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_443_MORONG_THEM/MORONG_THEM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 MORONG_THEM.ngc MORONG_THEM.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MORONG_THEM_map.ncd MORONG_THEM.ngd MORONG_THEM.pcf 
+par -w -intstyle ise -ol high -mt off MORONG_THEM_map.ncd MORONG_THEM.ncd MORONG_THEM.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml MORONG_THEM.twx MORONG_THEM.ncd -o MORONG_THEM.twr MORONG_THEM.pcf 
+bitgen -intstyle ise -f MORONG_THEM.ut MORONG_THEM.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_443_MORONG_THEM/MORONG_THEM.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_443_MORONG_THEM/MORONG_THEM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 MORONG_THEM.ngc MORONG_THEM.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MORONG_THEM_map.ncd MORONG_THEM.ngd MORONG_THEM.pcf 
+par -w -intstyle ise -ol high -mt off MORONG_THEM_map.ncd MORONG_THEM.ncd MORONG_THEM.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml MORONG_THEM.twx MORONG_THEM.ncd -o MORONG_THEM.twr MORONG_THEM.pcf 
+bitgen -intstyle ise -f MORONG_THEM.ut MORONG_THEM.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_443_MORONG_THEM/MORONG_THEM.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_443_MORONG_THEM/MORONG_THEM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 MORONG_THEM.ngc MORONG_THEM.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MORONG_THEM_map.ncd MORONG_THEM.ngd MORONG_THEM.pcf 
+par -w -intstyle ise -ol high -mt off MORONG_THEM_map.ncd MORONG_THEM.ncd MORONG_THEM.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml MORONG_THEM.twx MORONG_THEM.ncd -o MORONG_THEM.twr MORONG_THEM.pcf 
+bitgen -intstyle ise -f MORONG_THEM.ut MORONG_THEM.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_443_MORONG_THEM/MORONG_THEM.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_443_MORONG_THEM/MORONG_THEM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 MORONG_THEM.ngc MORONG_THEM.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MORONG_THEM_map.ncd MORONG_THEM.ngd MORONG_THEM.pcf 
+par -w -intstyle ise -ol high -mt off MORONG_THEM_map.ncd MORONG_THEM.ncd MORONG_THEM.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml MORONG_THEM.twx MORONG_THEM.ncd -o MORONG_THEM.twr MORONG_THEM.pcf 
+bitgen -intstyle ise -f MORONG_THEM.ut MORONG_THEM.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_443_MORONG_THEM/MORONG_THEM.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_443_MORONG_THEM/MORONG_THEM.syr" 

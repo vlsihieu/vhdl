@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_533_DEM_NHI_PHAN_0_9999_HT_7DOAN/DEM_NHI_PHAN_0_9999_HT_7DOAN.vhd</arg>&quot; line <arg fmt="%d" index="2">74</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CHUCNGHIN</arg>&apos; of component &apos;<arg fmt="%s" index="4">HEXTOBCD_14BIT</arg>&apos;.
+</msg>
+
+</messages>
+

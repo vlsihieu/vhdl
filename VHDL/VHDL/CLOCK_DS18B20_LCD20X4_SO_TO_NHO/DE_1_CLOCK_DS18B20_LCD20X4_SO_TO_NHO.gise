@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="DE_1_CLOCK_DS18B20_LCD20X4_SO_TO_NHO.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="CLOCK_DS18B20_LCD20X4_SO_TO_NHO.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="CLOCK_DS18B20_LCD20X4_SO_TO_NHO.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="CLOCK_DS18B20_LCD20X4_SO_TO_NHO.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="CLOCK_DS18B20_LCD20X4_SO_TO_NHO.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="CLOCK_DS18B20_LCD20X4_SO_TO_NHO.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="CLOCK_DS18B20_LCD20X4_SO_TO_NHO.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CLOCK_DS18B20_LCD20X4_SO_TO_NHO.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="CLOCK_DS18B20_LCD20X4_SO_TO_NHO.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="CLOCK_DS18B20_LCD20X4_SO_TO_NHO.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="CLOCK_DS18B20_LCD20X4_SO_TO_NHO.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="CLOCK_DS18B20_LCD20X4_SO_TO_NHO_envsettings.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="CLOCK_DS18B20_LCD20X4_SO_TO_NHO_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="CLOCK_DS18B20_LCD20X4_SO_TO_NHO_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="CLOCK_DS18B20_LCD20X4_SO_TO_NHO_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CLOCK_DS18B20_LCD20X4_SO_TO_NHO_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="CLOCK_DS18B20_LCD20X4_SO_TO_NHO_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CLOCK_DS18B20_LCD20X4_SO_TO_NHO_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CLOCK_DS18B20_LCD20X4_SO_TO_NHO_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1574155940" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1574155939">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1574155940" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-2565295758013827675" xil_pn:start_ts="1574155940">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1574155940" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="5514797935256572677" xil_pn:start_ts="1574155940">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1574155940" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1574155940">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1574155940" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-7479726742946745245" xil_pn:start_ts="1574155940">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1574155940" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297145852409" xil_pn:start_ts="1574155940">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1574155940" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-2474044978779930097" xil_pn:start_ts="1574155940">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1574989730" xil_pn:in_ck="6419652763127217283" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-8325390635625020456" xil_pn:start_ts="1574989706">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CLOCK_DS18B20_LCD20X4_SO_TO_NHO.lso"/>
+      <outfile xil_pn:name="CLOCK_DS18B20_LCD20X4_SO_TO_NHO.ngc"/>
+      <outfile xil_pn:name="CLOCK_DS18B20_LCD20X4_SO_TO_NHO.ngr"/>
+      <outfile xil_pn:name="CLOCK_DS18B20_LCD20X4_SO_TO_NHO.prj"/>
+      <outfile xil_pn:name="CLOCK_DS18B20_LCD20X4_SO_TO_NHO.stx"/>
+      <outfile xil_pn:name="CLOCK_DS18B20_LCD20X4_SO_TO_NHO.syr"/>
+      <outfile xil_pn:name="CLOCK_DS18B20_LCD20X4_SO_TO_NHO.xst"/>
+      <outfile xil_pn:name="CLOCK_DS18B20_LCD20X4_SO_TO_NHO_vhdl.prj"/>
+      <outfile xil_pn:name="CLOCK_DS18B20_LCD20X4_SO_TO_NHO_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1574643285" xil_pn:in_ck="26516141899588424" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="5544334821049041550" xil_pn:start_ts="1574643285">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1574989736" xil_pn:in_ck="-1708021718712497820" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-6956310482525689080" xil_pn:start_ts="1574989730">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CLOCK_DS18B20_LCD20X4_SO_TO_NHO.bld"/>
+      <outfile xil_pn:name="CLOCK_DS18B20_LCD20X4_SO_TO_NHO.ngd"/>
+      <outfile xil_pn:name="CLOCK_DS18B20_LCD20X4_SO_TO_NHO_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1574989740" xil_pn:in_ck="-8936381391676708827" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="5880003210255087717" xil_pn:start_ts="1574989736">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CLOCK_DS18B20_LCD20X4_SO_TO_NHO_map.map"/>
+      <outfile xil_pn:name="CLOCK_DS18B20_LCD20X4_SO_TO_NHO_map.mrp"/>
+      <outfile xil_pn:name="CLOCK_DS18B20_LCD20X4_SO_TO_NHO_map.ngm"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

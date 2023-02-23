@@ -1,0 +1,30 @@
+
+
+NET "sw0" LOC = P175;
+
+
+
+NET "btn0" LOC = P51;
+
+NET "CKHT" LOC = P183;
+
+
+
+
+#--GIAO TIEP DK LCD
+
+NET "lcd_rs" LOC = P205;
+NET "lcd_e" LOC = P203;
+
+
+NET "lcd_db[0]" LOC = P202;
+NET "lcd_db[1]" LOC = P200;
+NET "lcd_db[2]" LOC = P199;
+NET "lcd_db[3]" LOC = P197;
+NET "lcd_db[4]" LOC = P196;
+NET "lcd_db[5]" LOC = P193;
+NET "lcd_db[6]" LOC = P192;
+NET "lcd_db[7]" LOC = P190;
+NET "lcd_p" 	 LOC = P189;
+
+

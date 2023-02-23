@@ -1,0 +1,90 @@
+V3 43
+FL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/dem_ht_so_to_so_nho_sw/bo_dem_4_chedo.vhd 2020/08/22.16:32:41 P.20131013
+EN work/bo_dem_4_chedo 1598089424 \
+      FL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/dem_ht_so_to_so_nho_sw/bo_dem_4_chedo.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/bo_dem_4_chedo/Behavioral 1598089425 \
+      FL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/dem_ht_so_to_so_nho_sw/bo_dem_4_chedo.vhd \
+      EN work/bo_dem_4_chedo 1598089424
+FL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/dem_ht_so_to_so_nho_sw/CD_LAM_HEP_BTN.vhd 2019/09/29.21:17:37 P.20131013
+EN work/CD_LAM_HEP_BTN 1598089418 \
+      FL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/dem_ht_so_to_so_nho_sw/CD_LAM_HEP_BTN.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/CD_LAM_HEP_BTN/Behavioral 1598089419 \
+      FL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/dem_ht_so_to_so_nho_sw/CD_LAM_HEP_BTN.vhd \
+      EN work/CD_LAM_HEP_BTN 1598089418 CP work/DEBOUNCE_BTN CP work/LAM_HEP_XUNG
+FL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/dem_ht_so_to_so_nho_sw/chia_10ena.vhd 2020/08/22.16:43:29 P.20131013
+EN work/CHIA_10ENA 1598089416 \
+      FL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/dem_ht_so_to_so_nho_sw/chia_10ena.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177
+AR work/CHIA_10ENA/Behavioral 1598089417 \
+      FL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/dem_ht_so_to_so_nho_sw/chia_10ena.vhd \
+      EN work/CHIA_10ENA 1598089416
+FL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/dem_ht_so_to_so_nho_sw/DEBOUNCE_BTN.vhd 2019/09/26.16:26:59 P.20131013
+EN work/DEBOUNCE_BTN 1598089412 \
+      FL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/dem_ht_so_to_so_nho_sw/DEBOUNCE_BTN.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/DEBOUNCE_BTN/Behavioral 1598089413 \
+      FL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/dem_ht_so_to_so_nho_sw/DEBOUNCE_BTN.vhd \
+      EN work/DEBOUNCE_BTN 1598089412
+FL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/dem_ht_so_to_so_nho_sw/DEM_1BIT.vhd 2020/06/01.11:02:51 P.20131013
+EN work/DEM_1BIT 1598089420 \
+      FL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/dem_ht_so_to_so_nho_sw/DEM_1BIT.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/DEM_1BIT/Behavioral 1598089421 \
+      FL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/dem_ht_so_to_so_nho_sw/DEM_1BIT.vhd \
+      EN work/DEM_1BIT 1598089420
+FL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/dem_ht_so_to_so_nho_sw/dem_ht_so_to_so_nho_sw.vhd 2020/08/22.16:32:41 P.20131013
+EN work/dem_ht_so_to_nho_sw 1598089432 \
+      FL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/dem_ht_so_to_so_nho_sw/dem_ht_so_to_so_nho_sw.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dem_ht_so_to_nho_sw/PMH 1598089433 \
+      FL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/dem_ht_so_to_so_nho_sw/dem_ht_so_to_so_nho_sw.vhd \
+      EN work/dem_ht_so_to_nho_sw 1598089432 CP work/chia_10ena \
+      CP work/cd_lam_hep_btn CP work/dem_1bit CP work/xuly_chedo \
+      CP work/bo_dem_4_chedo CP work/LCD_GIAI_MA_SO_TO \
+      CP work/LCD_20X4_GAN_DULIEU_1SO_TO CP work/LCD_KHOITAO_HIENTHI_SO_TO
+FL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/dem_ht_so_to_so_nho_sw/LAM_HEP_XUNG.vhd 2019/09/26.16:27:26 P.20131013
+EN work/LAM_HEP_XUNG 1598089414 \
+      FL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/dem_ht_so_to_so_nho_sw/LAM_HEP_XUNG.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/LAM_HEP_XUNG/Behavioral 1598089415 \
+      FL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/dem_ht_so_to_so_nho_sw/LAM_HEP_XUNG.vhd \
+      EN work/LAM_HEP_XUNG 1598089414
+FL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/dem_ht_so_to_so_nho_sw/LCD_20X4_GAN_DULIEU_1SO_TO.vhd 2020/08/22.16:39:37 P.20131013
+EN work/LCD_20X4_GAN_DULIEU_1SO_TO 1598089428 \
+      FL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/dem_ht_so_to_so_nho_sw/LCD_20X4_GAN_DULIEU_1SO_TO.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/LCD_20X4_GAN_DULIEU_1SO_TO/Behavioral 1598089429 \
+      FL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/dem_ht_so_to_so_nho_sw/LCD_20X4_GAN_DULIEU_1SO_TO.vhd \
+      EN work/LCD_20X4_GAN_DULIEU_1SO_TO 1598089428
+FL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/dem_ht_so_to_so_nho_sw/LCD_GIAI_MA_SO_TO.vhd 2020/08/06.23:13:33 P.20131013
+EN work/LCD_GIAI_MA_SO_TO 1598089426 \
+      FL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/dem_ht_so_to_so_nho_sw/LCD_GIAI_MA_SO_TO.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/LCD_GIAI_MA_SO_TO/Behavioral 1598089427 \
+      FL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/dem_ht_so_to_so_nho_sw/LCD_GIAI_MA_SO_TO.vhd \
+      EN work/LCD_GIAI_MA_SO_TO 1598089426
+FL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/dem_ht_so_to_so_nho_sw/LCD_KHOITAO_HIENTHI_SO_TO.vhd 2019/12/04.14:05:13 P.20131013
+EN work/LCD_KHOITAO_HIENTHI_SO_TO 1598089430 \
+      FL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/dem_ht_so_to_so_nho_sw/LCD_KHOITAO_HIENTHI_SO_TO.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/LCD_KHOITAO_HIENTHI_SO_TO/Behavioral 1598089431 \
+      FL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/dem_ht_so_to_so_nho_sw/LCD_KHOITAO_HIENTHI_SO_TO.vhd \
+      EN work/LCD_KHOITAO_HIENTHI_SO_TO 1598089430
+FL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/dem_ht_so_to_so_nho_sw/xuly_chedo.vhd 2020/08/22.15:39:54 P.20131013
+EN work/xuly_chedo 1598089422 \
+      FL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/dem_ht_so_to_so_nho_sw/xuly_chedo.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/xuly_chedo/Behavioral 1598089423 \
+      FL C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/dem_ht_so_to_so_nho_sw/xuly_chedo.vhd \
+      EN work/xuly_chedo 1598089422

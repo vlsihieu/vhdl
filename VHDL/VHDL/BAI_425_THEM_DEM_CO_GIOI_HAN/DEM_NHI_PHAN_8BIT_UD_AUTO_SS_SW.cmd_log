@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_425_THEM_DEM_CO_GIOI_HAN/DEM_NHI_PHAN_8BIT_UD_AUTO_SS_SW.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_425_THEM_DEM_CO_GIOI_HAN/DEM_NHI_PHAN_8BIT_UD_AUTO_SS_SW.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_425_THEM_DEM_CO_GIOI_HAN/DEM_NHI_PHAN_8BIT_UD_AUTO_SS_SW.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_425_THEM_DEM_CO_GIOI_HAN/DEM_NHI_PHAN_8BIT_UD_AUTO_SS_SW.syr" 

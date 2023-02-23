@@ -1,0 +1,38 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+--warning :dk khien mode rat quan trong lien quan oe
+ENTITY DIEUKHIEN_CHOPHEP IS
+	PORT ( CKHT:  IN STD_LOGIC;
+          RST : IN STD_LOGIC;
+			 ENA_DB : IN STD_LOGIC;
+			 OE: OUT STD_LOGIC_VECTOR ( 1 DOWNTO 0));
+END DIEUKHIEN_CHOPHEP ;
+
+ARCHITECTURE BEHAVIORAL OF DIEUKHIEN_CHOPHEP IS
+SIGNAL DEM_REG, DEM_NEXT : INTEGER  RANGE 0 TO 21 := 0 ;
+SIGNAL D_R, D_N   : INTEGER RANGE 0 TO 50 : =0;
+BEGIN
+	PROCESS( CKHT, RST)
+	BEGIN	
+		IF (RST = '1' ) THEN DEM_REG <= 0 ;
+		                     D_R <= 0;
+		ELSIF FALLING_EDGE(CKHT) THEN DEM_REG <= DEM_NEXT ;
+		                              D_R     <= D_N;
+		END IF ;
+	END PROCESS ;
+	
+	
+	DEM_NEXT <= 0           WHEN DEM_REG = 21 AND ENA_DB = '1' ELSE 
+					DEM_REG +1  WHEN ENA_DB = '1'                  ELSE 
+					DEM_REG ;
+	D_N <= D_R +1 WHEN (DEM_REG = 21 AND ENA_DB = '1') ELSE
+          D_R;	
+	PROCESS (DEM_REG, RST )
+	BEGIN 
+		OE <= "00" ; 
+		IF RST = '1'        THEN OE <= "00" ; 
+		ELSIF DEM_REG < 22  THEN OE <= "01" ;
+		ELSIF D_R <2        THEN OE <= "10" ;
+		END IF ;
+	END PROCESS ;
+END BEHAVIORAL;

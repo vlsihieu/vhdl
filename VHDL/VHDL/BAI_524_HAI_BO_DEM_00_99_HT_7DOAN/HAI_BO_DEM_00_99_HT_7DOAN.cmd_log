@@ -1,0 +1,43 @@
+xst -intstyle ise -ifn "C:/Users/Kieetj/Desktop/blah blah/BAI_523_HAI_BO_DEM_00_99_HT_7DOAN/HAI_BO_DEM_00_99_HT_7DOAN.xst" -ofn "C:/Users/Kieetj/Desktop/blah blah/BAI_523_HAI_BO_DEM_00_99_HT_7DOAN/HAI_BO_DEM_00_99_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "C:/Users/Kieetj/Desktop/blah blah/BAI_523_HAI_BO_DEM_00_99_HT_7DOAN/HAI_BO_DEM_00_99_HT_7DOAN.xst" -ofn "C:/Users/Kieetj/Desktop/blah blah/BAI_523_HAI_BO_DEM_00_99_HT_7DOAN/HAI_BO_DEM_00_99_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "C:/Users/Kieetj/Desktop/blah blah/BAI_523_HAI_BO_DEM_00_99_HT_7DOAN/HAI_BO_DEM_00_99_HT_7DOAN.xst" -ofn "C:/Users/Kieetj/Desktop/blah blah/BAI_523_HAI_BO_DEM_00_99_HT_7DOAN/HAI_BO_DEM_00_99_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "C:/Users/Kieetj/Desktop/blah blah/BAI_523_HAI_BO_DEM_00_99_HT_7DOAN/HAI_BO_DEM_00_99_HT_7DOAN.xst" -ofn "C:/Users/Kieetj/Desktop/blah blah/BAI_523_HAI_BO_DEM_00_99_HT_7DOAN/HAI_BO_DEM_00_99_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-5 "HAI_BO_DEM_00_99_HT_7DOAN.ngc" HAI_BO_DEM_00_99_HT_7DOAN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o HAI_BO_DEM_00_99_HT_7DOAN_map.ncd HAI_BO_DEM_00_99_HT_7DOAN.ngd HAI_BO_DEM_00_99_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -t 1 HAI_BO_DEM_00_99_HT_7DOAN_map.ncd HAI_BO_DEM_00_99_HT_7DOAN.ncd HAI_BO_DEM_00_99_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml HAI_BO_DEM_00_99_HT_7DOAN.twx HAI_BO_DEM_00_99_HT_7DOAN.ncd -o HAI_BO_DEM_00_99_HT_7DOAN.twr HAI_BO_DEM_00_99_HT_7DOAN.pcf 
+bitgen -intstyle ise -f HAI_BO_DEM_00_99_HT_7DOAN.ut HAI_BO_DEM_00_99_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "C:/Users/Kieetj/Desktop/blah blah/BAI_523_HAI_BO_DEM_00_99_HT_7DOAN/HAI_BO_DEM_00_99_HT_7DOAN.xst" -ofn "C:/Users/Kieetj/Desktop/blah blah/BAI_523_HAI_BO_DEM_00_99_HT_7DOAN/HAI_BO_DEM_00_99_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-5 "HAI_BO_DEM_00_99_HT_7DOAN.ngc" HAI_BO_DEM_00_99_HT_7DOAN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o HAI_BO_DEM_00_99_HT_7DOAN_map.ncd HAI_BO_DEM_00_99_HT_7DOAN.ngd HAI_BO_DEM_00_99_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -t 1 HAI_BO_DEM_00_99_HT_7DOAN_map.ncd HAI_BO_DEM_00_99_HT_7DOAN.ncd HAI_BO_DEM_00_99_HT_7DOAN.pcf 
+xst -intstyle ise -ifn "C:/Users/Kieetj/Desktop/blah blah/BAI_523_HAI_BO_DEM_00_99_HT_7DOAN/HAI_BO_DEM_00_99_HT_7DOAN.xst" -ofn "C:/Users/Kieetj/Desktop/blah blah/BAI_523_HAI_BO_DEM_00_99_HT_7DOAN/HAI_BO_DEM_00_99_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-5 "HAI_BO_DEM_00_99_HT_7DOAN.ngc" HAI_BO_DEM_00_99_HT_7DOAN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o HAI_BO_DEM_00_99_HT_7DOAN_map.ncd HAI_BO_DEM_00_99_HT_7DOAN.ngd HAI_BO_DEM_00_99_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -t 1 HAI_BO_DEM_00_99_HT_7DOAN_map.ncd HAI_BO_DEM_00_99_HT_7DOAN.ncd HAI_BO_DEM_00_99_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml HAI_BO_DEM_00_99_HT_7DOAN.twx HAI_BO_DEM_00_99_HT_7DOAN.ncd -o HAI_BO_DEM_00_99_HT_7DOAN.twr HAI_BO_DEM_00_99_HT_7DOAN.pcf 
+bitgen -intstyle ise -f HAI_BO_DEM_00_99_HT_7DOAN.ut HAI_BO_DEM_00_99_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_523_HAI_BO_DEM_00_99_HT_7DOAN/HAI_BO_DEM_00_99_HT_7DOAN.xst" -ofn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_523_HAI_BO_DEM_00_99_HT_7DOAN/HAI_BO_DEM_00_99_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-5 "HAI_BO_DEM_00_99_HT_7DOAN.ngc" HAI_BO_DEM_00_99_HT_7DOAN.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-5 "HAI_BO_DEM_00_99_HT_7DOAN.ngc" HAI_BO_DEM_00_99_HT_7DOAN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o HAI_BO_DEM_00_99_HT_7DOAN_map.ncd HAI_BO_DEM_00_99_HT_7DOAN.ngd HAI_BO_DEM_00_99_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -t 1 HAI_BO_DEM_00_99_HT_7DOAN_map.ncd HAI_BO_DEM_00_99_HT_7DOAN.ncd HAI_BO_DEM_00_99_HT_7DOAN.pcf 
+xst -intstyle ise -ifn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_523_HAI_BO_DEM_00_99_HT_7DOAN/HAI_BO_DEM_00_99_HT_7DOAN.xst" -ofn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_523_HAI_BO_DEM_00_99_HT_7DOAN/HAI_BO_DEM_00_99_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-5 "HAI_BO_DEM_00_99_HT_7DOAN.ngc" HAI_BO_DEM_00_99_HT_7DOAN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o HAI_BO_DEM_00_99_HT_7DOAN_map.ncd HAI_BO_DEM_00_99_HT_7DOAN.ngd HAI_BO_DEM_00_99_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -t 1 HAI_BO_DEM_00_99_HT_7DOAN_map.ncd HAI_BO_DEM_00_99_HT_7DOAN.ncd HAI_BO_DEM_00_99_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml HAI_BO_DEM_00_99_HT_7DOAN.twx HAI_BO_DEM_00_99_HT_7DOAN.ncd -o HAI_BO_DEM_00_99_HT_7DOAN.twr HAI_BO_DEM_00_99_HT_7DOAN.pcf 
+bitgen -intstyle ise -f HAI_BO_DEM_00_99_HT_7DOAN.ut HAI_BO_DEM_00_99_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_523_HAI_BO_DEM_00_99_HT_7DOAN/HAI_BO_DEM_00_99_HT_7DOAN.xst" -ofn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_523_HAI_BO_DEM_00_99_HT_7DOAN/HAI_BO_DEM_00_99_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "HAI_BO_DEM_00_99_HT_7DOAN.ngc" HAI_BO_DEM_00_99_HT_7DOAN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o HAI_BO_DEM_00_99_HT_7DOAN_map.ncd HAI_BO_DEM_00_99_HT_7DOAN.ngd HAI_BO_DEM_00_99_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -t 1 HAI_BO_DEM_00_99_HT_7DOAN_map.ncd HAI_BO_DEM_00_99_HT_7DOAN.ncd HAI_BO_DEM_00_99_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml HAI_BO_DEM_00_99_HT_7DOAN.twx HAI_BO_DEM_00_99_HT_7DOAN.ncd -o HAI_BO_DEM_00_99_HT_7DOAN.twr HAI_BO_DEM_00_99_HT_7DOAN.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f HAI_BO_DEM_00_99_HT_7DOAN.ut HAI_BO_DEM_00_99_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "O:/TT VHDL/CHUONG_3/TUAN_8/BAI_524_HAI_BO_DEM_00_99_HT_7DOAN/HAI_BO_DEM_00_99_HT_7DOAN.xst" -ofn "O:/TT VHDL/CHUONG_3/TUAN_8/BAI_524_HAI_BO_DEM_00_99_HT_7DOAN/HAI_BO_DEM_00_99_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "O:/TT VHDL/CHUONG_3/TUAN_8/BAI_524_HAI_BO_DEM_00_99_HT_7DOAN/HAI_BO_DEM_00_99_HT_7DOAN.xst" -ofn "O:/TT VHDL/CHUONG_3/TUAN_8/BAI_524_HAI_BO_DEM_00_99_HT_7DOAN/HAI_BO_DEM_00_99_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "HAI_BO_DEM_00_99_HT_7DOAN.ngc" HAI_BO_DEM_00_99_HT_7DOAN.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o HAI_BO_DEM_00_99_HT_7DOAN_map.ncd HAI_BO_DEM_00_99_HT_7DOAN.ngd HAI_BO_DEM_00_99_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -t 1 HAI_BO_DEM_00_99_HT_7DOAN_map.ncd HAI_BO_DEM_00_99_HT_7DOAN.ncd HAI_BO_DEM_00_99_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml HAI_BO_DEM_00_99_HT_7DOAN.twx HAI_BO_DEM_00_99_HT_7DOAN.ncd -o HAI_BO_DEM_00_99_HT_7DOAN.twr HAI_BO_DEM_00_99_HT_7DOAN.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f HAI_BO_DEM_00_99_HT_7DOAN.ut HAI_BO_DEM_00_99_HT_7DOAN.ncd 

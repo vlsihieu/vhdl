@@ -1,0 +1,118 @@
+xst -intstyle ise -ifn "Q:/TT_HDL/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.xst" -ofn "Q:/TT_HDL/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.syr" 
+xst -intstyle ise -ifn "Q:/TT_HDL/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.xst" -ofn "Q:/TT_HDL/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.syr" 
+xst -intstyle ise -ifn "Q:/TT_HDL/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.xst" -ofn "Q:/TT_HDL/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.syr" 
+xst -intstyle ise -ifn "Q:/TT_HDL/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.xst" -ofn "Q:/TT_HDL/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.syr" 
+xst -intstyle ise -ifn "Q:/TT_HDL/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.xst" -ofn "Q:/TT_HDL/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_HIENTHI_80KYTU.ngc LCD_HIENTHI_80KYTU.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_HIENTHI_80KYTU.ngc LCD_HIENTHI_80KYTU.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_HIENTHI_80KYTU_map.ncd LCD_HIENTHI_80KYTU.ngd LCD_HIENTHI_80KYTU.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_HIENTHI_80KYTU_map.ncd LCD_HIENTHI_80KYTU.ncd LCD_HIENTHI_80KYTU.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_HIENTHI_80KYTU.twx LCD_HIENTHI_80KYTU.ncd -o LCD_HIENTHI_80KYTU.twr LCD_HIENTHI_80KYTU.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_HIENTHI_80KYTU.ut LCD_HIENTHI_80KYTU.ncd 
+xst -intstyle ise -ifn "Q:/TT_HDL/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.xst" -ofn "Q:/TT_HDL/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_HIENTHI_80KYTU.ngc LCD_HIENTHI_80KYTU.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_HIENTHI_80KYTU_map.ncd LCD_HIENTHI_80KYTU.ngd LCD_HIENTHI_80KYTU.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_HIENTHI_80KYTU_map.ncd LCD_HIENTHI_80KYTU.ncd LCD_HIENTHI_80KYTU.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_HIENTHI_80KYTU.twx LCD_HIENTHI_80KYTU.ncd -o LCD_HIENTHI_80KYTU.twr LCD_HIENTHI_80KYTU.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_HIENTHI_80KYTU.ut LCD_HIENTHI_80KYTU.ncd 
+xst -intstyle ise -ifn "Q:/TT_HDL/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.xst" -ofn "Q:/TT_HDL/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_HIENTHI_80KYTU.ngc LCD_HIENTHI_80KYTU.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_HIENTHI_80KYTU_map.ncd LCD_HIENTHI_80KYTU.ngd LCD_HIENTHI_80KYTU.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_HIENTHI_80KYTU_map.ncd LCD_HIENTHI_80KYTU.ncd LCD_HIENTHI_80KYTU.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_HIENTHI_80KYTU.twx LCD_HIENTHI_80KYTU.ncd -o LCD_HIENTHI_80KYTU.twr LCD_HIENTHI_80KYTU.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_HIENTHI_80KYTU.ut LCD_HIENTHI_80KYTU.ncd 
+xst -intstyle ise -ifn "Q:/TT_HDL/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.xst" -ofn "Q:/TT_HDL/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_HIENTHI_80KYTU.ngc LCD_HIENTHI_80KYTU.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_HIENTHI_80KYTU_map.ncd LCD_HIENTHI_80KYTU.ngd LCD_HIENTHI_80KYTU.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_HIENTHI_80KYTU_map.ncd LCD_HIENTHI_80KYTU.ncd LCD_HIENTHI_80KYTU.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_HIENTHI_80KYTU.twx LCD_HIENTHI_80KYTU.ncd -o LCD_HIENTHI_80KYTU.twr LCD_HIENTHI_80KYTU.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_HIENTHI_80KYTU.ut LCD_HIENTHI_80KYTU.ncd 
+xst -intstyle ise -ifn "D:/STUDY/Verilog_HDL/TT_HDL _bao/TT_HDL/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.xst" -ofn "D:/STUDY/Verilog_HDL/TT_HDL _bao/TT_HDL/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_HIENTHI_80KYTU.ngc" LCD_HIENTHI_80KYTU.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_HIENTHI_80KYTU_map.ncd LCD_HIENTHI_80KYTU.ngd LCD_HIENTHI_80KYTU.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_HIENTHI_80KYTU_map.ncd LCD_HIENTHI_80KYTU.ncd LCD_HIENTHI_80KYTU.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_HIENTHI_80KYTU.twx LCD_HIENTHI_80KYTU.ncd -o LCD_HIENTHI_80KYTU.twr LCD_HIENTHI_80KYTU.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_HIENTHI_80KYTU.ut LCD_HIENTHI_80KYTU.ncd 
+xst -intstyle ise -ifn "D:/STUDY/Verilog_HDL/TT_HDL _bao/TT_HDL/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.xst" -ofn "D:/STUDY/Verilog_HDL/TT_HDL _bao/TT_HDL/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "LCD_HIENTHI_80KYTU.ngc" LCD_HIENTHI_80KYTU.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_HIENTHI_80KYTU_map.ncd LCD_HIENTHI_80KYTU.ngd LCD_HIENTHI_80KYTU.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_HIENTHI_80KYTU_map.ncd LCD_HIENTHI_80KYTU.ncd LCD_HIENTHI_80KYTU.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_HIENTHI_80KYTU.twx LCD_HIENTHI_80KYTU.ncd -o LCD_HIENTHI_80KYTU.twr LCD_HIENTHI_80KYTU.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_HIENTHI_80KYTU.ut LCD_HIENTHI_80KYTU.ncd 
+xst -intstyle ise -ifn "C:/TTTKVMS_SANG_THU3_NHOM_3/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.xst" -ofn "C:/TTTKVMS_SANG_THU3_NHOM_3/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_HIENTHI_80KYTU.ngc LCD_HIENTHI_80KYTU.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_HIENTHI_80KYTU_map.ncd LCD_HIENTHI_80KYTU.ngd LCD_HIENTHI_80KYTU.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_HIENTHI_80KYTU_map.ncd LCD_HIENTHI_80KYTU.ncd LCD_HIENTHI_80KYTU.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_HIENTHI_80KYTU.twx LCD_HIENTHI_80KYTU.ncd -o LCD_HIENTHI_80KYTU.twr LCD_HIENTHI_80KYTU.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_HIENTHI_80KYTU.ut LCD_HIENTHI_80KYTU.ncd 
+xst -intstyle ise -ifn "C:/TTTKVMS_SANG_THU3_NHOM_3/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.xst" -ofn "C:/TTTKVMS_SANG_THU3_NHOM_3/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_HIENTHI_80KYTU.ngc LCD_HIENTHI_80KYTU.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_HIENTHI_80KYTU_map.ncd LCD_HIENTHI_80KYTU.ngd LCD_HIENTHI_80KYTU.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_HIENTHI_80KYTU_map.ncd LCD_HIENTHI_80KYTU.ncd LCD_HIENTHI_80KYTU.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_HIENTHI_80KYTU.twx LCD_HIENTHI_80KYTU.ncd -o LCD_HIENTHI_80KYTU.twr LCD_HIENTHI_80KYTU.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_HIENTHI_80KYTU.ut LCD_HIENTHI_80KYTU.ncd 
+xst -intstyle ise -ifn "C:/TTTKVMS_SANG_THU3_NHOM_3/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.xst" -ofn "C:/TTTKVMS_SANG_THU3_NHOM_3/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.syr" 
+xst -intstyle ise -ifn "C:/TTTKVMS_SANG_THU3_NHOM_3/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.xst" -ofn "C:/TTTKVMS_SANG_THU3_NHOM_3/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.syr" 
+xst -intstyle ise -ifn "C:/TTTKVMS_SANG_THU3_NHOM_3/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.xst" -ofn "C:/TTTKVMS_SANG_THU3_NHOM_3/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.syr" 
+xst -intstyle ise -ifn "C:/TTTKVMS_SANG_THU3_NHOM_3/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.xst" -ofn "C:/TTTKVMS_SANG_THU3_NHOM_3/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.syr" 
+xst -intstyle ise -ifn "C:/TTTKVMS_SANG_THU3_NHOM_3/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.xst" -ofn "C:/TTTKVMS_SANG_THU3_NHOM_3/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_HIENTHI_80KYTU.ngc LCD_HIENTHI_80KYTU.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_HIENTHI_80KYTU_map.ncd LCD_HIENTHI_80KYTU.ngd LCD_HIENTHI_80KYTU.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_HIENTHI_80KYTU_map.ncd LCD_HIENTHI_80KYTU.ncd LCD_HIENTHI_80KYTU.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_HIENTHI_80KYTU.twx LCD_HIENTHI_80KYTU.ncd -o LCD_HIENTHI_80KYTU.twr LCD_HIENTHI_80KYTU.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_HIENTHI_80KYTU.ut LCD_HIENTHI_80KYTU.ncd 
+xst -intstyle ise -ifn "C:/TTTKVMS_SANG_THU3_NHOM_3/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.xst" -ofn "C:/TTTKVMS_SANG_THU3_NHOM_3/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_HIENTHI_80KYTU.ngc LCD_HIENTHI_80KYTU.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_HIENTHI_80KYTU_map.ncd LCD_HIENTHI_80KYTU.ngd LCD_HIENTHI_80KYTU.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_HIENTHI_80KYTU_map.ncd LCD_HIENTHI_80KYTU.ncd LCD_HIENTHI_80KYTU.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_HIENTHI_80KYTU.twx LCD_HIENTHI_80KYTU.ncd -o LCD_HIENTHI_80KYTU.twr LCD_HIENTHI_80KYTU.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_HIENTHI_80KYTU.ut LCD_HIENTHI_80KYTU.ncd 
+xst -intstyle ise -ifn "D:/TTVHDL_SANGT2_NHOM7_STT20/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.xst" -ofn "D:/TTVHDL_SANGT2_NHOM7_STT20/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_HIENTHI_80KYTU.ngc LCD_HIENTHI_80KYTU.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_HIENTHI_80KYTU_map.ncd LCD_HIENTHI_80KYTU.ngd LCD_HIENTHI_80KYTU.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_HIENTHI_80KYTU_map.ncd LCD_HIENTHI_80KYTU.ncd LCD_HIENTHI_80KYTU.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_HIENTHI_80KYTU.twx LCD_HIENTHI_80KYTU.ncd -o LCD_HIENTHI_80KYTU.twr LCD_HIENTHI_80KYTU.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_HIENTHI_80KYTU.ut LCD_HIENTHI_80KYTU.ncd 
+xst -intstyle ise -ifn "D:/TTVHDL_SANGT2_NHOM7_STT20/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.xst" -ofn "D:/TTVHDL_SANGT2_NHOM7_STT20/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_HIENTHI_80KYTU.ngc LCD_HIENTHI_80KYTU.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_HIENTHI_80KYTU_map.ncd LCD_HIENTHI_80KYTU.ngd LCD_HIENTHI_80KYTU.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_HIENTHI_80KYTU_map.ncd LCD_HIENTHI_80KYTU.ncd LCD_HIENTHI_80KYTU.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_HIENTHI_80KYTU.twx LCD_HIENTHI_80KYTU.ncd -o LCD_HIENTHI_80KYTU.twr LCD_HIENTHI_80KYTU.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_HIENTHI_80KYTU.ut LCD_HIENTHI_80KYTU.ncd 
+xst -intstyle ise -ifn "D:/TTVHDL_SANGT2_NHOM7_STT20/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.xst" -ofn "D:/TTVHDL_SANGT2_NHOM7_STT20/BAI_601_1_MO_RONG/LCD_HIENTHI_80KYTU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 LCD_HIENTHI_80KYTU.ngc LCD_HIENTHI_80KYTU.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o LCD_HIENTHI_80KYTU_map.ncd LCD_HIENTHI_80KYTU.ngd LCD_HIENTHI_80KYTU.pcf 
+par -w -intstyle ise -ol high -t 1 LCD_HIENTHI_80KYTU_map.ncd LCD_HIENTHI_80KYTU.ncd LCD_HIENTHI_80KYTU.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LCD_HIENTHI_80KYTU.twx LCD_HIENTHI_80KYTU.ncd -o LCD_HIENTHI_80KYTU.twr LCD_HIENTHI_80KYTU.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f LCD_HIENTHI_80KYTU.ut LCD_HIENTHI_80KYTU.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Desktop/BAI_601_1_DICH_CHUYEN_NHAP_NHAY/LCD_HIENTHI_80KYTU.xst" -ofn "C:/Users/Admin/Desktop/BAI_601_1_DICH_CHUYEN_NHAP_NHAY/LCD_HIENTHI_80KYTU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-3 LCD_HIENTHI_80KYTU.ngc LCD_HIENTHI_80KYTU.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LCD_HIENTHI_80KYTU_map.ncd LCD_HIENTHI_80KYTU.ngd LCD_HIENTHI_80KYTU.pcf 
+par -w -intstyle ise -ol high -mt off LCD_HIENTHI_80KYTU_map.ncd LCD_HIENTHI_80KYTU.ncd LCD_HIENTHI_80KYTU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml LCD_HIENTHI_80KYTU.twx LCD_HIENTHI_80KYTU.ncd -o LCD_HIENTHI_80KYTU.twr LCD_HIENTHI_80KYTU.pcf 
+bitgen -intstyle ise -f LCD_HIENTHI_80KYTU.ut LCD_HIENTHI_80KYTU.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Desktop/BAI_601_1_DICH_CHUYEN_NHAP_NHAY/LCD_HIENTHI_80KYTU.xst" -ofn "C:/Users/Admin/Desktop/BAI_601_1_DICH_CHUYEN_NHAP_NHAY/LCD_HIENTHI_80KYTU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-3 LCD_HIENTHI_80KYTU.ngc LCD_HIENTHI_80KYTU.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LCD_HIENTHI_80KYTU_map.ncd LCD_HIENTHI_80KYTU.ngd LCD_HIENTHI_80KYTU.pcf 
+par -w -intstyle ise -ol high -mt off LCD_HIENTHI_80KYTU_map.ncd LCD_HIENTHI_80KYTU.ncd LCD_HIENTHI_80KYTU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml LCD_HIENTHI_80KYTU.twx LCD_HIENTHI_80KYTU.ncd -o LCD_HIENTHI_80KYTU.twr LCD_HIENTHI_80KYTU.pcf 
+bitgen -intstyle ise -f LCD_HIENTHI_80KYTU.ut LCD_HIENTHI_80KYTU.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Desktop/BAI_601_1_DICH_CHUYEN_NHAP_NHAY/LCD_HIENTHI_80KYTU.xst" -ofn "C:/Users/Admin/Desktop/BAI_601_1_DICH_CHUYEN_NHAP_NHAY/LCD_HIENTHI_80KYTU.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Desktop/BAI_601_1_DICH_CHUYEN_NHAP_NHAY/LCD_HIENTHI_80KYTU.xst" -ofn "C:/Users/Admin/Desktop/BAI_601_1_DICH_CHUYEN_NHAP_NHAY/LCD_HIENTHI_80KYTU.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Desktop/BAI_601_1_DICH_CHUYEN_NHAP_NHAY/LCD_HIENTHI_80KYTU.xst" -ofn "C:/Users/Admin/Desktop/BAI_601_1_DICH_CHUYEN_NHAP_NHAY/LCD_HIENTHI_80KYTU.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Desktop/BAI_601_1_DICH_CHUYEN_NHAP_NHAY/LCD_HIENTHI_80KYTU.xst" -ofn "C:/Users/Admin/Desktop/BAI_601_1_DICH_CHUYEN_NHAP_NHAY/LCD_HIENTHI_80KYTU.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Desktop/BAI_601_1_DICH_CHUYEN_NHAP_NHAY/LCD_HIENTHI_80KYTU.xst" -ofn "C:/Users/Admin/Desktop/BAI_601_1_DICH_CHUYEN_NHAP_NHAY/LCD_HIENTHI_80KYTU.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Desktop/BAI_601_1_DICH_CHUYEN_NHAP_NHAY/LCD_HIENTHI_80KYTU.xst" -ofn "C:/Users/Admin/Desktop/BAI_601_1_DICH_CHUYEN_NHAP_NHAY/LCD_HIENTHI_80KYTU.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Desktop/BAI_601_1_DICH_CHUYEN_NHAP_NHAY/LCD_HIENTHI_80KYTU.xst" -ofn "C:/Users/Admin/Desktop/BAI_601_1_DICH_CHUYEN_NHAP_NHAY/LCD_HIENTHI_80KYTU.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Desktop/BAI_601_1_DICH_CHUYEN_NHAP_NHAY/LCD_HIENTHI_80KYTU.xst" -ofn "C:/Users/Admin/Desktop/BAI_601_1_DICH_CHUYEN_NHAP_NHAY/LCD_HIENTHI_80KYTU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-3 LCD_HIENTHI_80KYTU.ngc LCD_HIENTHI_80KYTU.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LCD_HIENTHI_80KYTU_map.ncd LCD_HIENTHI_80KYTU.ngd LCD_HIENTHI_80KYTU.pcf 
+par -w -intstyle ise -ol high -mt off LCD_HIENTHI_80KYTU_map.ncd LCD_HIENTHI_80KYTU.ncd LCD_HIENTHI_80KYTU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml LCD_HIENTHI_80KYTU.twx LCD_HIENTHI_80KYTU.ncd -o LCD_HIENTHI_80KYTU.twr LCD_HIENTHI_80KYTU.pcf 
+bitgen -intstyle ise -f LCD_HIENTHI_80KYTU.ut LCD_HIENTHI_80KYTU.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_601_1_DICH_CHUYEN_NHAP_NHAY/LCD_HIENTHI_80KYTU.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_601_1_DICH_CHUYEN_NHAP_NHAY/LCD_HIENTHI_80KYTU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-3 LCD_HIENTHI_80KYTU.ngc LCD_HIENTHI_80KYTU.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LCD_HIENTHI_80KYTU_map.ncd LCD_HIENTHI_80KYTU.ngd LCD_HIENTHI_80KYTU.pcf 
+par -w -intstyle ise -ol high -mt off LCD_HIENTHI_80KYTU_map.ncd LCD_HIENTHI_80KYTU.ncd LCD_HIENTHI_80KYTU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml LCD_HIENTHI_80KYTU.twx LCD_HIENTHI_80KYTU.ncd -o LCD_HIENTHI_80KYTU.twr LCD_HIENTHI_80KYTU.pcf 
+bitgen -intstyle ise -f LCD_HIENTHI_80KYTU.ut LCD_HIENTHI_80KYTU.ncd 

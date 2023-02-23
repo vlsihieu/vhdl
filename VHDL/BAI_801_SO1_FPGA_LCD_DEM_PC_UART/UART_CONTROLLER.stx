@@ -1,0 +1,72 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to F:/VHDL/BAI_801_SO1_FPGA_LCD_DEM_PC_UART/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.27 secs
+ 
+--> Parameter xsthdpdir set to F:/VHDL/BAI_801_SO1_FPGA_LCD_DEM_PC_UART/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.27 secs
+ 
+--> Reading design: UART_CONTROLLER.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "F:\VHDL\BAI_801_SO1_FPGA_LCD_DEM_PC_UART\UART_CONTROLLER_TX.vhd" into library work
+Parsing entity <UART_CONTROLLER_TX>.
+Parsing architecture <Behavioral> of entity <uart_controller_tx>.
+Parsing VHDL file "F:\VHDL\BAI_801_SO1_FPGA_LCD_DEM_PC_UART\UART_CONTROLLER_RX.vhd" into library work
+Parsing entity <UART_CONTROLLER_RX>.
+Parsing architecture <Behavioral> of entity <uart_controller_rx>.
+Parsing VHDL file "F:\VHDL\BAI_801_SO1_FPGA_LCD_DEM_PC_UART\MOD_M_COUNTER.vhd" into library work
+Parsing entity <MOD_M_COUNTER>.
+Parsing architecture <Behavioral> of entity <mod_m_counter>.
+Parsing VHDL file "F:\VHDL\BAI_801_SO1_FPGA_LCD_DEM_PC_UART\FIFO_TX.vhd" into library work
+Parsing entity <FIFO_TX>.
+Parsing architecture <Behavioral> of entity <fifo_tx>.
+Parsing VHDL file "F:\VHDL\BAI_801_SO1_FPGA_LCD_DEM_PC_UART\FIFO_RX.vhd" into library work
+Parsing entity <FIFO_RX>.
+Parsing architecture <Behavioral> of entity <fifo_rx>.
+Parsing VHDL file "F:\VHDL\BAI_801_SO1_FPGA_LCD_DEM_PC_UART\UART_CONTROLLER.vhd" into library work
+Parsing entity <UART_CONTROLLER>.
+Parsing architecture <Behavioral> of entity <uart_controller>.
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.87 secs
+ 
+--> 
+
+Total memory usage is 4446360 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Thu Sep 12 12:49:20 2019
+
+drc -z GIAIMA_7DOAN_ANODE_ENA.ncd GIAIMA_7DOAN_ANODE_ENA.pcf
+
+DRC detected 0 errors and 0 warnings.

@@ -1,0 +1,5 @@
+vhdl work "XULY_TANSO_HT.vhd"
+vhdl work "DEM_3_40_UD.vhd"
+vhdl work "DEM_3BIT.vhd"
+vhdl work "CHIA_10ENA.vhd"
+vhdl work "DE_SO1.vhd"

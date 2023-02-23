@@ -1,0 +1,3 @@
+vhdl work "MAHOA_SELECT_42H_ACT.vhd"
+vhdl work "MAHOA_CONDITIONAL_42H_ACT.vhd"
+vhdl work "MAHOAUUTIEN2_42H_SELECT_CONDITIONAL.vhd"

@@ -1,0 +1,18 @@
+xst -intstyle ise -ifn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_362_HEX_TO_BCD_6BIT/HEX_TO_BCD_6BIT.xst" -ofn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_362_HEX_TO_BCD_6BIT/HEX_TO_BCD_6BIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-5 HEX_TO_BCD_6BIT.ngc HEX_TO_BCD_6BIT.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o HEX_TO_BCD_6BIT_map.ncd HEX_TO_BCD_6BIT.ngd HEX_TO_BCD_6BIT.pcf 
+par -w -intstyle ise -ol high -t 1 HEX_TO_BCD_6BIT_map.ncd HEX_TO_BCD_6BIT.ncd HEX_TO_BCD_6BIT.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml HEX_TO_BCD_6BIT.twx HEX_TO_BCD_6BIT.ncd -o HEX_TO_BCD_6BIT.twr HEX_TO_BCD_6BIT.pcf 
+bitgen -intstyle ise -f HEX_TO_BCD_6BIT.ut HEX_TO_BCD_6BIT.ncd 
+xst -intstyle ise -ifn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_362_HEX_TO_BCD_6BIT/HEX_TO_BCD_6BIT.xst" -ofn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_362_HEX_TO_BCD_6BIT/HEX_TO_BCD_6BIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 HEX_TO_BCD_6BIT.ngc HEX_TO_BCD_6BIT.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o HEX_TO_BCD_6BIT_map.ncd HEX_TO_BCD_6BIT.ngd HEX_TO_BCD_6BIT.pcf 
+par -w -intstyle ise -ol high -t 1 HEX_TO_BCD_6BIT_map.ncd HEX_TO_BCD_6BIT.ncd HEX_TO_BCD_6BIT.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml HEX_TO_BCD_6BIT.twx HEX_TO_BCD_6BIT.ncd -o HEX_TO_BCD_6BIT.twr HEX_TO_BCD_6BIT.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f HEX_TO_BCD_6BIT.ut HEX_TO_BCD_6BIT.ncd 
+xst -intstyle ise -ifn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_362_HEX_TO_BCD_6BIT/HEX_TO_BCD_6BIT.xst" -ofn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_362_HEX_TO_BCD_6BIT/HEX_TO_BCD_6BIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 HEX_TO_BCD_6BIT.ngc HEX_TO_BCD_6BIT.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o HEX_TO_BCD_6BIT_map.ncd HEX_TO_BCD_6BIT.ngd HEX_TO_BCD_6BIT.pcf 
+par -w -intstyle ise -ol high -t 1 HEX_TO_BCD_6BIT_map.ncd HEX_TO_BCD_6BIT.ncd HEX_TO_BCD_6BIT.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml HEX_TO_BCD_6BIT.twx HEX_TO_BCD_6BIT.ncd -o HEX_TO_BCD_6BIT.twr HEX_TO_BCD_6BIT.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f HEX_TO_BCD_6BIT.ut HEX_TO_BCD_6BIT.ncd 

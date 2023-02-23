@@ -1,0 +1,25 @@
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DEN_GIAOTHONG/DEN_GIAOTHONG.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DEN_GIAOTHONG/DEN_GIAOTHONG.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DEN_GIAOTHONG/DEN_GIAOTHONG.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DEN_GIAOTHONG/DEN_GIAOTHONG.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DEN_GIAOTHONG/DEN_GIAOTHONG.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DEN_GIAOTHONG/DEN_GIAOTHONG.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DEN_GIAOTHONG/DEN_GIAOTHONG.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DEN_GIAOTHONG/DEN_GIAOTHONG.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DEN_GIAOTHONG/DEN_GIAOTHONG.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DEN_GIAOTHONG/DEN_GIAOTHONG.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DEN_GIAOTHONG/DEN_GIAOTHONG.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DEN_GIAOTHONG/DEN_GIAOTHONG.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DEN_GIAOTHONG/DEN_GIAOTHONG.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DEN_GIAOTHONG/DEN_GIAOTHONG.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DEN_GIAOTHONG/DEN_GIAOTHONG.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DEN_GIAOTHONG/DEN_GIAOTHONG.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DEN_GIAOTHONG/DEN_GIAOTHONG.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DEN_GIAOTHONG/DEN_GIAOTHONG.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DEN_GIAOTHONG/DEN_GIAOTHONG.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DEN_GIAOTHONG/DEN_GIAOTHONG.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DEN_GIAOTHONG/DEN_GIAOTHONG.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DEN_GIAOTHONG/DEN_GIAOTHONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 DEN_GIAOTHONG.ngc DEN_GIAOTHONG.ngd  
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DEN_GIAOTHONG/DEN_GIAOTHONG.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DEN_GIAOTHONG/DEN_GIAOTHONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 DEN_GIAOTHONG.ngc DEN_GIAOTHONG.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEN_GIAOTHONG_map.ncd DEN_GIAOTHONG.ngd DEN_GIAOTHONG.pcf 
+par -w -intstyle ise -ol high -mt off DEN_GIAOTHONG_map.ncd DEN_GIAOTHONG.ncd DEN_GIAOTHONG.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml DEN_GIAOTHONG.twx DEN_GIAOTHONG.ncd -o DEN_GIAOTHONG.twr DEN_GIAOTHONG.pcf 
+bitgen -intstyle ise -f DEN_GIAOTHONG.ut DEN_GIAOTHONG.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DEN_GIAOTHONG/DEN_GIAOTHONG.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DEN_GIAOTHONG/DEN_GIAOTHONG.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DEN_GIAOTHONG/DEN_GIAOTHONG.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DEN_GIAOTHONG/DEN_GIAOTHONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 DEN_GIAOTHONG.ngc DEN_GIAOTHONG.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEN_GIAOTHONG_map.ncd DEN_GIAOTHONG.ngd DEN_GIAOTHONG.pcf 
+par -w -intstyle ise -ol high -mt off DEN_GIAOTHONG_map.ncd DEN_GIAOTHONG.ncd DEN_GIAOTHONG.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml DEN_GIAOTHONG.twx DEN_GIAOTHONG.ncd -o DEN_GIAOTHONG.twr DEN_GIAOTHONG.pcf 
+bitgen -intstyle ise -f DEN_GIAOTHONG.ut DEN_GIAOTHONG.ncd 

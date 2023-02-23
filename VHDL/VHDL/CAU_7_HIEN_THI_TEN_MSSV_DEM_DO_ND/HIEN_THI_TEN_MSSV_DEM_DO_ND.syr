@@ -1,0 +1,1813 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Reading design: HIEN_THI_TEN_MSSV_DEM_DO_ND.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "HIEN_THI_TEN_MSSV_DEM_DO_ND.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "HIEN_THI_TEN_MSSV_DEM_DO_ND"
+Output Format                      : NGC
+Target Device                      : xc6slx9-3-tqg144
+
+---- Source Options
+Top Module Name                    : HIEN_THI_TEN_MSSV_DEM_DO_ND
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\LAM_HEP_XUNG.vhd" into library work
+Parsing entity <LAM_HEP_XUNG>.
+Parsing architecture <Behavioral> of entity <lam_hep_xung>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\DEBOUCE_BTN.vhd" into library work
+Parsing entity <DEBOUNCE_BTN>.
+Parsing architecture <Behavioral> of entity <debounce_btn>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\xuly_nhapnhay.vhd" into library work
+Parsing entity <XULY_NHAPNHAY>.
+Parsing architecture <Behavioral> of entity <xuly_nhapnhay>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\mach_dem_chu_ky.vhd" into library work
+Parsing entity <MACH_DEM_Chuky>.
+Parsing architecture <PMH> of entity <mach_dem_chuky>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\LCD_KHOITAO_HIENTHI_SO_TO.vhd" into library work
+Parsing entity <LCD_KHOITAO_HIENTHI_SO_TO>.
+Parsing architecture <Behavioral> of entity <lcd_khoitao_hienthi_so_to>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\LCD_GIAI_MA_SO_TO.vhd" into library work
+Parsing entity <LCD_GIAI_MA_SO_TO>.
+Parsing architecture <Behavioral> of entity <lcd_giai_ma_so_to>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\LCD_DICH_DU_LIEU_BTN.vhd" into library work
+Parsing entity <LCD_DICH_DU_LIEU_BTN>.
+Parsing architecture <Behavioral> of entity <lcd_dich_du_lieu_btn>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\LCD_DICH_DU_LIEU_AU.vhd" into library work
+Parsing entity <LCD_DICH_DU_LIEU_AU>.
+Parsing architecture <Behavioral> of entity <lcd_dich_du_lieu_au>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\LCD_20X4_GAN_DULIEU_1SO_TO.vhd" into library work
+Parsing entity <LCD_20X4_GAN_DULIEU_1SO_TO>.
+Parsing architecture <Behavioral> of entity <lcd_20x4_gan_dulieu_1so_to>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\HEXTOBCD_8BIT.vhd" into library work
+Parsing entity <HEXTOBCD_8BIT>.
+Parsing architecture <Behavioral> of entity <hextobcd_8bit>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\HEXTOBCD_6BIT.vhd" into library work
+Parsing entity <HEXTOBCD_6BIT>.
+Parsing architecture <Behavioral> of entity <hextobcd_6bit>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\DS18B20_TEMPERATURE.vhd" into library work
+Parsing entity <DS18B20_TEMPERATURE>.
+Parsing architecture <Behavioral> of entity <ds18b20_temperature>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\djdjdd.vhd" into library work
+Parsing entity <DIEUKHIEN_MODE>.
+Parsing architecture <Behavioral> of entity <dieukhien_mode>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\dem_xx.vhd" into library work
+Parsing entity <dem_xx>.
+Parsing architecture <Behavioral> of entity <dem_xx>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\DEM_3BIT_GH.vhd" into library work
+Parsing entity <DEM_3BIT_GH>.
+Parsing architecture <Behavioral> of entity <dem_3bit_gh>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\DEM_1BIT.vhd" into library work
+Parsing entity <DEM_1BIT>.
+Parsing architecture <Behavioral> of entity <dem_1bit>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\chuong_keu_led.vhd" into library work
+Parsing entity <chuong_keu_led>.
+Parsing architecture <Behavioral> of entity <chuong_keu_led>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\CHIA_10ENA.vhd" into library work
+Parsing entity <CHIA_10ENA>.
+Parsing architecture <Behavioral> of entity <chia_10ena>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\CD_LAM_HEP_BTN.vhd" into library work
+Parsing entity <CD_LAM_HEP_BTN>.
+Parsing architecture <Behavioral> of entity <cd_lam_hep_btn>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\FAFS.vhd" into library work
+Parsing entity <HIEN_THI_TEN_MSSV_DEM_DO_ND>.
+Parsing architecture <PMH> of entity <hien_thi_ten_mssv_dem_do_nd>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <HIEN_THI_TEN_MSSV_DEM_DO_ND> (architecture <PMH>) from library <work>.
+WARNING:HDLCompiler:1127 - "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\FAFS.vhd" Line 76: Assignment to dc_8led ignored, since the identifier is never used
+
+Elaborating entity <CHIA_10ENA> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <CD_LAM_HEP_BTN> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <DEBOUNCE_BTN> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <LAM_HEP_XUNG> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <DEM_3BIT_GH> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <DIEUKHIEN_MODE> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <DEM_1BIT> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <LCD_DICH_DU_LIEU_BTN> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <LCD_DICH_DU_LIEU_AU> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <DS18B20_TEMPERATURE> (architecture <Behavioral>) from library <work>.
+INFO:HDLCompiler:679 - "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\DS18B20_TEMPERATURE.vhd" Line 122. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\DS18B20_TEMPERATURE.vhd" Line 227. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\DS18B20_TEMPERATURE.vhd" Line 248. Case statement is complete. others clause is never selected
+
+Elaborating entity <HEXTOBCD_8BIT> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <MACH_DEM_Chuky> (architecture <PMH>) from library <work>.
+
+Elaborating entity <dem_xx> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <HEXTOBCD_6BIT> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <LCD_GIAI_MA_SO_TO> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <XULY_NHAPNHAY> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <chuong_keu_led> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <LCD_20X4_GAN_DULIEU_1SO_TO> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <LCD_KHOITAO_HIENTHI_SO_TO> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <HIEN_THI_TEN_MSSV_DEM_DO_ND>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\FAFS.vhd".
+    Found 6-bit comparator greater for signal <dem_xx[5]_GND_3_o_LessThan_7_o> created at line 180
+    Summary:
+	inferred   1 Comparator(s).
+	inferred   4 Multiplexer(s).
+Unit <HIEN_THI_TEN_MSSV_DEM_DO_ND> synthesized.
+
+Synthesizing Unit <CHIA_10ENA>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\CHIA_10ENA.vhd".
+    Found 24-bit register for signal <D5HZ_REG>.
+    Found 25-bit register for signal <D2HZ_REG>.
+    Found 26-bit register for signal <D1HZ_REG>.
+    Found 25-bit adder for signal <n0081> created at line 56.
+    Found 26-bit adder for signal <n0082> created at line 57.
+    Found 27-bit adder for signal <n0083> created at line 58.
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred  75 D-type flip-flop(s).
+Unit <CHIA_10ENA> synthesized.
+
+Synthesizing Unit <CD_LAM_HEP_BTN>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\CD_LAM_HEP_BTN.vhd".
+    Summary:
+	no macro.
+Unit <CD_LAM_HEP_BTN> synthesized.
+
+Synthesizing Unit <DEBOUNCE_BTN>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\DEBOUCE_BTN.vhd".
+    Found 20-bit register for signal <DELAY_REG>.
+    Found 2-bit register for signal <DB_REG>.
+    Found finite state machine <FSM_0> for signal <DB_REG>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 10                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 3                                              |
+    | Clock              | CKHT (falling_edge)                            |
+    | Power Up State     | zero                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 20-bit subtractor for signal <GND_8_o_GND_8_o_sub_5_OUT<19:0>> created at line 66.
+    Found 20-bit 4-to-1 multiplexer for signal <DELAY_NEXT> created at line 60.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  20 D-type flip-flop(s).
+	inferred   3 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <DEBOUNCE_BTN> synthesized.
+
+Synthesizing Unit <LAM_HEP_XUNG>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\LAM_HEP_XUNG.vhd".
+    Found 1-bit register for signal <QFF>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <LAM_HEP_XUNG> synthesized.
+
+Synthesizing Unit <DEM_3BIT_GH>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\DEM_3BIT_GH.vhd".
+    Found 3-bit register for signal <Q_REG>.
+    Found 3-bit adder for signal <Q_REG[2]_GND_10_o_add_2_OUT> created at line 23.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   3 D-type flip-flop(s).
+Unit <DEM_3BIT_GH> synthesized.
+
+Synthesizing Unit <DIEUKHIEN_MODE>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\djdjdd.vhd".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <DIEUKHIEN_MODE> synthesized.
+
+Synthesizing Unit <DEM_1BIT>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\DEM_1BIT.vhd".
+    Found 1-bit register for signal <Q_REG>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <DEM_1BIT> synthesized.
+
+Synthesizing Unit <LCD_DICH_DU_LIEU_BTN>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\LCD_DICH_DU_LIEU_BTN.vhd".
+    Found 1-bit register for signal <H2_REG<159>>.
+    Found 1-bit register for signal <H2_REG<158>>.
+    Found 1-bit register for signal <H2_REG<157>>.
+    Found 1-bit register for signal <H2_REG<156>>.
+    Found 1-bit register for signal <H2_REG<155>>.
+    Found 1-bit register for signal <H2_REG<154>>.
+    Found 1-bit register for signal <H2_REG<153>>.
+    Found 1-bit register for signal <H2_REG<152>>.
+    Found 1-bit register for signal <H2_REG<151>>.
+    Found 1-bit register for signal <H2_REG<150>>.
+    Found 1-bit register for signal <H2_REG<149>>.
+    Found 1-bit register for signal <H2_REG<148>>.
+    Found 1-bit register for signal <H2_REG<147>>.
+    Found 1-bit register for signal <H2_REG<146>>.
+    Found 1-bit register for signal <H2_REG<145>>.
+    Found 1-bit register for signal <H2_REG<144>>.
+    Found 1-bit register for signal <H2_REG<143>>.
+    Found 1-bit register for signal <H2_REG<142>>.
+    Found 1-bit register for signal <H2_REG<141>>.
+    Found 1-bit register for signal <H2_REG<140>>.
+    Found 1-bit register for signal <H2_REG<139>>.
+    Found 1-bit register for signal <H2_REG<138>>.
+    Found 1-bit register for signal <H2_REG<137>>.
+    Found 1-bit register for signal <H2_REG<136>>.
+    Found 1-bit register for signal <H2_REG<135>>.
+    Found 1-bit register for signal <H2_REG<134>>.
+    Found 1-bit register for signal <H2_REG<133>>.
+    Found 1-bit register for signal <H2_REG<132>>.
+    Found 1-bit register for signal <H2_REG<131>>.
+    Found 1-bit register for signal <H2_REG<130>>.
+    Found 1-bit register for signal <H2_REG<129>>.
+    Found 1-bit register for signal <H2_REG<128>>.
+    Found 1-bit register for signal <H2_REG<127>>.
+    Found 1-bit register for signal <H2_REG<126>>.
+    Found 1-bit register for signal <H2_REG<125>>.
+    Found 1-bit register for signal <H2_REG<124>>.
+    Found 1-bit register for signal <H2_REG<123>>.
+    Found 1-bit register for signal <H2_REG<122>>.
+    Found 1-bit register for signal <H2_REG<121>>.
+    Found 1-bit register for signal <H2_REG<120>>.
+    Found 1-bit register for signal <H2_REG<119>>.
+    Found 1-bit register for signal <H2_REG<118>>.
+    Found 1-bit register for signal <H2_REG<117>>.
+    Found 1-bit register for signal <H2_REG<116>>.
+    Found 1-bit register for signal <H2_REG<115>>.
+    Found 1-bit register for signal <H2_REG<114>>.
+    Found 1-bit register for signal <H2_REG<113>>.
+    Found 1-bit register for signal <H2_REG<112>>.
+    Found 1-bit register for signal <H2_REG<111>>.
+    Found 1-bit register for signal <H2_REG<110>>.
+    Found 1-bit register for signal <H2_REG<109>>.
+    Found 1-bit register for signal <H2_REG<108>>.
+    Found 1-bit register for signal <H2_REG<107>>.
+    Found 1-bit register for signal <H2_REG<106>>.
+    Found 1-bit register for signal <H2_REG<105>>.
+    Found 1-bit register for signal <H2_REG<104>>.
+    Found 1-bit register for signal <H2_REG<103>>.
+    Found 1-bit register for signal <H2_REG<102>>.
+    Found 1-bit register for signal <H2_REG<101>>.
+    Found 1-bit register for signal <H2_REG<100>>.
+    Found 1-bit register for signal <H2_REG<99>>.
+    Found 1-bit register for signal <H2_REG<98>>.
+    Found 1-bit register for signal <H2_REG<97>>.
+    Found 1-bit register for signal <H2_REG<96>>.
+    Found 1-bit register for signal <H2_REG<95>>.
+    Found 1-bit register for signal <H2_REG<94>>.
+    Found 1-bit register for signal <H2_REG<93>>.
+    Found 1-bit register for signal <H2_REG<92>>.
+    Found 1-bit register for signal <H2_REG<91>>.
+    Found 1-bit register for signal <H2_REG<90>>.
+    Found 1-bit register for signal <H2_REG<89>>.
+    Found 1-bit register for signal <H2_REG<88>>.
+    Found 1-bit register for signal <H2_REG<87>>.
+    Found 1-bit register for signal <H2_REG<86>>.
+    Found 1-bit register for signal <H2_REG<85>>.
+    Found 1-bit register for signal <H2_REG<84>>.
+    Found 1-bit register for signal <H2_REG<83>>.
+    Found 1-bit register for signal <H2_REG<82>>.
+    Found 1-bit register for signal <H2_REG<81>>.
+    Found 1-bit register for signal <H2_REG<80>>.
+    Found 1-bit register for signal <H2_REG<79>>.
+    Found 1-bit register for signal <H2_REG<78>>.
+    Found 1-bit register for signal <H2_REG<77>>.
+    Found 1-bit register for signal <H2_REG<76>>.
+    Found 1-bit register for signal <H2_REG<75>>.
+    Found 1-bit register for signal <H2_REG<74>>.
+    Found 1-bit register for signal <H2_REG<73>>.
+    Found 1-bit register for signal <H2_REG<72>>.
+    Found 1-bit register for signal <H2_REG<71>>.
+    Found 1-bit register for signal <H2_REG<70>>.
+    Found 1-bit register for signal <H2_REG<69>>.
+    Found 1-bit register for signal <H2_REG<68>>.
+    Found 1-bit register for signal <H2_REG<67>>.
+    Found 1-bit register for signal <H2_REG<66>>.
+    Found 1-bit register for signal <H2_REG<65>>.
+    Found 1-bit register for signal <H2_REG<64>>.
+    Found 1-bit register for signal <H2_REG<63>>.
+    Found 1-bit register for signal <H2_REG<62>>.
+    Found 1-bit register for signal <H2_REG<61>>.
+    Found 1-bit register for signal <H2_REG<60>>.
+    Found 1-bit register for signal <H2_REG<59>>.
+    Found 1-bit register for signal <H2_REG<58>>.
+    Found 1-bit register for signal <H2_REG<57>>.
+    Found 1-bit register for signal <H2_REG<56>>.
+    Found 1-bit register for signal <H2_REG<55>>.
+    Found 1-bit register for signal <H2_REG<54>>.
+    Found 1-bit register for signal <H2_REG<53>>.
+    Found 1-bit register for signal <H2_REG<52>>.
+    Found 1-bit register for signal <H2_REG<51>>.
+    Found 1-bit register for signal <H2_REG<50>>.
+    Found 1-bit register for signal <H2_REG<49>>.
+    Found 1-bit register for signal <H2_REG<48>>.
+    Found 1-bit register for signal <H2_REG<47>>.
+    Found 1-bit register for signal <H2_REG<46>>.
+    Found 1-bit register for signal <H2_REG<45>>.
+    Found 1-bit register for signal <H2_REG<44>>.
+    Found 1-bit register for signal <H2_REG<43>>.
+    Found 1-bit register for signal <H2_REG<42>>.
+    Found 1-bit register for signal <H2_REG<41>>.
+    Found 1-bit register for signal <H2_REG<40>>.
+    Found 1-bit register for signal <H2_REG<39>>.
+    Found 1-bit register for signal <H2_REG<38>>.
+    Found 1-bit register for signal <H2_REG<37>>.
+    Found 1-bit register for signal <H2_REG<36>>.
+    Found 1-bit register for signal <H2_REG<35>>.
+    Found 1-bit register for signal <H2_REG<34>>.
+    Found 1-bit register for signal <H2_REG<33>>.
+    Found 1-bit register for signal <H2_REG<32>>.
+    Found 1-bit register for signal <H2_REG<31>>.
+    Found 1-bit register for signal <H2_REG<30>>.
+    Found 1-bit register for signal <H2_REG<29>>.
+    Found 1-bit register for signal <H2_REG<28>>.
+    Found 1-bit register for signal <H2_REG<27>>.
+    Found 1-bit register for signal <H2_REG<26>>.
+    Found 1-bit register for signal <H2_REG<25>>.
+    Found 1-bit register for signal <H2_REG<24>>.
+    Found 1-bit register for signal <H2_REG<23>>.
+    Found 1-bit register for signal <H2_REG<22>>.
+    Found 1-bit register for signal <H2_REG<21>>.
+    Found 1-bit register for signal <H2_REG<20>>.
+    Found 1-bit register for signal <H2_REG<19>>.
+    Found 1-bit register for signal <H2_REG<18>>.
+    Found 1-bit register for signal <H2_REG<17>>.
+    Found 1-bit register for signal <H2_REG<16>>.
+    Found 1-bit register for signal <H2_REG<15>>.
+    Found 1-bit register for signal <H2_REG<14>>.
+    Found 1-bit register for signal <H2_REG<13>>.
+    Found 1-bit register for signal <H2_REG<12>>.
+    Found 1-bit register for signal <H2_REG<11>>.
+    Found 1-bit register for signal <H2_REG<10>>.
+    Found 1-bit register for signal <H2_REG<9>>.
+    Found 1-bit register for signal <H2_REG<8>>.
+    Found 1-bit register for signal <H2_REG<7>>.
+    Found 1-bit register for signal <H2_REG<6>>.
+    Found 1-bit register for signal <H2_REG<5>>.
+    Found 1-bit register for signal <H2_REG<4>>.
+    Found 1-bit register for signal <H2_REG<3>>.
+    Found 1-bit register for signal <H2_REG<2>>.
+    Found 1-bit register for signal <H2_REG<1>>.
+    Found 1-bit register for signal <H2_REG<0>>.
+    Summary:
+	inferred 160 D-type flip-flop(s).
+Unit <LCD_DICH_DU_LIEU_BTN> synthesized.
+
+Synthesizing Unit <LCD_DICH_DU_LIEU_AU>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\LCD_DICH_DU_LIEU_AU.vhd".
+    Found 1-bit register for signal <H1_REG<159>>.
+    Found 1-bit register for signal <H1_REG<158>>.
+    Found 1-bit register for signal <H1_REG<157>>.
+    Found 1-bit register for signal <H1_REG<156>>.
+    Found 1-bit register for signal <H1_REG<155>>.
+    Found 1-bit register for signal <H1_REG<154>>.
+    Found 1-bit register for signal <H1_REG<153>>.
+    Found 1-bit register for signal <H1_REG<152>>.
+    Found 1-bit register for signal <H1_REG<151>>.
+    Found 1-bit register for signal <H1_REG<150>>.
+    Found 1-bit register for signal <H1_REG<149>>.
+    Found 1-bit register for signal <H1_REG<148>>.
+    Found 1-bit register for signal <H1_REG<147>>.
+    Found 1-bit register for signal <H1_REG<146>>.
+    Found 1-bit register for signal <H1_REG<145>>.
+    Found 1-bit register for signal <H1_REG<144>>.
+    Found 1-bit register for signal <H1_REG<143>>.
+    Found 1-bit register for signal <H1_REG<142>>.
+    Found 1-bit register for signal <H1_REG<141>>.
+    Found 1-bit register for signal <H1_REG<140>>.
+    Found 1-bit register for signal <H1_REG<139>>.
+    Found 1-bit register for signal <H1_REG<138>>.
+    Found 1-bit register for signal <H1_REG<137>>.
+    Found 1-bit register for signal <H1_REG<136>>.
+    Found 1-bit register for signal <H1_REG<135>>.
+    Found 1-bit register for signal <H1_REG<134>>.
+    Found 1-bit register for signal <H1_REG<133>>.
+    Found 1-bit register for signal <H1_REG<132>>.
+    Found 1-bit register for signal <H1_REG<131>>.
+    Found 1-bit register for signal <H1_REG<130>>.
+    Found 1-bit register for signal <H1_REG<129>>.
+    Found 1-bit register for signal <H1_REG<128>>.
+    Found 1-bit register for signal <H1_REG<127>>.
+    Found 1-bit register for signal <H1_REG<126>>.
+    Found 1-bit register for signal <H1_REG<125>>.
+    Found 1-bit register for signal <H1_REG<124>>.
+    Found 1-bit register for signal <H1_REG<123>>.
+    Found 1-bit register for signal <H1_REG<122>>.
+    Found 1-bit register for signal <H1_REG<121>>.
+    Found 1-bit register for signal <H1_REG<120>>.
+    Found 1-bit register for signal <H1_REG<119>>.
+    Found 1-bit register for signal <H1_REG<118>>.
+    Found 1-bit register for signal <H1_REG<117>>.
+    Found 1-bit register for signal <H1_REG<116>>.
+    Found 1-bit register for signal <H1_REG<115>>.
+    Found 1-bit register for signal <H1_REG<114>>.
+    Found 1-bit register for signal <H1_REG<113>>.
+    Found 1-bit register for signal <H1_REG<112>>.
+    Found 1-bit register for signal <H1_REG<111>>.
+    Found 1-bit register for signal <H1_REG<110>>.
+    Found 1-bit register for signal <H1_REG<109>>.
+    Found 1-bit register for signal <H1_REG<108>>.
+    Found 1-bit register for signal <H1_REG<107>>.
+    Found 1-bit register for signal <H1_REG<106>>.
+    Found 1-bit register for signal <H1_REG<105>>.
+    Found 1-bit register for signal <H1_REG<104>>.
+    Found 1-bit register for signal <H1_REG<103>>.
+    Found 1-bit register for signal <H1_REG<102>>.
+    Found 1-bit register for signal <H1_REG<101>>.
+    Found 1-bit register for signal <H1_REG<100>>.
+    Found 1-bit register for signal <H1_REG<99>>.
+    Found 1-bit register for signal <H1_REG<98>>.
+    Found 1-bit register for signal <H1_REG<97>>.
+    Found 1-bit register for signal <H1_REG<96>>.
+    Found 1-bit register for signal <H1_REG<95>>.
+    Found 1-bit register for signal <H1_REG<94>>.
+    Found 1-bit register for signal <H1_REG<93>>.
+    Found 1-bit register for signal <H1_REG<92>>.
+    Found 1-bit register for signal <H1_REG<91>>.
+    Found 1-bit register for signal <H1_REG<90>>.
+    Found 1-bit register for signal <H1_REG<89>>.
+    Found 1-bit register for signal <H1_REG<88>>.
+    Found 1-bit register for signal <H1_REG<87>>.
+    Found 1-bit register for signal <H1_REG<86>>.
+    Found 1-bit register for signal <H1_REG<85>>.
+    Found 1-bit register for signal <H1_REG<84>>.
+    Found 1-bit register for signal <H1_REG<83>>.
+    Found 1-bit register for signal <H1_REG<82>>.
+    Found 1-bit register for signal <H1_REG<81>>.
+    Found 1-bit register for signal <H1_REG<80>>.
+    Found 1-bit register for signal <H1_REG<79>>.
+    Found 1-bit register for signal <H1_REG<78>>.
+    Found 1-bit register for signal <H1_REG<77>>.
+    Found 1-bit register for signal <H1_REG<76>>.
+    Found 1-bit register for signal <H1_REG<75>>.
+    Found 1-bit register for signal <H1_REG<74>>.
+    Found 1-bit register for signal <H1_REG<73>>.
+    Found 1-bit register for signal <H1_REG<72>>.
+    Found 1-bit register for signal <H1_REG<71>>.
+    Found 1-bit register for signal <H1_REG<70>>.
+    Found 1-bit register for signal <H1_REG<69>>.
+    Found 1-bit register for signal <H1_REG<68>>.
+    Found 1-bit register for signal <H1_REG<67>>.
+    Found 1-bit register for signal <H1_REG<66>>.
+    Found 1-bit register for signal <H1_REG<65>>.
+    Found 1-bit register for signal <H1_REG<64>>.
+    Found 1-bit register for signal <H1_REG<63>>.
+    Found 1-bit register for signal <H1_REG<62>>.
+    Found 1-bit register for signal <H1_REG<61>>.
+    Found 1-bit register for signal <H1_REG<60>>.
+    Found 1-bit register for signal <H1_REG<59>>.
+    Found 1-bit register for signal <H1_REG<58>>.
+    Found 1-bit register for signal <H1_REG<57>>.
+    Found 1-bit register for signal <H1_REG<56>>.
+    Found 1-bit register for signal <H1_REG<55>>.
+    Found 1-bit register for signal <H1_REG<54>>.
+    Found 1-bit register for signal <H1_REG<53>>.
+    Found 1-bit register for signal <H1_REG<52>>.
+    Found 1-bit register for signal <H1_REG<51>>.
+    Found 1-bit register for signal <H1_REG<50>>.
+    Found 1-bit register for signal <H1_REG<49>>.
+    Found 1-bit register for signal <H1_REG<48>>.
+    Found 1-bit register for signal <H1_REG<47>>.
+    Found 1-bit register for signal <H1_REG<46>>.
+    Found 1-bit register for signal <H1_REG<45>>.
+    Found 1-bit register for signal <H1_REG<44>>.
+    Found 1-bit register for signal <H1_REG<43>>.
+    Found 1-bit register for signal <H1_REG<42>>.
+    Found 1-bit register for signal <H1_REG<41>>.
+    Found 1-bit register for signal <H1_REG<40>>.
+    Found 1-bit register for signal <H1_REG<39>>.
+    Found 1-bit register for signal <H1_REG<38>>.
+    Found 1-bit register for signal <H1_REG<37>>.
+    Found 1-bit register for signal <H1_REG<36>>.
+    Found 1-bit register for signal <H1_REG<35>>.
+    Found 1-bit register for signal <H1_REG<34>>.
+    Found 1-bit register for signal <H1_REG<33>>.
+    Found 1-bit register for signal <H1_REG<32>>.
+    Found 1-bit register for signal <H1_REG<31>>.
+    Found 1-bit register for signal <H1_REG<30>>.
+    Found 1-bit register for signal <H1_REG<29>>.
+    Found 1-bit register for signal <H1_REG<28>>.
+    Found 1-bit register for signal <H1_REG<27>>.
+    Found 1-bit register for signal <H1_REG<26>>.
+    Found 1-bit register for signal <H1_REG<25>>.
+    Found 1-bit register for signal <H1_REG<24>>.
+    Found 1-bit register for signal <H1_REG<23>>.
+    Found 1-bit register for signal <H1_REG<22>>.
+    Found 1-bit register for signal <H1_REG<21>>.
+    Found 1-bit register for signal <H1_REG<20>>.
+    Found 1-bit register for signal <H1_REG<19>>.
+    Found 1-bit register for signal <H1_REG<18>>.
+    Found 1-bit register for signal <H1_REG<17>>.
+    Found 1-bit register for signal <H1_REG<16>>.
+    Found 1-bit register for signal <H1_REG<15>>.
+    Found 1-bit register for signal <H1_REG<14>>.
+    Found 1-bit register for signal <H1_REG<13>>.
+    Found 1-bit register for signal <H1_REG<12>>.
+    Found 1-bit register for signal <H1_REG<11>>.
+    Found 1-bit register for signal <H1_REG<10>>.
+    Found 1-bit register for signal <H1_REG<9>>.
+    Found 1-bit register for signal <H1_REG<8>>.
+    Found 1-bit register for signal <H1_REG<7>>.
+    Found 1-bit register for signal <H1_REG<6>>.
+    Found 1-bit register for signal <H1_REG<5>>.
+    Found 1-bit register for signal <H1_REG<4>>.
+    Found 1-bit register for signal <H1_REG<3>>.
+    Found 1-bit register for signal <H1_REG<2>>.
+    Found 1-bit register for signal <H1_REG<1>>.
+    Found 1-bit register for signal <H1_REG<0>>.
+    Summary:
+	inferred 160 D-type flip-flop(s).
+Unit <LCD_DICH_DU_LIEU_AU> synthesized.
+
+Synthesizing Unit <DS18B20_TEMPERATURE>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\DS18B20_TEMPERATURE.vhd".
+    Found 3-bit register for signal <WR_STATE_I>.
+    Found 2-bit register for signal <S_WR_BIT_1>.
+    Found 2-bit register for signal <S_WR_BIT_0>.
+    Found 2-bit register for signal <S_RD_BIT>.
+    Found 4-bit register for signal <PTR>.
+    Found 4-bit register for signal <STATE>.
+    Found 8-bit register for signal <WR_BYTE>.
+    Found 1-bit register for signal <DS_OUT>.
+    Found 1-bit register for signal <DS_ENA>.
+    Found 18-bit register for signal <J>.
+    Found 2-bit register for signal <S_RST>.
+    Found 1-bit register for signal <DS_PRESENT>.
+    Found 1-bit register for signal <DS_IN>.
+    Found 12-bit register for signal <TEMP>.
+    Found finite state machine <FSM_2> for signal <S_WR_BIT_1>.
+    -----------------------------------------------------------------------
+    | States             | 2                                              |
+    | Transitions        | 12                                             |
+    | Inputs             | 7                                              |
+    | Outputs            | 2                                              |
+    | Clock              | CKHT (rising_edge)                             |
+    | Reset              | RST (positive)                                 |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 00                                             |
+    | Power Up State     | 00                                             |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_3> for signal <S_WR_BIT_0>.
+    -----------------------------------------------------------------------
+    | States             | 2                                              |
+    | Transitions        | 12                                             |
+    | Inputs             | 7                                              |
+    | Outputs            | 2                                              |
+    | Clock              | CKHT (rising_edge)                             |
+    | Reset              | RST (positive)                                 |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 00                                             |
+    | Power Up State     | 00                                             |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_4> for signal <S_RD_BIT>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 20                                             |
+    | Inputs             | 7                                              |
+    | Outputs            | 3                                              |
+    | Clock              | CKHT (rising_edge)                             |
+    | Reset              | RST (positive)                                 |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 00                                             |
+    | Power Up State     | 00                                             |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_6> for signal <S_RST>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 27                                             |
+    | Inputs             | 8                                              |
+    | Outputs            | 3                                              |
+    | Clock              | CKHT (rising_edge)                             |
+    | Power Up State     | 00                                             |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_1> for signal <WR_STATE_I>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 20                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 2                                              |
+    | Clock              | CKHT (rising_edge)                             |
+    | Reset              | RST (positive)                                 |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 000                                            |
+    | Power Up State     | 000                                            |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_5> for signal <STATE>.
+    -----------------------------------------------------------------------
+    | States             | 10                                             |
+    | Transitions        | 31                                             |
+    | Inputs             | 20                                             |
+    | Outputs            | 11                                             |
+    | Clock              | CKHT (rising_edge)                             |
+    | Reset              | RST (positive)                                 |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | reset                                          |
+    | Power Up State     | reset                                          |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 4-bit adder for signal <PTR[3]_GND_15_o_add_95_OUT> created at line 237.
+    Found 18-bit adder for signal <J[17]_GND_15_o_add_104_OUT> created at line 244.
+    Found 4-bit subtractor for signal <GND_15_o_GND_15_o_sub_94_OUT<3:0>> created at line 236.
+    Found 1-bit 8-to-1 multiplexer for signal <PTR[2]_WR_BYTE[7]_Mux_21_o> created at line 130.
+    Found 18-bit 3-to-1 multiplexer for signal <S_RD_BIT[1]_J[17]_wide_mux_90_OUT> created at line 199.
+    Found 1-bit tristate buffer for signal <DS18B20> created at line 78
+    Found 4-bit comparator greater for signal <GND_15_o_PTR[3]_LessThan_37_o> created at line 130
+    Found 4-bit comparator greater for signal <PTR[3]_GND_15_o_LessThan_98_o> created at line 235
+    Found 4-bit comparator greater for signal <PWR_16_o_PTR[3]_LessThan_99_o> created at line 235
+    Found 18-bit comparator greater for signal <PWR_16_o_J[17]_LessThan_104_o> created at line 242
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred  45 D-type flip-flop(s).
+	inferred   4 Comparator(s).
+	inferred  37 Multiplexer(s).
+	inferred   1 Tristate(s).
+	inferred   6 Finite State Machine(s).
+Unit <DS18B20_TEMPERATURE> synthesized.
+
+Synthesizing Unit <HEXTOBCD_8BIT>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\HEXTOBCD_8BIT.vhd".
+    Found 4-bit adder for signal <GND_18_o_GND_18_o_add_1_OUT> created at line 58.
+    Found 4-bit adder for signal <SOHEX8BIT[7]_GND_18_o_add_3_OUT> created at line 58.
+    Found 4-bit adder for signal <SOHEX8BIT[6]_GND_18_o_add_5_OUT> created at line 58.
+    Found 4-bit adder for signal <SOHEX8BIT[5]_GND_18_o_add_7_OUT> created at line 58.
+    Found 4-bit adder for signal <GND_18_o_GND_18_o_add_9_OUT> created at line 62.
+    Found 4-bit adder for signal <SOHEX8BIT[4]_GND_18_o_add_11_OUT> created at line 58.
+    Found 4-bit adder for signal <GND_18_o_GND_18_o_add_13_OUT> created at line 62.
+    Found 3-bit comparator lessequal for signal <n0000> created at line 57
+    Found 4-bit comparator lessequal for signal <n0007> created at line 57
+    Found 4-bit comparator lessequal for signal <n0014> created at line 57
+    Found 4-bit comparator lessequal for signal <n0021> created at line 57
+    Found 3-bit comparator lessequal for signal <n0028> created at line 61
+    Found 4-bit comparator lessequal for signal <n0035> created at line 57
+    Found 4-bit comparator lessequal for signal <n0042> created at line 61
+    Summary:
+	inferred   7 Adder/Subtractor(s).
+	inferred   7 Comparator(s).
+	inferred  28 Multiplexer(s).
+Unit <HEXTOBCD_8BIT> synthesized.
+
+Synthesizing Unit <MACH_DEM_Chuky>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\mach_dem_chu_ky.vhd".
+    Found 3-bit register for signal <Q_REG>.
+    Found 3-bit adder for signal <Q_REG[2]_GND_21_o_add_2_OUT> created at line 22.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   3 D-type flip-flop(s).
+Unit <MACH_DEM_Chuky> synthesized.
+
+Synthesizing Unit <dem_xx>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\dem_xx.vhd".
+    Found 6-bit register for signal <Q_REG>.
+    Found 6-bit adder for signal <Q_REG[5]_GND_23_o_add_2_OUT> created at line 27.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   6 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <dem_xx> synthesized.
+
+Synthesizing Unit <HEXTOBCD_6BIT>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\HEXTOBCD_6BIT.vhd".
+    Found 4-bit adder for signal <GND_25_o_GND_25_o_add_1_OUT> created at line 57.
+    Found 4-bit adder for signal <SOHEX6BIT[5]_GND_25_o_add_3_OUT> created at line 57.
+    Found 4-bit adder for signal <SOHEX6BIT[4]_GND_25_o_add_5_OUT> created at line 57.
+    Found 3-bit comparator lessequal for signal <n0000> created at line 56
+    Found 4-bit comparator lessequal for signal <n0007> created at line 56
+    Found 4-bit comparator lessequal for signal <n0014> created at line 56
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred   3 Comparator(s).
+	inferred  12 Multiplexer(s).
+Unit <HEXTOBCD_6BIT> synthesized.
+
+Synthesizing Unit <LCD_GIAI_MA_SO_TO>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\LCD_GIAI_MA_SO_TO.vhd".
+    Found 7-bit adder for signal <n0034> created at line 67.
+    Found 7-bit adder for signal <n0035> created at line 67.
+    Found 7-bit adder for signal <n0036> created at line 67.
+    Found 7-bit adder for signal <n0037> created at line 67.
+    Found 7-bit adder for signal <n0038> created at line 67.
+    Found 4x3-bit multiplier for signal <n0033> created at line 67.
+    Found 64x8-bit Read Only RAM for signal <MA_SO<0>>
+    Found 64x8-bit Read Only RAM for signal <MA_SO<1>>
+    Found 64x8-bit Read Only RAM for signal <MA_SO<2>>
+    Found 64x8-bit Read Only RAM for signal <MA_SO<3>>
+    Found 64x8-bit Read Only RAM for signal <MA_SO<4>>
+    Found 64x8-bit Read Only RAM for signal <MA_SO<5>>
+    Summary:
+	inferred   6 RAM(s).
+	inferred   1 Multiplier(s).
+	inferred   5 Adder/Subtractor(s).
+Unit <LCD_GIAI_MA_SO_TO> synthesized.
+
+Synthesizing Unit <XULY_NHAPNHAY>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\xuly_nhapnhay.vhd".
+    Found 1-bit register for signal <TT_REG>.
+    Found 26-bit register for signal <DL_R>.
+    Found 27-bit adder for signal <n0016> created at line 50.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  27 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+Unit <XULY_NHAPNHAY> synthesized.
+
+Synthesizing Unit <chuong_keu_led>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\chuong_keu_led.vhd".
+    Found 8-bit comparator greater for signal <GND_31_o_nhietdo[7]_LessThan_1_o> created at line 45
+    Summary:
+	inferred   1 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <chuong_keu_led> synthesized.
+
+Synthesizing Unit <LCD_20X4_GAN_DULIEU_1SO_TO>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\LCD_20X4_GAN_DULIEU_1SO_TO.vhd".
+WARNING:Xst:647 - Input <oe<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	inferred  42 Multiplexer(s).
+Unit <LCD_20X4_GAN_DULIEU_1SO_TO> synthesized.
+
+Synthesizing Unit <LCD_KHOITAO_HIENTHI_SO_TO>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\CAU_7_HIEN_THI_TEN_MSSV_DEM_DO_ND\LCD_KHOITAO_HIENTHI_SO_TO.vhd".
+    Found 20-bit register for signal <SLX>.
+    Found 5-bit register for signal <PTR>.
+    Found 4-bit register for signal <LCD_STATE>.
+    Found 1-bit register for signal <LCD_RS>.
+    Found 1-bit register for signal <LCD_E>.
+    Found 8-bit register for signal <LCD_DB>.
+    Found finite state machine <FSM_7> for signal <LCD_STATE>.
+    -----------------------------------------------------------------------
+    | States             | 10                                             |
+    | Transitions        | 25                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 5                                              |
+    | Clock              | LCD_CK (falling_edge)                          |
+    | Reset              | LCD_RST (positive)                             |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | lcd_init                                       |
+    | Power Up State     | lcd_init                                       |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 5-bit adder for signal <PTR[4]_GND_33_o_add_183_OUT> created at line 163.
+    Found 20-bit adder for signal <SLX[19]_GND_33_o_add_195_OUT> created at line 170.
+    Found 8x8-bit Read Only RAM for signal <PTR[2]_X_26_o_wide_mux_88_OUT>
+    Found 8-bit 20-to-1 multiplexer for signal <PTR[4]_X_26_o_wide_mux_113_OUT> created at line 104.
+    Found 8-bit 20-to-1 multiplexer for signal <PTR[4]_X_26_o_wide_mux_138_OUT> created at line 125.
+    Found 8-bit 20-to-1 multiplexer for signal <PTR[4]_X_26_o_wide_mux_163_OUT> created at line 146.
+    Found 8-bit 20-to-1 multiplexer for signal <PTR[4]_X_26_o_wide_mux_188_OUT> created at line 167.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred  35 D-type flip-flop(s).
+	inferred  29 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <LCD_KHOITAO_HIENTHI_SO_TO> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 13
+ 64x8-bit single-port Read Only RAM                    : 12
+ 8x8-bit single-port Read Only RAM                     : 1
+# Multipliers                                          : 2
+ 4x3-bit multiplier                                    : 2
+# Adders/Subtractors                                   : 36
+ 18-bit adder                                          : 1
+ 20-bit adder                                          : 1
+ 20-bit subtractor                                     : 4
+ 25-bit adder                                          : 1
+ 26-bit adder                                          : 1
+ 27-bit adder                                          : 2
+ 3-bit adder                                           : 2
+ 4-bit adder                                           : 11
+ 4-bit subtractor                                      : 1
+ 5-bit adder                                           : 1
+ 6-bit adder                                           : 1
+ 7-bit adder                                           : 10
+# Registers                                            : 350
+ 1-bit register                                        : 332
+ 12-bit register                                       : 1
+ 18-bit register                                       : 1
+ 20-bit register                                       : 5
+ 24-bit register                                       : 1
+ 25-bit register                                       : 1
+ 26-bit register                                       : 2
+ 3-bit register                                        : 2
+ 4-bit register                                        : 1
+ 5-bit register                                        : 1
+ 6-bit register                                        : 1
+ 8-bit register                                        : 2
+# Comparators                                          : 16
+ 18-bit comparator greater                             : 1
+ 3-bit comparator lessequal                            : 3
+ 4-bit comparator greater                              : 3
+ 4-bit comparator lessequal                            : 7
+ 6-bit comparator greater                              : 1
+ 8-bit comparator greater                              : 1
+# Multiplexers                                         : 170
+ 1-bit 2-to-1 multiplexer                              : 63
+ 1-bit 8-to-1 multiplexer                              : 1
+ 18-bit 2-to-1 multiplexer                             : 19
+ 18-bit 3-to-1 multiplexer                             : 1
+ 20-bit 2-to-1 multiplexer                             : 13
+ 20-bit 4-to-1 multiplexer                             : 4
+ 27-bit 2-to-1 multiplexer                             : 1
+ 4-bit 2-to-1 multiplexer                              : 5
+ 5-bit 2-to-1 multiplexer                              : 8
+ 6-bit 2-to-1 multiplexer                              : 1
+ 8-bit 2-to-1 multiplexer                              : 50
+ 8-bit 20-to-1 multiplexer                             : 4
+# Tristates                                            : 1
+ 1-bit tristate buffer                                 : 1
+# FSMs                                                 : 11
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <CHIA_10ENA>.
+The following registers are absorbed into counter <D5HZ_REG>: 1 register on signal <D5HZ_REG>.
+The following registers are absorbed into counter <D2HZ_REG>: 1 register on signal <D2HZ_REG>.
+The following registers are absorbed into counter <D1HZ_REG>: 1 register on signal <D1HZ_REG>.
+Unit <CHIA_10ENA> synthesized (advanced).
+
+Synthesizing (advanced) Unit <DEM_3BIT_GH>.
+The following registers are absorbed into counter <Q_REG>: 1 register on signal <Q_REG>.
+Unit <DEM_3BIT_GH> synthesized (advanced).
+
+Synthesizing (advanced) Unit <LCD_GIAI_MA_SO_TO>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_MA_SO<0>> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 64-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <n0033>         |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <MA_SO<0>>      |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_MA_SO<1>> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 64-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <n0034>         |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <MA_SO<1>>      |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_MA_SO<2>> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 64-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <n0035>         |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <MA_SO<2>>      |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_MA_SO<3>> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 64-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <n0036>         |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <MA_SO<3>>      |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_MA_SO<4>> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 64-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <n0037>         |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <MA_SO<4>>      |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_MA_SO<5>> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 64-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <n0038>         |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <MA_SO<5>>      |          |
+    -----------------------------------------------------------------------
+Unit <LCD_GIAI_MA_SO_TO> synthesized (advanced).
+
+Synthesizing (advanced) Unit <LCD_KHOITAO_HIENTHI_SO_TO>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_PTR[2]_X_26_o_wide_mux_88_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 8-word x 8-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <PTR<2:0>>      |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <LCD_KHOITAO_HIENTHI_SO_TO> synthesized (advanced).
+
+Synthesizing (advanced) Unit <MACH_DEM_Chuky>.
+The following registers are absorbed into counter <Q_REG>: 1 register on signal <Q_REG>.
+Unit <MACH_DEM_Chuky> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 13
+ 64x8-bit single-port distributed Read Only RAM        : 12
+ 8x8-bit single-port distributed Read Only RAM         : 1
+# Multipliers                                          : 2
+ 4x3-bit multiplier                                    : 2
+# Adders/Subtractors                                   : 31
+ 18-bit adder                                          : 1
+ 20-bit adder                                          : 1
+ 20-bit subtractor                                     : 4
+ 27-bit adder                                          : 1
+ 4-bit adder                                           : 11
+ 4-bit subtractor                                      : 1
+ 5-bit adder                                           : 1
+ 6-bit adder                                           : 11
+# Counters                                             : 5
+ 24-bit up counter                                     : 1
+ 25-bit up counter                                     : 1
+ 26-bit up counter                                     : 1
+ 3-bit up counter                                      : 2
+# Registers                                            : 519
+ Flip-Flops                                            : 519
+# Comparators                                          : 16
+ 18-bit comparator greater                             : 1
+ 3-bit comparator lessequal                            : 3
+ 4-bit comparator greater                              : 3
+ 4-bit comparator lessequal                            : 7
+ 6-bit comparator greater                              : 1
+ 8-bit comparator greater                              : 1
+# Multiplexers                                         : 170
+ 1-bit 2-to-1 multiplexer                              : 63
+ 1-bit 8-to-1 multiplexer                              : 1
+ 18-bit 2-to-1 multiplexer                             : 19
+ 18-bit 3-to-1 multiplexer                             : 1
+ 20-bit 2-to-1 multiplexer                             : 13
+ 20-bit 4-to-1 multiplexer                             : 4
+ 27-bit 2-to-1 multiplexer                             : 1
+ 4-bit 2-to-1 multiplexer                              : 5
+ 5-bit 2-to-1 multiplexer                              : 8
+ 6-bit 2-to-1 multiplexer                              : 1
+ 8-bit 2-to-1 multiplexer                              : 50
+ 8-bit 20-to-1 multiplexer                             : 4
+# FSMs                                                 : 11
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <mssv1/IC3/FSM_0> on signal <DB_REG[1:2]> with user encoding.
+Optimizing FSM <c1/IC3/FSM_0> on signal <DB_REG[1:2]> with user encoding.
+Optimizing FSM <ss1/IC3/FSM_0> on signal <DB_REG[1:2]> with user encoding.
+Optimizing FSM <cd0/IC3/FSM_0> on signal <DB_REG[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ zero  | 00
+ wait0 | 01
+ one   | 10
+ wait1 | 11
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <nd0/FSM_3> on signal <S_WR_BIT_0[1:1]> with sequential encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 0
+ 01    | 1
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <nd0/FSM_4> on signal <S_RD_BIT[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 11
+ 11    | 10
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <nd0/FSM_6> on signal <S_RST[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 11
+ 11    | 10
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <nd0/FSM_1> on signal <WR_STATE_I[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 00
+ 001   | 01
+ 010   | 11
+ 011   | 10
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <nd0/FSM_5> on signal <STATE[1:4]> with user encoding.
+-------------------------
+ State       | Encoding
+-------------------------
+ reset       | 0000
+ skip_rom    | 0001
+ write_byte  | 0010
+ write_bit_0 | 0011
+ write_bit_1 | 0100
+ read_bit    | 0101
+ convert_t   | 0110
+ read_scrat  | 0111
+ get_temp    | 1000
+ wait4ms     | 1001
+-------------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <nd0/FSM_2> on signal <S_WR_BIT_1[1:1]> with sequential encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 0
+ 01    | 1
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <l1/FSM_7> on signal <LCD_STATE[1:4]> with user encoding.
+-------------------------
+ State       | Encoding
+-------------------------
+ lcd_init    | 0000
+ lcd_addr_l1 | 0001
+ lcd_data_l1 | 0010
+ lcd_addr_l2 | 0011
+ lcd_data_l2 | 0100
+ lcd_addr_l3 | 0101
+ lcd_data_l3 | 0110
+ lcd_addr_l4 | 0111
+ lcd_data_l4 | 1000
+ lcd_stop    | 1001
+-------------------------
+WARNING:Xst:2677 - Node <xx0/Q_REG_1> of sequential type is unconnected in block <HIEN_THI_TEN_MSSV_DEM_DO_ND>.
+WARNING:Xst:2677 - Node <xx0/Q_REG_2> of sequential type is unconnected in block <HIEN_THI_TEN_MSSV_DEM_DO_ND>.
+INFO:Xst:2261 - The FF/Latch <WR_BYTE_1> in Unit <DS18B20_TEMPERATURE> is equivalent to the following 2 FFs/Latches, which will be removed : <WR_BYTE_4> <WR_BYTE_5> 
+INFO:Xst:2261 - The FF/Latch <WR_BYTE_3> in Unit <DS18B20_TEMPERATURE> is equivalent to the following FF/Latch, which will be removed : <WR_BYTE_7> 
+WARNING:Xst:3002 - This design contains one or more registers/latches that are directly
+   incompatible with the Spartan6 architecture. The two primary causes of this is
+   either a register or latch described with both an asynchronous set and
+   asynchronous reset, or a register or latch described with an asynchronous
+   set or reset which however has an initialization value of the opposite 
+   polarity (i.e. asynchronous reset with an initialization value of 1).
+    While this circuit can be built, it creates a sub-optimal implementation
+   in terms of area, power and performance. For a more optimal implementation
+   Xilinx highly recommends one of the following:
+
+          1) Remove either the set or reset from all registers and latches
+             if not needed for required functionality
+          2) Modify the code in order to produce a synchronous set
+             and/or reset (both is preferred)
+          3) Ensure all registers have the same initialization value as the
+             described asynchronous set or reset polarity
+          4) Use the -async_to_sync option to transform the asynchronous
+             set/reset to synchronous operation
+             (timing simulation highly recommended when using this option)
+
+  Please refer to http://www.xilinx.com search string "Spartan6 asynchronous set/reset" for more details.
+
+  List of register instances with asynchronous set and reset:
+    H1_REG_0 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_1 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_3 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_4 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_2 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_5 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_6 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_8 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_9 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_7 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_10 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_11 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_13 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_14 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_12 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_15 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_16 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_18 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_19 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_17 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_20 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_21 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_23 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_24 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_22 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_25 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_26 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_28 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_29 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_27 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_30 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_31 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_33 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_34 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_32 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_35 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_36 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_38 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_39 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_37 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_40 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_41 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_43 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_44 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_42 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_45 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_46 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_48 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_49 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_47 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_50 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_51 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_53 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_54 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_52 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_55 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_56 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_58 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_59 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_57 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_60 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_61 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_63 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_64 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_62 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_65 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_66 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_68 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_69 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_67 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_70 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_71 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_73 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_74 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_72 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_75 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_76 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_78 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_79 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_77 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_80 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_81 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_83 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_84 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_82 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_85 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_86 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_88 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_89 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_87 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_90 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_91 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_93 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_94 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_92 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_95 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_96 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_98 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_99 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_97 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_100 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_101 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_103 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_104 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_102 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_105 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_106 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_108 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_109 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_107 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_110 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_111 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_113 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_114 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_112 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_115 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_116 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_118 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_119 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_117 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_120 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_121 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_123 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_124 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_122 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_125 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_126 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_128 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_129 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_127 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_130 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_131 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_133 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_134 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_132 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_135 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_136 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_138 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_139 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_137 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_140 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_141 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_143 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_144 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_142 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_145 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_146 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_148 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_149 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_147 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_150 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_151 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_153 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_154 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_152 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_155 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_156 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_158 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_159 in unit <LCD_DICH_DU_LIEU_AU>
+    H1_REG_157 in unit <LCD_DICH_DU_LIEU_AU>
+    H2_REG_0 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_1 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_3 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_4 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_2 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_5 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_6 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_8 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_9 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_7 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_10 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_11 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_13 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_14 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_12 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_15 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_16 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_18 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_19 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_17 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_20 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_21 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_23 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_24 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_22 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_25 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_26 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_28 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_29 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_27 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_30 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_31 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_33 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_34 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_32 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_35 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_36 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_38 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_39 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_37 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_40 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_41 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_43 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_44 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_42 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_45 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_46 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_48 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_49 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_47 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_50 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_51 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_53 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_54 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_52 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_55 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_56 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_58 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_59 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_57 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_60 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_61 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_63 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_64 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_62 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_65 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_66 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_68 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_69 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_67 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_70 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_71 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_73 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_74 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_72 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_75 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_76 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_78 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_79 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_77 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_80 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_81 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_83 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_84 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_82 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_85 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_86 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_88 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_89 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_87 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_90 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_91 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_93 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_94 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_92 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_95 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_96 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_98 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_99 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_97 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_100 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_101 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_103 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_104 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_102 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_105 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_106 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_108 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_109 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_107 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_110 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_111 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_113 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_114 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_112 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_115 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_116 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_118 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_119 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_117 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_120 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_121 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_123 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_124 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_122 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_125 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_126 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_128 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_129 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_127 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_130 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_131 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_133 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_134 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_132 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_135 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_136 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_138 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_139 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_137 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_140 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_141 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_143 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_144 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_142 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_145 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_146 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_148 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_149 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_147 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_150 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_151 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_153 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_154 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_152 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_155 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_156 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_158 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_159 in unit <LCD_DICH_DU_LIEU_BTN>
+    H2_REG_157 in unit <LCD_DICH_DU_LIEU_BTN>
+
+
+  List of register instances with asynchronous set or reset and opposite initialization value:
+    nd0/WR_BYTE_0 in unit <HIEN_THI_TEN_MSSV_DEM_DO_ND>
+
+
+Optimizing unit <HIEN_THI_TEN_MSSV_DEM_DO_ND> ...
+
+Optimizing unit <CHIA_10ENA> ...
+
+Optimizing unit <DEBOUNCE_BTN> ...
+
+Optimizing unit <LCD_DICH_DU_LIEU_BTN> ...
+
+Optimizing unit <LCD_DICH_DU_LIEU_AU> ...
+
+Optimizing unit <dem_xx> ...
+
+Optimizing unit <XULY_NHAPNHAY> ...
+
+Optimizing unit <LCD_KHOITAO_HIENTHI_SO_TO> ...
+
+Optimizing unit <LCD_20X4_GAN_DULIEU_1SO_TO> ...
+
+Optimizing unit <HEXTOBCD_6BIT> ...
+
+Optimizing unit <HEXTOBCD_8BIT> ...
+
+Optimizing unit <LCD_GIAI_MA_SO_TO> ...
+WARNING:Xst:1293 - FF/Latch <ic67/DL_R_25> has a constant value of 0 in block <HIEN_THI_TEN_MSSV_DEM_DO_ND>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:3203 - The FF/Latch <xx1/Q_REG_5> in Unit <HIEN_THI_TEN_MSSV_DEM_DO_ND> is the opposite to the following FF/Latch, which will be removed : <xx1/Q_REG_4> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block HIEN_THI_TEN_MSSV_DEM_DO_ND, actual ratio is 28.
+WARNING:Xst:1426 - The value init of the FF/Latch nd0/WR_BYTE_0_LD hinder the constant cleaning in the block HIEN_THI_TEN_MSSV_DEM_DO_ND.
+   You should achieve better results by setting this init to 1.
+FlipFlop nd0/TEMP_10 has been replicated 1 time(s)
+FlipFlop nd0/TEMP_11 has been replicated 1 time(s)
+FlipFlop nd0/TEMP_9 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 620
+ Flip-Flops                                            : 620
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : HIEN_THI_TEN_MSSV_DEM_DO_ND.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 1683
+#      GND                         : 1
+#      INV                         : 91
+#      LUT1                        : 136
+#      LUT2                        : 51
+#      LUT3                        : 36
+#      LUT4                        : 222
+#      LUT5                        : 207
+#      LUT6                        : 476
+#      MUXCY                       : 208
+#      MUXF7                       : 36
+#      VCC                         : 1
+#      XORCY                       : 218
+# FlipFlops/Latches                : 621
+#      FD                          : 5
+#      FD_1                        : 94
+#      FDC                         : 10
+#      FDC_1                       : 263
+#      FDCE                        : 12
+#      FDCE_1                      : 9
+#      FDE                         : 33
+#      FDE_1                       : 33
+#      FDP_1                       : 84
+#      FDPE                        : 1
+#      FDPE_1                      : 1
+#      FDR                         : 72
+#      FDS                         : 3
+#      LD                          : 1
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 26
+#      IBUF                        : 5
+#      IOBUF                       : 1
+#      OBUF                        : 20
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9tqg144-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             621  out of  11440     5%  
+ Number of Slice LUTs:                 1219  out of   5720    21%  
+    Number used as Logic:              1219  out of   5720    21%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   1228
+   Number with an unused Flip Flop:     607  out of   1228    49%  
+   Number with an unused LUT:             9  out of   1228     0%  
+   Number of fully used LUT-FF pairs:   612  out of   1228    49%  
+   Number of unique control sets:        16
+
+IO Utilization: 
+ Number of IOs:                          27
+ Number of bonded IOBs:                  27  out of    102    26%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                2  out of     16    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CKHT                               | BUFGP                  | 620   |
+BTN<0>                             | IBUF+BUFG              | 1     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 9.368ns (Maximum Frequency: 106.745MHz)
+   Minimum input arrival time before clock: 8.684ns
+   Maximum output required time after clock: 6.412ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CKHT'
+  Clock period: 9.368ns (frequency: 106.745MHz)
+  Total number of paths / destination ports: 23961 / 757
+-------------------------------------------------------------------------
+Delay:               4.684ns (Levels of Logic = 4)
+  Source:            nd0/TEMP_6 (FF)
+  Destination:       l1/LCD_DB_2 (FF)
+  Source Clock:      CKHT rising
+  Destination Clock: CKHT falling
+
+  Data Path: nd0/TEMP_6 to l1/LCD_DB_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             14   0.447   1.302  nd0/TEMP_6 (nd0/TEMP_6)
+     LUT6:I1->O            3   0.203   0.755  nd1/Mmux_SOHEX8BIT[5]_SOHEX8BIT[5]_MUX_495_o11 (nd1/Madd_GND_18_o_GND_18_o_add_13_OUT_cy<0>)
+     LUT6:I4->O            1   0.203   0.684  l1/Mmux_PTR[4]_X_26_o_wide_mux_188_OUT_95_SW0 (N188)
+     LUT6:I4->O            1   0.203   0.580  l1/Mmux_PTR[4]_X_26_o_wide_mux_188_OUT_95 (l1/Mmux_PTR[4]_X_26_o_wide_mux_188_OUT_95)
+     LUT5:I4->O            1   0.205   0.000  l1/Mmux_LCD_STATE[3]_X_26_o_wide_mux_204_OUT64 (l1/LCD_STATE[3]_X_26_o_wide_mux_204_OUT<2>)
+     FDE_1:D                   0.102          l1/LCD_DB_2
+    ----------------------------------------
+    Total                      4.684ns (1.363ns logic, 3.321ns route)
+                                       (29.1% logic, 70.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CKHT'
+  Total number of paths / destination ports: 1463 / 868
+-------------------------------------------------------------------------
+Offset:              8.684ns (Levels of Logic = 8)
+  Source:            BTN<0> (PAD)
+  Destination:       l1/LCD_DB_0 (FF)
+  Destination Clock: CKHT falling
+
+  Data Path: BTN<0> to l1/LCD_DB_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            45   1.222   1.581  BTN_0_IBUF (BTN_0_IBUF)
+     LUT4:I2->O           39   0.203   1.756  cd2/Mmux_OE41 (l1/Mmux_PTR[4]_X_26_o_wide_mux_188_OUT_86)
+     LUT6:I0->O            1   0.203   0.000  l1/Mmux_PTR[4]_X_26_o_wide_mux_163_OUT_91_F (N261)
+     MUXF7:I0->O           1   0.131   0.684  l1/Mmux_PTR[4]_X_26_o_wide_mux_163_OUT_91 (l1/Mmux_PTR[4]_X_26_o_wide_mux_163_OUT_91)
+     LUT6:I4->O            1   0.203   0.580  l1/Mmux_PTR[4]_X_26_o_wide_mux_163_OUT_4 (l1/Mmux_PTR[4]_X_26_o_wide_mux_163_OUT_4)
+     LUT3:I2->O            1   0.205   0.580  l1/Mmux_LCD_STATE[3]_X_26_o_wide_mux_204_OUT2_SW0_SW0 (N241)
+     LUT6:I5->O            1   0.205   0.827  l1/Mmux_LCD_STATE[3]_X_26_o_wide_mux_204_OUT2_SW0 (N42)
+     LUT6:I2->O            1   0.203   0.000  l1/Mmux_LCD_STATE[3]_X_26_o_wide_mux_204_OUT2 (l1/LCD_STATE[3]_X_26_o_wide_mux_204_OUT<0>)
+     FDE_1:D                   0.102          l1/LCD_DB_0
+    ----------------------------------------
+    Total                      8.684ns (2.677ns logic, 6.007ns route)
+                                       (30.8% logic, 69.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CKHT'
+  Total number of paths / destination ports: 38 / 20
+-------------------------------------------------------------------------
+Offset:              6.412ns (Levels of Logic = 3)
+  Source:            xx1/Q_REG_2 (FF)
+  Destination:       bell (PAD)
+  Source Clock:      CKHT falling
+
+  Data Path: xx1/Q_REG_2 to bell
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE_1:C->Q          28   0.447   1.599  xx1/Q_REG_2 (xx1/Q_REG_2)
+     LUT6:I0->O            1   0.203   0.808  bell0/Mmux_bell12 (bell0/Mmux_bell11)
+     LUT6:I3->O            1   0.205   0.579  bell0/Mmux_bell14 (bell_OBUF)
+     OBUF:I->O                 2.571          bell_OBUF (bell)
+    ----------------------------------------
+    Total                      6.412ns (3.426ns logic, 2.986ns route)
+                                       (53.4% logic, 46.6% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CKHT
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+BTN<0>         |    5.387|         |         |         |
+CKHT           |    7.310|         |    7.929|         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 38.00 secs
+Total CPU time to Xst completion: 38.14 secs
+ 
+--> 
+
+Total memory usage is 4565452 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    7 (   0 filtered)
+Number of infos    :   10 (   0 filtered)
+

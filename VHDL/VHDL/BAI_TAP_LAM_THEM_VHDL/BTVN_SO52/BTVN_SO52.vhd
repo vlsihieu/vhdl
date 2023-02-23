@@ -1,0 +1,111 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY BTVN_SO52 IS
+	PORT (  CKHT  : IN STD_LOGIC;
+	        SW0   : IN STD_LOGIC;
+			  BTN   : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+			  ANODE : OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
+			  SSEG  : OUT STD_LOGIC_VECTOR(7 DOWNTO 0)
+		   );
+END BTVN_SO52 ;
+
+ARCHITECTURE THAN OF BTVN_SO52 IS
+--------------------------
+SIGNAL ENA10HZ : STD_LOGIC;
+SIGNAL ENA1HZ  : STD_LOGIC;
+SIGNAL ENA2HZ  : STD_LOGIC;
+SIGNAL ENA5HZ  : STD_LOGIC;
+SIGNAL ENA1KHZ : STD_LOGIC;
+SIGNAL ENA_DB  : STD_LOGIC;
+--------------------------
+SIGNAL RST      : STD_LOGIC;
+SIGNAL BTN_MODE : STD_LOGIC;
+SIGNAL BTN_CDLH : STD_LOGIC;
+--------------------------
+SIGNAL DONVI  : STD_LOGIC_VECTOR(3 DOWNTO 0);
+SIGNAL CHUC   : STD_LOGIC_VECTOR(3 DOWNTO 0);
+-------------------------
+SIGNAL DC_8LED :STD_LOGIC_VECTOR(7 DOWNTO 0);
+SIGNAL ENA_8LED:STD_LOGIC_VECTOR(7 DOWNTO 0);
+-------------------------
+SIGNAL OE     : STD_LOGIC_VECTOR(5 DOWNTO 0);
+SIGNAL SEL_3B : STD_LOGIC_VECTOR (2 DOWNTO 0);
+BEGIN
+
+	RST       <=   BTN(0);
+	BTN_MODE  <=  BTN(1);
+	DC_8LED	 <= X"FF";    -- "11111111"
+	ENA_8LED	 <= X"03";   ---"00000011"
+	
+ENA_DB <= ENA2HZ  WHEN  OE(0) = '1' ELSE
+			 ENA5HZ  WHEN  OE(1) = '1' ELSE
+			 ENA10HZ WHEN  OE(2) = '1' ELSE
+			 ENA1HZ  WHEN  OE(3) = '1' ELSE
+			 ENA5HZ  WHEN  OE(4) = '1' ELSE
+			 ENA10HZ ;
+
+
+-- XU LY XUNG
+IC0 : ENTITY WORK.CHIA_10ENA
+		PORT MAP(CKHT=>CKHT,
+		         ENA1HZ  => ENA1HZ,
+		         ENA2HZ  => ENA2HZ,
+		         ENA5HZ  => ENA5HZ,
+		         ENA10HZ => ENA10HZ,
+					ENA1KHZ => ENA1KHZ
+				   );
+					
+-- XU LY NUT NHAN BTN_MODE  
+IC1 : ENTITY WORK.CD_LAM_HEP_BTN
+   PORT MAP( CKHT => CKHT,
+				 BTN  => BTN_MODE,-- NHAN NUT TU BEN NGOAI
+				 BTN_CDLH => BTN_CDLH
+			   );
+IC1_1 : ENTITY WORK.DEM_3BIT
+        PORT MAP (ENA_DB => BTN_CDLH,
+		            CKHT => CKHT,
+						RST  => RST,
+						Q  => SEL_3B -- 0->6 : 3 BIT
+					 );
+IC1_2 : ENTITY WORK.GIAIMA_OE
+        PORT MAP ( SEL_3B  => SEL_3B,
+		             RST     => RST,
+		             OE      => OE 
+						); 		
+--IC2 : ENTITY WORK.SELECT_TANSO
+--      PORT MAP (ENA1HZ  => ENA1HZ,
+--		          ENA2HZ  => ENA2HZ,
+--					 ENA5HZ  => ENA5HZ,
+--					 ENA10HZ => ENA10HZ,
+--					 OE      => OE,
+--					 ENA_0   => ENA_DB
+--					 );
+		
+IC3 : ENTITY WORK.DEM_2SO
+	PORT MAP( CKHT => CKHT,
+				 RST  => RST,
+				 ENA_DB => ENA_DB,
+				 ENA_SS => SW0,
+				 OE   => OE,
+				 DONVI => DONVI,
+				 CHUC => CHUC
+				);	
+		 
+IC4: ENTITY WORK.GIAIMA_HIENTHI_8LED_7DOAN --OK
+		PORT MAP(	CKHT		=> CKHT,
+						ENA1KHZ	=> ENA1KHZ,
+						LED70		=> DONVI,
+						LED71		=> CHUC, -- CHINH SUA
+						LED72		=> X"F", -- CHINH SUA
+						LED73		=> X"F", -- CHINH SUA
+						LED74		=> X"F", -- CHINH SUA
+						LED75		=> X"F", -- CHINH SUA
+						LED76		=> X"F", -- CHINH SUA
+						LED77		=> X"F", -- CHINH SUA
+						ANODE		=> ANODE,
+						SSEG		=> SSEG,
+						DC_8LED	=> DC_8LED, -- CHINH SUA DIEU CHINH DAU CHAM LED 7DOAN
+						ENA_8LED	=> ENA_8LED);
+
+END THAN;

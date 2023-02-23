@@ -1,0 +1,16 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Jun 08 07:25:07 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "LED<0>" LOCATE = SITE "P28" LEVEL 1;
+COMP "BTN<0>" LOCATE = SITE "P51" LEVEL 1;
+COMP "LED<1>" LOCATE = SITE "P29" LEVEL 1;
+COMP "BTN<1>" LOCATE = SITE "P43" LEVEL 1;
+COMP "LED<2>" LOCATE = SITE "P30" LEVEL 1;
+COMP "BTN<2>" LOCATE = SITE "P32" LEVEL 1;
+COMP "LED<3>" LOCATE = SITE "P31" LEVEL 1;
+COMP "CKHT" LOCATE = SITE "P183" LEVEL 1;
+NET "CKHT_BUFGP/IBUFG" BEL "CKHT_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

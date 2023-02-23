@@ -1,0 +1,672 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: GIO_PHUT_GIAY.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "GIO_PHUT_GIAY.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "GIO_PHUT_GIAY"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-pq208
+
+---- Source Options
+Top Module Name                    : GIO_PHUT_GIAY
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_544_DONGHO_BAMGIO/DEBOUNCE_BTN.vhd" in Library work.
+Architecture behavioral of Entity debounce_btn is up to date.
+Compiling vhdl file "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_544_DONGHO_BAMGIO/LAM_HEP_XUNG.vhd" in Library work.
+Architecture behavioral of Entity lam_hep_xung is up to date.
+Compiling vhdl file "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_544_DONGHO_BAMGIO/DEM_3BIT_CHON_8KENH.vhd" in Library work.
+Architecture behavioral of Entity dem_3bit_chon_8kenh is up to date.
+Compiling vhdl file "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_544_DONGHO_BAMGIO/QUET_ANODE_8LED_7DOAN.vhd" in Library work.
+Architecture behavioral of Entity quet_anode_8led_7doan is up to date.
+Compiling vhdl file "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_544_DONGHO_BAMGIO/DAHOP_8KENH.vhd" in Library work.
+Architecture behavioral of Entity dahop_8kenh is up to date.
+Compiling vhdl file "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_544_DONGHO_BAMGIO/GIAIMA_7DOAN_ENA.vhd" in Library work.
+Architecture behavioral of Entity giaima_7doan_ena is up to date.
+Compiling vhdl file "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_544_DONGHO_BAMGIO/CD_LAM_HEP_BTN.vhd" in Library work.
+Architecture behavioral of Entity cd_lam_hep_btn is up to date.
+Compiling vhdl file "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_544_DONGHO_BAMGIO/DEM_1BIT.vhd" in Library work.
+Architecture behavioral of Entity dem_1bit is up to date.
+Compiling vhdl file "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_544_DONGHO_BAMGIO/CHIA_10ENA.vhd" in Library work.
+Architecture behavioral of Entity chia_10ena is up to date.
+Compiling vhdl file "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_544_DONGHO_BAMGIO/DEM_1BIT_BTN.vhd" in Library work.
+Architecture behavioral of Entity dem_1bit_btn is up to date.
+Compiling vhdl file "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_544_DONGHO_BAMGIO/DEM_GIOPHUTGIAY.vhd" in Library work.
+Entity <dem_giophutgiay> compiled.
+Entity <dem_giophutgiay> (Architecture <behavioral>) compiled.
+Compiling vhdl file "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_544_DONGHO_BAMGIO/HEXTOBCD_6BIT.vhd" in Library work.
+Architecture behavioral of Entity hextobcd_6bit is up to date.
+Compiling vhdl file "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_544_DONGHO_BAMGIO/GIAIMA_HIENTHI_8LED_7DOAN.vhd" in Library work.
+Architecture behavioral of Entity giaima_hienthi_8led_7doan is up to date.
+Compiling vhdl file "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_544_DONGHO_BAMGIO/GIO_PHUT_GIAY.vhd" in Library work.
+Architecture behavioral of Entity gio_phut_giay is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <GIO_PHUT_GIAY> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CHIA_10ENA> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DEM_1BIT_BTN> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DEM_GIOPHUTGIAY> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <HEXTOBCD_6BIT> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <GIAIMA_HIENTHI_8LED_7DOAN> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <CD_LAM_HEP_BTN> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DEM_1BIT> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DEM_3BIT_CHON_8KENH> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <QUET_ANODE_8LED_7DOAN> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DAHOP_8KENH> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <GIAIMA_7DOAN_ENA> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DEBOUNCE_BTN> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <LAM_HEP_XUNG> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <GIO_PHUT_GIAY> in library <work> (Architecture <behavioral>).
+Entity <GIO_PHUT_GIAY> analyzed. Unit <GIO_PHUT_GIAY> generated.
+
+Analyzing Entity <CHIA_10ENA> in library <work> (Architecture <Behavioral>).
+Entity <CHIA_10ENA> analyzed. Unit <CHIA_10ENA> generated.
+
+Analyzing Entity <DEM_1BIT_BTN> in library <work> (Architecture <Behavioral>).
+Entity <DEM_1BIT_BTN> analyzed. Unit <DEM_1BIT_BTN> generated.
+
+Analyzing Entity <CD_LAM_HEP_BTN> in library <work> (Architecture <Behavioral>).
+Entity <CD_LAM_HEP_BTN> analyzed. Unit <CD_LAM_HEP_BTN> generated.
+
+Analyzing Entity <DEBOUNCE_BTN> in library <work> (Architecture <Behavioral>).
+Entity <DEBOUNCE_BTN> analyzed. Unit <DEBOUNCE_BTN> generated.
+
+Analyzing Entity <LAM_HEP_XUNG> in library <work> (Architecture <Behavioral>).
+Entity <LAM_HEP_XUNG> analyzed. Unit <LAM_HEP_XUNG> generated.
+
+Analyzing Entity <DEM_1BIT> in library <work> (Architecture <Behavioral>).
+Entity <DEM_1BIT> analyzed. Unit <DEM_1BIT> generated.
+
+Analyzing Entity <DEM_GIOPHUTGIAY> in library <work> (Architecture <Behavioral>).
+Entity <DEM_GIOPHUTGIAY> analyzed. Unit <DEM_GIOPHUTGIAY> generated.
+
+Analyzing Entity <HEXTOBCD_6BIT> in library <work> (Architecture <Behavioral>).
+Entity <HEXTOBCD_6BIT> analyzed. Unit <HEXTOBCD_6BIT> generated.
+
+Analyzing Entity <GIAIMA_HIENTHI_8LED_7DOAN> in library <work> (Architecture <Behavioral>).
+Entity <GIAIMA_HIENTHI_8LED_7DOAN> analyzed. Unit <GIAIMA_HIENTHI_8LED_7DOAN> generated.
+
+Analyzing Entity <DEM_3BIT_CHON_8KENH> in library <work> (Architecture <Behavioral>).
+Entity <DEM_3BIT_CHON_8KENH> analyzed. Unit <DEM_3BIT_CHON_8KENH> generated.
+
+Analyzing Entity <QUET_ANODE_8LED_7DOAN> in library <work> (Architecture <Behavioral>).
+Entity <QUET_ANODE_8LED_7DOAN> analyzed. Unit <QUET_ANODE_8LED_7DOAN> generated.
+
+Analyzing Entity <DAHOP_8KENH> in library <work> (Architecture <Behavioral>).
+Entity <DAHOP_8KENH> analyzed. Unit <DAHOP_8KENH> generated.
+
+Analyzing Entity <GIAIMA_7DOAN_ENA> in library <work> (Architecture <Behavioral>).
+Entity <GIAIMA_7DOAN_ENA> analyzed. Unit <GIAIMA_7DOAN_ENA> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <CHIA_10ENA>.
+    Related source file is "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_544_DONGHO_BAMGIO/CHIA_10ENA.vhd".
+    Found 19-bit adder for signal <D100HZ_NEXT$addsub0000> created at line 80.
+    Found 19-bit register for signal <D100HZ_REG>.
+    Found 23-bit adder for signal <D10HZ_NEXT$addsub0000> created at line 88.
+    Found 23-bit register for signal <D10HZ_REG>.
+    Found 26-bit adder for signal <D1HZ_NEXT$addsub0000> created at line 94.
+    Found 26-bit register for signal <D1HZ_REG>.
+    Found 16-bit adder for signal <D1KHZ_NEXT$addsub0000> created at line 78.
+    Found 16-bit register for signal <D1KHZ_REG>.
+    Found 6-bit adder for signal <D1MHZ_NEXT$addsub0000> created at line 76.
+    Found 6-bit register for signal <D1MHZ_REG>.
+    Found 22-bit adder for signal <D20HZ_NEXT$addsub0000> created at line 86.
+    Found 22-bit register for signal <D20HZ_REG>.
+    Found 21-bit adder for signal <D25HZ_NEXT$addsub0000> created at line 84.
+    Found 21-bit register for signal <D25HZ_REG>.
+    Found 25-bit adder for signal <D2HZ_NEXT$addsub0000> created at line 92.
+    Found 25-bit register for signal <D2HZ_REG>.
+    Found 20-bit adder for signal <D50HZ_NEXT$addsub0000> created at line 82.
+    Found 20-bit register for signal <D50HZ_REG>.
+    Found 24-bit adder for signal <D5HZ_NEXT$addsub0000> created at line 90.
+    Found 24-bit register for signal <D5HZ_REG>.
+    Summary:
+	inferred 202 D-type flip-flop(s).
+	inferred  10 Adder/Subtractor(s).
+Unit <CHIA_10ENA> synthesized.
+
+
+Synthesizing Unit <DEM_GIOPHUTGIAY>.
+    Related source file is "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_544_DONGHO_BAMGIO/DEM_GIOPHUTGIAY.vhd".
+    Found 6-bit up counter for signal <GIAY_REG>.
+    Found 5-bit up counter for signal <GIO_REG>.
+    Found 6-bit up counter for signal <PHUT_REG>.
+    Summary:
+	inferred   3 Counter(s).
+Unit <DEM_GIOPHUTGIAY> synthesized.
+
+
+Synthesizing Unit <HEXTOBCD_6BIT>.
+    Related source file is "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_544_DONGHO_BAMGIO/HEXTOBCD_6BIT.vhd".
+    Found 4-bit comparator greatequal for signal <BCD_HEX_9$cmp_ge0000> created at line 53.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_9$cmp_ge0001> created at line 53.
+    Found 4-bit comparator greatequal for signal <BCD_HEX_9$cmp_ge0002> created at line 53.
+    Found 4-bit adder for signal <BCD_HEX_9_6$add0000> created at line 54.
+    Found 4-bit adder for signal <BCD_HEX_9_6$add0001> created at line 54.
+    Found 4-bit adder for signal <BCD_HEX_9_6$add0002> created at line 54.
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred   3 Comparator(s).
+Unit <HEXTOBCD_6BIT> synthesized.
+
+
+Synthesizing Unit <DEM_1BIT>.
+    Related source file is "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_544_DONGHO_BAMGIO/DEM_1BIT.vhd".
+    Found 1-bit register for signal <Q_REG>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <DEM_1BIT> synthesized.
+
+
+Synthesizing Unit <DEBOUNCE_BTN>.
+    Related source file is "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_544_DONGHO_BAMGIO/DEBOUNCE_BTN.vhd".
+    Found finite state machine <FSM_0> for signal <DB_REG>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 10                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 5                                              |
+    | Clock              | CKHT                      (falling_edge)       |
+    | Power Up State     | zero                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 20-bit register for signal <DELAY_REG>.
+    Found 20-bit subtractor for signal <DELAY_REG$addsub0000>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  20 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <DEBOUNCE_BTN> synthesized.
+
+
+Synthesizing Unit <LAM_HEP_XUNG>.
+    Related source file is "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_544_DONGHO_BAMGIO/LAM_HEP_XUNG.vhd".
+    Found 1-bit register for signal <QFF>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <LAM_HEP_XUNG> synthesized.
+
+
+Synthesizing Unit <DEM_3BIT_CHON_8KENH>.
+    Related source file is "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_544_DONGHO_BAMGIO/DEM_3BIT_CHON_8KENH.vhd".
+    Found 3-bit up counter for signal <Q_REG>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <DEM_3BIT_CHON_8KENH> synthesized.
+
+
+Synthesizing Unit <QUET_ANODE_8LED_7DOAN>.
+    Related source file is "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_544_DONGHO_BAMGIO/QUET_ANODE_8LED_7DOAN.vhd".
+    Found 1-of-8 decoder for signal <ANODE>.
+    Summary:
+	inferred   1 Decoder(s).
+Unit <QUET_ANODE_8LED_7DOAN> synthesized.
+
+
+Synthesizing Unit <DAHOP_8KENH>.
+    Related source file is "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_544_DONGHO_BAMGIO/DAHOP_8KENH.vhd".
+    Found 8x1-bit ROM for signal <ENA_GIAIMA_1LED>.
+    Found 4-bit 8-to-1 multiplexer for signal <SO_GIAIMA>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   4 Multiplexer(s).
+Unit <DAHOP_8KENH> synthesized.
+
+
+Synthesizing Unit <GIAIMA_7DOAN_ENA>.
+    Related source file is "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_544_DONGHO_BAMGIO/GIAIMA_7DOAN_ENA.vhd".
+Unit <GIAIMA_7DOAN_ENA> synthesized.
+
+
+Synthesizing Unit <GIAIMA_HIENTHI_8LED_7DOAN>.
+    Related source file is "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_544_DONGHO_BAMGIO/GIAIMA_HIENTHI_8LED_7DOAN.vhd".
+Unit <GIAIMA_HIENTHI_8LED_7DOAN> synthesized.
+
+
+Synthesizing Unit <CD_LAM_HEP_BTN>.
+    Related source file is "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_544_DONGHO_BAMGIO/CD_LAM_HEP_BTN.vhd".
+Unit <CD_LAM_HEP_BTN> synthesized.
+
+
+Synthesizing Unit <DEM_1BIT_BTN>.
+    Related source file is "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_544_DONGHO_BAMGIO/DEM_1BIT_BTN.vhd".
+Unit <DEM_1BIT_BTN> synthesized.
+
+
+Synthesizing Unit <GIO_PHUT_GIAY>.
+    Related source file is "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_544_DONGHO_BAMGIO/GIO_PHUT_GIAY.vhd".
+Unit <GIO_PHUT_GIAY> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 8x1-bit ROM                                           : 1
+# Adders/Subtractors                                   : 20
+ 16-bit adder                                          : 1
+ 19-bit adder                                          : 1
+ 20-bit adder                                          : 1
+ 20-bit subtractor                                     : 1
+ 21-bit adder                                          : 1
+ 22-bit adder                                          : 1
+ 23-bit adder                                          : 1
+ 24-bit adder                                          : 1
+ 25-bit adder                                          : 1
+ 26-bit adder                                          : 1
+ 4-bit adder                                           : 9
+ 6-bit adder                                           : 1
+# Counters                                             : 4
+ 3-bit up counter                                      : 1
+ 5-bit up counter                                      : 1
+ 6-bit up counter                                      : 2
+# Registers                                            : 13
+ 1-bit register                                        : 2
+ 16-bit register                                       : 1
+ 19-bit register                                       : 1
+ 20-bit register                                       : 2
+ 21-bit register                                       : 1
+ 22-bit register                                       : 1
+ 23-bit register                                       : 1
+ 24-bit register                                       : 1
+ 25-bit register                                       : 1
+ 26-bit register                                       : 1
+ 6-bit register                                        : 1
+# Comparators                                          : 9
+ 4-bit comparator greatequal                           : 9
+# Multiplexers                                         : 1
+ 4-bit 8-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-8 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <DEM_1BIT_BTN_SS/CD_LAM_HEP_BTN/DEBOUNCE_BTN/DB_REG/FSM> on signal <DB_REG[1:2]> with sequential encoding.
+-------------------
+ State | Encoding
+-------------------
+ zero  | 00
+ wait0 | 11
+ one   | 10
+ wait1 | 01
+-------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# ROMs                                                 : 1
+ 8x1-bit ROM                                           : 1
+# Adders/Subtractors                                   : 12
+ 16-bit adder                                          : 1
+ 19-bit adder                                          : 1
+ 20-bit subtractor                                     : 1
+ 4-bit adder                                           : 9
+# Counters                                             : 4
+ 3-bit up counter                                      : 1
+ 5-bit up counter                                      : 1
+ 6-bit up counter                                      : 2
+# Registers                                            : 57
+ Flip-Flops                                            : 57
+# Comparators                                          : 9
+ 4-bit comparator greatequal                           : 9
+# Multiplexers                                         : 1
+ 4-bit 8-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-8 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <GIO_PHUT_GIAY> ...
+
+Optimizing unit <CHIA_10ENA> ...
+
+Optimizing unit <DEM_GIOPHUTGIAY> ...
+
+Optimizing unit <HEXTOBCD_6BIT> ...
+
+Optimizing unit <DEBOUNCE_BTN> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block GIO_PHUT_GIAY, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 79
+ Flip-Flops                                            : 79
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : GIO_PHUT_GIAY.ngr
+Top Level Output File Name         : GIO_PHUT_GIAY
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 20
+
+Cell Usage :
+# BELS                             : 310
+#      GND                         : 1
+#      INV                         : 28
+#      LUT1                        : 35
+#      LUT2                        : 9
+#      LUT3                        : 28
+#      LUT4                        : 77
+#      LUT4_D                      : 3
+#      LUT4_L                      : 1
+#      MUXCY                       : 57
+#      MUXF5                       : 11
+#      MUXF6                       : 4
+#      VCC                         : 1
+#      XORCY                       : 55
+# FlipFlops/Latches                : 79
+#      FD_1                        : 2
+#      FDCE                        : 17
+#      FDCE_1                      : 1
+#      FDE                         : 3
+#      FDR_1                       : 33
+#      FDS_1                       : 2
+#      FDSE_1                      : 21
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 19
+#      IBUF                        : 2
+#      OBUF                        : 17
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500epq208-5 
+
+ Number of Slices:                       92  out of   4656     1%  
+ Number of Slice Flip Flops:             79  out of   9312     0%  
+ Number of 4 input LUTs:                181  out of   9312     1%  
+ Number of IOs:                          20
+ Number of bonded IOBs:                  20  out of    158    12%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CKHT                               | BUFGP                  | 79    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+-------------------------------------+-------+
+Control Signal                     | Buffer(FF name)                     | Load  |
+-----------------------------------+-------------------------------------+-------+
+RST(RST1_INV_0:O)                  | NONE(DEM_1BIT_BTN_SS/DEM_1BIT/Q_REG)| 18    |
+-----------------------------------+-------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 9.723ns (Maximum Frequency: 102.848MHz)
+   Minimum input arrival time before clock: 3.921ns
+   Maximum output required time after clock: 10.132ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CKHT'
+  Clock period: 9.723ns (frequency: 102.848MHz)
+  Total number of paths / destination ports: 1825 / 176
+-------------------------------------------------------------------------
+Delay:               4.862ns (Levels of Logic = 3)
+  Source:            CHIA_10ENA/D100HZ_REG_16 (FF)
+  Destination:       DEM_GIOPHUTGIAY/PHUT_REG_5 (FF)
+  Source Clock:      CKHT falling
+  Destination Clock: CKHT rising
+
+  Data Path: CHIA_10ENA/D100HZ_REG_16 to DEM_GIOPHUTGIAY/PHUT_REG_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR_1:C->Q            2   0.514   0.532  CHIA_10ENA/D100HZ_REG_16 (CHIA_10ENA/D100HZ_REG_16)
+     LUT3:I0->O            1   0.612   0.426  CHIA_10ENA/D100HZ_NEXT_cmp_eq0000116 (CHIA_10ENA/D100HZ_NEXT_cmp_eq0000116)
+     LUT3:I1->O            4   0.612   0.502  CHIA_10ENA/D100HZ_NEXT_cmp_eq0000140 (CHIA_10ENA/N01)
+     LUT4:I3->O            6   0.612   0.569  DEM_GIOPHUTGIAY/GIO_REG_not0001223 (DEM_GIOPHUTGIAY/PHUT_REG_not0001)
+     FDCE:CE                   0.483          DEM_GIOPHUTGIAY/PHUT_REG_0
+    ----------------------------------------
+    Total                      4.862ns (2.833ns logic, 2.029ns route)
+                                       (58.3% logic, 41.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CKHT'
+  Total number of paths / destination ports: 22 / 22
+-------------------------------------------------------------------------
+Offset:              3.921ns (Levels of Logic = 2)
+  Source:            BTN_N<1> (PAD)
+  Destination:       DEM_1BIT_BTN_SS/CD_LAM_HEP_BTN/DEBOUNCE_BTN/DB_REG_FSM_FFd2 (FF)
+  Destination Clock: CKHT falling
+
+  Data Path: BTN_N<1> to DEM_1BIT_BTN_SS/CD_LAM_HEP_BTN/DEBOUNCE_BTN/DB_REG_FSM_FFd2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.106   0.449  BTN_N_1_IBUF (BTN_N_1_IBUF)
+     LUT3:I1->O           21   0.612   0.959  DEM_1BIT_BTN_SS/CD_LAM_HEP_BTN/DEBOUNCE_BTN/DELAY_REG_mux0000<0>21 (DEM_1BIT_BTN_SS/CD_LAM_HEP_BTN/DEBOUNCE_BTN/N11)
+     FDSE_1:S                  0.795          DEM_1BIT_BTN_SS/CD_LAM_HEP_BTN/DEBOUNCE_BTN/DB_REG_FSM_FFd2
+    ----------------------------------------
+    Total                      3.921ns (2.513ns logic, 1.408ns route)
+                                       (64.1% logic, 35.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CKHT'
+  Total number of paths / destination ports: 997 / 15
+-------------------------------------------------------------------------
+Offset:              10.132ns (Levels of Logic = 8)
+  Source:            DEM_GIOPHUTGIAY/GIAY_REG_5 (FF)
+  Destination:       SSEG<5> (PAD)
+  Source Clock:      CKHT rising
+
+  Data Path: DEM_GIOPHUTGIAY/GIAY_REG_5 to SSEG<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            13   0.514   0.988  DEM_GIOPHUTGIAY/GIAY_REG_5 (DEM_GIOPHUTGIAY/GIAY_REG_5)
+     LUT4:I0->O            1   0.612   0.000  HEXTOBCD_GIAY/BCD_HEX_9_mux0002_F (N106)
+     MUXF5:I0->O           1   0.278   0.387  HEXTOBCD_GIAY/BCD_HEX_9_mux0002 (CH_GIAY<0>)
+     LUT3:I2->O            1   0.612   0.000  HIENTHI_8LED/DAHOP_8KENH/Mmux_SO_GIAIMA_6 (HIENTHI_8LED/DAHOP_8KENH/Mmux_SO_GIAIMA_6)
+     MUXF5:I0->O           1   0.278   0.000  HIENTHI_8LED/DAHOP_8KENH/Mmux_SO_GIAIMA_4_f5 (HIENTHI_8LED/DAHOP_8KENH/Mmux_SO_GIAIMA_4_f5)
+     MUXF6:I0->O           7   0.451   0.754  HIENTHI_8LED/DAHOP_8KENH/Mmux_SO_GIAIMA_2_f6 (HIENTHI_8LED/SO_GIAIMA<0>)
+     LUT4:I0->O            1   0.612   0.509  HIENTHI_8LED/GIAIMA/SSEG<1>_SW2 (N84)
+     LUT4:I0->O            1   0.612   0.357  HIENTHI_8LED/GIAIMA/SSEG<1> (SSEG_1_OBUF)
+     OBUF:I->O                 3.169          SSEG_1_OBUF (SSEG<1>)
+    ----------------------------------------
+    Total                     10.132ns (7.138ns logic, 2.994ns route)
+                                       (70.4% logic, 29.6% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.30 secs
+ 
+--> 
+
+Total memory usage is 309008 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

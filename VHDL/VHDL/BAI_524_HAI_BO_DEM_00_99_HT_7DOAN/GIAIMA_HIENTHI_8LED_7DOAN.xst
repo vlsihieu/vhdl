@@ -1,0 +1,5 @@
+set -tmpdir "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_523_HAI_BO_DEM_00_99_HT_7DOAN/xst/projnav.tmp"
+set -xsthdpdir "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_523_HAI_BO_DEM_00_99_HT_7DOAN/xst"
+elaborate
+-ifn GIAIMA_HIENTHI_8LED_7DOAN.prj
+-ifmt mixed

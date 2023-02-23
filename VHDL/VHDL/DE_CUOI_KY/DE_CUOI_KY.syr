@@ -1,0 +1,1045 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Reading design: DE_CUOI_KY.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "DE_CUOI_KY.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "DE_CUOI_KY"
+Output Format                      : NGC
+Target Device                      : xc6slx9-3-tqg144
+
+---- Source Options
+Top Module Name                    : DE_CUOI_KY
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\QUET_ANODE_8LED_7DOAN.vhd" into library work
+Parsing entity <QUET_ANODE_8LED_7DOAN>.
+Parsing architecture <Behavioral> of entity <quet_anode_8led_7doan>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\LAM_HEP_XUNG.vhd" into library work
+Parsing entity <LAM_HEP_XUNG>.
+Parsing architecture <Behavioral> of entity <lam_hep_xung>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\GIAIMA_7DOAN_ENA.vhd" into library work
+Parsing entity <GIAIMA_7DOAN_ENA>.
+Parsing architecture <Behavioral> of entity <giaima_7doan_ena>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\DEM_3BIT_CHON_8KENH.vhd" into library work
+Parsing entity <DEM_3BIT_CHON_8KENH>.
+Parsing architecture <Behavioral> of entity <dem_3bit_chon_8kenh>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\DEBOUNCE_BTN.vhd" into library work
+Parsing entity <DEBOUNCE_BTN>.
+Parsing architecture <Behavioral> of entity <debounce_btn>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\DAHOP_8KENH.vhd" into library work
+Parsing entity <DAHOP_8KENH>.
+Parsing architecture <Behavioral> of entity <dahop_8kenh>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\xuly_4chedo.vhd" into library work
+Parsing entity <xuly_4chedo>.
+Parsing architecture <Behavioral> of entity <xuly_4chedo>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\LCD_KHOITAO_HIENTHI_SO_TO.vhd" into library work
+Parsing entity <LCD_KHOITAO_HIENTHI_SO_TO>.
+Parsing architecture <Behavioral> of entity <lcd_khoitao_hienthi_so_to>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\LCD_GIAI_MA_SO_TO.vhd" into library work
+Parsing entity <LCD_GIAI_MA_SO_TO>.
+Parsing architecture <Behavioral> of entity <lcd_giai_ma_so_to>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\LCD_20X4_GAN_DULIEU_1SO_TO.vhd" into library work
+Parsing entity <LCD_20X4_GAN_DULIEU_1SO_TO>.
+Parsing architecture <Behavioral> of entity <lcd_20x4_gan_dulieu_1so_to>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\GIAIMA_HIENTHI_8LED_7DOAN.vhd" into library work
+Parsing entity <GIAIMA_HIENTHI_8LED_7DOAN>.
+Parsing architecture <Behavioral> of entity <giaima_hienthi_8led_7doan>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\dem_ab_mn.vhd" into library work
+Parsing entity <dem_ab_mn>.
+Parsing architecture <Behavioral> of entity <dem_ab_mn>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\dem_ab_auto_5hz.vhd" into library work
+Parsing entity <dem_ab_auto_5hz>.
+Parsing architecture <Behavioral> of entity <dem_ab_auto_5hz>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\dem_ab_auto_1hz.vhd" into library work
+Parsing entity <dem_ab_auto_1hz>.
+Parsing architecture <Behavioral> of entity <dem_ab_auto_1hz>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\dem_ab_auto_10hz.vhd" into library work
+Parsing entity <dem_ab_auto_10hz>.
+Parsing architecture <Behavioral> of entity <dem_ab_auto_10hz>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\DEM_1BIT.vhd" into library work
+Parsing entity <DEM_1BIT>.
+Parsing architecture <Behavioral> of entity <dem_1bit>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\CHIA_10ENA.vhd" into library work
+Parsing entity <CHIA_10ENA>.
+Parsing architecture <Behavioral> of entity <chia_10ena>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\CD_LAM_HEP_BTN.vhd" into library work
+Parsing entity <CD_LAM_HEP_BTN>.
+Parsing architecture <Behavioral> of entity <cd_lam_hep_btn>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\DE_CUOI_KY.vhd" into library work
+Parsing entity <DE_CUOI_KY>.
+Parsing architecture <PMH> of entity <de_cuoi_ky>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <DE_CUOI_KY> (architecture <PMH>) from library <work>.
+
+Elaborating entity <xuly_4chedo> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <CHIA_10ENA> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <CD_LAM_HEP_BTN> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <DEBOUNCE_BTN> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <LAM_HEP_XUNG> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <DEM_1BIT> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <dem_ab_auto_1hz> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <dem_ab_auto_5hz> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <dem_ab_auto_10hz> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <dem_ab_mn> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:92 - "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\dem_ab_mn.vhd" Line 73: ena_ss should be on the sensitivity list of the process
+
+Elaborating entity <LCD_GIAI_MA_SO_TO> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <LCD_20X4_GAN_DULIEU_1SO_TO> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <LCD_KHOITAO_HIENTHI_SO_TO> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <GIAIMA_HIENTHI_8LED_7DOAN> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <DEM_3BIT_CHON_8KENH> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <QUET_ANODE_8LED_7DOAN> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <DAHOP_8KENH> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <GIAIMA_7DOAN_ENA> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <DE_CUOI_KY>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\DE_CUOI_KY.vhd".
+    Summary:
+	inferred  11 Multiplexer(s).
+Unit <DE_CUOI_KY> synthesized.
+
+Synthesizing Unit <xuly_4chedo>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\xuly_4chedo.vhd".
+    Found 4x4-bit Read Only RAM for signal <oe>
+    Summary:
+	inferred   1 RAM(s).
+Unit <xuly_4chedo> synthesized.
+
+Synthesizing Unit <CHIA_10ENA>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\CHIA_10ENA.vhd".
+    Found 16-bit register for signal <D1KHZ_REG>.
+    Found 23-bit register for signal <D10HZ_REG>.
+    Found 24-bit register for signal <D5HZ_REG>.
+    Found 26-bit register for signal <D1HZ_REG>.
+    Found 17-bit adder for signal <n0076> created at line 79.
+    Found 24-bit adder for signal <n0081> created at line 89.
+    Found 25-bit adder for signal <n0082> created at line 91.
+    Found 27-bit adder for signal <n0084> created at line 95.
+    Summary:
+	inferred   4 Adder/Subtractor(s).
+	inferred  89 D-type flip-flop(s).
+Unit <CHIA_10ENA> synthesized.
+
+Synthesizing Unit <CD_LAM_HEP_BTN>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\CD_LAM_HEP_BTN.vhd".
+    Summary:
+	no macro.
+Unit <CD_LAM_HEP_BTN> synthesized.
+
+Synthesizing Unit <DEBOUNCE_BTN>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\DEBOUNCE_BTN.vhd".
+    Found 20-bit register for signal <DL_R>.
+    Found 2-bit register for signal <DB_R>.
+    Found finite state machine <FSM_0> for signal <DB_R>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 10                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 3                                              |
+    | Clock              | CKHT (falling_edge)                            |
+    | Power Up State     | zero                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 20-bit subtractor for signal <GND_9_o_GND_9_o_sub_5_OUT<19:0>> created at line 65.
+    Found 20-bit 4-to-1 multiplexer for signal <DL_N> created at line 58.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  20 D-type flip-flop(s).
+	inferred   3 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <DEBOUNCE_BTN> synthesized.
+
+Synthesizing Unit <LAM_HEP_XUNG>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\LAM_HEP_XUNG.vhd".
+    Found 1-bit register for signal <QFF>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <LAM_HEP_XUNG> synthesized.
+
+Synthesizing Unit <DEM_1BIT>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\DEM_1BIT.vhd".
+    Found 1-bit register for signal <Q_REG>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <DEM_1BIT> synthesized.
+
+Synthesizing Unit <dem_ab_auto_1hz>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\dem_ab_auto_1hz.vhd".
+WARNING:Xst:647 - Input <ckht> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <rst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ena_db> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ena_ss> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ena_ud> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <oe> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:653 - Signal <donvi> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <chuc> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Summary:
+	no macro.
+Unit <dem_ab_auto_1hz> synthesized.
+
+Synthesizing Unit <dem_ab_auto_5hz>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\dem_ab_auto_5hz.vhd".
+WARNING:Xst:647 - Input <ckht> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <rst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ena_db> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ena_ss> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ena_ud> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <oe> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:653 - Signal <donvi> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <chuc> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Summary:
+	no macro.
+Unit <dem_ab_auto_5hz> synthesized.
+
+Synthesizing Unit <dem_ab_auto_10hz>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\dem_ab_auto_10hz.vhd".
+WARNING:Xst:647 - Input <ckht> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <rst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ena_db> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ena_ss> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ena_ud> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <oe> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:653 - Signal <donvi> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <chuc> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Summary:
+	no macro.
+Unit <dem_ab_auto_10hz> synthesized.
+
+Synthesizing Unit <dem_ab_mn>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\dem_ab_mn.vhd".
+WARNING:Xst:647 - Input <ckht> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <rst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ena_up> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ena_ss> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ena_ud> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <oe> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:653 - Signal <donvi> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <chuc> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Summary:
+	no macro.
+Unit <dem_ab_mn> synthesized.
+
+Synthesizing Unit <LCD_GIAI_MA_SO_TO>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\LCD_GIAI_MA_SO_TO.vhd".
+    Found 7-bit adder for signal <n0034> created at line 67.
+    Found 7-bit adder for signal <n0035> created at line 67.
+    Found 7-bit adder for signal <n0036> created at line 67.
+    Found 7-bit adder for signal <n0037> created at line 67.
+    Found 7-bit adder for signal <n0038> created at line 67.
+    Found 4x3-bit multiplier for signal <n0033> created at line 67.
+    Found 64x8-bit Read Only RAM for signal <MA_SO<0>>
+    Found 64x8-bit Read Only RAM for signal <MA_SO<1>>
+    Found 64x8-bit Read Only RAM for signal <MA_SO<2>>
+    Found 64x8-bit Read Only RAM for signal <MA_SO<3>>
+    Found 64x8-bit Read Only RAM for signal <MA_SO<4>>
+    Found 64x8-bit Read Only RAM for signal <MA_SO<5>>
+    Summary:
+	inferred   6 RAM(s).
+	inferred   1 Multiplier(s).
+	inferred   5 Adder/Subtractor(s).
+Unit <LCD_GIAI_MA_SO_TO> synthesized.
+
+Synthesizing Unit <LCD_20X4_GAN_DULIEU_1SO_TO>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\LCD_20X4_GAN_DULIEU_1SO_TO.vhd".
+    Summary:
+	no macro.
+Unit <LCD_20X4_GAN_DULIEU_1SO_TO> synthesized.
+
+Synthesizing Unit <LCD_KHOITAO_HIENTHI_SO_TO>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\LCD_KHOITAO_HIENTHI_SO_TO.vhd".
+    Found 20-bit register for signal <SLX>.
+    Found 6-bit register for signal <PTR>.
+    Found 4-bit register for signal <LCD_STATE>.
+    Found 1-bit register for signal <LCD_RS>.
+    Found 1-bit register for signal <LCD_E>.
+    Found 8-bit register for signal <LCD_DB>.
+    Found finite state machine <FSM_1> for signal <LCD_STATE>.
+    -----------------------------------------------------------------------
+    | States             | 12                                             |
+    | Transitions        | 30                                             |
+    | Inputs             | 6                                              |
+    | Outputs            | 5                                              |
+    | Clock              | LCD_CK (falling_edge)                          |
+    | Reset              | LCD_RST (positive)                             |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | lcd_initial                                    |
+    | Power Up State     | lcd_initial                                    |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 6-bit adder for signal <PTR[5]_GND_72_o_add_208_OUT> created at line 258.
+    Found 20-bit adder for signal <SLX[19]_GND_72_o_add_220_OUT> created at line 266.
+    Found 8x8-bit Read Only RAM for signal <PTR[2]_X_66_o_wide_mux_88_OUT>
+    Found 64x8-bit Read Only RAM for signal <PTR[5]_GND_72_o_wide_mux_113_OUT>
+    Found 8-bit 20-to-1 multiplexer for signal <PTR[4]_X_66_o_wide_mux_138_OUT> created at line 195.
+    Found 8-bit 20-to-1 multiplexer for signal <PTR[4]_X_66_o_wide_mux_163_OUT> created at line 217.
+    Found 8-bit 20-to-1 multiplexer for signal <PTR[4]_X_66_o_wide_mux_188_OUT> created at line 239.
+    Found 8-bit 20-to-1 multiplexer for signal <PTR[4]_X_66_o_wide_mux_213_OUT> created at line 262.
+    Summary:
+	inferred   2 RAM(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred  36 D-type flip-flop(s).
+	inferred  35 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <LCD_KHOITAO_HIENTHI_SO_TO> synthesized.
+
+Synthesizing Unit <GIAIMA_HIENTHI_8LED_7DOAN>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\GIAIMA_HIENTHI_8LED_7DOAN.vhd".
+    Summary:
+	no macro.
+Unit <GIAIMA_HIENTHI_8LED_7DOAN> synthesized.
+
+Synthesizing Unit <DEM_3BIT_CHON_8KENH>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\DEM_3BIT_CHON_8KENH.vhd".
+    Found 3-bit register for signal <Q_R>.
+    Found 3-bit adder for signal <Q_R[2]_GND_74_o_add_1_OUT> created at line 51.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   3 D-type flip-flop(s).
+Unit <DEM_3BIT_CHON_8KENH> synthesized.
+
+Synthesizing Unit <QUET_ANODE_8LED_7DOAN>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\QUET_ANODE_8LED_7DOAN.vhd".
+    Found 8x8-bit Read Only RAM for signal <ANODE>
+    Summary:
+	inferred   1 RAM(s).
+Unit <QUET_ANODE_8LED_7DOAN> synthesized.
+
+Synthesizing Unit <DAHOP_8KENH>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\DAHOP_8KENH.vhd".
+    Found 8x4-bit Read Only RAM for signal <SO_GMA>
+    Summary:
+	inferred   1 RAM(s).
+Unit <DAHOP_8KENH> synthesized.
+
+Synthesizing Unit <GIAIMA_7DOAN_ENA>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\DE_CUOI_KY\GIAIMA_7DOAN_ENA.vhd".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <GIAIMA_7DOAN_ENA> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 53
+ 4x4-bit single-port Read Only RAM                     : 1
+ 64x8-bit single-port Read Only RAM                    : 49
+ 8x4-bit single-port Read Only RAM                     : 1
+ 8x8-bit single-port Read Only RAM                     : 2
+# Multipliers                                          : 8
+ 4x3-bit multiplier                                    : 8
+# Adders/Subtractors                                   : 49
+ 17-bit adder                                          : 1
+ 20-bit adder                                          : 1
+ 20-bit subtractor                                     : 2
+ 24-bit adder                                          : 1
+ 25-bit adder                                          : 1
+ 27-bit adder                                          : 1
+ 3-bit adder                                           : 1
+ 6-bit adder                                           : 1
+ 7-bit adder                                           : 40
+# Registers                                            : 15
+ 1-bit register                                        : 5
+ 16-bit register                                       : 1
+ 20-bit register                                       : 3
+ 23-bit register                                       : 1
+ 24-bit register                                       : 1
+ 26-bit register                                       : 1
+ 3-bit register                                        : 1
+ 6-bit register                                        : 1
+ 8-bit register                                        : 1
+# Multiplexers                                         : 53
+ 1-bit 2-to-1 multiplexer                              : 9
+ 20-bit 2-to-1 multiplexer                             : 9
+ 20-bit 4-to-1 multiplexer                             : 2
+ 48-bit 2-to-1 multiplexer                             : 8
+ 6-bit 2-to-1 multiplexer                              : 10
+ 8-bit 2-to-1 multiplexer                              : 11
+ 8-bit 20-to-1 multiplexer                             : 4
+# FSMs                                                 : 3
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <up0> is unconnected in block <DE_CUOI_KY>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <xx4> is unconnected in block <DE_CUOI_KY>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <xx5> is unconnected in block <DE_CUOI_KY>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <xx6> is unconnected in block <DE_CUOI_KY>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <xx7> is unconnected in block <DE_CUOI_KY>.
+   It will be removed from the design.
+
+Synthesizing (advanced) Unit <CHIA_10ENA>.
+The following registers are absorbed into counter <D1KHZ_REG>: 1 register on signal <D1KHZ_REG>.
+The following registers are absorbed into counter <D10HZ_REG>: 1 register on signal <D10HZ_REG>.
+The following registers are absorbed into counter <D5HZ_REG>: 1 register on signal <D5HZ_REG>.
+The following registers are absorbed into counter <D1HZ_REG>: 1 register on signal <D1HZ_REG>.
+Unit <CHIA_10ENA> synthesized (advanced).
+
+Synthesizing (advanced) Unit <DAHOP_8KENH>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_SO_GMA> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 8-word x 4-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <SEL_3B>        |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <SO_GMA>        |          |
+    -----------------------------------------------------------------------
+Unit <DAHOP_8KENH> synthesized (advanced).
+
+Synthesizing (advanced) Unit <DEM_3BIT_CHON_8KENH>.
+The following registers are absorbed into counter <Q_R>: 1 register on signal <Q_R>.
+Unit <DEM_3BIT_CHON_8KENH> synthesized (advanced).
+
+Synthesizing (advanced) Unit <LCD_GIAI_MA_SO_TO>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_MA_SO<0>> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 64-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <n0033>         |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <MA_SO<0>>      |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_MA_SO<1>> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 64-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <n0034>         |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <MA_SO<1>>      |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_MA_SO<2>> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 64-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <n0035>         |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <MA_SO<2>>      |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_MA_SO<3>> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 64-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <n0036>         |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <MA_SO<3>>      |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_MA_SO<4>> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 64-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <n0037>         |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <MA_SO<4>>      |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_MA_SO<5>> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 64-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <n0038>         |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <MA_SO<5>>      |          |
+    -----------------------------------------------------------------------
+Unit <LCD_GIAI_MA_SO_TO> synthesized (advanced).
+
+Synthesizing (advanced) Unit <LCD_KHOITAO_HIENTHI_SO_TO>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_PTR[2]_X_66_o_wide_mux_88_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 8-word x 8-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <PTR<2:0>>      |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_PTR[5]_GND_72_o_wide_mux_113_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 64-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <PTR>           |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <LCD_KHOITAO_HIENTHI_SO_TO> synthesized (advanced).
+
+Synthesizing (advanced) Unit <QUET_ANODE_8LED_7DOAN>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ANODE> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 8-word x 8-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <SEL_3B>        |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <ANODE>         |          |
+    -----------------------------------------------------------------------
+Unit <QUET_ANODE_8LED_7DOAN> synthesized (advanced).
+
+Synthesizing (advanced) Unit <xuly_4chedo>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_oe> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4-word x 4-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <sel_2b>        |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <oe>            |          |
+    -----------------------------------------------------------------------
+Unit <xuly_4chedo> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 53
+ 4x4-bit single-port distributed Read Only RAM         : 1
+ 64x8-bit single-port distributed Read Only RAM        : 49
+ 8x4-bit single-port distributed Read Only RAM         : 1
+ 8x8-bit single-port distributed Read Only RAM         : 2
+# Multipliers                                          : 8
+ 4x3-bit multiplier                                    : 8
+# Adders/Subtractors                                   : 44
+ 20-bit adder                                          : 1
+ 20-bit subtractor                                     : 2
+ 6-bit adder                                           : 41
+# Counters                                             : 5
+ 16-bit up counter                                     : 1
+ 23-bit up counter                                     : 1
+ 24-bit up counter                                     : 1
+ 26-bit up counter                                     : 1
+ 3-bit up counter                                      : 1
+# Registers                                            : 79
+ Flip-Flops                                            : 79
+# Multiplexers                                         : 53
+ 1-bit 2-to-1 multiplexer                              : 9
+ 20-bit 2-to-1 multiplexer                             : 9
+ 20-bit 4-to-1 multiplexer                             : 2
+ 48-bit 2-to-1 multiplexer                             : 8
+ 6-bit 2-to-1 multiplexer                              : 10
+ 8-bit 2-to-1 multiplexer                              : 11
+ 8-bit 20-to-1 multiplexer                             : 4
+# FSMs                                                 : 3
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2973 - All outputs of instance <up0/IC3> of block <DEBOUNCE_BTN> are unconnected in block <DE_CUOI_KY>. Underlying logic will be removed.
+WARNING:Xst:2677 - Node <up0/IC4/QFF> of sequential type is unconnected in block <DE_CUOI_KY>.
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <ss1/IC3/FSM_0> on signal <DB_R[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ zero  | 00
+ wait0 | 01
+ one   | 10
+ wait1 | 11
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <l1/FSM_1> on signal <LCD_STATE[1:4]> with user encoding.
+-------------------------
+ State       | Encoding
+-------------------------
+ lcd_initial | 0000
+ lcd_cg_addr | 0001
+ lcd_cg_data | 0010
+ lcd_addr_l1 | 0011
+ lcd_data_l1 | 0100
+ lcd_addr_l2 | 0101
+ lcd_data_l2 | 0110
+ lcd_addr_l3 | 0111
+ lcd_data_l3 | 1000
+ lcd_addr_l4 | 1001
+ lcd_data_l4 | 1010
+ lcd_stop    | 1011
+-------------------------
+
+Optimizing unit <DE_CUOI_KY> ...
+
+Optimizing unit <CHIA_10ENA> ...
+
+Optimizing unit <DEBOUNCE_BTN> ...
+
+Optimizing unit <LCD_KHOITAO_HIENTHI_SO_TO> ...
+WARNING:Xst:2677 - Node <ck0/D1HZ_REG_25> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D1HZ_REG_24> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D1HZ_REG_22> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D1HZ_REG_21> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D1HZ_REG_23> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D1HZ_REG_19> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D1HZ_REG_18> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D1HZ_REG_20> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D1HZ_REG_16> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D1HZ_REG_15> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D1HZ_REG_17> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D1HZ_REG_13> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D1HZ_REG_12> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D1HZ_REG_14> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D1HZ_REG_10> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D1HZ_REG_9> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D1HZ_REG_11> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D1HZ_REG_7> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D1HZ_REG_6> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D1HZ_REG_8> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D1HZ_REG_4> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D1HZ_REG_3> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D1HZ_REG_5> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D1HZ_REG_2> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D1HZ_REG_1> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D5HZ_REG_23> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D1HZ_REG_0> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D5HZ_REG_21> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D5HZ_REG_20> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D5HZ_REG_22> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D5HZ_REG_18> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D5HZ_REG_17> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D5HZ_REG_19> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D5HZ_REG_15> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D5HZ_REG_14> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D5HZ_REG_16> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D5HZ_REG_12> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D5HZ_REG_11> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D5HZ_REG_13> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D5HZ_REG_9> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D5HZ_REG_8> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D5HZ_REG_10> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D5HZ_REG_6> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D5HZ_REG_5> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D5HZ_REG_7> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D5HZ_REG_4> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D5HZ_REG_3> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D5HZ_REG_1> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D5HZ_REG_0> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D5HZ_REG_2> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D10HZ_REG_22> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D10HZ_REG_21> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D10HZ_REG_19> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D10HZ_REG_18> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D10HZ_REG_20> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D10HZ_REG_16> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D10HZ_REG_15> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D10HZ_REG_17> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D10HZ_REG_13> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D10HZ_REG_12> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D10HZ_REG_14> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D10HZ_REG_10> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D10HZ_REG_9> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D10HZ_REG_11> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D10HZ_REG_7> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D10HZ_REG_6> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D10HZ_REG_8> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D10HZ_REG_4> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D10HZ_REG_3> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D10HZ_REG_5> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D10HZ_REG_1> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D10HZ_REG_0> of sequential type is unconnected in block <DE_CUOI_KY>.
+WARNING:Xst:2677 - Node <ck0/D10HZ_REG_2> of sequential type is unconnected in block <DE_CUOI_KY>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block DE_CUOI_KY, actual ratio is 4.
+FlipFlop l1/LCD_STATE_FSM_FFd1 has been replicated 1 time(s)
+FlipFlop l1/LCD_STATE_FSM_FFd2 has been replicated 2 time(s)
+FlipFlop l1/LCD_STATE_FSM_FFd3 has been replicated 1 time(s)
+FlipFlop l1/LCD_STATE_FSM_FFd4 has been replicated 1 time(s)
+FlipFlop l1/PTR_0 has been replicated 1 time(s)
+FlipFlop l1/PTR_1 has been replicated 1 time(s)
+FlipFlop l1/PTR_2 has been replicated 1 time(s)
+FlipFlop l1/PTR_3 has been replicated 1 time(s)
+FlipFlop l1/PTR_4 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 93
+ Flip-Flops                                            : 93
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : DE_CUOI_KY.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 357
+#      GND                         : 1
+#      INV                         : 26
+#      LUT1                        : 35
+#      LUT2                        : 28
+#      LUT3                        : 32
+#      LUT4                        : 17
+#      LUT5                        : 37
+#      LUT6                        : 68
+#      MUXCY                       : 53
+#      MUXF7                       : 3
+#      VCC                         : 1
+#      XORCY                       : 56
+# FlipFlops/Latches                : 93
+#      FD_1                        : 32
+#      FDC_1                       : 29
+#      FDCE_1                      : 12
+#      FDE                         : 3
+#      FDE_1                       : 1
+#      FDR                         : 15
+#      FDS                         : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 33
+#      IBUF                        : 3
+#      OBUF                        : 30
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9tqg144-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              93  out of  11440     0%  
+ Number of Slice LUTs:                  243  out of   5720     4%  
+    Number used as Logic:               243  out of   5720     4%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    251
+   Number with an unused Flip Flop:     158  out of    251    62%  
+   Number with an unused LUT:             8  out of    251     3%  
+   Number of fully used LUT-FF pairs:    85  out of    251    33%  
+   Number of unique control sets:         7
+
+IO Utilization: 
+ Number of IOs:                          37
+ Number of bonded IOBs:                  34  out of    102    33%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CKHT                               | BUFGP                  | 93    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 5.782ns (Maximum Frequency: 172.940MHz)
+   Minimum input arrival time before clock: 4.501ns
+   Maximum output required time after clock: 5.080ns
+   Maximum combinational path delay: 5.194ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CKHT'
+  Clock period: 5.782ns (frequency: 172.940MHz)
+  Total number of paths / destination ports: 5529 / 125
+-------------------------------------------------------------------------
+Delay:               5.782ns (Levels of Logic = 5)
+  Source:            l1/SLX_12 (FF)
+  Destination:       l1/LCD_DB_7 (FF)
+  Source Clock:      CKHT falling
+  Destination Clock: CKHT falling
+
+  Data Path: l1/SLX_12 to l1/LCD_DB_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q            4   0.447   1.048  l1/SLX_12 (l1/SLX_12)
+     LUT6:I0->O            3   0.203   0.755  l1/GND_72_o_SLX[19]_equal_188_o<19>1_SW1 (N35)
+     LUT6:I4->O            4   0.203   0.912  l1/GND_72_o_SLX[19]_equal_188_o<19>3 (l1/GND_72_o_SLX[19]_equal_188_o)
+     LUT6:I3->O            3   0.205   0.755  l1/_n0700_inv4_SW4 (N52)
+     LUT6:I4->O            6   0.203   0.745  l1/_n0700_inv4 (l1/_n0700_inv)
+     LUT3:I2->O            1   0.205   0.000  l1/LCD_DB_4_rstpot (l1/LCD_DB_4_rstpot)
+     FD_1:D                    0.102          l1/LCD_DB_4
+    ----------------------------------------
+    Total                      5.782ns (1.568ns logic, 4.214ns route)
+                                       (27.1% logic, 72.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CKHT'
+  Total number of paths / destination ports: 80 / 73
+-------------------------------------------------------------------------
+Offset:              4.501ns (Levels of Logic = 5)
+  Source:            BTN<0> (PAD)
+  Destination:       l1/LCD_E (FF)
+  Destination Clock: CKHT falling
+
+  Data Path: BTN<0> to l1/LCD_E
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            11   1.222   0.883  BTN_0_IBUF (BTN_0_IBUF)
+     LUT2:I1->O            1   0.205   0.924  l1/_n0566_inv1_SW2_SW0 (N76)
+     LUT6:I1->O            2   0.203   0.617  l1/LCD_E_rstpot_SW1 (N68)
+     LUT6:I5->O            1   0.205   0.000  l1/LCD_E_rstpot_G (N96)
+     MUXF7:I1->O           1   0.140   0.000  l1/LCD_E_rstpot (l1/LCD_E_rstpot)
+     FD_1:D                    0.102          l1/LCD_E
+    ----------------------------------------
+    Total                      4.501ns (2.077ns logic, 2.424ns route)
+                                       (46.1% logic, 53.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CKHT'
+  Total number of paths / destination ports: 56 / 26
+-------------------------------------------------------------------------
+Offset:              5.080ns (Levels of Logic = 2)
+  Source:            sseg0/K1/Q_R_0 (FF)
+  Destination:       sseg<3> (PAD)
+  Source Clock:      CKHT falling
+
+  Data Path: sseg0/K1/Q_R_0 to sseg<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             18   0.447   1.278  sseg0/K1/Q_R_0 (sseg0/K1/Q_R_0)
+     LUT3:I0->O            1   0.205   0.579  sseg0/K2/Mram_ANODE111 (anode_1_OBUF)
+     OBUF:I->O                 2.571          anode_1_OBUF (anode<1>)
+    ----------------------------------------
+    Total                      5.080ns (3.223ns logic, 1.857ns route)
+                                       (63.4% logic, 36.6% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Delay:               5.194ns (Levels of Logic = 3)
+  Source:            sw<0> (PAD)
+  Destination:       LED<1> (PAD)
+
+  Data Path: sw<0> to LED<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.222   0.616  sw_0_IBUF (LED_0_OBUF)
+     INV:I->O              1   0.206   0.579  _n00571_INV_0 (LED_1_OBUF)
+     OBUF:I->O                 2.571          LED_1_OBUF (LED<1>)
+    ----------------------------------------
+    Total                      5.194ns (3.999ns logic, 1.195ns route)
+                                       (77.0% logic, 23.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CKHT
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CKHT           |         |         |    5.782|         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 10.52 secs
+ 
+--> 
+
+Total memory usage is 4510212 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  113 (   0 filtered)
+Number of infos    :   11 (   0 filtered)
+

@@ -1,0 +1,5 @@
+vhdl work "LED_SANGDON_TSP.vhd"
+vhdl work "LED_SANGDON_PST.vhd"
+vhdl work "DIEUKHIEN_CHOPHEP.vhd"
+vhdl work "CHIA_10ENA.vhd"
+vhdl work "DK_8LED_2CT_AU_SANGDON.vhd"

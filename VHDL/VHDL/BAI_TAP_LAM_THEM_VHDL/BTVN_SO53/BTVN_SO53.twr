@@ -1,0 +1,227 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml BTVN_SO53.twx BTVN_SO53.ncd -o BTVN_SO53.twr BTVN_SO53.pcf
+
+Design file:              BTVN_SO53.ncd
+Physical constraint file: BTVN_SO53.pcf
+Device,package,speed:     xc3s500e,pq208,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock CKHT
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+BTN<0>      |    6.048(F)|   -1.606(F)|CKHT_BUFGP        |   0.000|
+BTN<1>      |    2.576(F)|    0.108(F)|CKHT_BUFGP        |   0.000|
+BTN<2>      |    2.166(F)|    0.752(F)|CKHT_BUFGP        |   0.000|
+SW<0>       |    5.823(F)|   -0.140(F)|CKHT_BUFGP        |   0.000|
+SW<1>       |    4.740(F)|    0.100(F)|CKHT_BUFGP        |   0.000|
+SW<2>       |    6.505(F)|   -1.623(F)|CKHT_BUFGP        |   0.000|
+SW<3>       |    6.770(F)|   -1.386(F)|CKHT_BUFGP        |   0.000|
+SW<4>       |    6.138(F)|   -0.459(F)|CKHT_BUFGP        |   0.000|
+SW<5>       |    5.889(F)|   -0.377(F)|CKHT_BUFGP        |   0.000|
+SW<6>       |    5.672(F)|   -0.814(F)|CKHT_BUFGP        |   0.000|
+SW<7>       |    5.735(F)|   -0.475(F)|CKHT_BUFGP        |   0.000|
+SW<8>       |    5.503(F)|   -1.472(F)|CKHT_BUFGP        |   0.000|
+SW<9>       |    5.012(F)|   -0.925(F)|CKHT_BUFGP        |   0.000|
+SW<10>      |    6.530(F)|   -1.534(F)|CKHT_BUFGP        |   0.000|
+SW<11>      |    7.143(F)|   -2.047(F)|CKHT_BUFGP        |   0.000|
+SW<12>      |    6.674(F)|   -2.572(F)|CKHT_BUFGP        |   0.000|
+SW<13>      |    6.645(F)|   -1.266(F)|CKHT_BUFGP        |   0.000|
+SW<14>      |    5.610(F)|   -1.114(F)|CKHT_BUFGP        |   0.000|
+SW<15>      |    6.646(F)|   -1.253(F)|CKHT_BUFGP        |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock CKHT to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+ANODE<0>    |    9.186(F)|CKHT_BUFGP        |   0.000|
+ANODE<1>    |    9.383(F)|CKHT_BUFGP        |   0.000|
+ANODE<2>    |    9.706(F)|CKHT_BUFGP        |   0.000|
+ANODE<3>    |    9.068(F)|CKHT_BUFGP        |   0.000|
+ANODE<4>    |    8.637(F)|CKHT_BUFGP        |   0.000|
+ANODE<5>    |    8.192(F)|CKHT_BUFGP        |   0.000|
+ANODE<6>    |    8.691(F)|CKHT_BUFGP        |   0.000|
+ANODE<7>    |    9.091(F)|CKHT_BUFGP        |   0.000|
+SSEG<0>     |   15.806(F)|CKHT_BUFGP        |   0.000|
+SSEG<1>     |   15.308(F)|CKHT_BUFGP        |   0.000|
+SSEG<2>     |   15.421(F)|CKHT_BUFGP        |   0.000|
+SSEG<3>     |   15.452(F)|CKHT_BUFGP        |   0.000|
+SSEG<4>     |   15.039(F)|CKHT_BUFGP        |   0.000|
+SSEG<5>     |   15.362(F)|CKHT_BUFGP        |   0.000|
+SSEG<6>     |   14.895(F)|CKHT_BUFGP        |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock CKHT
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CKHT           |         |         |         |    6.363|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+SW<0>          |SSEG<0>        |   11.983|
+SW<0>          |SSEG<1>        |   11.485|
+SW<0>          |SSEG<2>        |   11.598|
+SW<0>          |SSEG<3>        |   11.629|
+SW<0>          |SSEG<4>        |   10.750|
+SW<0>          |SSEG<5>        |   11.284|
+SW<0>          |SSEG<6>        |   10.568|
+SW<1>          |SSEG<0>        |   11.838|
+SW<1>          |SSEG<1>        |   11.302|
+SW<1>          |SSEG<2>        |   11.415|
+SW<1>          |SSEG<3>        |   11.484|
+SW<1>          |SSEG<4>        |   11.344|
+SW<1>          |SSEG<5>        |   11.858|
+SW<1>          |SSEG<6>        |   11.343|
+SW<2>          |SSEG<0>        |   12.421|
+SW<2>          |SSEG<1>        |   12.066|
+SW<2>          |SSEG<2>        |   12.179|
+SW<2>          |SSEG<3>        |   12.067|
+SW<2>          |SSEG<4>        |   12.145|
+SW<2>          |SSEG<5>        |   12.468|
+SW<2>          |SSEG<6>        |   12.001|
+SW<3>          |SSEG<0>        |   12.620|
+SW<3>          |SSEG<1>        |   12.217|
+SW<3>          |SSEG<2>        |   12.330|
+SW<3>          |SSEG<3>        |   12.266|
+SW<3>          |SSEG<4>        |   12.144|
+SW<3>          |SSEG<5>        |   12.626|
+SW<3>          |SSEG<6>        |   12.095|
+SW<4>          |SSEG<0>        |   12.200|
+SW<4>          |SSEG<1>        |   11.702|
+SW<4>          |SSEG<2>        |   11.815|
+SW<4>          |SSEG<3>        |   11.846|
+SW<4>          |SSEG<4>        |   10.967|
+SW<4>          |SSEG<5>        |   11.501|
+SW<4>          |SSEG<6>        |   10.785|
+SW<5>          |SSEG<0>        |   11.940|
+SW<5>          |SSEG<1>        |   11.404|
+SW<5>          |SSEG<2>        |   11.517|
+SW<5>          |SSEG<3>        |   11.586|
+SW<5>          |SSEG<4>        |   11.446|
+SW<5>          |SSEG<5>        |   11.960|
+SW<5>          |SSEG<6>        |   11.445|
+SW<6>          |SSEG<0>        |   11.063|
+SW<6>          |SSEG<1>        |   10.708|
+SW<6>          |SSEG<2>        |   10.821|
+SW<6>          |SSEG<3>        |   10.709|
+SW<6>          |SSEG<4>        |   10.787|
+SW<6>          |SSEG<5>        |   11.110|
+SW<6>          |SSEG<6>        |   10.643|
+SW<7>          |SSEG<0>        |   11.214|
+SW<7>          |SSEG<1>        |   10.811|
+SW<7>          |SSEG<2>        |   10.924|
+SW<7>          |SSEG<3>        |   10.860|
+SW<7>          |SSEG<4>        |   10.738|
+SW<7>          |SSEG<5>        |   11.220|
+SW<7>          |SSEG<6>        |   10.689|
+SW<8>          |SSEG<0>        |   11.473|
+SW<8>          |SSEG<1>        |   10.975|
+SW<8>          |SSEG<2>        |   11.088|
+SW<8>          |SSEG<3>        |   11.119|
+SW<8>          |SSEG<4>        |   10.240|
+SW<8>          |SSEG<5>        |   10.774|
+SW<8>          |SSEG<6>        |   10.058|
+SW<9>          |SSEG<0>        |   11.450|
+SW<9>          |SSEG<1>        |   10.914|
+SW<9>          |SSEG<2>        |   11.027|
+SW<9>          |SSEG<3>        |   11.096|
+SW<9>          |SSEG<4>        |   10.956|
+SW<9>          |SSEG<5>        |   11.470|
+SW<9>          |SSEG<6>        |   10.955|
+SW<10>         |SSEG<0>        |   12.062|
+SW<10>         |SSEG<1>        |   11.707|
+SW<10>         |SSEG<2>        |   11.820|
+SW<10>         |SSEG<3>        |   11.708|
+SW<10>         |SSEG<4>        |   11.786|
+SW<10>         |SSEG<5>        |   12.109|
+SW<10>         |SSEG<6>        |   11.642|
+SW<11>         |SSEG<0>        |   11.315|
+SW<11>         |SSEG<1>        |   10.912|
+SW<11>         |SSEG<2>        |   11.025|
+SW<11>         |SSEG<3>        |   10.961|
+SW<11>         |SSEG<4>        |   10.839|
+SW<11>         |SSEG<5>        |   11.321|
+SW<11>         |SSEG<6>        |   10.790|
+SW<12>         |SSEG<0>        |   12.653|
+SW<12>         |SSEG<1>        |   12.155|
+SW<12>         |SSEG<2>        |   12.268|
+SW<12>         |SSEG<3>        |   12.299|
+SW<12>         |SSEG<4>        |   11.420|
+SW<12>         |SSEG<5>        |   11.954|
+SW<12>         |SSEG<6>        |   11.238|
+SW<13>         |SSEG<0>        |   11.518|
+SW<13>         |SSEG<1>        |   10.982|
+SW<13>         |SSEG<2>        |   11.095|
+SW<13>         |SSEG<3>        |   11.164|
+SW<13>         |SSEG<4>        |   11.024|
+SW<13>         |SSEG<5>        |   11.538|
+SW<13>         |SSEG<6>        |   11.023|
+SW<14>         |SSEG<0>        |   11.148|
+SW<14>         |SSEG<1>        |   10.793|
+SW<14>         |SSEG<2>        |   10.906|
+SW<14>         |SSEG<3>        |   10.794|
+SW<14>         |SSEG<4>        |   10.872|
+SW<14>         |SSEG<5>        |   11.195|
+SW<14>         |SSEG<6>        |   10.728|
+SW<15>         |SSEG<0>        |   12.133|
+SW<15>         |SSEG<1>        |   11.730|
+SW<15>         |SSEG<2>        |   11.843|
+SW<15>         |SSEG<3>        |   11.779|
+SW<15>         |SSEG<4>        |   11.657|
+SW<15>         |SSEG<5>        |   12.139|
+SW<15>         |SSEG<6>        |   11.608|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Jul 06 10:35:14 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4509 MB
+
+
+

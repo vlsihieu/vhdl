@@ -1,0 +1,19 @@
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_438_DEM_4BIT_UP_DW_2BTN_4LED/DEM_4BIT_UP_DW_2BTN_4LED.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_438_DEM_4BIT_UP_DW_2BTN_4LED/DEM_4BIT_UP_DW_2BTN_4LED.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_438_DEM_4BIT_UP_DW_2BTN_4LED/DEM_4BIT_UP_DW_2BTN_4LED.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_438_DEM_4BIT_UP_DW_2BTN_4LED/DEM_4BIT_UP_DW_2BTN_4LED.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_438_DEM_4BIT_UP_DW_2BTN_4LED/DEM_4BIT_UP_DW_2BTN_4LED.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_438_DEM_4BIT_UP_DW_2BTN_4LED/DEM_4BIT_UP_DW_2BTN_4LED.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_438_DEM_4BIT_UP_DW_2BTN_4LED/DEM_4BIT_UP_DW_2BTN_4LED.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_438_DEM_4BIT_UP_DW_2BTN_4LED/DEM_4BIT_UP_DW_2BTN_4LED.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_438_DEM_4BIT_UP_DW_2BTN_4LED/DEM_4BIT_UP_DW_2BTN_4LED.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_438_DEM_4BIT_UP_DW_2BTN_4LED/DEM_4BIT_UP_DW_2BTN_4LED.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_438_DEM_4BIT_UP_DW_2BTN_4LED/DEM_4BIT_UP_DW_2BTN_4LED.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_438_DEM_4BIT_UP_DW_2BTN_4LED/DEM_4BIT_UP_DW_2BTN_4LED.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_438_DEM_4BIT_UP_DW_2BTN_4LED/DEM_4BIT_UP_DW_2BTN_4LED.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_438_DEM_4BIT_UP_DW_2BTN_4LED/DEM_4BIT_UP_DW_2BTN_4LED.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_438_DEM_4BIT_UP_DW_2BTN_4LED/DEM_4BIT_UP_DW_2BTN_4LED.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_438_DEM_4BIT_UP_DW_2BTN_4LED/DEM_4BIT_UP_DW_2BTN_4LED.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-4 DEM_4BIT_UP_DW_2BTN_4LED.ngc DEM_4BIT_UP_DW_2BTN_4LED.ngd  
+map -intstyle ise -p xc3s500e-pq208-4 -cm area -ir off -pr off -c 100 -o DEM_4BIT_UP_DW_2BTN_4LED_map.ncd DEM_4BIT_UP_DW_2BTN_4LED.ngd DEM_4BIT_UP_DW_2BTN_4LED.pcf 
+par -w -intstyle ise -ol high -t 1 DEM_4BIT_UP_DW_2BTN_4LED_map.ncd DEM_4BIT_UP_DW_2BTN_4LED.ncd DEM_4BIT_UP_DW_2BTN_4LED.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DEM_4BIT_UP_DW_2BTN_4LED.twx DEM_4BIT_UP_DW_2BTN_4LED.ncd -o DEM_4BIT_UP_DW_2BTN_4LED.twr DEM_4BIT_UP_DW_2BTN_4LED.pcf 
+bitgen -intstyle ise -f DEM_4BIT_UP_DW_2BTN_4LED.ut DEM_4BIT_UP_DW_2BTN_4LED.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_438_DEM_4BIT_UP_DW_2BTN_4LED/DEM_4BIT_UP_DW_2BTN_4LED.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_438_DEM_4BIT_UP_DW_2BTN_4LED/DEM_4BIT_UP_DW_2BTN_4LED.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-4 DEM_4BIT_UP_DW_2BTN_4LED.ngc DEM_4BIT_UP_DW_2BTN_4LED.ngd  
+map -intstyle ise -p xc3s500e-pq208-4 -cm area -ir off -pr off -c 100 -o DEM_4BIT_UP_DW_2BTN_4LED_map.ncd DEM_4BIT_UP_DW_2BTN_4LED.ngd DEM_4BIT_UP_DW_2BTN_4LED.pcf 
+par -w -intstyle ise -ol high -t 1 DEM_4BIT_UP_DW_2BTN_4LED_map.ncd DEM_4BIT_UP_DW_2BTN_4LED.ncd DEM_4BIT_UP_DW_2BTN_4LED.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DEM_4BIT_UP_DW_2BTN_4LED.twx DEM_4BIT_UP_DW_2BTN_4LED.ncd -o DEM_4BIT_UP_DW_2BTN_4LED.twr DEM_4BIT_UP_DW_2BTN_4LED.pcf 
+bitgen -intstyle ise -f DEM_4BIT_UP_DW_2BTN_4LED.ut DEM_4BIT_UP_DW_2BTN_4LED.ncd 

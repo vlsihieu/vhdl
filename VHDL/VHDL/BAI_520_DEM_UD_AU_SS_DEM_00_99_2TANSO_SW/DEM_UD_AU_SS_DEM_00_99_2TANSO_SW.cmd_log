@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_520_DEM_UD_AU_SS_DEM_00_99_2TANSO_SW/DEM_UD_AU_SS_DEM_00_99_2TANSO_SW.xst" -ofn "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_520_DEM_UD_AU_SS_DEM_00_99_2TANSO_SW/DEM_UD_AU_SS_DEM_00_99_2TANSO_SW.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 DEM_UD_AU_SS_DEM_00_99_2TANSO_SW.ngc DEM_UD_AU_SS_DEM_00_99_2TANSO_SW.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DEM_UD_AU_SS_DEM_00_99_2TANSO_SW_map.ncd DEM_UD_AU_SS_DEM_00_99_2TANSO_SW.ngd DEM_UD_AU_SS_DEM_00_99_2TANSO_SW.pcf 
+par -w -intstyle ise -ol high -t 1 DEM_UD_AU_SS_DEM_00_99_2TANSO_SW_map.ncd DEM_UD_AU_SS_DEM_00_99_2TANSO_SW.ncd DEM_UD_AU_SS_DEM_00_99_2TANSO_SW.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DEM_UD_AU_SS_DEM_00_99_2TANSO_SW.twx DEM_UD_AU_SS_DEM_00_99_2TANSO_SW.ncd -o DEM_UD_AU_SS_DEM_00_99_2TANSO_SW.twr DEM_UD_AU_SS_DEM_00_99_2TANSO_SW.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f DEM_UD_AU_SS_DEM_00_99_2TANSO_SW.ut DEM_UD_AU_SS_DEM_00_99_2TANSO_SW.ncd 

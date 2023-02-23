@@ -1,0 +1,680 @@
+Analysis & Synthesis report for BAI_VE_LED_7DOAN
+Wed Oct 30 07:40:32 2019
+Quartus II 32-bit Version 12.1 Build 177 11/07/2012 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. State Machine - |BAI_VE_LED_7DOAN|CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN3|DB_REG
+  9. State Machine - |BAI_VE_LED_7DOAN|CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN2|DB_REG
+ 10. State Machine - |BAI_VE_LED_7DOAN|CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN1|DB_REG
+ 11. State Machine - |BAI_VE_LED_7DOAN|CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN0|DB_REG
+ 12. Registers Removed During Synthesis
+ 13. Removed Registers Triggering Further Register Optimizations
+ 14. General Register Statistics
+ 15. Inverted Register Statistics
+ 16. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 17. Port Connectivity Checks: "GIAIMA_HIENTHI_8LED_7DOAN:HIENTHI_1LED"
+ 18. Port Connectivity Checks: "LED_STD_PST:LED_STD_PST"
+ 19. Port Connectivity Checks: "LED_SANGDON_TSP:LED_SANGDON_TSP"
+ 20. Port Connectivity Checks: "LED_SANGDON_PST:LED_SANGDON_PST"
+ 21. Port Connectivity Checks: "CD_4BTN:CHONGDOI_LAMHEP_4BTN"
+ 22. Port Connectivity Checks: "CHIA_10XUNG:CHIA_XUNG"
+ 23. Port Connectivity Checks: "CHIA_10ENA:CHIA_10ENA"
+ 24. Elapsed Time Per Partition
+ 25. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2012 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                  ;
++------------------------------------+------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Wed Oct 30 07:40:32 2019    ;
+; Quartus II 32-bit Version          ; 12.1 Build 177 11/07/2012 SJ Web Edition ;
+; Revision Name                      ; BAI_VE_LED_7DOAN                         ;
+; Top-level Entity Name              ; BAI_VE_LED_7DOAN                         ;
+; Family                             ; Cyclone IV E                             ;
+; Total logic elements               ; 202                                      ;
+;     Total combinational functions  ; 197                                      ;
+;     Dedicated logic registers      ; 103                                      ;
+; Total registers                    ; 103                                      ;
+; Total pins                         ; 63                                       ;
+; Total virtual pins                 ; 0                                        ;
+; Total memory bits                  ; 0                                        ;
+; Embedded Multiplier 9-bit elements ; 0                                        ;
+; Total PLLs                         ; 0                                        ;
++------------------------------------+------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                     ; EP4CE115F29C7      ;                    ;
+; Top-level entity name                                                      ; BAI_VE_LED_7DOAN   ; BAI_VE_LED_7DOAN   ;
+; Family name                                                                ; Cyclone IV E       ; Cyclone IV GX      ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                 ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM Block Balancing                                                   ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; On                 ; On                 ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                               ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     1 processor            ; 100.0%      ;
+;     2-4 processors         ;   0.0%      ;
++----------------------------+-------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                    ;
++----------------------------------+-----------------+-----------------+----------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                             ; Library ;
++----------------------------------+-----------------+-----------------+----------------------------------------------------------+---------+
+; LED_STD_PST.vhd                  ; yes             ; User VHDL File  ; F:/ON_THI/BAI_VE_LED_7DOAN/LED_STD_PST.vhd               ;         ;
+; LED_SANGDON_TSP.vhd              ; yes             ; User VHDL File  ; F:/ON_THI/BAI_VE_LED_7DOAN/LED_SANGDON_TSP.vhd           ;         ;
+; LED_SANGDON_PST.vhd              ; yes             ; User VHDL File  ; F:/ON_THI/BAI_VE_LED_7DOAN/LED_SANGDON_PST.vhd           ;         ;
+; GIAIMA_HIENTHI_8LED_7DOAN.vhd    ; yes             ; User VHDL File  ; F:/ON_THI/BAI_VE_LED_7DOAN/GIAIMA_HIENTHI_8LED_7DOAN.vhd ;         ;
+; GIAIMA_7DOAN_ENA.vhd             ; yes             ; User VHDL File  ; F:/ON_THI/BAI_VE_LED_7DOAN/GIAIMA_7DOAN_ENA.vhd          ;         ;
+; DEM_GH_UD_2BTN.vhd               ; yes             ; User VHDL File  ; F:/ON_THI/BAI_VE_LED_7DOAN/DEM_GH_UD_2BTN.vhd            ;         ;
+; DEM_2BIT.vhd                     ; yes             ; User VHDL File  ; F:/ON_THI/BAI_VE_LED_7DOAN/DEM_2BIT.vhd                  ;         ;
+; CHIA_10XUNG.vhd                  ; yes             ; User VHDL File  ; F:/ON_THI/BAI_VE_LED_7DOAN/CHIA_10XUNG.vhd               ;         ;
+; CHIA_10ENA.vhd                   ; yes             ; User VHDL File  ; F:/ON_THI/BAI_VE_LED_7DOAN/CHIA_10ENA.vhd                ;         ;
+; CD_4BTN.vhd                      ; yes             ; User VHDL File  ; F:/ON_THI/BAI_VE_LED_7DOAN/CD_4BTN.vhd                   ;         ;
+; BTN.vhd                          ; yes             ; User VHDL File  ; F:/ON_THI/BAI_VE_LED_7DOAN/BTN.vhd                       ;         ;
+; BAI_VE_LED_7DOAN.vhd             ; yes             ; User VHDL File  ; F:/ON_THI/BAI_VE_LED_7DOAN/BAI_VE_LED_7DOAN.vhd          ;         ;
++----------------------------------+-----------------+-----------------+----------------------------------------------------------+---------+
+
+
++-----------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary         ;
++---------------------------------------------+-------+
+; Resource                                    ; Usage ;
++---------------------------------------------+-------+
+; Estimated Total logic elements              ; 202   ;
+;                                             ;       ;
+; Total combinational functions               ; 197   ;
+; Logic element usage by number of LUT inputs ;       ;
+;     -- 4 input functions                    ; 88    ;
+;     -- 3 input functions                    ; 22    ;
+;     -- <=2 input functions                  ; 87    ;
+;                                             ;       ;
+; Logic elements by mode                      ;       ;
+;     -- normal mode                          ; 136   ;
+;     -- arithmetic mode                      ; 61    ;
+;                                             ;       ;
+; Total registers                             ; 103   ;
+;     -- Dedicated logic registers            ; 103   ;
+;     -- I/O registers                        ; 0     ;
+;                                             ;       ;
+; I/O pins                                    ; 63    ;
+; Embedded Multiplier 9-bit elements          ; 0     ;
+; Maximum fan-out                             ; 103   ;
+; Total fan-out                               ; 1020  ;
+; Average fan-out                             ; 2.39  ;
++---------------------------------------------+-------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                     ;
++----------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------+--------------+
+; Compilation Hierarchy Node                   ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                           ; Library Name ;
++----------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------+--------------+
+; |BAI_VE_LED_7DOAN                            ; 197 (14)          ; 103 (0)      ; 0           ; 0            ; 0       ; 0         ; 63   ; 0            ; |BAI_VE_LED_7DOAN                                                                             ;              ;
+;    |CD_4BTN:CHONGDOI_LAMHEP_4BTN|            ; 87 (0)            ; 50 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BAI_VE_LED_7DOAN|CD_4BTN:CHONGDOI_LAMHEP_4BTN                                                ;              ;
+;       |BTN:CD_BTN_BTN1|                      ; 44 (44)           ; 25 (25)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BAI_VE_LED_7DOAN|CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN1                                ;              ;
+;       |BTN:CD_BTN_BTN2|                      ; 43 (43)           ; 25 (25)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BAI_VE_LED_7DOAN|CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN2                                ;              ;
+;    |CHIA_10ENA:CHIA_10ENA|                   ; 45 (45)           ; 24 (24)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BAI_VE_LED_7DOAN|CHIA_10ENA:CHIA_10ENA                                                       ;              ;
+;    |CHIA_10XUNG:CHIA_XUNG|                   ; 6 (6)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BAI_VE_LED_7DOAN|CHIA_10XUNG:CHIA_XUNG                                                       ;              ;
+;    |DEM_2BIT:DEM_4BIT_3|                     ; 2 (2)             ; 2 (2)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BAI_VE_LED_7DOAN|DEM_2BIT:DEM_4BIT_3                                                         ;              ;
+;    |DEM_GH_UD_2BTN:DEM_GH_UD_2BTN|           ; 3 (3)             ; 3 (3)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BAI_VE_LED_7DOAN|DEM_GH_UD_2BTN:DEM_GH_UD_2BTN                                               ;              ;
+;    |GIAIMA_HIENTHI_8LED_7DOAN:HIENTHI_1LED|  ; 6 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BAI_VE_LED_7DOAN|GIAIMA_HIENTHI_8LED_7DOAN:HIENTHI_1LED                                      ;              ;
+;       |GIAIMA_7DOAN_ENA:GIAIMA_HIENTHI_LED7| ; 6 (6)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BAI_VE_LED_7DOAN|GIAIMA_HIENTHI_8LED_7DOAN:HIENTHI_1LED|GIAIMA_7DOAN_ENA:GIAIMA_HIENTHI_LED7 ;              ;
+;    |LED_SANGDON_PST:LED_SANGDON_PST|         ; 30 (30)           ; 18 (18)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BAI_VE_LED_7DOAN|LED_SANGDON_PST:LED_SANGDON_PST                                             ;              ;
+;    |LED_SANGDON_TSP:LED_SANGDON_TSP|         ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BAI_VE_LED_7DOAN|LED_SANGDON_TSP:LED_SANGDON_TSP                                             ;              ;
+;    |LED_STD_PST:LED_STD_PST|                 ; 1 (1)             ; 6 (6)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BAI_VE_LED_7DOAN|LED_STD_PST:LED_STD_PST                                                     ;              ;
++----------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
+Encoding Type:  One-Hot
++---------------------------------------------------------------------------------------+
+; State Machine - |BAI_VE_LED_7DOAN|CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN3|DB_REG ;
++--------------+--------------+------------+--------------+-----------------------------+
+; Name         ; DB_REG.WAIT1 ; DB_REG.ONE ; DB_REG.WAIT0 ; DB_REG.ZERO                 ;
++--------------+--------------+------------+--------------+-----------------------------+
+; DB_REG.ZERO  ; 0            ; 0          ; 0            ; 0                           ;
+; DB_REG.WAIT0 ; 0            ; 0          ; 1            ; 1                           ;
+; DB_REG.ONE   ; 0            ; 1          ; 0            ; 1                           ;
+; DB_REG.WAIT1 ; 1            ; 0          ; 0            ; 1                           ;
++--------------+--------------+------------+--------------+-----------------------------+
+
+
+Encoding Type:  One-Hot
++---------------------------------------------------------------------------------------+
+; State Machine - |BAI_VE_LED_7DOAN|CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN2|DB_REG ;
++--------------+--------------+------------+--------------+-----------------------------+
+; Name         ; DB_REG.WAIT1 ; DB_REG.ONE ; DB_REG.WAIT0 ; DB_REG.ZERO                 ;
++--------------+--------------+------------+--------------+-----------------------------+
+; DB_REG.ZERO  ; 0            ; 0          ; 0            ; 0                           ;
+; DB_REG.WAIT0 ; 0            ; 0          ; 1            ; 1                           ;
+; DB_REG.ONE   ; 0            ; 1          ; 0            ; 1                           ;
+; DB_REG.WAIT1 ; 1            ; 0          ; 0            ; 1                           ;
++--------------+--------------+------------+--------------+-----------------------------+
+
+
+Encoding Type:  One-Hot
++---------------------------------------------------------------------------------------+
+; State Machine - |BAI_VE_LED_7DOAN|CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN1|DB_REG ;
++--------------+--------------+------------+--------------+-----------------------------+
+; Name         ; DB_REG.WAIT1 ; DB_REG.ONE ; DB_REG.WAIT0 ; DB_REG.ZERO                 ;
++--------------+--------------+------------+--------------+-----------------------------+
+; DB_REG.ZERO  ; 0            ; 0          ; 0            ; 0                           ;
+; DB_REG.WAIT0 ; 0            ; 0          ; 1            ; 1                           ;
+; DB_REG.ONE   ; 0            ; 1          ; 0            ; 1                           ;
+; DB_REG.WAIT1 ; 1            ; 0          ; 0            ; 1                           ;
++--------------+--------------+------------+--------------+-----------------------------+
+
+
+Encoding Type:  One-Hot
++---------------------------------------------------------------------------------------+
+; State Machine - |BAI_VE_LED_7DOAN|CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN0|DB_REG ;
++--------------+--------------+------------+--------------+-----------------------------+
+; Name         ; DB_REG.WAIT1 ; DB_REG.ONE ; DB_REG.WAIT0 ; DB_REG.ZERO                 ;
++--------------+--------------+------------+--------------+-----------------------------+
+; DB_REG.ZERO  ; 0            ; 0          ; 0            ; 0                           ;
+; DB_REG.WAIT0 ; 0            ; 0          ; 1            ; 1                           ;
+; DB_REG.ONE   ; 0            ; 1          ; 0            ; 1                           ;
+; DB_REG.WAIT1 ; 1            ; 0          ; 0            ; 1                           ;
++--------------+--------------+------------+--------------+-----------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                                    ;
++---------------------------------------------------------------+-------------------------------------------------------+
+; Register name                                                 ; Reason for Removal                                    ;
++---------------------------------------------------------------+-------------------------------------------------------+
+; DEM_GH_UD_2BTN:DEM_GH_UD_2BTN|DONVI_REG[2,3]                  ; Stuck at GND due to stuck port data_in                ;
+; DEM_GH_UD_2BTN:DEM_GH_UD_2BTN|DONVI_REG[1]                    ; Stuck at VCC due to stuck port data_in                ;
+; DEM_GH_UD_2BTN:DEM_GH_UD_2BTN|DONVI_REG[0]                    ; Stuck at GND due to stuck port data_in                ;
+; CHIA_10XUNG:CHIA_XUNG|D5HZ_REG[23]                            ; Merged with CHIA_10ENA:CHIA_10ENA|D5HZ_REG[23]        ;
+; CHIA_10XUNG:CHIA_XUNG|D5HZ_REG[22]                            ; Merged with CHIA_10ENA:CHIA_10ENA|D5HZ_REG[22]        ;
+; CHIA_10XUNG:CHIA_XUNG|D5HZ_REG[21]                            ; Merged with CHIA_10ENA:CHIA_10ENA|D5HZ_REG[21]        ;
+; CHIA_10XUNG:CHIA_XUNG|D5HZ_REG[20]                            ; Merged with CHIA_10ENA:CHIA_10ENA|D5HZ_REG[20]        ;
+; CHIA_10XUNG:CHIA_XUNG|D5HZ_REG[19]                            ; Merged with CHIA_10ENA:CHIA_10ENA|D5HZ_REG[19]        ;
+; CHIA_10XUNG:CHIA_XUNG|D5HZ_REG[18]                            ; Merged with CHIA_10ENA:CHIA_10ENA|D5HZ_REG[18]        ;
+; CHIA_10XUNG:CHIA_XUNG|D5HZ_REG[17]                            ; Merged with CHIA_10ENA:CHIA_10ENA|D5HZ_REG[17]        ;
+; CHIA_10XUNG:CHIA_XUNG|D5HZ_REG[16]                            ; Merged with CHIA_10ENA:CHIA_10ENA|D5HZ_REG[16]        ;
+; CHIA_10XUNG:CHIA_XUNG|D5HZ_REG[15]                            ; Merged with CHIA_10ENA:CHIA_10ENA|D5HZ_REG[15]        ;
+; CHIA_10XUNG:CHIA_XUNG|D5HZ_REG[14]                            ; Merged with CHIA_10ENA:CHIA_10ENA|D5HZ_REG[14]        ;
+; CHIA_10XUNG:CHIA_XUNG|D5HZ_REG[13]                            ; Merged with CHIA_10ENA:CHIA_10ENA|D5HZ_REG[13]        ;
+; CHIA_10XUNG:CHIA_XUNG|D5HZ_REG[12]                            ; Merged with CHIA_10ENA:CHIA_10ENA|D5HZ_REG[12]        ;
+; CHIA_10XUNG:CHIA_XUNG|D5HZ_REG[11]                            ; Merged with CHIA_10ENA:CHIA_10ENA|D5HZ_REG[11]        ;
+; CHIA_10XUNG:CHIA_XUNG|D5HZ_REG[10]                            ; Merged with CHIA_10ENA:CHIA_10ENA|D5HZ_REG[10]        ;
+; CHIA_10XUNG:CHIA_XUNG|D5HZ_REG[9]                             ; Merged with CHIA_10ENA:CHIA_10ENA|D5HZ_REG[9]         ;
+; CHIA_10XUNG:CHIA_XUNG|D5HZ_REG[8]                             ; Merged with CHIA_10ENA:CHIA_10ENA|D5HZ_REG[8]         ;
+; CHIA_10XUNG:CHIA_XUNG|D5HZ_REG[7]                             ; Merged with CHIA_10ENA:CHIA_10ENA|D5HZ_REG[7]         ;
+; CHIA_10XUNG:CHIA_XUNG|D5HZ_REG[6]                             ; Merged with CHIA_10ENA:CHIA_10ENA|D5HZ_REG[6]         ;
+; CHIA_10XUNG:CHIA_XUNG|D5HZ_REG[5]                             ; Merged with CHIA_10ENA:CHIA_10ENA|D5HZ_REG[5]         ;
+; CHIA_10XUNG:CHIA_XUNG|D5HZ_REG[4]                             ; Merged with CHIA_10ENA:CHIA_10ENA|D5HZ_REG[4]         ;
+; CHIA_10XUNG:CHIA_XUNG|D5HZ_REG[3]                             ; Merged with CHIA_10ENA:CHIA_10ENA|D5HZ_REG[3]         ;
+; CHIA_10XUNG:CHIA_XUNG|D5HZ_REG[2]                             ; Merged with CHIA_10ENA:CHIA_10ENA|D5HZ_REG[2]         ;
+; CHIA_10XUNG:CHIA_XUNG|D5HZ_REG[1]                             ; Merged with CHIA_10ENA:CHIA_10ENA|D5HZ_REG[1]         ;
+; CHIA_10XUNG:CHIA_XUNG|D5HZ_REG[0]                             ; Merged with CHIA_10ENA:CHIA_10ENA|D5HZ_REG[0]         ;
+; DEM_GH_UD_2BTN:DEM_GH_UD_2BTN|CHUC_REG[0]                     ; Stuck at GND due to stuck port data_in                ;
+; CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN3|DELAY_REG[0..19] ; Lost fanout                                           ;
+; CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN0|DELAY_REG[0..19] ; Lost fanout                                           ;
+; CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN3|DB_REG.ZERO      ; Lost fanout                                           ;
+; CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN3|DB_REG.WAIT0     ; Lost fanout                                           ;
+; CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN3|DB_REG.ONE       ; Lost fanout                                           ;
+; CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN3|DB_REG.WAIT1     ; Lost fanout                                           ;
+; CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN0|DB_REG.ZERO      ; Lost fanout                                           ;
+; CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN0|DB_REG.WAIT0     ; Lost fanout                                           ;
+; CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN0|DB_REG.ONE       ; Lost fanout                                           ;
+; CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN0|DB_REG.WAIT1     ; Lost fanout                                           ;
+; LED_SANGDON_TSP:LED_SANGDON_TSP|X_REG[0]                      ; Merged with LED_SANGDON_PST:LED_SANGDON_PST|X_REG[5]  ;
+; LED_SANGDON_TSP:LED_SANGDON_TSP|Y_REG[0]                      ; Merged with LED_SANGDON_PST:LED_SANGDON_PST|Y_REG[5]  ;
+; LED_SANGDON_TSP:LED_SANGDON_TSP|X_REG[5]                      ; Merged with LED_SANGDON_PST:LED_SANGDON_PST|X_REG[0]  ;
+; LED_SANGDON_TSP:LED_SANGDON_TSP|Y_REG[5]                      ; Merged with LED_SANGDON_PST:LED_SANGDON_PST|Y_REG[0]  ;
+; LED_SANGDON_TSP:LED_SANGDON_TSP|X_REG[1]                      ; Merged with LED_SANGDON_PST:LED_SANGDON_PST|X_REG[4]  ;
+; LED_SANGDON_TSP:LED_SANGDON_TSP|Y_REG[1]                      ; Merged with LED_SANGDON_PST:LED_SANGDON_PST|Y_REG[4]  ;
+; LED_SANGDON_TSP:LED_SANGDON_TSP|X_REG[4]                      ; Merged with LED_SANGDON_PST:LED_SANGDON_PST|X_REG[1]  ;
+; LED_SANGDON_TSP:LED_SANGDON_TSP|Y_REG[4]                      ; Merged with LED_SANGDON_PST:LED_SANGDON_PST|Y_REG[1]  ;
+; LED_SANGDON_TSP:LED_SANGDON_TSP|X_REG[2]                      ; Merged with LED_SANGDON_PST:LED_SANGDON_PST|X_REG[3]  ;
+; LED_SANGDON_TSP:LED_SANGDON_TSP|Y_REG[2]                      ; Merged with LED_SANGDON_PST:LED_SANGDON_PST|Y_REG[3]  ;
+; LED_SANGDON_TSP:LED_SANGDON_TSP|X_REG[3]                      ; Merged with LED_SANGDON_PST:LED_SANGDON_PST|X_REG[2]  ;
+; LED_SANGDON_TSP:LED_SANGDON_TSP|Y_REG[3]                      ; Merged with LED_SANGDON_PST:LED_SANGDON_PST|Y_REG[2]  ;
+; LED_SANGDON_TSP:LED_SANGDON_TSP|DC_REG[2]                     ; Merged with LED_SANGDON_PST:LED_SANGDON_PST|DC_REG[2] ;
+; LED_SANGDON_TSP:LED_SANGDON_TSP|DC_REG[1]                     ; Merged with LED_SANGDON_PST:LED_SANGDON_PST|DC_REG[1] ;
+; LED_SANGDON_TSP:LED_SANGDON_TSP|DC_REG[0]                     ; Merged with LED_SANGDON_PST:LED_SANGDON_PST|DC_REG[0] ;
+; LED_SANGDON_TSP:LED_SANGDON_TSP|DL_REG[2]                     ; Merged with LED_SANGDON_PST:LED_SANGDON_PST|DL_REG[2] ;
+; LED_SANGDON_TSP:LED_SANGDON_TSP|DL_REG[1]                     ; Merged with LED_SANGDON_PST:LED_SANGDON_PST|DL_REG[1] ;
+; LED_SANGDON_TSP:LED_SANGDON_TSP|DL_REG[0]                     ; Merged with LED_SANGDON_PST:LED_SANGDON_PST|DL_REG[0] ;
+; Total Number of Removed Registers = 95                        ;                                                       ;
++---------------------------------------------------------------+-------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------+
+; Removed Registers Triggering Further Register Optimizations                                                                                 ;
++-----------------------------------------------------------+--------------------+------------------------------------------------------------+
+; Register name                                             ; Reason for Removal ; Registers Removed due to This Register                     ;
++-----------------------------------------------------------+--------------------+------------------------------------------------------------+
+; CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN3|DELAY_REG[7] ; Lost Fanouts       ; CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN3|DELAY_REG[3], ;
+;                                                           ;                    ; CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN3|DELAY_REG[2], ;
+;                                                           ;                    ; CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN3|DELAY_REG[1], ;
+;                                                           ;                    ; CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN3|DELAY_REG[0], ;
+;                                                           ;                    ; CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN3|DB_REG.ZERO,  ;
+;                                                           ;                    ; CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN3|DB_REG.WAIT0, ;
+;                                                           ;                    ; CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN3|DB_REG.ONE,   ;
+;                                                           ;                    ; CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN3|DB_REG.WAIT1  ;
+; CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN0|DELAY_REG[7] ; Lost Fanouts       ; CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN0|DELAY_REG[3], ;
+;                                                           ;                    ; CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN0|DELAY_REG[2], ;
+;                                                           ;                    ; CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN0|DELAY_REG[1], ;
+;                                                           ;                    ; CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN0|DELAY_REG[0], ;
+;                                                           ;                    ; CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN0|DB_REG.ZERO,  ;
+;                                                           ;                    ; CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN0|DB_REG.WAIT0, ;
+;                                                           ;                    ; CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN0|DB_REG.ONE,   ;
+;                                                           ;                    ; CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN0|DB_REG.WAIT1  ;
++-----------------------------------------------------------+--------------------+------------------------------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 103   ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 40    ;
+; Number of registers using Asynchronous Clear ; 29    ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 64    ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-----------------------------------------------------+
+; Inverted Register Statistics                        ;
++-------------------------------------------+---------+
+; Inverted Register                         ; Fan out ;
++-------------------------------------------+---------+
+; LED_SANGDON_PST:LED_SANGDON_PST|DC_REG[2] ; 3       ;
+; LED_SANGDON_PST:LED_SANGDON_PST|DC_REG[0] ; 4       ;
+; LED_SANGDON_PST:LED_SANGDON_PST|DL_REG[2] ; 5       ;
+; LED_SANGDON_PST:LED_SANGDON_PST|DL_REG[0] ; 7       ;
+; CHIA_10ENA:CHIA_10ENA|D5HZ_REG[0]         ; 2       ;
+; Total number of inverted registers = 5    ;         ;
++-------------------------------------------+---------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                             ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                   ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------+
+; 4:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |BAI_VE_LED_7DOAN|LED_SANGDON_TSP:LED_SANGDON_TSP|Y_REG[0]                   ;
+; 4:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |BAI_VE_LED_7DOAN|LED_SANGDON_PST:LED_SANGDON_PST|Y_REG[1]                   ;
+; 8:1                ; 20 bits   ; 100 LEs       ; 20 LEs               ; 80 LEs                 ; Yes        ; |BAI_VE_LED_7DOAN|CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN3|DELAY_REG[13] ;
+; 8:1                ; 20 bits   ; 100 LEs       ; 20 LEs               ; 80 LEs                 ; Yes        ; |BAI_VE_LED_7DOAN|CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN2|DELAY_REG[8]  ;
+; 8:1                ; 20 bits   ; 100 LEs       ; 20 LEs               ; 80 LEs                 ; Yes        ; |BAI_VE_LED_7DOAN|CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN1|DELAY_REG[2]  ;
+; 8:1                ; 20 bits   ; 100 LEs       ; 20 LEs               ; 80 LEs                 ; Yes        ; |BAI_VE_LED_7DOAN|CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN0|DELAY_REG[3]  ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |BAI_VE_LED_7DOAN|LED_SANGDON_TSP:LED_SANGDON_TSP|DL_REG[2]                  ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; Yes        ; |BAI_VE_LED_7DOAN|LED_SANGDON_TSP:LED_SANGDON_TSP|DC_REG[0]                  ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |BAI_VE_LED_7DOAN|LED_SANGDON_PST:LED_SANGDON_PST|DL_REG[0]                  ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; Yes        ; |BAI_VE_LED_7DOAN|LED_SANGDON_PST:LED_SANGDON_PST|DC_REG[2]                  ;
+; 4:1                ; 6 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |BAI_VE_LED_7DOAN|TAM[0]                                                     ;
+; 8:1                ; 2 bits    ; 10 LEs        ; 4 LEs                ; 6 LEs                  ; No         ; |BAI_VE_LED_7DOAN|CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN3|Selector1     ;
+; 8:1                ; 2 bits    ; 10 LEs        ; 4 LEs                ; 6 LEs                  ; No         ; |BAI_VE_LED_7DOAN|CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN2|Selector1     ;
+; 8:1                ; 2 bits    ; 10 LEs        ; 4 LEs                ; 6 LEs                  ; No         ; |BAI_VE_LED_7DOAN|CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN1|Selector1     ;
+; 8:1                ; 2 bits    ; 10 LEs        ; 4 LEs                ; 6 LEs                  ; No         ; |BAI_VE_LED_7DOAN|CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN0|Selector3     ;
+; 10:1               ; 2 bits    ; 12 LEs        ; 8 LEs                ; 4 LEs                  ; No         ; |BAI_VE_LED_7DOAN|CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN3|Selector0     ;
+; 10:1               ; 2 bits    ; 12 LEs        ; 8 LEs                ; 4 LEs                  ; No         ; |BAI_VE_LED_7DOAN|CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN2|Selector2     ;
+; 10:1               ; 2 bits    ; 12 LEs        ; 8 LEs                ; 4 LEs                  ; No         ; |BAI_VE_LED_7DOAN|CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN1|Selector2     ;
+; 10:1               ; 2 bits    ; 12 LEs        ; 8 LEs                ; 4 LEs                  ; No         ; |BAI_VE_LED_7DOAN|CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN0|Selector0     ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------+
+; Port Connectivity Checks: "GIAIMA_HIENTHI_8LED_7DOAN:HIENTHI_1LED" ;
++-----------------------+-------+----------+-------------------------+
+; Port                  ; Type  ; Severity ; Details                 ;
++-----------------------+-------+----------+-------------------------+
+; led70[2..1]           ; Input ; Info     ; Stuck at GND            ;
+; led70[3]              ; Input ; Info     ; Stuck at VCC            ;
+; led70[0]              ; Input ; Info     ; Stuck at VCC            ;
+; led71[1..0]           ; Input ; Info     ; Stuck at VCC            ;
+; led71[3..2]           ; Input ; Info     ; Stuck at GND            ;
+; led72[3..2]           ; Input ; Info     ; Stuck at GND            ;
+; led72[1]              ; Input ; Info     ; Stuck at VCC            ;
+; led72[0]              ; Input ; Info     ; Stuck at GND            ;
+; led73[3..1]           ; Input ; Info     ; Stuck at GND            ;
+; led73[0]              ; Input ; Info     ; Stuck at VCC            ;
+; led74[1..0]           ; Input ; Info     ; Stuck at GND            ;
+; led74[3]              ; Input ; Info     ; Stuck at GND            ;
+; led74[2]              ; Input ; Info     ; Stuck at VCC            ;
+; led75[3..1]           ; Input ; Info     ; Stuck at GND            ;
+; led75[0]              ; Input ; Info     ; Stuck at VCC            ;
+; ena_giaima_8led[7..6] ; Input ; Info     ; Stuck at VCC            ;
++-----------------------+-------+----------+-------------------------+
+
+
++-----------------------------------------------------+
+; Port Connectivity Checks: "LED_STD_PST:LED_STD_PST" ;
++------+-------+----------+---------------------------+
+; Port ; Type  ; Severity ; Details                   ;
++------+-------+----------+---------------------------+
+; oe   ; Input ; Info     ; Stuck at VCC              ;
++------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "LED_SANGDON_TSP:LED_SANGDON_TSP" ;
++------+-------+----------+-----------------------------------+
+; Port ; Type  ; Severity ; Details                           ;
++------+-------+----------+-----------------------------------+
+; oe   ; Input ; Info     ; Stuck at VCC                      ;
++------+-------+----------+-----------------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "LED_SANGDON_PST:LED_SANGDON_PST" ;
++------+-------+----------+-----------------------------------+
+; Port ; Type  ; Severity ; Details                           ;
++------+-------+----------+-----------------------------------+
+; oe   ; Input ; Info     ; Stuck at VCC                      ;
++------+-------+----------+-----------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "CD_4BTN:CHONGDOI_LAMHEP_4BTN"                                                       ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; btn0 ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; btn3 ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "CHIA_10XUNG:CHIA_XUNG"                                                                 ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; Port    ; Type   ; Severity ; Details                                                                             ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; ck1hz   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; ck2hz   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; ck10hz  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; ck20hz  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; ck25hz  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; ck50hz  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; ck100hz ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; ck1khz  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; ck1mhz  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "CHIA_10ENA:CHIA_10ENA"                                                                  ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; Port     ; Type   ; Severity ; Details                                                                             ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; ena1hz   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; ena2hz   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; ena10hz  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; ena20hz  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; ena25hz  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; ena50hz  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; ena100hz ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; ena1khz  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; ena1mhz  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:01     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 32-bit Analysis & Synthesis
+    Info: Version 12.1 Build 177 11/07/2012 SJ Web Edition
+    Info: Processing started: Wed Oct 30 07:40:27 2019
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off BAI_VE_LED_7DOAN -c BAI_VE_LED_7DOAN
+Info (11104): Parallel Compilation has detected 4 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 2 of the 2 physical processors detected instead.
+Info (12021): Found 2 design units, including 1 entities, in source file led_std_pst.vhd
+    Info (12022): Found design unit 1: LED_STD_PST-Behavioral
+    Info (12023): Found entity 1: LED_STD_PST
+Info (12021): Found 2 design units, including 1 entities, in source file led_sangdon_tsp.vhd
+    Info (12022): Found design unit 1: LED_SANGDON_TSP-Behavioral
+    Info (12023): Found entity 1: LED_SANGDON_TSP
+Info (12021): Found 2 design units, including 1 entities, in source file led_sangdon_pst.vhd
+    Info (12022): Found design unit 1: LED_SANGDON_PST-Behavioral
+    Info (12023): Found entity 1: LED_SANGDON_PST
+Info (12021): Found 2 design units, including 1 entities, in source file giaima_hienthi_8led_7doan.vhd
+    Info (12022): Found design unit 1: GIAIMA_HIENTHI_8LED_7DOAN-Behavioral
+    Info (12023): Found entity 1: GIAIMA_HIENTHI_8LED_7DOAN
+Info (12021): Found 2 design units, including 1 entities, in source file giaima_7doan_ena.vhd
+    Info (12022): Found design unit 1: GIAIMA_7DOAN_ENA-Behavioral
+    Info (12023): Found entity 1: GIAIMA_7DOAN_ENA
+Info (12021): Found 2 design units, including 1 entities, in source file dem_gh_ud_2btn.vhd
+    Info (12022): Found design unit 1: DEM_GH_UD_2BTN-BEHAVIORAL
+    Info (12023): Found entity 1: DEM_GH_UD_2BTN
+Info (12021): Found 2 design units, including 1 entities, in source file dem_2bit.vhd
+    Info (12022): Found design unit 1: DEM_2BIT-behavioral
+    Info (12023): Found entity 1: DEM_2BIT
+Info (12021): Found 2 design units, including 1 entities, in source file dem_1bit.vhd
+    Info (12022): Found design unit 1: DEM_1BIT-Behavioral
+    Info (12023): Found entity 1: DEM_1BIT
+Info (12021): Found 2 design units, including 1 entities, in source file chia_10xung.vhd
+    Info (12022): Found design unit 1: CHIA_10XUNG-Behavioral
+    Info (12023): Found entity 1: CHIA_10XUNG
+Info (12021): Found 2 design units, including 1 entities, in source file chia_10ena.vhd
+    Info (12022): Found design unit 1: CHIA_10ENA-behavioral
+    Info (12023): Found entity 1: CHIA_10ENA
+Info (12021): Found 2 design units, including 1 entities, in source file cd_4btn.vhd
+    Info (12022): Found design unit 1: CD_4BTN-BEHAVIOR
+    Info (12023): Found entity 1: CD_4BTN
+Info (12021): Found 2 design units, including 1 entities, in source file btn.vhd
+    Info (12022): Found design unit 1: BTN-BEHAVIOR
+    Info (12023): Found entity 1: BTN
+Info (12021): Found 2 design units, including 1 entities, in source file bai_ve_led_7doan.vhd
+    Info (12022): Found design unit 1: BAI_VE_LED_7DOAN-behavioral
+    Info (12023): Found entity 1: BAI_VE_LED_7DOAN
+Info (12127): Elaborating entity "BAI_VE_LED_7DOAN" for the top level hierarchy
+Warning (10541): VHDL Signal Declaration warning at BAI_VE_LED_7DOAN.vhd(13): used implicit default value for signal "LED" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10036): Verilog HDL or VHDL warning at BAI_VE_LED_7DOAN.vhd(21): object "ENA10HZ" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at BAI_VE_LED_7DOAN.vhd(21): object "ENA2HZ" assigned a value but never read
+Warning (10492): VHDL Process Statement warning at BAI_VE_LED_7DOAN.vhd(65): signal "Q_SANGDON_PST" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at BAI_VE_LED_7DOAN.vhd(66): signal "TAM1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at BAI_VE_LED_7DOAN.vhd(67): signal "Q_SANGDON_TSP" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at BAI_VE_LED_7DOAN.vhd(68): signal "Q_STD_PST" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10631): VHDL Process Statement warning at BAI_VE_LED_7DOAN.vhd(63): inferring latch(es) for signal or variable "TAM", which holds its previous value in one or more paths through the process
+Info (10041): Inferred latch for "TAM[0]" at BAI_VE_LED_7DOAN.vhd(63)
+Info (10041): Inferred latch for "TAM[1]" at BAI_VE_LED_7DOAN.vhd(63)
+Info (10041): Inferred latch for "TAM[2]" at BAI_VE_LED_7DOAN.vhd(63)
+Info (10041): Inferred latch for "TAM[3]" at BAI_VE_LED_7DOAN.vhd(63)
+Info (10041): Inferred latch for "TAM[4]" at BAI_VE_LED_7DOAN.vhd(63)
+Info (10041): Inferred latch for "TAM[5]" at BAI_VE_LED_7DOAN.vhd(63)
+Info (12128): Elaborating entity "CHIA_10ENA" for hierarchy "CHIA_10ENA:CHIA_10ENA"
+Info (12128): Elaborating entity "CHIA_10XUNG" for hierarchy "CHIA_10XUNG:CHIA_XUNG"
+Info (12128): Elaborating entity "CD_4BTN" for hierarchy "CD_4BTN:CHONGDOI_LAMHEP_4BTN"
+Info (12128): Elaborating entity "BTN" for hierarchy "CD_4BTN:CHONGDOI_LAMHEP_4BTN|BTN:CD_BTN_BTN0"
+Warning (10492): VHDL Process Statement warning at BTN.vhd(30): signal "DB_REG" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at BTN.vhd(31): signal "DB_REG" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Info (12128): Elaborating entity "DEM_2BIT" for hierarchy "DEM_2BIT:DEM_4BIT_3"
+Info (12128): Elaborating entity "LED_SANGDON_PST" for hierarchy "LED_SANGDON_PST:LED_SANGDON_PST"
+Info (12128): Elaborating entity "LED_SANGDON_TSP" for hierarchy "LED_SANGDON_TSP:LED_SANGDON_TSP"
+Info (12128): Elaborating entity "LED_STD_PST" for hierarchy "LED_STD_PST:LED_STD_PST"
+Info (12128): Elaborating entity "DEM_GH_UD_2BTN" for hierarchy "DEM_GH_UD_2BTN:DEM_GH_UD_2BTN"
+Info (12128): Elaborating entity "GIAIMA_HIENTHI_8LED_7DOAN" for hierarchy "GIAIMA_HIENTHI_8LED_7DOAN:HIENTHI_1LED"
+Info (12128): Elaborating entity "GIAIMA_7DOAN_ENA" for hierarchy "GIAIMA_HIENTHI_8LED_7DOAN:HIENTHI_1LED|GIAIMA_7DOAN_ENA:GIAIMA_HIENTHI_LED0"
+Warning (14026): LATCH primitive "TAM[0]" is permanently enabled
+Warning (14026): LATCH primitive "TAM[1]" is permanently enabled
+Warning (14026): LATCH primitive "TAM[2]" is permanently enabled
+Warning (14026): LATCH primitive "TAM[3]" is permanently enabled
+Warning (14026): LATCH primitive "TAM[4]" is permanently enabled
+Warning (14026): LATCH primitive "TAM[5]" is permanently enabled
+Info (13000): Registers with preset signals will power-up high
+Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "LED[0]" is stuck at GND
+    Warning (13410): Pin "LED[1]" is stuck at GND
+    Warning (13410): Pin "SSEG0[4]" is stuck at VCC
+    Warning (13410): Pin "SSEG1[4]" is stuck at VCC
+    Warning (13410): Pin "SSEG1[5]" is stuck at VCC
+    Warning (13410): Pin "SSEG2[2]" is stuck at VCC
+    Warning (13410): Pin "SSEG2[5]" is stuck at VCC
+    Warning (13410): Pin "SSEG3[0]" is stuck at VCC
+    Warning (13410): Pin "SSEG3[3]" is stuck at VCC
+    Warning (13410): Pin "SSEG3[4]" is stuck at VCC
+    Warning (13410): Pin "SSEG3[5]" is stuck at VCC
+    Warning (13410): Pin "SSEG3[6]" is stuck at VCC
+    Warning (13410): Pin "SSEG4[0]" is stuck at VCC
+    Warning (13410): Pin "SSEG4[3]" is stuck at VCC
+    Warning (13410): Pin "SSEG4[4]" is stuck at VCC
+    Warning (13410): Pin "SSEG5[0]" is stuck at VCC
+    Warning (13410): Pin "SSEG5[3]" is stuck at VCC
+    Warning (13410): Pin "SSEG5[4]" is stuck at VCC
+    Warning (13410): Pin "SSEG5[5]" is stuck at VCC
+    Warning (13410): Pin "SSEG5[6]" is stuck at VCC
+    Warning (13410): Pin "SSEG6[0]" is stuck at GND
+    Warning (13410): Pin "SSEG6[1]" is stuck at GND
+    Warning (13410): Pin "SSEG6[2]" is stuck at VCC
+    Warning (13410): Pin "SSEG6[3]" is stuck at GND
+    Warning (13410): Pin "SSEG6[4]" is stuck at GND
+    Warning (13410): Pin "SSEG6[5]" is stuck at VCC
+    Warning (13410): Pin "SSEG6[6]" is stuck at GND
+Info (286030): Timing-Driven Synthesis is running
+Info (17049): 48 registers lost all their fanouts during netlist optimizations.
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 1 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "BTN_N[3]"
+Info (21057): Implemented 266 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 5 input pins
+    Info (21059): Implemented 58 output pins
+    Info (21061): Implemented 203 logic cells
+Info: Quartus II 32-bit Analysis & Synthesis was successful. 0 errors, 46 warnings
+    Info: Peak virtual memory: 397 megabytes
+    Info: Processing ended: Wed Oct 30 07:40:32 2019
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:05
+
+

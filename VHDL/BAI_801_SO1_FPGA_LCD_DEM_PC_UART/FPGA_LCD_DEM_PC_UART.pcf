@@ -1,0 +1,10 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Feb 04 00:39:56 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "SW0" LOCATE = SITE "P80" LEVEL 1;
+COMP "CKHT" LOCATE = SITE "P55" LEVEL 1;
+COMP "BTN0" LOCATE = SITE "P56" LEVEL 1;
+SCHEMATIC END;
+

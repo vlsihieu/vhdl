@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat May 05 10:26:33 2018
+Quartus II 32-bit Version : 12.1 Build 177 11/07/2012 SJ Web Edition
+Revision Name : LCD_CLOCK_3KEY_NHAPNHAY
+Top-level Entity Name : LCD_CLOCK_3KEY_NHAPNHAY
+Family : Cyclone IV E
+Total logic elements : 489
+    Total combinational functions : 489
+    Dedicated logic registers : 183
+Total registers : 183
+Total pins : 18
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

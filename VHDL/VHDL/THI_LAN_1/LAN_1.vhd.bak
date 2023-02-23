@@ -1,0 +1,73 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+entity LAN_1 is
+    Port ( 	CKHT :in  STD_LOGIC;
+				
+				--KHAI BAO NGO VAO NUT NHAN
+				BTN_N: in  STD_LOGIC_VECTOR( 3 DOWNTO 0);
+				--KHAI BAO NGO RA LED 7 DOAN
+				SSEG7,SSEG6,SSEG5,SSEG4: OUT  STD_LOGIC_VECTOR(6 DOWNTO 0);
+				SSEG3,SSEG2,SSEG1,SSEG0: OUT  STD_LOGIC_VECTOR(6 DOWNTO 0)			 
+			 );
+end LAN_1;
+
+architecture Behavioral of LAN_1 is
+
+SIGNAL RST, ENA_DB, BTN1, SS, UD:STD_LOGIC; 
+-- KHAI BAO TIN HIEU LED 7 DOAN
+SIGNAL 	DONVI, CHUC: STD_LOGIC_VECTOR (3 downto 0);
+SIGNAL 	ENA_GIAIMA_8LED: STD_LOGIC_VECTOR(7 DOWNTO 0);
+
+Begin
+-- NUT RSET VOI MACH LAY TIN HIEU CHO PHEP
+			RST  <= NOT BTN_N(0);		
+CHIA_10ENA:   ENTITY WORK.CHIA_10ENA
+         PORT MAP (  CKHT   	=>  CKHT,   
+							ENA5HZ 	=>  ENA_DB);
+-- XU LY NUT NHAN
+CHONGDOI_LAMHEP_4BTN: ENTITY WORK.CD_4BTN
+PORT MAP ( 	  CKHT  => CKHT,
+				  BTN_N=>BTN_N,
+              BTN1  => BTN1
+           );
+					
+DEM_1BIT: ENTITY WORK.DEM_1BIT
+	PORT MAP(CKHT 		=> CKHT,
+				RST 		=> RST,
+				ENA_DB	=> BTN1,
+				Q 			=> SS 
+				);	
+
+--XU LY CAC CTR CON							
+DEM_00_99:	ENTITY WORK. DEM_2SO_UD
+			PORT MAP (	CKHT		=>	CKHT,
+							RST		=>	RST,
+							ENA_DB 	=> ENA_DB,
+							ENA_SS	=>	SS,
+							UD       =>  UD,
+							DONVI		=>	DONVI,
+							CHUC 		=> CHUC);
+							
+-- VI TRI HIEN THI LED 7 DOAN	VA HIEN THI						
+ENA_GIAIMA_8LED	<= X"03";																											
+HIENTHI_LED:	ENTITY WORK.GIAIMA_HIENTHI_8LED_7DOAN
+			PORT MAP (
+							LED70	=>	DONVI,
+							LED71	=>	CHUC,
+							LED72	=>	X"F",
+							LED73	=>	X"F",
+							LED74	=>	X"F",
+							LED75	=>	X"F",
+							LED76	=>	X"F",
+							LED77	=>	X"F",						
+							ENA_GIAIMA_8LED =>	ENA_GIAIMA_8LED,
+							SSEG0	=>	SSEG0,
+							SSEG1	=>	SSEG1,
+							SSEG2	=>	SSEG2,
+							SSEG3	=>	SSEG3,
+							SSEG4	=>	SSEG4,
+							SSEG5	=>	SSEG5,
+							SSEG6	=>	SSEG6,
+							SSEG7	=>	SSEG7);
+
+End Behavioral;

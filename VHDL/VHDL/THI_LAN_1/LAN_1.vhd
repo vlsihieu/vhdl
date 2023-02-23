@@ -1,0 +1,123 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+entity LAN_1 is
+    Port ( 	CKHT :in  STD_LOGIC;
+				
+				--KHAI BAO NGO VAO NUT NHAN
+				BTN_N: in  STD_LOGIC_VECTOR( 3 DOWNTO 0);
+				LED: OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
+				--KHAI BAO NGO RA LED 7 DOAN
+				SSEG7,SSEG6,SSEG5,SSEG4: OUT  STD_LOGIC_VECTOR(6 DOWNTO 0);
+				SSEG3,SSEG2,SSEG1,SSEG0: OUT  STD_LOGIC_VECTOR(6 DOWNTO 0)			 
+			 );
+end LAN_1;
+
+architecture Behavioral of LAN_1 is
+
+SIGNAL RST, ENA_DB, BTN1,BTN2,BTN3, SS, TT, TT1,TT2,ENA5HZ,ENA10HZ, UD:STD_LOGIC; 
+SIGNAL Q_STD_PST, Q_STD_TSP: STD_LOGIC_VECTOR(7 DOWNTO 0);
+-- KHAI BAO TIN HIEU LED 7 DOAN
+SIGNAL 	DONVI, CHUC,DONVI_GH, CHUC_GH,AA,TT1_HT: STD_LOGIC_VECTOR (3 downto 0);
+SIGNAL 	ENA_GIAIMA_8LED: STD_LOGIC_VECTOR(7 DOWNTO 0);
+SIGNAL OE: STD_LOGIC;
+
+Begin
+-- NUT RSET VOI MACH LAY TIN HIEU CHO PHEP
+			RST  <= NOT BTN_N(0);		
+CHIA_10ENA:   ENTITY WORK.CHIA_10ENA
+         PORT MAP (  CKHT   	=>  CKHT,   
+							ENA5HZ 	=>  ENA5HZ,
+						ENA10HZ 	=>  ENA10HZ	
+							);
+-- XU LY NUT NHAN
+CHONGDOI_LAMHEP_4BTN: ENTITY WORK.CD_4BTN
+PORT MAP ( 	  CKHT  => CKHT,
+				  BTN_N=>BTN_N,
+              BTN1  => BTN1,
+				  BTN2 => BTN2,
+				  BTN3 => BTN3
+           );
+					
+DEM_1BIT: ENTITY WORK.DEM_1BIT
+	PORT MAP(CKHT 		=> CKHT,
+				RST 		=> RST,
+				ENA_DB	=> BTN1,
+				Q 			=> SS 
+				);	
+DEM_1BIT_2: ENTITY WORK.DEM_1BIT
+	PORT MAP(CKHT 		=> CKHT,
+				RST 		=> RST,
+				ENA_DB	=> BTN3,
+				Q 			=> TT 
+				);	
+-- LUA CHON TAN SO
+ENA_DB <= ENA5HZ WHEN TT ='1'ELSE
+				 ENA10HZ;
+
+--XU LY CAC CTR CON							
+DEM_A_GH:	ENTITY WORK. DEM_2SO
+			PORT MAP (	CKHT		=>	CKHT,
+							RST		=>	RST,
+							ENA_DB 	=> ENA_DB,
+							ENA_SS	=>	SS,
+							DONVI_GH => DONVI_GH,
+							CHUC_GH => CHUC_GH,
+							DONVI		=>	DONVI,
+							CHUC 		=> CHUC);
+-- 	DEM_GH_UD_2BTN: ENTITY WORK.DEM_GH_UD_2BTN
+
+	DEM_GH_UD_2BTN: ENTITY WORK.DEM_GH_UD_2BTN
+	PORT MAP( CKHT => CKHT,
+				 UP => BTN2,
+				 RST => RST,
+				 DONVI_GH => DONVI_GH,
+				 CHUC_GH => CHUC_GH);
+
+
+
+PROCESS (CHUC_GH, DONVI_GH)
+BEGIN
+	IF CHUC_GH&DONVI_GH = X"42" OR CHUC_GH&DONVI_GH = X"82" THEN TT1 <= '1' ;
+																					 TT2 <= '0';
+	ELSE TT1 <= '0' ;
+			 TT2 <= '1';
+	END IF;
+END PROCESS;	
+
+TT1_HT <= "000"&TT1;
+LED_STD_PST: ENTITY WORK.LED_STD_PST
+	PORT MAP( CKHT => CKHT,
+				 RST => RST,
+				 ENA_DB => ENA_DB,
+				 OE => TT1,
+				 Q => Q_STD_PST);
+LED_STD_TSP: ENTITY WORK.LED_STD_TSP
+	PORT MAP( CKHT => CKHT,
+				 RST => RST,
+				 ENA_DB => ENA_DB,
+				 OE => TT2,
+				 Q => Q_STD_TSP);
+LED <= Q_STD_PST OR Q_STD_TSP; --PHAI CO				
+-- VI TRI HIEN THI LED 7 DOAN	VA HIEN THI						
+ENA_GIAIMA_8LED <= "11001011";																										
+HIENTHI_LED:	ENTITY WORK.GIAIMA_HIENTHI_8LED_7DOAN
+			PORT MAP (
+							LED70	=>	DONVI,
+							LED71	=>	CHUC,
+							LED72	=>	X"F",
+							LED73	=>	TT1_HT,
+							LED74	=>	X"F",
+							LED75	=>	X"F",
+							LED76	=>	DONVI_GH,
+							LED77	=>	CHUC_GH,						
+							ENA_GIAIMA_8LED =>	ENA_GIAIMA_8LED,
+							SSEG0	=>	SSEG0,
+							SSEG1	=>	SSEG1,
+							SSEG2	=>	SSEG2,
+							SSEG3	=>	SSEG3,
+							SSEG4	=>	SSEG4,
+							SSEG5	=>	SSEG5,
+							SSEG6	=>	SSEG6,
+							SSEG7	=>	SSEG7);
+
+End Behavioral;

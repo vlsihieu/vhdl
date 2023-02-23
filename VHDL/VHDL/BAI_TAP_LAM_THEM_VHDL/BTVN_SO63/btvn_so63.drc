@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Mon Sep 07 07:16:06 2020
+
+drc -z BTVN_SO63.ncd BTVN_SO63.pcf
+
+DRC detected 0 errors and 0 warnings.

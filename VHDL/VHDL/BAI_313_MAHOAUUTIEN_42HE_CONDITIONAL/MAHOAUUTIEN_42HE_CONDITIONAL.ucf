@@ -1,0 +1,8 @@
+NET "sw[0]" LOC = P175;
+NET "sw[1]" LOC = P169;
+NET "sw[2]" LOC = P159;
+NET "sw[3]" LOC = P154;
+NET "sw[4]" LOC = P148;
+
+NET "led[0]" 	LOC = P28;
+NET "led[1]" 	LOC = P29;

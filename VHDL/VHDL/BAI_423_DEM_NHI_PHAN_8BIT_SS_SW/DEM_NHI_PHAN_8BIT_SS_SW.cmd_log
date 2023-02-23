@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_423_DEM_NHI_PHAN_8BIT_SS_SW/DEM_NHI_PHAN_8BIT_SS_SW.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_423_DEM_NHI_PHAN_8BIT_SS_SW/DEM_NHI_PHAN_8BIT_SS_SW.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_423_DEM_NHI_PHAN_8BIT_SS_SW/DEM_NHI_PHAN_8BIT_SS_SW.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_423_DEM_NHI_PHAN_8BIT_SS_SW/DEM_NHI_PHAN_8BIT_SS_SW.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_423_DEM_NHI_PHAN_8BIT_SS_SW/DEM_NHI_PHAN_8BIT_SS_SW.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_423_DEM_NHI_PHAN_8BIT_SS_SW/DEM_NHI_PHAN_8BIT_SS_SW.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_423_DEM_NHI_PHAN_8BIT_SS_SW/DEM_NHI_PHAN_8BIT_SS_SW.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_423_DEM_NHI_PHAN_8BIT_SS_SW/DEM_NHI_PHAN_8BIT_SS_SW.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s500e-pqg208-4 DEM_NHI_PHAN_8BIT_SS_SW.ngc DEM_NHI_PHAN_8BIT_SS_SW.ngd  
+map -intstyle ise -p xa3s500e-pqg208-4 -cm area -ir off -pr off -c 100 -o DEM_NHI_PHAN_8BIT_SS_SW_map.ncd DEM_NHI_PHAN_8BIT_SS_SW.ngd DEM_NHI_PHAN_8BIT_SS_SW.pcf 
+par -w -intstyle ise -ol high -t 1 DEM_NHI_PHAN_8BIT_SS_SW_map.ncd DEM_NHI_PHAN_8BIT_SS_SW.ncd DEM_NHI_PHAN_8BIT_SS_SW.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DEM_NHI_PHAN_8BIT_SS_SW.twx DEM_NHI_PHAN_8BIT_SS_SW.ncd -o DEM_NHI_PHAN_8BIT_SS_SW.twr DEM_NHI_PHAN_8BIT_SS_SW.pcf 

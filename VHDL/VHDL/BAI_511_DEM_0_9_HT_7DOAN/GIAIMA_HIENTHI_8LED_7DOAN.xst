@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_511_DEM_0_9_HT_7DOAN/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/TOSHIBA/Documents/TT_Xilinx/TTTKVMS_CHIEU_T5_NHOM_2/BAI_511_DEM_0_9_HT_7DOAN/xst"
+elaborate
+-ifn GIAIMA_HIENTHI_8LED_7DOAN.prj
+-ifmt mixed

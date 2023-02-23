@@ -1,0 +1,41 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity DIEUKHIEN_CHOPHEP is
+    Port ( CKHT,RST 	: in  STD_LOGIC;
+           ENA_DB 	: in  STD_LOGIC;
+			  ENA_SS    : IN STD_LOGIC;
+			  ENA_8LED  : OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
+           OE 			: out  STD_LOGIC_VECTOR(4 DOWNTO 0));
+end DIEUKHIEN_CHOPHEP;
+
+architecture Behavioral of DIEUKHIEN_CHOPHEP is
+SIGNAL DEM_REG,DEM_NEXT : INTEGER RANGE 0 TO 199:=0;
+begin
+  PROCESS(CKHT,RST)
+  BEGIN
+    IF RST='1' 					THEN DEM_REG <=0;
+	 ELSIF FALLING_EDGE (CKHT) THEN DEM_REG <= DEM_NEXT;
+	 END IF;
+  END PROCESS;
+  DEM_NEXT <= 0 WHEN DEM_REG = 199 AND ENA_DB='1' AND ENA_SS = '1' ELSE
+             DEM_REG + 1 WHEN ENA_DB = '1' AND ENA_SS = '1' ELSE
+				 DEM_REG;
+  PROCESS(DEM_REG,RST)
+  BEGIN
+		OE<="00000";
+		ENA_8LED <= X"00";
+		IF RST='1'        THEN OE <= "00000";
+		ELSIF DEM_REG < 9 THEN OE <= "00001";
+										ENA_8LED <= X"80"; 
+		ELSIF DEM_REG < 49 THEN OE <= "00010";
+										ENA_8LED <= X"C0";
+		ELSIF DEM_REG < 99 THEN OE <= "00100";
+										ENA_8LED <= X"60";
+		ELSIF DEM_REG < 149 THEN OE <= "01000";
+										ENA_8LED <= X"E0";
+		ELSIF DEM_REG < 200 THEN OE <= "10000";
+										ENA_8LED <= X"70";
+		END IF;
+	END PROCESS;
+end Behavioral;

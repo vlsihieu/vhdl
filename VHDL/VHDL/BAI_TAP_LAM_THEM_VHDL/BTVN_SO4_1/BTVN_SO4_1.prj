@@ -1,0 +1,8 @@
+vhdl work "LED_DSDC_TSP.vhd"
+vhdl work "LED_DSDC_PST.vhd"
+vhdl work "DIEUKHIEN_CHOPHEP.vhd"
+vhdl work "LED_SANGDON_TSP.vhd"
+vhdl work "LED_SANGDON_PST.vhd"
+vhdl work "DK_4LED_2CT_AU_1DSDC_PST_TSP.vhd"
+vhdl work "CHIA_10ENA.vhd"
+vhdl work "BTVN_SO4_1.vhd"

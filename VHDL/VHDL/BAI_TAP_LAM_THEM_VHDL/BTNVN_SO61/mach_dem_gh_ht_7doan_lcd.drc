@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Mon Aug 17 10:54:24 2020
+
+drc -z MACH_DEM_GH_HT_7DOAN_LCD.ncd MACH_DEM_GH_HT_7DOAN_LCD.pcf
+
+DRC detected 0 errors and 0 warnings.

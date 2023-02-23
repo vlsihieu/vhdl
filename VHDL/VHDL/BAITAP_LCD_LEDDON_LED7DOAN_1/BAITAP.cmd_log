@@ -1,0 +1,53 @@
+xst -intstyle ise -ifn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.xst" -ofn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 BAITAP.ngc BAITAP.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o BAITAP_map.ncd BAITAP.ngd BAITAP.pcf 
+par -w -intstyle ise -ol high -t 1 BAITAP_map.ncd BAITAP.ncd BAITAP.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BAITAP.twx BAITAP.ncd -o BAITAP.twr BAITAP.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f BAITAP.ut BAITAP.ncd 
+xst -intstyle ise -ifn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.xst" -ofn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 BAITAP.ngc BAITAP.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o BAITAP_map.ncd BAITAP.ngd BAITAP.pcf 
+par -w -intstyle ise -ol high -t 1 BAITAP_map.ncd BAITAP.ncd BAITAP.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BAITAP.twx BAITAP.ncd -o BAITAP.twr BAITAP.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f BAITAP.ut BAITAP.ncd 
+xst -intstyle ise -ifn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.xst" -ofn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.syr" 
+xst -intstyle ise -ifn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.xst" -ofn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 BAITAP.ngc BAITAP.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o BAITAP_map.ncd BAITAP.ngd BAITAP.pcf 
+par -w -intstyle ise -ol high -t 1 BAITAP_map.ncd BAITAP.ncd BAITAP.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BAITAP.twx BAITAP.ncd -o BAITAP.twr BAITAP.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f BAITAP.ut BAITAP.ncd 
+xst -intstyle ise -ifn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.xst" -ofn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.syr" 
+xst -intstyle ise -ifn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.xst" -ofn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.syr" 
+xst -intstyle ise -ifn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.xst" -ofn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.syr" 
+xst -intstyle ise -ifn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.xst" -ofn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.syr" 
+xst -intstyle ise -ifn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.xst" -ofn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.syr" 
+xst -intstyle ise -ifn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.xst" -ofn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.syr" 
+xst -intstyle ise -ifn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.xst" -ofn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.syr" 
+xst -intstyle ise -ifn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.xst" -ofn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.syr" 
+xst -intstyle ise -ifn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.xst" -ofn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.syr" 
+xst -intstyle ise -ifn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.xst" -ofn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.syr" 
+xst -intstyle ise -ifn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.xst" -ofn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.syr" 
+xst -intstyle ise -ifn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.xst" -ofn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.syr" 
+xst -intstyle ise -ifn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.xst" -ofn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.syr" 
+xst -intstyle ise -ifn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.xst" -ofn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.syr" 
+xst -intstyle ise -ifn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.xst" -ofn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.syr" 
+xst -intstyle ise -ifn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.xst" -ofn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.syr" 
+xst -intstyle ise -ifn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.xst" -ofn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.syr" 
+xst -intstyle ise -ifn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.xst" -ofn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.syr" 
+xst -intstyle ise -ifn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.xst" -ofn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.syr" 
+xst -intstyle ise -ifn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.xst" -ofn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.syr" 
+xst -intstyle ise -ifn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.xst" -ofn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.syr" 
+xst -intstyle ise -ifn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.xst" -ofn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 BAITAP.ngc BAITAP.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 BAITAP.ngc BAITAP.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o BAITAP_map.ncd BAITAP.ngd BAITAP.pcf 
+par -w -intstyle ise -ol high -t 1 BAITAP_map.ncd BAITAP.ncd BAITAP.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BAITAP.twx BAITAP.ncd -o BAITAP.twr BAITAP.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f BAITAP.ut BAITAP.ncd 
+xst -intstyle ise -ifn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.xst" -ofn "D:/TT_VHDL_ST2/BAITAP_LCD_LEDDON_LED7DOAN_1/BAITAP.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 BAITAP.ngc BAITAP.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o BAITAP_map.ncd BAITAP.ngd BAITAP.pcf 
+par -w -intstyle ise -ol high -t 1 BAITAP_map.ncd BAITAP.ncd BAITAP.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BAITAP.twx BAITAP.ncd -o BAITAP.twr BAITAP.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f BAITAP.ut BAITAP.ncd 

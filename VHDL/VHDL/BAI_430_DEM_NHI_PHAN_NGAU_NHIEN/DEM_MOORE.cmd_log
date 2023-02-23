@@ -1,0 +1,78 @@
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-4 DEM_MOORE.ngc DEM_MOORE.ngd  
+map -intstyle ise -p xc3s500e-pq208-4 -cm area -ir off -pr off -c 100 -o DEM_MOORE_map.ncd DEM_MOORE.ngd DEM_MOORE.pcf 
+par -w -intstyle ise -ol high -t 1 DEM_MOORE_map.ncd DEM_MOORE.ncd DEM_MOORE.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DEM_MOORE.twx DEM_MOORE.ncd -o DEM_MOORE.twr DEM_MOORE.pcf 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 DEM_MOORE.ngc DEM_MOORE.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o DEM_MOORE_map.ncd DEM_MOORE.ngd DEM_MOORE.pcf 
+par -w -intstyle ise -ol high -t 1 DEM_MOORE_map.ncd DEM_MOORE.ncd DEM_MOORE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DEM_MOORE.twx DEM_MOORE.ncd -o DEM_MOORE.twr DEM_MOORE.pcf 
+bitgen -intstyle ise -f DEM_MOORE.ut DEM_MOORE.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 DEM_MOORE.ngc DEM_MOORE.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_MOORE_map.ncd DEM_MOORE.ngd DEM_MOORE.pcf 
+par -w -intstyle ise -ol high -mt off DEM_MOORE_map.ncd DEM_MOORE.ncd DEM_MOORE.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml DEM_MOORE.twx DEM_MOORE.ncd -o DEM_MOORE.twr DEM_MOORE.pcf 
+bitgen -intstyle ise -f DEM_MOORE.ut DEM_MOORE.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 DEM_MOORE.ngc DEM_MOORE.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_MOORE_map.ncd DEM_MOORE.ngd DEM_MOORE.pcf 
+par -w -intstyle ise -ol high -mt off DEM_MOORE_map.ncd DEM_MOORE.ncd DEM_MOORE.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml DEM_MOORE.twx DEM_MOORE.ncd -o DEM_MOORE.twr DEM_MOORE.pcf 
+bitgen -intstyle ise -f DEM_MOORE.ut DEM_MOORE.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 DEM_MOORE.ngc DEM_MOORE.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_MOORE_map.ncd DEM_MOORE.ngd DEM_MOORE.pcf 
+par -w -intstyle ise -ol high -mt off DEM_MOORE_map.ncd DEM_MOORE.ncd DEM_MOORE.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml DEM_MOORE.twx DEM_MOORE.ncd -o DEM_MOORE.twr DEM_MOORE.pcf 
+bitgen -intstyle ise -f DEM_MOORE.ut DEM_MOORE.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 DEM_MOORE.ngc DEM_MOORE.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_MOORE_map.ncd DEM_MOORE.ngd DEM_MOORE.pcf 
+par -w -intstyle ise -ol high -mt off DEM_MOORE_map.ncd DEM_MOORE.ncd DEM_MOORE.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml DEM_MOORE.twx DEM_MOORE.ncd -o DEM_MOORE.twr DEM_MOORE.pcf 
+bitgen -intstyle ise -f DEM_MOORE.ut DEM_MOORE.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_430_DEM_NHI_PHAN_NGAU_NHIEN/DEM_MOORE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 DEM_MOORE.ngc DEM_MOORE.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_MOORE_map.ncd DEM_MOORE.ngd DEM_MOORE.pcf 
+par -w -intstyle ise -ol high -mt off DEM_MOORE_map.ncd DEM_MOORE.ncd DEM_MOORE.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml DEM_MOORE.twx DEM_MOORE.ncd -o DEM_MOORE.twr DEM_MOORE.pcf 
+bitgen -intstyle ise -f DEM_MOORE.ut DEM_MOORE.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-2 DEM_MOORE.ngc DEM_MOORE.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_MOORE_map.ncd DEM_MOORE.ngd DEM_MOORE.pcf 
+par -w -intstyle ise -ol high -mt off DEM_MOORE_map.ncd DEM_MOORE.ncd DEM_MOORE.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml DEM_MOORE.twx DEM_MOORE.ncd -o DEM_MOORE.twr DEM_MOORE.pcf 
+bitgen -intstyle ise -f DEM_MOORE.ut DEM_MOORE.ncd 

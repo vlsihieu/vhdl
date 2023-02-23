@@ -1,0 +1,97 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml BTVN_SO55.twx BTVN_SO55.ncd -o BTVN_SO55.twr BTVN_SO55.pcf
+
+Design file:              BTVN_SO55.ncd
+Physical constraint file: BTVN_SO55.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock CKHT
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+BTN0        |    8.142(F)|      SLOW  |   -1.394(F)|      FAST  |CKHT_BUFGP        |   0.000|
+SW0         |    6.776(F)|      SLOW  |   -0.167(F)|      SLOW  |CKHT_BUFGP        |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock CKHT to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+ANODE<0>    |         8.392(F)|      SLOW  |         4.355(F)|      FAST  |CKHT_BUFGP        |   0.000|
+ANODE<1>    |         8.421(F)|      SLOW  |         4.376(F)|      FAST  |CKHT_BUFGP        |   0.000|
+ANODE<2>    |         8.592(F)|      SLOW  |         4.412(F)|      FAST  |CKHT_BUFGP        |   0.000|
+ANODE<3>    |         8.581(F)|      SLOW  |         4.393(F)|      FAST  |CKHT_BUFGP        |   0.000|
+ANODE<4>    |         8.580(F)|      SLOW  |         4.435(F)|      FAST  |CKHT_BUFGP        |   0.000|
+ANODE<5>    |         8.510(F)|      SLOW  |         4.415(F)|      FAST  |CKHT_BUFGP        |   0.000|
+ANODE<6>    |         8.327(F)|      SLOW  |         4.319(F)|      FAST  |CKHT_BUFGP        |   0.000|
+ANODE<7>    |         8.424(F)|      SLOW  |         4.428(F)|      FAST  |CKHT_BUFGP        |   0.000|
+SSEG<0>     |        15.403(F)|      SLOW  |         5.056(F)|      FAST  |CKHT_BUFGP        |   0.000|
+SSEG<1>     |        15.592(F)|      SLOW  |         5.128(F)|      FAST  |CKHT_BUFGP        |   0.000|
+SSEG<2>     |        15.134(F)|      SLOW  |         5.048(F)|      FAST  |CKHT_BUFGP        |   0.000|
+SSEG<3>     |        15.368(F)|      SLOW  |         5.011(F)|      FAST  |CKHT_BUFGP        |   0.000|
+SSEG<4>     |        15.257(F)|      SLOW  |         4.996(F)|      FAST  |CKHT_BUFGP        |   0.000|
+SSEG<5>     |        15.267(F)|      SLOW  |         5.126(F)|      FAST  |CKHT_BUFGP        |   0.000|
+SSEG<6>     |        15.225(F)|      SLOW  |         4.958(F)|      FAST  |CKHT_BUFGP        |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock CKHT
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CKHT           |         |         |         |    7.261|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+BTN0           |SSEG<0>        |   15.068|
+BTN0           |SSEG<1>        |   15.146|
+BTN0           |SSEG<2>        |   14.688|
+BTN0           |SSEG<3>        |   15.033|
+BTN0           |SSEG<4>        |   14.862|
+BTN0           |SSEG<5>        |   14.821|
+BTN0           |SSEG<6>        |   14.830|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Jul 09 18:38:38 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4571 MB
+
+
+

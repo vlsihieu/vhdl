@@ -1,0 +1,130 @@
+
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+ENTITY BTVN_SO61 IS 
+	PORT ( CKHT : IN STD_LOGIC;
+			 BTN  : IN STD_LOGIC_VECTOR (1 DOWNTO 0);
+			 LCD_E: OUT STD_LOGIC;
+			 LCD_RS: OUT STD_LOGIC;
+--			 LCD_RW: OUT STD_LOGIC;
+--			 LCD_ON: OUT STD_LOGIC;
+			 LCD_p: OUT STD_LOGIC;
+			 LCD_DB: OUT STD_LOGIC_VECTOR ( 7 DOWNTO 0);
+			 ANODE : OUT STD_LOGIC_VECTOR ( 7 DOWNTO 0);
+			 SSEG  : OUT STD_LOGIC_VECTOR ( 7 DOWNTO 0)
+			);
+END BTVN_SO61;
+ARCHITECTURE PMH OF BTVN_SO61 IS 
+SIGNAL ENA_DB: STD_LOGIC;
+SIGNAL ENA10HZ : STD_LOGIC;
+SIGNAL ENA1KHZ : STD_LOGIC;
+--------------------------------------------------
+SIGNAL DONVI0,CHUC0: STD_LOGIC_VECTOR ( 3 DOWNTO 0);
+SIGNAL DONVI1,CHUC1: STD_LOGIC_VECTOR ( 3 DOWNTO 0);
+SIGNAL DV_GH,CH_GH: STD_LOGIC_VECTOR ( 3 DOWNTO 0);
+--------------------------------------------------
+SIGNAL RST : STD_LOGIC;
+SIGNAL BTN_UP , ENA_UP : STD_LOGIC;
+---------------------------------------------------
+SIGNAL DC_8LED : 	STD_LOGIC_VECTOR( 7 DOWNTO 0);
+SIGNAL ENA_8LED : STD_LOGIC_VECTOR ( 7 DOWNTO 0);
+------------------------------------------------------
+SIGNAL LCD_H1 :	STD_LOGIC_VECTOR(159 DOWNTO 0);
+SIGNAL LCD_H2 :	STD_LOGIC_VECTOR(159 DOWNTO 0);
+SIGNAL LCD_H3 :	STD_LOGIC_VECTOR(159 DOWNTO 0);
+SIGNAL LCD_H4 :	STD_LOGIC_VECTOR(159 DOWNTO 0);
+
+SIGNAL LCD_MA_DONVI 	:	STD_LOGIC_VECTOR(47 DOWNTO 0);
+SIGNAL LCD_MA_CHUC	:	STD_LOGIC_VECTOR(47 DOWNTO 0);
+BEGIN
+	RST <=  BTN(0);
+	BTN_UP <=  BTN(1);
+	-- 
+	lcd_p <= '1';
+	DC_8LED 		<= X"FF"; -- CHINH SUA -- TAT 8 DAU CHAM
+	ENA_8LED 	<= "11000011"; -- CHINH SUA "0000 0011" 
+-------------------------
+IC0: ENTITY WORK.CHIA_10ENA
+	PORT MAP ( CKHT => CKHT,
+				  ENA10HZ => ENA10HZ, 
+				  ENA5HZ =>ENA_DB,
+				  ENA1KHZ => ENA1KHZ
+				 );
+---------------------------
+IC1: ENTITY WORK.DEBOUNCE_BTN
+	PORT MAP(CKHT=>CKHT,
+				BTN=>BTN_UP,
+				DB_TICK=>ENA_UP
+				);
+IC2 : ENTITY WORK.CAI_GH_DEM
+   PORT MAP (CKHT => CKHT,
+	          RST  => RST,
+				 ENA_UP => ENA_UP,
+				 ENA10HZ => ENA10HZ,
+				 DONVI  => DV_GH,
+				 CHUC   => CH_GH
+				 );
+--------------------------------------
+IC3 : ENTITY WORK.DEM_2SO_LCD
+		PORT MAP(	CKHT		=> CKHT,
+						RST		=> RST,
+						ENA_DB	=> ENA_DB,
+						DV_GH    => DV_GH,
+						CH_GH    => CH_GH,
+						DONVI		=> DONVI0,
+						CHUC		=> CHUC0
+						);	
+					
+IC4 : ENTITY WORK.LCD_GIAI_MA_SO_TO
+		PORT MAP(	SO_GMA		=> DONVI0,
+						LCD_MA_TO	   => LCD_MA_DONVI
+						);
+IC46 : ENTITY WORK.LCD_GIAI_MA_SO_TO
+		PORT MAP(	SO_GMA		=> CHUC0,
+						LCD_MA_TO	   => LCD_MA_CHUC
+						);
+IC29 : ENTITY WORK.LCD_20X4_GAN_DULIEU_1SO_TO
+		PORT MAP(	LCD_MA_DONVI	=> LCD_MA_DONVI,
+		            LCD_MA_CHUC	   => LCD_MA_CHUC,
+						LCD_H1		=> LCD_H1,
+						LCD_H2		=> LCD_H2,
+						LCD_H3		=> LCD_H3,
+						LCD_H4		=> LCD_H4
+						);
+IC36 : ENTITY WORK.LCD_KHOITAO_HIENTHI_SO_TO
+		PORT MAP(	LCD_DB		=> LCD_DB,
+						LCD_RS		=> LCD_RS,
+						LCD_E			=> LCD_E,
+						LCD_RST		=> RST,
+						LCD_CK		=> CKHT,
+						LCD_H1		=> LCD_H1,
+						LCD_H2		=> LCD_H2,
+						LCD_H3		=> LCD_H3,
+						LCD_H4		=> LCD_H4
+					);
+-----LED 7 DOAN------------------------
+IC35 : ENTITY WORK.DEM_2SO_7DOAN
+		PORT MAP(	CKHT		=> CKHT,
+						RST		=> RST,
+						ENA_DB	=> ENA_DB,
+						DV_GH    => DV_GH,
+						CH_GH    => CH_GH,
+						DONVI		=> DONVI1,
+						CHUC		=> CHUC1
+						);
+IC38: ENTITY WORK.GIAIMA_HIENTHI_8LED_7DOAN
+		PORT MAP(	CKHT		=> CKHT,
+						ENA1KHZ	=> ENA1KHZ,
+						LED70		=> DONVI1,
+						LED71		=> CHUC1, 
+						LED72		=> X"F", 
+						LED73		=> X"F", 
+						LED74		=> X"F", 
+						LED75		=> X"F", 
+						LED76		=> DV_GH,
+						LED77		=> CH_GH,
+						ANODE		=> ANODE,
+						SSEG		=> SSEG,
+						DC_8LED	=> DC_8LED,
+						ENA_8LED	=> ENA_8LED);						
+END PMH;

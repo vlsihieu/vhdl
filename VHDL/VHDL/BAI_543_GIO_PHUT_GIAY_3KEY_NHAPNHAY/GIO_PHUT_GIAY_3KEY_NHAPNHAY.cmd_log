@@ -1,0 +1,51 @@
+xst -intstyle ise -ifn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_543_GIO_PHUT_GIAY_3KEY_NHAPNHAY/GIO_PHUT_GIAY_3KEY_NHAPNHAY.xst" -ofn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_543_GIO_PHUT_GIAY_3KEY_NHAPNHAY/GIO_PHUT_GIAY_3KEY_NHAPNHAY.syr" 
+xst -intstyle ise -ifn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_543_GIO_PHUT_GIAY_3KEY_NHAPNHAY/GIO_PHUT_GIAY_3KEY_NHAPNHAY.xst" -ofn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_543_GIO_PHUT_GIAY_3KEY_NHAPNHAY/GIO_PHUT_GIAY_3KEY_NHAPNHAY.syr" 
+xst -intstyle ise -ifn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_543_GIO_PHUT_GIAY_3KEY_NHAPNHAY/GIO_PHUT_GIAY_3KEY_NHAPNHAY.xst" -ofn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_543_GIO_PHUT_GIAY_3KEY_NHAPNHAY/GIO_PHUT_GIAY_3KEY_NHAPNHAY.syr" 
+xst -intstyle ise -ifn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_543_GIO_PHUT_GIAY_3KEY_NHAPNHAY/GIO_PHUT_GIAY_3KEY_NHAPNHAY.xst" -ofn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_543_GIO_PHUT_GIAY_3KEY_NHAPNHAY/GIO_PHUT_GIAY_3KEY_NHAPNHAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-5 "GIO_PHUT_GIAY_3KEY_NHAPNHAY.ngc" GIO_PHUT_GIAY_3KEY_NHAPNHAY.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o GIO_PHUT_GIAY_3KEY_NHAPNHAY_map.ncd GIO_PHUT_GIAY_3KEY_NHAPNHAY.ngd GIO_PHUT_GIAY_3KEY_NHAPNHAY.pcf 
+par -w -intstyle ise -ol high -t 1 GIO_PHUT_GIAY_3KEY_NHAPNHAY_map.ncd GIO_PHUT_GIAY_3KEY_NHAPNHAY.ncd GIO_PHUT_GIAY_3KEY_NHAPNHAY.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml GIO_PHUT_GIAY_3KEY_NHAPNHAY.twx GIO_PHUT_GIAY_3KEY_NHAPNHAY.ncd -o GIO_PHUT_GIAY_3KEY_NHAPNHAY.twr GIO_PHUT_GIAY_3KEY_NHAPNHAY.pcf 
+bitgen -intstyle ise -f GIO_PHUT_GIAY_3KEY_NHAPNHAY.ut GIO_PHUT_GIAY_3KEY_NHAPNHAY.ncd 
+xst -intstyle ise -ifn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_543_GIO_PHUT_GIAY_3KEY_NHAPNHAY/GIO_PHUT_GIAY_3KEY_NHAPNHAY.xst" -ofn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_543_GIO_PHUT_GIAY_3KEY_NHAPNHAY/GIO_PHUT_GIAY_3KEY_NHAPNHAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-5 "GIO_PHUT_GIAY_3KEY_NHAPNHAY.ngc" GIO_PHUT_GIAY_3KEY_NHAPNHAY.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o GIO_PHUT_GIAY_3KEY_NHAPNHAY_map.ncd GIO_PHUT_GIAY_3KEY_NHAPNHAY.ngd GIO_PHUT_GIAY_3KEY_NHAPNHAY.pcf 
+par -w -intstyle ise -ol high -t 1 GIO_PHUT_GIAY_3KEY_NHAPNHAY_map.ncd GIO_PHUT_GIAY_3KEY_NHAPNHAY.ncd GIO_PHUT_GIAY_3KEY_NHAPNHAY.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml GIO_PHUT_GIAY_3KEY_NHAPNHAY.twx GIO_PHUT_GIAY_3KEY_NHAPNHAY.ncd -o GIO_PHUT_GIAY_3KEY_NHAPNHAY.twr GIO_PHUT_GIAY_3KEY_NHAPNHAY.pcf 
+bitgen -intstyle ise -f GIO_PHUT_GIAY_3KEY_NHAPNHAY.ut GIO_PHUT_GIAY_3KEY_NHAPNHAY.ncd 
+xst -intstyle ise -ifn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_543_GIO_PHUT_GIAY_3KEY_NHAPNHAY/GIO_PHUT_GIAY_3KEY_NHAPNHAY.xst" -ofn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_543_GIO_PHUT_GIAY_3KEY_NHAPNHAY/GIO_PHUT_GIAY_3KEY_NHAPNHAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-5 "GIO_PHUT_GIAY_3KEY_NHAPNHAY.ngc" GIO_PHUT_GIAY_3KEY_NHAPNHAY.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o GIO_PHUT_GIAY_3KEY_NHAPNHAY_map.ncd GIO_PHUT_GIAY_3KEY_NHAPNHAY.ngd GIO_PHUT_GIAY_3KEY_NHAPNHAY.pcf 
+par -w -intstyle ise -ol high -t 1 GIO_PHUT_GIAY_3KEY_NHAPNHAY_map.ncd GIO_PHUT_GIAY_3KEY_NHAPNHAY.ncd GIO_PHUT_GIAY_3KEY_NHAPNHAY.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml GIO_PHUT_GIAY_3KEY_NHAPNHAY.twx GIO_PHUT_GIAY_3KEY_NHAPNHAY.ncd -o GIO_PHUT_GIAY_3KEY_NHAPNHAY.twr GIO_PHUT_GIAY_3KEY_NHAPNHAY.pcf 
+bitgen -intstyle ise -f GIO_PHUT_GIAY_3KEY_NHAPNHAY.ut GIO_PHUT_GIAY_3KEY_NHAPNHAY.ncd 
+xst -intstyle ise -ifn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_543_GIO_PHUT_GIAY_3KEY_NHAPNHAY/GIO_PHUT_GIAY_3KEY_NHAPNHAY.xst" -ofn "D:/Study/TTVHDL_SANGTHU4/CHUONG 5/BAI_543_GIO_PHUT_GIAY_3KEY_NHAPNHAY/GIO_PHUT_GIAY_3KEY_NHAPNHAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EDA_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "GIO_PHUT_GIAY_3KEY_NHAPNHAY.ngc" GIO_PHUT_GIAY_3KEY_NHAPNHAY.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o GIO_PHUT_GIAY_3KEY_NHAPNHAY_map.ncd GIO_PHUT_GIAY_3KEY_NHAPNHAY.ngd GIO_PHUT_GIAY_3KEY_NHAPNHAY.pcf 
+par -w -intstyle ise -ol high -t 1 GIO_PHUT_GIAY_3KEY_NHAPNHAY_map.ncd GIO_PHUT_GIAY_3KEY_NHAPNHAY.ncd GIO_PHUT_GIAY_3KEY_NHAPNHAY.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml GIO_PHUT_GIAY_3KEY_NHAPNHAY.twx GIO_PHUT_GIAY_3KEY_NHAPNHAY.ncd -o GIO_PHUT_GIAY_3KEY_NHAPNHAY.twr GIO_PHUT_GIAY_3KEY_NHAPNHAY.pcf -ucf EDA_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f GIO_PHUT_GIAY_3KEY_NHAPNHAY.ut GIO_PHUT_GIAY_3KEY_NHAPNHAY.ncd 
+xst -intstyle ise -ifn "O:/TT VHDL/CHUONG_3/BAI_543_GIO_PHUT_GIAY_3KEY_NHAPNHAY/GIO_PHUT_GIAY_3KEY_NHAPNHAY.xst" -ofn "O:/TT VHDL/CHUONG_3/BAI_543_GIO_PHUT_GIAY_3KEY_NHAPNHAY/GIO_PHUT_GIAY_3KEY_NHAPNHAY.syr" 
+xst -intstyle ise -ifn "O:/TT VHDL/CHUONG_3/BAI_543_GIO_PHUT_GIAY_3KEY_NHAPNHAY/GIO_PHUT_GIAY_3KEY_NHAPNHAY.xst" -ofn "O:/TT VHDL/CHUONG_3/BAI_543_GIO_PHUT_GIAY_3KEY_NHAPNHAY/GIO_PHUT_GIAY_3KEY_NHAPNHAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 "GIO_PHUT_GIAY_3KEY_NHAPNHAY.ngc" GIO_PHUT_GIAY_3KEY_NHAPNHAY.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o GIO_PHUT_GIAY_3KEY_NHAPNHAY_map.ncd GIO_PHUT_GIAY_3KEY_NHAPNHAY.ngd GIO_PHUT_GIAY_3KEY_NHAPNHAY.pcf 
+par -w -intstyle ise -ol high -t 1 GIO_PHUT_GIAY_3KEY_NHAPNHAY_map.ncd GIO_PHUT_GIAY_3KEY_NHAPNHAY.ncd GIO_PHUT_GIAY_3KEY_NHAPNHAY.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml GIO_PHUT_GIAY_3KEY_NHAPNHAY.twx GIO_PHUT_GIAY_3KEY_NHAPNHAY.ncd -o GIO_PHUT_GIAY_3KEY_NHAPNHAY.twr GIO_PHUT_GIAY_3KEY_NHAPNHAY.pcf -ucf KIT_XC3S500E_PQ208.ucf 
+bitgen -intstyle ise -f GIO_PHUT_GIAY_3KEY_NHAPNHAY.ut GIO_PHUT_GIAY_3KEY_NHAPNHAY.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_543_GIO_PHUT_GIAY_3KEY_NHAPNHAY/GIO_PHUT_GIAY_3KEY_NHAPNHAY.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_543_GIO_PHUT_GIAY_3KEY_NHAPNHAY/GIO_PHUT_GIAY_3KEY_NHAPNHAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-3 GIO_PHUT_GIAY_3KEY_NHAPNHAY.ngc GIO_PHUT_GIAY_3KEY_NHAPNHAY.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GIO_PHUT_GIAY_3KEY_NHAPNHAY_map.ncd GIO_PHUT_GIAY_3KEY_NHAPNHAY.ngd GIO_PHUT_GIAY_3KEY_NHAPNHAY.pcf 
+par -w -intstyle ise -ol high -mt off GIO_PHUT_GIAY_3KEY_NHAPNHAY_map.ncd GIO_PHUT_GIAY_3KEY_NHAPNHAY.ncd GIO_PHUT_GIAY_3KEY_NHAPNHAY.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GIO_PHUT_GIAY_3KEY_NHAPNHAY.twx GIO_PHUT_GIAY_3KEY_NHAPNHAY.ncd -o GIO_PHUT_GIAY_3KEY_NHAPNHAY.twr GIO_PHUT_GIAY_3KEY_NHAPNHAY.pcf 
+bitgen -intstyle ise -f GIO_PHUT_GIAY_3KEY_NHAPNHAY.ut GIO_PHUT_GIAY_3KEY_NHAPNHAY.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-3 GIO_PHUT_GIAY_3KEY_NHAPNHAY.ngc GIO_PHUT_GIAY_3KEY_NHAPNHAY.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-3 GIO_PHUT_GIAY_3KEY_NHAPNHAY.ngc GIO_PHUT_GIAY_3KEY_NHAPNHAY.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GIO_PHUT_GIAY_3KEY_NHAPNHAY_map.ncd GIO_PHUT_GIAY_3KEY_NHAPNHAY.ngd GIO_PHUT_GIAY_3KEY_NHAPNHAY.pcf 
+par -w -intstyle ise -ol high -mt off GIO_PHUT_GIAY_3KEY_NHAPNHAY_map.ncd GIO_PHUT_GIAY_3KEY_NHAPNHAY.ncd GIO_PHUT_GIAY_3KEY_NHAPNHAY.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GIO_PHUT_GIAY_3KEY_NHAPNHAY.twx GIO_PHUT_GIAY_3KEY_NHAPNHAY.ncd -o GIO_PHUT_GIAY_3KEY_NHAPNHAY.twr GIO_PHUT_GIAY_3KEY_NHAPNHAY.pcf 
+bitgen -intstyle ise -f GIO_PHUT_GIAY_3KEY_NHAPNHAY.ut GIO_PHUT_GIAY_3KEY_NHAPNHAY.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-3 GIO_PHUT_GIAY_3KEY_NHAPNHAY.ngc GIO_PHUT_GIAY_3KEY_NHAPNHAY.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GIO_PHUT_GIAY_3KEY_NHAPNHAY_map.ncd GIO_PHUT_GIAY_3KEY_NHAPNHAY.ngd GIO_PHUT_GIAY_3KEY_NHAPNHAY.pcf 
+par -w -intstyle ise -ol high -mt off GIO_PHUT_GIAY_3KEY_NHAPNHAY_map.ncd GIO_PHUT_GIAY_3KEY_NHAPNHAY.ncd GIO_PHUT_GIAY_3KEY_NHAPNHAY.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GIO_PHUT_GIAY_3KEY_NHAPNHAY.twx GIO_PHUT_GIAY_3KEY_NHAPNHAY.ncd -o GIO_PHUT_GIAY_3KEY_NHAPNHAY.twr GIO_PHUT_GIAY_3KEY_NHAPNHAY.pcf 
+bitgen -intstyle ise -f GIO_PHUT_GIAY_3KEY_NHAPNHAY.ut GIO_PHUT_GIAY_3KEY_NHAPNHAY.ncd 

@@ -1,0 +1,87 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml BON_TOA_DO_THU_PHUC.twx BON_TOA_DO_THU_PHUC.ncd -o
+BON_TOA_DO_THU_PHUC.twr BON_TOA_DO_THU_PHUC.pcf
+
+Design file:              BON_TOA_DO_THU_PHUC.ncd
+Physical constraint file: BON_TOA_DO_THU_PHUC.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock CKHT
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+BTN<0>      |    7.915(R)|      SLOW  |   -1.497(R)|      FAST  |CKHT_BUFGP        |   0.000|
+            |    8.800(F)|      SLOW  |   -3.064(F)|      FAST  |CKHT_BUFGP        |   0.000|
+BTN<1>      |    2.300(F)|      SLOW  |   -0.590(F)|      SLOW  |CKHT_BUFGP        |   0.000|
+DS18B20     |    2.157(R)|      SLOW  |   -0.425(R)|      SLOW  |CKHT_BUFGP        |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock CKHT to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+DS18B20     |         8.450(R)|      SLOW  |         4.361(R)|      FAST  |CKHT_BUFGP        |   0.000|
+LCD_DB<0>   |         8.115(F)|      SLOW  |         4.297(F)|      FAST  |CKHT_BUFGP        |   0.000|
+LCD_DB<1>   |         7.942(F)|      SLOW  |         4.195(F)|      FAST  |CKHT_BUFGP        |   0.000|
+LCD_DB<2>   |         7.990(F)|      SLOW  |         4.182(F)|      FAST  |CKHT_BUFGP        |   0.000|
+LCD_DB<3>   |         7.660(F)|      SLOW  |         4.015(F)|      FAST  |CKHT_BUFGP        |   0.000|
+LCD_DB<4>   |         8.121(F)|      SLOW  |         4.326(F)|      FAST  |CKHT_BUFGP        |   0.000|
+LCD_DB<5>   |         8.103(F)|      SLOW  |         4.272(F)|      FAST  |CKHT_BUFGP        |   0.000|
+LCD_DB<6>   |         7.425(F)|      SLOW  |         3.841(F)|      FAST  |CKHT_BUFGP        |   0.000|
+LCD_DB<7>   |         7.754(F)|      SLOW  |         4.062(F)|      FAST  |CKHT_BUFGP        |   0.000|
+LCD_E       |         7.610(F)|      SLOW  |         3.964(F)|      FAST  |CKHT_BUFGP        |   0.000|
+LCD_RS      |         7.675(F)|      SLOW  |         4.036(F)|      FAST  |CKHT_BUFGP        |   0.000|
+LED<0>      |         6.924(R)|      SLOW  |         3.492(R)|      FAST  |CKHT_BUFGP        |   0.000|
+LED<1>      |         7.292(R)|      SLOW  |         3.764(R)|      FAST  |CKHT_BUFGP        |   0.000|
+LED<2>      |         7.287(R)|      SLOW  |         3.761(R)|      FAST  |CKHT_BUFGP        |   0.000|
+LED<3>      |         7.308(R)|      SLOW  |         3.742(R)|      FAST  |CKHT_BUFGP        |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock CKHT
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CKHT           |    6.817|         |    7.181|    7.674|
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Wed Aug 26 20:59:59 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4571 MB
+
+
+

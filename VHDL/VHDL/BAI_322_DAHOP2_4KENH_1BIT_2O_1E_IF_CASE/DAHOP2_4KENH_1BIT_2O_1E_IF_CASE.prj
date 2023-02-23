@@ -1,0 +1,3 @@
+vhdl work "DAHOP_4KENH_1BIT_E_IF.vhd"
+vhdl work "DAHOP_4KENH_1BIT_E_CASE.vhd"
+vhdl work "DAHOP2_4KENH_1BIT_2O_1E_IF_CASE.vhd"

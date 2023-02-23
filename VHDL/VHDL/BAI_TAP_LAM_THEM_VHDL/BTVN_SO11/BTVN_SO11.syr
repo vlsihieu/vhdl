@@ -1,0 +1,687 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.44 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.44 secs
+ 
+--> Reading design: BTVN_SO11.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "BTVN_SO11.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "BTVN_SO11"
+Output Format                      : NGC
+Target Device                      : xc6slx9-3-tqg144
+
+---- Source Options
+Top Module Name                    : BTVN_SO11
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\BTVN_SO11\LED_DSDC_TSP.vhd" into library work
+Parsing entity <LED_DSDC_TSP>.
+Parsing architecture <BEHAVIORAL> of entity <led_dsdc_tsp>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\BTVN_SO11\LED_DSDC_PST.vhd" into library work
+Parsing entity <LED_DSDC_PST>.
+Parsing architecture <BEHAVIORAL> of entity <led_dsdc_pst>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\BTVN_SO11\LAM_HEP_XUNG.vhd" into library work
+Parsing entity <LAM_HEP_XUNG>.
+Parsing architecture <Behavioral> of entity <lam_hep_xung>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\BTVN_SO11\DIEUKHIEN_CHOPHEP.vhd" into library work
+Parsing entity <DIEUKHIEN_CHOPHEP>.
+Parsing architecture <BEHAVIORAL> of entity <dieukhien_chophep>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\BTVN_SO11\DEBOUNCE_BTN.vhd" into library work
+Parsing entity <DEBOUNCE_BTN>.
+Parsing architecture <Behavioral> of entity <debounce_btn>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\BTVN_SO11\SELECT_TANSO.vhd" into library work
+Parsing entity <SELECT_TANSO>.
+Parsing architecture <Behavioral> of entity <select_tanso>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\BTVN_SO11\LED_SANGDON_TSP.vhd" into library work
+Parsing entity <LED_SANGDON_TSP>.
+Parsing architecture <Behavioral> of entity <led_sangdon_tsp>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\BTVN_SO11\LED_SANGDON_PST.vhd" into library work
+Parsing entity <LED_SANGDON_PST>.
+Parsing architecture <Behavioral> of entity <led_sangdon_pst>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\BTVN_SO11\DK_4LED_2CT_AU_1DSDC_PST_TSP.vhd" into library work
+Parsing entity <DK_4LED_2CT_AU_1DSDC_PST_TSP>.
+Parsing architecture <Behavioral> of entity <dk_4led_2ct_au_1dsdc_pst_tsp>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\BTVN_SO11\DIEUKHIEN_MODE.vhd" into library work
+Parsing entity <DIEUKHIEN_MODE>.
+Parsing architecture <Behavioral> of entity <dieukhien_mode>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\BTVN_SO11\CHIA_10ENA.vhd" into library work
+Parsing entity <CHIA_10ENA>.
+Parsing architecture <Behavioral> of entity <chia_10ena>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\BTVN_SO11\CD_LAM_HEP_BTN.vhd" into library work
+Parsing entity <CD_LAM_HEP_BTN>.
+Parsing architecture <Behavioral> of entity <cd_lam_hep_btn>.
+Parsing VHDL file "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\BTVN_SO11\BTVN_SO11.vhd" into library work
+Parsing entity <BTVN_SO11>.
+Parsing architecture <BEHAVIORAL> of entity <btvn_so11>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <BTVN_SO11> (architecture <BEHAVIORAL>) from library <work>.
+
+Elaborating entity <CD_LAM_HEP_BTN> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <DEBOUNCE_BTN> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <LAM_HEP_XUNG> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <DIEUKHIEN_MODE> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <CHIA_10ENA> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <SELECT_TANSO> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <LED_SANGDON_PST> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <LED_SANGDON_TSP> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <DK_4LED_2CT_AU_1DSDC_PST_TSP> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <LED_DSDC_PST> (architecture <BEHAVIORAL>) from library <work>.
+
+Elaborating entity <LED_DSDC_TSP> (architecture <BEHAVIORAL>) from library <work>.
+
+Elaborating entity <DIEUKHIEN_CHOPHEP> (architecture <BEHAVIORAL>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <BTVN_SO11>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\BTVN_SO11\BTVN_SO11.vhd".
+    Summary:
+	no macro.
+Unit <BTVN_SO11> synthesized.
+
+Synthesizing Unit <CD_LAM_HEP_BTN>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\BTVN_SO11\CD_LAM_HEP_BTN.vhd".
+    Summary:
+	no macro.
+Unit <CD_LAM_HEP_BTN> synthesized.
+
+Synthesizing Unit <DEBOUNCE_BTN>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\BTVN_SO11\DEBOUNCE_BTN.vhd".
+    Found 20-bit register for signal <DELAY_REG>.
+    Found 2-bit register for signal <DB_REG>.
+    Found finite state machine <FSM_0> for signal <DB_REG>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 10                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 3                                              |
+    | Clock              | CKHT (falling_edge)                            |
+    | Power Up State     | zero                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 20-bit subtractor for signal <GND_7_o_GND_7_o_sub_5_OUT<19:0>> created at line 41.
+    Found 20-bit 4-to-1 multiplexer for signal <DELAY_NEXT> created at line 35.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  20 D-type flip-flop(s).
+	inferred   3 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <DEBOUNCE_BTN> synthesized.
+
+Synthesizing Unit <LAM_HEP_XUNG>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\BTVN_SO11\LAM_HEP_XUNG.vhd".
+    Found 1-bit register for signal <QFF>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <LAM_HEP_XUNG> synthesized.
+
+Synthesizing Unit <DIEUKHIEN_MODE>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\BTVN_SO11\DIEUKHIEN_MODE.vhd".
+    Found 2-bit register for signal <D_R>.
+    Found 6-bit register for signal <DEM_R>.
+    Found 7-bit adder for signal <n0052> created at line 56.
+    Found 3-bit adder for signal <n0054> created at line 59.
+    Found 2-bit comparator greater for signal <D_R[1]_PWR_10_o_LessThan_8_o> created at line 59
+    Found 6-bit comparator greater for signal <DEM_R[5]_GND_9_o_LessThan_16_o> created at line 69
+    Found 6-bit comparator greater for signal <DEM_R[5]_PWR_10_o_LessThan_17_o> created at line 70
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred   8 D-type flip-flop(s).
+	inferred   3 Comparator(s).
+	inferred   8 Multiplexer(s).
+Unit <DIEUKHIEN_MODE> synthesized.
+
+Synthesizing Unit <CHIA_10ENA>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\BTVN_SO11\CHIA_10ENA.vhd".
+    Found 23-bit register for signal <D10HZ_REG>.
+    Found 24-bit register for signal <D5HZ_REG>.
+    Found 25-bit register for signal <D2HZ_REG>.
+    Found 24-bit adder for signal <n0080> created at line 55.
+    Found 25-bit adder for signal <n0081> created at line 56.
+    Found 26-bit adder for signal <n0082> created at line 57.
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred  72 D-type flip-flop(s).
+	inferred   3 Multiplexer(s).
+Unit <CHIA_10ENA> synthesized.
+
+Synthesizing Unit <SELECT_TANSO>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\BTVN_SO11\SELECT_TANSO.vhd".
+    Summary:
+	inferred   6 Multiplexer(s).
+Unit <SELECT_TANSO> synthesized.
+
+Synthesizing Unit <LED_SANGDON_PST>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\BTVN_SO11\LED_SANGDON_PST.vhd".
+    Found 6-bit register for signal <Y_R>.
+    Found 6-bit register for signal <X_R>.
+    Found 3-bit register for signal <DC_R>.
+    Found 3-bit register for signal <DL_R>.
+    Found 3-bit subtractor for signal <GND_12_o_GND_12_o_sub_10_OUT<2:0>> created at line 84.
+    Found 3-bit subtractor for signal <GND_12_o_GND_12_o_sub_11_OUT<2:0>> created at line 87.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  18 D-type flip-flop(s).
+	inferred  13 Multiplexer(s).
+Unit <LED_SANGDON_PST> synthesized.
+
+Synthesizing Unit <LED_SANGDON_TSP>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\BTVN_SO11\LED_SANGDON_TSP.vhd".
+    Found 6-bit register for signal <Y_R>.
+    Found 6-bit register for signal <X_R>.
+    Found 3-bit register for signal <DC_R>.
+    Found 3-bit register for signal <DL_R>.
+    Found 3-bit subtractor for signal <GND_14_o_GND_14_o_sub_10_OUT<2:0>> created at line 84.
+    Found 3-bit subtractor for signal <GND_14_o_GND_14_o_sub_11_OUT<2:0>> created at line 87.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  18 D-type flip-flop(s).
+	inferred  13 Multiplexer(s).
+Unit <LED_SANGDON_TSP> synthesized.
+
+Synthesizing Unit <DK_4LED_2CT_AU_1DSDC_PST_TSP>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\BTVN_SO11\DK_4LED_2CT_AU_1DSDC_PST_TSP.vhd".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <DK_4LED_2CT_AU_1DSDC_PST_TSP> synthesized.
+
+Synthesizing Unit <LED_DSDC_PST>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\BTVN_SO11\LED_DSDC_PST.vhd".
+    Found 4-bit register for signal <Q_REG>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+Unit <LED_DSDC_PST> synthesized.
+
+Synthesizing Unit <LED_DSDC_TSP>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\BTVN_SO11\LED_DSDC_TSP.vhd".
+    Found 4-bit register for signal <Q_REG>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+Unit <LED_DSDC_TSP> synthesized.
+
+Synthesizing Unit <DIEUKHIEN_CHOPHEP>.
+    Related source file is "C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\BAI_TAP_LAM_THEM_VHDL\BTVN_SO11\DIEUKHIEN_CHOPHEP.vhd".
+    Found 3-bit register for signal <DEM_REG>.
+    Found 4-bit adder for signal <n0019> created at line 24.
+    Found 3-bit comparator greater for signal <DEM_REG[2]_PWR_19_o_LessThan_6_o> created at line 31
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   3 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <DIEUKHIEN_CHOPHEP> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 11
+ 20-bit subtractor                                     : 1
+ 24-bit adder                                          : 1
+ 25-bit adder                                          : 1
+ 26-bit adder                                          : 1
+ 3-bit adder                                           : 1
+ 3-bit subtractor                                      : 4
+ 4-bit adder                                           : 1
+ 7-bit adder                                           : 1
+# Registers                                            : 18
+ 1-bit register                                        : 1
+ 2-bit register                                        : 1
+ 20-bit register                                       : 1
+ 23-bit register                                       : 1
+ 24-bit register                                       : 1
+ 25-bit register                                       : 1
+ 3-bit register                                        : 5
+ 4-bit register                                        : 2
+ 6-bit register                                        : 5
+# Comparators                                          : 4
+ 2-bit comparator greater                              : 1
+ 3-bit comparator greater                              : 1
+ 6-bit comparator greater                              : 2
+# Multiplexers                                         : 53
+ 1-bit 2-to-1 multiplexer                              : 6
+ 2-bit 2-to-1 multiplexer                              : 1
+ 20-bit 2-to-1 multiplexer                             : 2
+ 20-bit 4-to-1 multiplexer                             : 1
+ 24-bit 2-to-1 multiplexer                             : 1
+ 25-bit 2-to-1 multiplexer                             : 1
+ 26-bit 2-to-1 multiplexer                             : 1
+ 3-bit 2-to-1 multiplexer                              : 19
+ 4-bit 2-to-1 multiplexer                              : 6
+ 6-bit 2-to-1 multiplexer                              : 14
+ 7-bit 2-to-1 multiplexer                              : 1
+# FSMs                                                 : 1
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 11
+ 20-bit subtractor                                     : 1
+ 24-bit adder                                          : 1
+ 25-bit adder                                          : 1
+ 26-bit adder                                          : 1
+ 3-bit adder                                           : 1
+ 3-bit subtractor                                      : 4
+ 4-bit adder                                           : 1
+ 7-bit adder                                           : 1
+# Registers                                            : 148
+ Flip-Flops                                            : 148
+# Comparators                                          : 4
+ 2-bit comparator greater                              : 1
+ 3-bit comparator greater                              : 1
+ 6-bit comparator greater                              : 2
+# Multiplexers                                         : 57
+ 1-bit 2-to-1 multiplexer                              : 12
+ 2-bit 2-to-1 multiplexer                              : 1
+ 20-bit 2-to-1 multiplexer                             : 2
+ 20-bit 4-to-1 multiplexer                             : 1
+ 24-bit 2-to-1 multiplexer                             : 1
+ 25-bit 2-to-1 multiplexer                             : 1
+ 26-bit 2-to-1 multiplexer                             : 1
+ 3-bit 2-to-1 multiplexer                              : 17
+ 4-bit 2-to-1 multiplexer                              : 6
+ 6-bit 2-to-1 multiplexer                              : 14
+ 7-bit 2-to-1 multiplexer                              : 1
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <IC0/IC3/FSM_0> on signal <DB_REG[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ zero  | 00
+ wait0 | 01
+ one   | 10
+ wait1 | 11
+-------------------
+
+Optimizing unit <BTVN_SO11> ...
+
+Optimizing unit <DEBOUNCE_BTN> ...
+
+Optimizing unit <DIEUKHIEN_MODE> ...
+
+Optimizing unit <CHIA_10ENA> ...
+
+Optimizing unit <LED_SANGDON_PST> ...
+
+Optimizing unit <LED_SANGDON_TSP> ...
+
+Optimizing unit <DK_4LED_2CT_AU_1DSDC_PST_TSP> ...
+
+Optimizing unit <LED_DSDC_PST> ...
+
+Optimizing unit <LED_DSDC_TSP> ...
+
+Optimizing unit <DIEUKHIEN_CHOPHEP> ...
+INFO:Xst:2261 - The FF/Latch <IC2/D5HZ_REG_0> in Unit <BTVN_SO11> is equivalent to the following 2 FFs/Latches, which will be removed : <IC2/D10HZ_REG_0> <IC2/D2HZ_REG_0> 
+INFO:Xst:2261 - The FF/Latch <IC2/D5HZ_REG_1> in Unit <BTVN_SO11> is equivalent to the following 2 FFs/Latches, which will be removed : <IC2/D10HZ_REG_1> <IC2/D2HZ_REG_1> 
+INFO:Xst:2261 - The FF/Latch <IC2/D5HZ_REG_2> in Unit <BTVN_SO11> is equivalent to the following 2 FFs/Latches, which will be removed : <IC2/D10HZ_REG_2> <IC2/D2HZ_REG_2> 
+INFO:Xst:2261 - The FF/Latch <IC2/D5HZ_REG_3> in Unit <BTVN_SO11> is equivalent to the following 2 FFs/Latches, which will be removed : <IC2/D10HZ_REG_3> <IC2/D2HZ_REG_3> 
+INFO:Xst:2261 - The FF/Latch <IC2/D5HZ_REG_4> in Unit <BTVN_SO11> is equivalent to the following 2 FFs/Latches, which will be removed : <IC2/D10HZ_REG_4> <IC2/D2HZ_REG_4> 
+INFO:Xst:2261 - The FF/Latch <IC2/D5HZ_REG_5> in Unit <BTVN_SO11> is equivalent to the following 2 FFs/Latches, which will be removed : <IC2/D10HZ_REG_5> <IC2/D2HZ_REG_5> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block BTVN_SO11, actual ratio is 6.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 138
+ Flip-Flops                                            : 138
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : BTVN_SO11.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 501
+#      GND                         : 1
+#      INV                         : 24
+#      LUT1                        : 70
+#      LUT2                        : 28
+#      LUT3                        : 19
+#      LUT4                        : 28
+#      LUT5                        : 77
+#      LUT6                        : 85
+#      MUXCY                       : 88
+#      VCC                         : 1
+#      XORCY                       : 80
+# FlipFlops/Latches                : 138
+#      FD_1                        : 83
+#      FDC_1                       : 40
+#      FDCE_1                      : 5
+#      FDP_1                       : 10
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 11
+#      IBUF                        : 3
+#      OBUF                        : 8
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9tqg144-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             138  out of  11440     1%  
+ Number of Slice LUTs:                  331  out of   5720     5%  
+    Number used as Logic:               331  out of   5720     5%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    331
+   Number with an unused Flip Flop:     193  out of    331    58%  
+   Number with an unused LUT:             0  out of    331     0%  
+   Number of fully used LUT-FF pairs:   138  out of    331    41%  
+   Number of unique control sets:         4
+
+IO Utilization: 
+ Number of IOs:                          12
+ Number of bonded IOBs:                  12  out of    102    11%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CKHT                               | BUFGP                  | 138   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 5.800ns (Maximum Frequency: 172.412MHz)
+   Minimum input arrival time before clock: 6.159ns
+   Maximum output required time after clock: 8.445ns
+   Maximum combinational path delay: 8.853ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CKHT'
+  Clock period: 5.800ns (frequency: 172.412MHz)
+  Total number of paths / destination ports: 6491 / 143
+-------------------------------------------------------------------------
+Delay:               5.800ns (Levels of Logic = 4)
+  Source:            IC2/D5HZ_REG_4 (FF)
+  Destination:       IC1/DEM_R_5 (FF)
+  Source Clock:      CKHT falling
+  Destination Clock: CKHT falling
+
+  Data Path: IC2/D5HZ_REG_4 to IC1/DEM_R_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD_1:C->Q             7   0.447   1.021  IC2/D5HZ_REG_4 (IC2/D5HZ_REG_4)
+     LUT6:I2->O            1   0.203   0.684  IC2/ENA5HZ<23>11_1 (IC2/ENA5HZ<23>111)
+     LUT2:I0->O            4   0.203   0.931  IC2/ENA5HZ<23>13 (IC2/ENA5HZ<23>1)
+     LUT6:I2->O            9   0.203   0.934  IC2_1/Mmux_ENA_016 (IC2_1/Mmux_ENA_015)
+     LUT5:I3->O            3   0.203   0.650  IC1/_n0066_inv1 (IC1/_n0066_inv)
+     FDCE_1:CE                 0.322          IC1/DEM_R_2
+    ----------------------------------------
+    Total                      5.800ns (1.581ns logic, 4.219ns route)
+                                       (27.3% logic, 72.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CKHT'
+  Total number of paths / destination ports: 540 / 135
+-------------------------------------------------------------------------
+Offset:              6.159ns (Levels of Logic = 4)
+  Source:            BTN<0> (PAD)
+  Destination:       IC1/DEM_R_5 (FF)
+  Destination Clock: CKHT falling
+
+  Data Path: BTN<0> to IC1/DEM_R_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            22   1.222   1.478  BTN_0_IBUF (BTN_0_IBUF)
+     LUT6:I1->O            1   0.203   0.944  IC1/Mmux_OE32_1 (IC1/Mmux_OE32)
+     LUT6:I0->O            9   0.203   0.934  IC2_1/Mmux_ENA_016 (IC2_1/Mmux_ENA_015)
+     LUT5:I3->O            3   0.203   0.650  IC1/_n0066_inv1 (IC1/_n0066_inv)
+     FDCE_1:CE                 0.322          IC1/DEM_R_2
+    ----------------------------------------
+    Total                      6.159ns (2.153ns logic, 4.006ns route)
+                                       (35.0% logic, 65.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CKHT'
+  Total number of paths / destination ports: 144 / 8
+-------------------------------------------------------------------------
+Offset:              8.445ns (Levels of Logic = 5)
+  Source:            IC1/DEM_R_3 (FF)
+  Destination:       LED<5> (PAD)
+  Source Clock:      CKHT falling
+
+  Data Path: IC1/DEM_R_3 to LED<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q            9   0.447   1.058  IC1/DEM_R_3 (IC1/DEM_R_3)
+     LUT4:I1->O            1   0.205   0.580  IC1/Mmux_OE11 (IC1/Mmux_OE1)
+     LUT6:I5->O           43   0.205   1.813  IC1/Mmux_OE12 (OE<0>)
+     LUT6:I0->O            1   0.203   0.580  LED<5:2><3>3_SW0 (N77)
+     LUT6:I5->O            1   0.205   0.579  LED<5:2><3>3 (LED_5_OBUF)
+     OBUF:I->O                 2.571          LED_5_OBUF (LED<5>)
+    ----------------------------------------
+    Total                      8.445ns (3.836ns logic, 4.609ns route)
+                                       (45.4% logic, 54.6% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 36 / 8
+-------------------------------------------------------------------------
+Delay:               8.853ns (Levels of Logic = 5)
+  Source:            BTN<0> (PAD)
+  Destination:       LED<5> (PAD)
+
+  Data Path: BTN<0> to LED<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            22   1.222   1.478  BTN_0_IBUF (BTN_0_IBUF)
+     LUT6:I1->O           43   0.203   1.813  IC1/Mmux_OE12 (OE<0>)
+     LUT6:I0->O            1   0.203   0.580  LED<5:2><3>3_SW0 (N77)
+     LUT6:I5->O            1   0.205   0.579  LED<5:2><3>3 (LED_5_OBUF)
+     OBUF:I->O                 2.571          LED_5_OBUF (LED<5>)
+    ----------------------------------------
+    Total                      8.853ns (4.404ns logic, 4.449ns route)
+                                       (49.7% logic, 50.3% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CKHT
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CKHT           |         |         |    5.800|         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 13.00 secs
+Total CPU time to Xst completion: 13.33 secs
+ 
+--> 
+
+Total memory usage is 4510192 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    7 (   0 filtered)
+

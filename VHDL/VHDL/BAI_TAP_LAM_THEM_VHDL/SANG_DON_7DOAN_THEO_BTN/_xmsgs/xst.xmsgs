@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="104" delta="old" >"C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\SANG_DON_7DOAN_THEO_BTN\BLAJKFS.vhd" Line 97: Cannot find &lt;<arg fmt="%s" index="1">chia_10ena</arg>&gt; in library &lt;<arg fmt="%s" index="2">work</arg>&gt;. Please ensure that the library was compiled, and that a library and a use clause are present in the VHDL file.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="104" delta="old" >"C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\SANG_DON_7DOAN_THEO_BTN\BLAJKFS.vhd" Line 106: Cannot find &lt;<arg fmt="%s" index="1">dieukhien_chophep</arg>&gt; in library &lt;<arg fmt="%s" index="2">work</arg>&gt;. Please ensure that the library was compiled, and that a library and a use clause are present in the VHDL file.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="104" delta="old" >"C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\SANG_DON_7DOAN_THEO_BTN\BLAJKFS.vhd" Line 113: Cannot find &lt;<arg fmt="%s" index="1">giaima_hienthi_8led_7doan</arg>&gt; in library &lt;<arg fmt="%s" index="2">work</arg>&gt;. Please ensure that the library was compiled, and that a library and a use clause are present in the VHDL file.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="854" delta="old" >"C:\Users\Admin\Documents\TT-HDL-N7-S2\VHDL\SANG_DON_7DOAN_THEO_BTN\BLAJKFS.vhd" Line 12: Unit &lt;<arg fmt="%s" index="1">a</arg>&gt; ignored due to previous errors.
+</msg>
+
+</messages>
+

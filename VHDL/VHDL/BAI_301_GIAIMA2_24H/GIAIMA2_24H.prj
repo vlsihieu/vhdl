@@ -1,0 +1,3 @@
+vhdl work "GIAIMA_SELECT_INS.vhd"
+vhdl work "GIAIMA_CONDITIONAL_INS.vhd"
+vhdl work "GIAIMA2_24H.vhd"

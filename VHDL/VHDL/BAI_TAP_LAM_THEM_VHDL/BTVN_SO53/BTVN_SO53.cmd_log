@@ -1,0 +1,121 @@
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 BTVN_SO53.ngc BTVN_SO53.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o BTVN_SO53_map.ncd BTVN_SO53.ngd BTVN_SO53.pcf 
+par -w -intstyle ise -ol high -t 1 BTVN_SO53_map.ncd BTVN_SO53.ncd BTVN_SO53.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BTVN_SO53.twx BTVN_SO53.ncd -o BTVN_SO53.twr BTVN_SO53.pcf 
+bitgen -intstyle ise -f BTVN_SO53.ut BTVN_SO53.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 BTVN_SO53.ngc BTVN_SO53.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o BTVN_SO53_map.ncd BTVN_SO53.ngd BTVN_SO53.pcf 
+par -w -intstyle ise -ol high -t 1 BTVN_SO53_map.ncd BTVN_SO53.ncd BTVN_SO53.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BTVN_SO53.twx BTVN_SO53.ncd -o BTVN_SO53.twr BTVN_SO53.pcf 
+bitgen -intstyle ise -f BTVN_SO53.ut BTVN_SO53.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 BTVN_SO53.ngc BTVN_SO53.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o BTVN_SO53_map.ncd BTVN_SO53.ngd BTVN_SO53.pcf 
+par -w -intstyle ise -ol high -t 1 BTVN_SO53_map.ncd BTVN_SO53.ncd BTVN_SO53.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BTVN_SO53.twx BTVN_SO53.ncd -o BTVN_SO53.twr BTVN_SO53.pcf 
+bitgen -intstyle ise -f BTVN_SO53.ut BTVN_SO53.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 BTVN_SO53.ngc BTVN_SO53.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o BTVN_SO53_map.ncd BTVN_SO53.ngd BTVN_SO53.pcf 
+par -w -intstyle ise -ol high -t 1 BTVN_SO53_map.ncd BTVN_SO53.ncd BTVN_SO53.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BTVN_SO53.twx BTVN_SO53.ncd -o BTVN_SO53.twr BTVN_SO53.pcf 
+bitgen -intstyle ise -f BTVN_SO53.ut BTVN_SO53.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 BTVN_SO53.ngc BTVN_SO53.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o BTVN_SO53_map.ncd BTVN_SO53.ngd BTVN_SO53.pcf 
+par -w -intstyle ise -ol high -t 1 BTVN_SO53_map.ncd BTVN_SO53.ncd BTVN_SO53.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BTVN_SO53.twx BTVN_SO53.ncd -o BTVN_SO53.twr BTVN_SO53.pcf 
+bitgen -intstyle ise -f BTVN_SO53.ut BTVN_SO53.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 BTVN_SO53.ngc BTVN_SO53.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o BTVN_SO53_map.ncd BTVN_SO53.ngd BTVN_SO53.pcf 
+par -w -intstyle ise -ol high -t 1 BTVN_SO53_map.ncd BTVN_SO53.ncd BTVN_SO53.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BTVN_SO53.twx BTVN_SO53.ncd -o BTVN_SO53.twr BTVN_SO53.pcf 
+bitgen -intstyle ise -f BTVN_SO53.ut BTVN_SO53.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 BTVN_SO53.ngc BTVN_SO53.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o BTVN_SO53_map.ncd BTVN_SO53.ngd BTVN_SO53.pcf 
+par -w -intstyle ise -ol high -t 1 BTVN_SO53_map.ncd BTVN_SO53.ncd BTVN_SO53.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BTVN_SO53.twx BTVN_SO53.ncd -o BTVN_SO53.twr BTVN_SO53.pcf 
+bitgen -intstyle ise -f BTVN_SO53.ut BTVN_SO53.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 BTVN_SO53.ngc BTVN_SO53.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o BTVN_SO53_map.ncd BTVN_SO53.ngd BTVN_SO53.pcf 
+par -w -intstyle ise -ol high -t 1 BTVN_SO53_map.ncd BTVN_SO53.ncd BTVN_SO53.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BTVN_SO53.twx BTVN_SO53.ncd -o BTVN_SO53.twr BTVN_SO53.pcf 
+bitgen -intstyle ise -f BTVN_SO53.ut BTVN_SO53.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 BTVN_SO53.ngc BTVN_SO53.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o BTVN_SO53_map.ncd BTVN_SO53.ngd BTVN_SO53.pcf 
+par -w -intstyle ise -ol high -t 1 BTVN_SO53_map.ncd BTVN_SO53.ncd BTVN_SO53.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BTVN_SO53.twx BTVN_SO53.ncd -o BTVN_SO53.twr BTVN_SO53.pcf 
+bitgen -intstyle ise -f BTVN_SO53.ut BTVN_SO53.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 BTVN_SO53.ngc BTVN_SO53.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o BTVN_SO53_map.ncd BTVN_SO53.ngd BTVN_SO53.pcf 
+par -w -intstyle ise -ol high -t 1 BTVN_SO53_map.ncd BTVN_SO53.ncd BTVN_SO53.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BTVN_SO53.twx BTVN_SO53.ncd -o BTVN_SO53.twr BTVN_SO53.pcf 
+bitgen -intstyle ise -f BTVN_SO53.ut BTVN_SO53.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 BTVN_SO53.ngc BTVN_SO53.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o BTVN_SO53_map.ncd BTVN_SO53.ngd BTVN_SO53.pcf 
+par -w -intstyle ise -ol high -t 1 BTVN_SO53_map.ncd BTVN_SO53.ncd BTVN_SO53.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BTVN_SO53.twx BTVN_SO53.ncd -o BTVN_SO53.twr BTVN_SO53.pcf 
+bitgen -intstyle ise -f BTVN_SO53.ut BTVN_SO53.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 BTVN_SO53.ngc BTVN_SO53.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o BTVN_SO53_map.ncd BTVN_SO53.ngd BTVN_SO53.pcf 
+par -w -intstyle ise -ol high -t 1 BTVN_SO53_map.ncd BTVN_SO53.ncd BTVN_SO53.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BTVN_SO53.twx BTVN_SO53.ncd -o BTVN_SO53.twr BTVN_SO53.pcf 
+bitgen -intstyle ise -f BTVN_SO53.ut BTVN_SO53.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 BTVN_SO53.ngc BTVN_SO53.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o BTVN_SO53_map.ncd BTVN_SO53.ngd BTVN_SO53.pcf 
+par -w -intstyle ise -ol high -t 1 BTVN_SO53_map.ncd BTVN_SO53.ncd BTVN_SO53.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BTVN_SO53.twx BTVN_SO53.ncd -o BTVN_SO53.twr BTVN_SO53.pcf 
+bitgen -intstyle ise -f BTVN_SO53.ut BTVN_SO53.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 BTVN_SO53.ngc BTVN_SO53.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o BTVN_SO53_map.ncd BTVN_SO53.ngd BTVN_SO53.pcf 
+par -w -intstyle ise -ol high -t 1 BTVN_SO53_map.ncd BTVN_SO53.ncd BTVN_SO53.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BTVN_SO53.twx BTVN_SO53.ncd -o BTVN_SO53.twr BTVN_SO53.pcf 
+bitgen -intstyle ise -f BTVN_SO53.ut BTVN_SO53.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 BTVN_SO53.ngc BTVN_SO53.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o BTVN_SO53_map.ncd BTVN_SO53.ngd BTVN_SO53.pcf 
+par -w -intstyle ise -ol high -t 1 BTVN_SO53_map.ncd BTVN_SO53.ncd BTVN_SO53.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BTVN_SO53.twx BTVN_SO53.ncd -o BTVN_SO53.twr BTVN_SO53.pcf 
+bitgen -intstyle ise -f BTVN_SO53.ut BTVN_SO53.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 BTVN_SO53.ngc BTVN_SO53.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o BTVN_SO53_map.ncd BTVN_SO53.ngd BTVN_SO53.pcf 
+par -w -intstyle ise -ol high -t 1 BTVN_SO53_map.ncd BTVN_SO53.ncd BTVN_SO53.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BTVN_SO53.twx BTVN_SO53.ncd -o BTVN_SO53.twr BTVN_SO53.pcf 
+bitgen -intstyle ise -f BTVN_SO53.ut BTVN_SO53.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 BTVN_SO53.ngc BTVN_SO53.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o BTVN_SO53_map.ncd BTVN_SO53.ngd BTVN_SO53.pcf 
+par -w -intstyle ise -ol high -t 1 BTVN_SO53_map.ncd BTVN_SO53.ncd BTVN_SO53.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BTVN_SO53.twx BTVN_SO53.ncd -o BTVN_SO53.twr BTVN_SO53.pcf 
+bitgen -intstyle ise -f BTVN_SO53.ut BTVN_SO53.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 BTVN_SO53.ngc BTVN_SO53.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o BTVN_SO53_map.ncd BTVN_SO53.ngd BTVN_SO53.pcf 
+par -w -intstyle ise -ol high -t 1 BTVN_SO53_map.ncd BTVN_SO53.ncd BTVN_SO53.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BTVN_SO53.twx BTVN_SO53.ncd -o BTVN_SO53.twr BTVN_SO53.pcf 
+bitgen -intstyle ise -f BTVN_SO53.ut BTVN_SO53.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/BTVN_SO53/BTVN_SO53.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/BAI_TAP_LAM_THEM_VHDL/KIT_XC3S500E_PQ208.ucf -p xc3s500e-pq208-5 BTVN_SO53.ngc BTVN_SO53.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o BTVN_SO53_map.ncd BTVN_SO53.ngd BTVN_SO53.pcf 
+par -w -intstyle ise -ol high -t 1 BTVN_SO53_map.ncd BTVN_SO53.ncd BTVN_SO53.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BTVN_SO53.twx BTVN_SO53.ncd -o BTVN_SO53.twr BTVN_SO53.pcf 
+bitgen -intstyle ise -f BTVN_SO53.ut BTVN_SO53.ncd 

@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_413_CHIA_10XUNG_ENA1HZ_ENA1MHZ/CHIA_10XUNG_ENA1HZ_ENA1MHZ.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/BAI_413_CHIA_10XUNG_ENA1HZ_ENA1MHZ/CHIA_10XUNG_ENA1HZ_ENA1MHZ.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s500e-pqg208-4 CHIA_10XUNG_ENA1HZ_ENA1MHZ.ngc CHIA_10XUNG_ENA1HZ_ENA1MHZ.ngd  
+map -intstyle ise -p xa3s500e-pqg208-4 -cm area -ir off -pr off -c 100 -o CHIA_10XUNG_ENA1HZ_ENA1MHZ_map.ncd CHIA_10XUNG_ENA1HZ_ENA1MHZ.ngd CHIA_10XUNG_ENA1HZ_ENA1MHZ.pcf 
+par -w -intstyle ise -ol high -t 1 CHIA_10XUNG_ENA1HZ_ENA1MHZ_map.ncd CHIA_10XUNG_ENA1HZ_ENA1MHZ.ncd CHIA_10XUNG_ENA1HZ_ENA1MHZ.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CHIA_10XUNG_ENA1HZ_ENA1MHZ.twx CHIA_10XUNG_ENA1HZ_ENA1MHZ.ncd -o CHIA_10XUNG_ENA1HZ_ENA1MHZ.twr CHIA_10XUNG_ENA1HZ_ENA1MHZ.pcf 

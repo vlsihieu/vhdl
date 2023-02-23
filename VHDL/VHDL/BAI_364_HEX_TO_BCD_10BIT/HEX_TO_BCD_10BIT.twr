@@ -1,0 +1,157 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml HEX_TO_BCD_10BIT.twx HEX_TO_BCD_10BIT.ncd -o
+HEX_TO_BCD_10BIT.twr HEX_TO_BCD_10BIT.pcf -ucf KIT_XC3S500E_PQ208.ucf
+
+Design file:              HEX_TO_BCD_10BIT.ncd
+Physical constraint file: HEX_TO_BCD_10BIT.pcf
+Device,package,speed:     xc3s500e,pq208,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+SW<0>          |LED<0>         |    6.436|
+SW<1>          |LED<1>         |   10.976|
+SW<1>          |LED<2>         |   11.817|
+SW<1>          |LED<3>         |    9.153|
+SW<1>          |LED<4>         |   11.191|
+SW<2>          |LED<1>         |   13.431|
+SW<2>          |LED<2>         |   14.272|
+SW<2>          |LED<3>         |   11.608|
+SW<2>          |LED<4>         |   13.646|
+SW<2>          |LED<5>         |   12.680|
+SW<2>          |LED<6>         |   13.496|
+SW<2>          |LED<7>         |   12.520|
+SW<2>          |LED<8>         |   14.030|
+SW<3>          |LED<1>         |   16.965|
+SW<3>          |LED<2>         |   17.806|
+SW<3>          |LED<3>         |   15.142|
+SW<3>          |LED<4>         |   17.180|
+SW<3>          |LED<5>         |   16.214|
+SW<3>          |LED<6>         |   17.030|
+SW<3>          |LED<7>         |   16.054|
+SW<3>          |LED<8>         |   17.564|
+SW<3>          |LED<9>         |   14.306|
+SW<3>          |LED<10>        |   14.527|
+SW<3>          |LED<11>        |   14.060|
+SW<3>          |LED<12>        |   13.987|
+SW<4>          |LED<1>         |   19.800|
+SW<4>          |LED<2>         |   20.641|
+SW<4>          |LED<3>         |   17.977|
+SW<4>          |LED<4>         |   20.015|
+SW<4>          |LED<5>         |   19.685|
+SW<4>          |LED<6>         |   20.501|
+SW<4>          |LED<7>         |   19.525|
+SW<4>          |LED<8>         |   21.035|
+SW<4>          |LED<9>         |   19.108|
+SW<4>          |LED<10>        |   19.329|
+SW<4>          |LED<11>        |   18.862|
+SW<4>          |LED<12>        |   18.789|
+SW<5>          |LED<1>         |   22.114|
+SW<5>          |LED<2>         |   22.955|
+SW<5>          |LED<3>         |   20.291|
+SW<5>          |LED<4>         |   22.329|
+SW<5>          |LED<5>         |   21.999|
+SW<5>          |LED<6>         |   22.815|
+SW<5>          |LED<7>         |   21.839|
+SW<5>          |LED<8>         |   23.349|
+SW<5>          |LED<9>         |   21.422|
+SW<5>          |LED<10>        |   21.643|
+SW<5>          |LED<11>        |   21.176|
+SW<5>          |LED<12>        |   21.103|
+SW<6>          |LED<1>         |   22.573|
+SW<6>          |LED<2>         |   23.414|
+SW<6>          |LED<3>         |   20.750|
+SW<6>          |LED<4>         |   22.788|
+SW<6>          |LED<5>         |   22.458|
+SW<6>          |LED<6>         |   23.274|
+SW<6>          |LED<7>         |   22.298|
+SW<6>          |LED<8>         |   23.808|
+SW<6>          |LED<9>         |   21.881|
+SW<6>          |LED<10>        |   22.102|
+SW<6>          |LED<11>        |   21.635|
+SW<6>          |LED<12>        |   21.562|
+SW<7>          |LED<1>         |   22.376|
+SW<7>          |LED<2>         |   23.217|
+SW<7>          |LED<3>         |   20.553|
+SW<7>          |LED<4>         |   22.591|
+SW<7>          |LED<5>         |   22.261|
+SW<7>          |LED<6>         |   23.077|
+SW<7>          |LED<7>         |   22.101|
+SW<7>          |LED<8>         |   23.611|
+SW<7>          |LED<9>         |   21.684|
+SW<7>          |LED<10>        |   21.905|
+SW<7>          |LED<11>        |   21.438|
+SW<7>          |LED<12>        |   21.365|
+SW<8>          |LED<1>         |   22.138|
+SW<8>          |LED<2>         |   22.979|
+SW<8>          |LED<3>         |   20.315|
+SW<8>          |LED<4>         |   22.353|
+SW<8>          |LED<5>         |   22.023|
+SW<8>          |LED<6>         |   22.839|
+SW<8>          |LED<7>         |   21.863|
+SW<8>          |LED<8>         |   23.373|
+SW<8>          |LED<9>         |   21.446|
+SW<8>          |LED<10>        |   21.667|
+SW<8>          |LED<11>        |   21.200|
+SW<8>          |LED<12>        |   21.127|
+SW<9>          |LED<1>         |   22.323|
+SW<9>          |LED<2>         |   23.164|
+SW<9>          |LED<3>         |   20.500|
+SW<9>          |LED<4>         |   22.538|
+SW<9>          |LED<5>         |   22.208|
+SW<9>          |LED<6>         |   23.024|
+SW<9>          |LED<7>         |   22.048|
+SW<9>          |LED<8>         |   23.558|
+SW<9>          |LED<9>         |   21.631|
+SW<9>          |LED<10>        |   21.852|
+SW<9>          |LED<11>        |   21.385|
+SW<9>          |LED<12>        |   21.312|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Sep 12 13:39:41 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4509 MB
+
+
+

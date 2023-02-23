@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="MapLib" num="562" delta="old" >No environment variables are currently set.
+</msg>
+
+<msg type="info" file="LIT" num="244" delta="old" >All of the single ended outputs in this design are using slew rate limited output drivers. The delay on speed critical single ended outputs can be dramatically reduced by designating them as fast outputs.
+</msg>
+
+<msg type="error" file="Pack" num="1234" delta="old" ><arg fmt="%s" index="1">F5</arg> mux symbol &quot;<arg fmt="%s" index="2">IC15/Mrom_MA_SO&lt;3&gt;11_f5</arg>&quot; drives more than one <arg fmt="%s" index="3">F6</arg> mux symbol, including symbol &quot;<arg fmt="%s" index="4">IC15/Mrom_MA_SO&lt;5&gt;1_f6</arg>&quot;.  An <arg fmt="%s" index="5">F5</arg> mux may drive at most one <arg fmt="%s" index="6">F6</arg>.  Please correct the design.
+</msg>
+
+</messages>
+

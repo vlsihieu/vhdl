@@ -1,0 +1,37 @@
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DE_CUOI_KY/DE_CUOI_KY.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DE_CUOI_KY/DE_CUOI_KY.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DE_CUOI_KY/DE_CUOI_KY.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DE_CUOI_KY/DE_CUOI_KY.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DE_CUOI_KY/DE_CUOI_KY.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DE_CUOI_KY/DE_CUOI_KY.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DE_CUOI_KY/DE_CUOI_KY.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DE_CUOI_KY/DE_CUOI_KY.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DE_CUOI_KY/DE_CUOI_KY.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DE_CUOI_KY/DE_CUOI_KY.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DE_CUOI_KY/DE_CUOI_KY.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DE_CUOI_KY/DE_CUOI_KY.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DE_CUOI_KY/DE_CUOI_KY.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DE_CUOI_KY/DE_CUOI_KY.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DE_CUOI_KY/DE_CUOI_KY.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DE_CUOI_KY/DE_CUOI_KY.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DE_CUOI_KY/DE_CUOI_KY.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DE_CUOI_KY/DE_CUOI_KY.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DE_CUOI_KY/DE_CUOI_KY.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DE_CUOI_KY/DE_CUOI_KY.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DE_CUOI_KY/DE_CUOI_KY.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DE_CUOI_KY/DE_CUOI_KY.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DE_CUOI_KY/DE_CUOI_KY.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DE_CUOI_KY/DE_CUOI_KY.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DE_CUOI_KY/DE_CUOI_KY.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DE_CUOI_KY/DE_CUOI_KY.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DE_CUOI_KY/DE_CUOI_KY.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DE_CUOI_KY/DE_CUOI_KY.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DE_CUOI_KY/DE_CUOI_KY.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DE_CUOI_KY/DE_CUOI_KY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-3 DE_CUOI_KY.ngc DE_CUOI_KY.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DE_CUOI_KY_map.ncd DE_CUOI_KY.ngd DE_CUOI_KY.pcf 
+par -w -intstyle ise -ol high -mt off DE_CUOI_KY_map.ncd DE_CUOI_KY.ncd DE_CUOI_KY.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DE_CUOI_KY.twx DE_CUOI_KY.ncd -o DE_CUOI_KY.twr DE_CUOI_KY.pcf 
+bitgen -intstyle ise -f DE_CUOI_KY.ut DE_CUOI_KY.ncd 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DE_CUOI_KY/DE_CUOI_KY.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DE_CUOI_KY/DE_CUOI_KY.syr" 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DE_CUOI_KY/DE_CUOI_KY.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DE_CUOI_KY/DE_CUOI_KY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-3 DE_CUOI_KY.ngc DE_CUOI_KY.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DE_CUOI_KY_map.ncd DE_CUOI_KY.ngd DE_CUOI_KY.pcf 
+par -w -intstyle ise -ol high -mt off DE_CUOI_KY_map.ncd DE_CUOI_KY.ncd DE_CUOI_KY.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DE_CUOI_KY.twx DE_CUOI_KY.ncd -o DE_CUOI_KY.twr DE_CUOI_KY.pcf 
+bitgen -intstyle ise -f DE_CUOI_KY.ut DE_CUOI_KY.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-3 DE_CUOI_KY.ngc DE_CUOI_KY.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DE_CUOI_KY_map.ncd DE_CUOI_KY.ngd DE_CUOI_KY.pcf 
+par -w -intstyle ise -ol high -mt off DE_CUOI_KY_map.ncd DE_CUOI_KY.ncd DE_CUOI_KY.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DE_CUOI_KY.twx DE_CUOI_KY.ncd -o DE_CUOI_KY.twr DE_CUOI_KY.pcf 
+xst -intstyle ise -ifn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DE_CUOI_KY/DE_CUOI_KY.xst" -ofn "C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/DE_CUOI_KY/DE_CUOI_KY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Admin/Documents/TT-HDL-N7-S2/VHDL/KIT_XC6SLX9_PQ144.ucf -p xc6slx9-tqg144-3 DE_CUOI_KY.ngc DE_CUOI_KY.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DE_CUOI_KY_map.ncd DE_CUOI_KY.ngd DE_CUOI_KY.pcf 
+par -w -intstyle ise -ol high -mt off DE_CUOI_KY_map.ncd DE_CUOI_KY.ncd DE_CUOI_KY.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DE_CUOI_KY.twx DE_CUOI_KY.ncd -o DE_CUOI_KY.twr DE_CUOI_KY.pcf 
+bitgen -intstyle ise -f DE_CUOI_KY.ut DE_CUOI_KY.ncd 
